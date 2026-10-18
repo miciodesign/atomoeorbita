@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="wrap section">
+  <nav class="crumbs" aria-label="Percorso"><a href="/">Home</a> › <span>Rassegna</span></nav>
+  <h1>Rassegna</h1>
+  <p class="lead">Cosa hanno pubblicato le fonti specialistiche nelle ultime 48 ore su nucleare e spazio. È un elenco automatico, aggiornato ogni mattina: i titoli sono quelli originali e i link portano alla fonte. Non lo commentiamo; per quello ci sono Il Punto e le analisi.</p>
+  {% if rassegna %}<p class="meta">Aggiornata il {{ rassegna.updated_human }}</p>{% endif %}
+</section>
+
+{% if rassegna and (rassegna.atomo or rassegna.orbita) %}
+<section class="wrap section">
+  <div class="rassegna-grid">
+    <div>
+      <h2 class="kicker">Atomo</h2>
+      {% if rassegna.atomo %}
+      <ul class="rassegna-list">
+        {% for it in rassegna.atomo %}
+        <li>
+          <a href="{{ it.url }}" rel="noopener" target="_blank">{{ it.title }}</a>
+          <span class="rassegna-meta">{{ it.source }} · {{ it.time_human }}{% if it.lang != 'it' %} · in inglese{% endif %}</span>
+        </li>
+        {% endfor %}
+      </ul>
+      {% else %}<p class="muted">Niente di nuovo nelle ultime 48 ore.</p>{% endif %}
+    </div>
+    <div>
+      <h2 class="kicker">Orbita</h2>
+      {% if rassegna.orbita %}
+      <ul class="rassegna-list">
+        {% for it in rassegna.orbita %}
+        <li>
+          <a href="{{ it.url }}" rel="noopener" target="_blank">{{ it.title }}</a>
+          <span class="rassegna-meta">{{ it.source }} · {{ it.time_human }}{% if it.lang != 'it' %} · in inglese{% endif %}</span>
+        </li>
+        {% endfor %}
+      </ul>
+      {% else %}<p class="muted">Niente di nuovo nelle ultime 48 ore.</p>{% endif %}
+    </div>
+  </div>
+</section>
+{% else %}
+<section class="wrap section">
+  <div class="notice"><p><strong>La prima rassegna arriva domani mattina.</strong> Da allora si aggiorna ogni giorno.</p></div>
+</section>
+{% endif %}
+
+<section class="wrap section">
+  <h2 class="h3">Le fonti che leggiamo</h2>
+  <p class="muted small">Scelte perché pubblicano fatti verificabili e non comunicati riscritti. Se ne manca una, scrivici.</p>
+  <div class="chips">
+    {% for s in sources %}<a class="chip" href="{{ s.url }}" rel="noopener" target="_blank">{{ s.name }}</a>{% endfor %}
+  </div>
+</section>
+{% endblock %}

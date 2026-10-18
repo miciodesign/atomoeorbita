@@ -54,6 +54,16 @@
   {% endif %}
 </section>
 
+{% if rassegna and (rassegna.atomo or rassegna.orbita) %}
+<section class="wrap">
+  <a class="rassegna-band" href="/rassegna/">
+    <span class="kicker">Rassegna di oggi</span>
+    <span class="rassegna-band-text">{{ (rassegna.atomo|length) + (rassegna.orbita|length) }} notizie dalle fonti specialistiche nelle ultime 48 ore, aggiornate il {{ rassegna.updated_human }}</span>
+    <span class="more">Leggi →</span>
+  </a>
+</section>
+{% endif %}
+
 <section class="wrap section">
   <div class="cat-grid">
     {% for c in categories %}

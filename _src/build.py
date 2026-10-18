@@ -20,6 +20,7 @@ import html
 import json
 import re
 import shutil
+import sys
 from pathlib import Path
 
 import markdown
@@ -32,6 +33,11 @@ TEMPLATES = SRC / "templates"
 STATIC = SRC / "static"
 
 CONFIG = json.loads((SRC / "config.json").read_text(encoding="utf-8"))
+sys.path.insert(0, str(SRC))
+try:
+    from rassegna import FEEDS as FEEDS_FOR_PAGE  # solo per elencare le fonti
+except Exception:  # feedparser assente in locale: la pagina elenca comunque le fonti
+    FEEDS_FOR_PAGE = []
 SITE_URL = CONFIG["site_url"].rstrip("/")
 FORMATS = CONFIG.get("formats", {})
 
@@ -167,6 +173,25 @@ def load_numeri() -> list[dict]:
     return items
 
 
+def load_rassegna() -> dict | None:
+    """Rassegna quotidiana scritta da _src/rassegna.py (via GitHub Actions)."""
+    path = CONTENT / "rassegna.json"
+    if not path.exists():
+        return None
+    data = json.loads(path.read_text(encoding="utf-8"))
+    months = ["gen", "feb", "mar", "apr", "mag", "giu", "lug", "ago", "set", "ott", "nov", "dic"]
+
+    def human(ts: str) -> str:
+        t = dt.datetime.fromisoformat(ts).astimezone(dt.timezone(dt.timedelta(hours=2)))
+        return f"{t.day} {months[t.month - 1]}, {t:%H:%M}"
+
+    for sec in ("atomo", "orbita"):
+        for it in data.get(sec, []):
+            it["time_human"] = human(it["time"])
+    data["updated_human"] = human(data["updated"])
+    return data
+
+
 def load_pages() -> list[dict]:
     pages = []
     for path in sorted((CONTENT / "pagine").glob("*.md")):
@@ -182,6 +207,7 @@ def build() -> None:
     articles = load_articles()
     numeri = load_numeri()
     pages = load_pages()
+    rassegna = load_rassegna()
 
     categories = []
     for c in CONFIG["categories"]:
@@ -207,7 +233,7 @@ def build() -> None:
     # home
     write(ROOT / "index.html", env.get_template("home.html").render(
         **base_ctx, articles=articles, punto=punti[0] if punti else None,
-        dossier=dossier[:2], spiegati=spiegati[:4], numeri=numeri[:4],
+        dossier=dossier[:2], spiegati=spiegati[:4], numeri=numeri[:4], rassegna=rassegna,
         page_url="/", title=CONFIG["title"], description=CONFIG["description"]))
 
     # categorie
@@ -229,6 +255,15 @@ def build() -> None:
         empty="Il primo Punto esce con il lancio del sito.",
         title=f"Il Punto · {CONFIG['name']}",
         description="Il Punto: l'analisi settimanale di Atomo e Orbita su nucleare e spazio."))
+
+    # rassegna
+    from urllib.parse import urlsplit
+    raw = rassegna["sources"] if rassegna else [{"name": s, "url": u} for _, s, u, _ in FEEDS_FOR_PAGE]
+    srcs = [{"name": r["name"], "url": f"{urlsplit(r['url']).scheme}://{urlsplit(r['url']).netloc}/"} for r in raw]
+    write(ROOT / "rassegna" / "index.html", env.get_template("rassegna.html").render(
+        **base_ctx, rassegna=rassegna, sources=srcs, page_url="/rassegna/",
+        title=f"Rassegna · {CONFIG['name']}",
+        description="Le notizie delle ultime 48 ore dalle fonti specialistiche su nucleare e spazio, aggiornate ogni mattina."))
 
     # numeri
     write(ROOT / "numeri" / "index.html", env.get_template("numeri.html").render(
@@ -259,7 +294,7 @@ def build() -> None:
         description=""))
 
     # sitemap, robots, feed
-    urls = (["/", "/dossier/", "/il-punto/", "/numeri/"] + [c["url"] for c in categories]
+    urls = (["/", "/dossier/", "/il-punto/", "/numeri/", "/rassegna/"] + [c["url"] for c in categories]
             + [a["url"] for a in articles] + [n["url"] for n in numeri] + [p["url"] for p in pages])
     sitemap = ['<?xml version="1.0" encoding="UTF-8"?>',
                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
