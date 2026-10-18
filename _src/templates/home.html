@@ -13,8 +13,10 @@
       <p class="lead">Nucleare e spazio, analisi non notizie. Per chi lavora, investe o decide, e vuole leggere di atomo e orbita senza propaganda né scorciatoie.</p>
       <form class="nl-form hero-form" action="{{ site.newsletter_action or '/newsletter/' }}" method="{{ 'post' if site.newsletter_action else 'get' }}">
         <label for="nl-email-hero" class="sr-only">La tua email</label>
-        <input id="nl-email-hero" type="email" name="email" placeholder="La tua email" required>
-        <button type="submit" class="btn">Ricevi Il Punto</button>
+        <input id="nl-email-hero" type="email" name="EMAIL" placeholder="La tua email" required>
+        <input type="text" name="email_address_check" value="" class="sr-only" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input type="hidden" name="locale" value="it">
+      <button type="submit" class="btn">Ricevi Il Punto</button>
       </form>
       <p class="small muted">Una newsletter a settimana, gratis. Niente spam, disiscrizione in un clic.</p>
     </div>

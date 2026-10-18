@@ -56,7 +56,9 @@
     </div>
     <form class="nl-form" action="{{ site.newsletter_action or '/newsletter/' }}" method="{{ 'post' if site.newsletter_action else 'get' }}">
       <label for="nl-email-foot" class="sr-only">La tua email</label>
-      <input id="nl-email-foot" type="email" name="email" placeholder="nome@esempio.it" required>
+      <input id="nl-email-foot" type="email" name="EMAIL" placeholder="nome@esempio.it" required>
+      <input type="text" name="email_address_check" value="" class="sr-only" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input type="hidden" name="locale" value="it">
       <button type="submit" class="btn">Iscriviti</button>
     </form>
   </div>
