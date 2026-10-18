@@ -113,7 +113,7 @@ def write(path: Path, content: str) -> None:
 
 def clean_output() -> None:
     """Rimuove l'HTML generato in precedenza, lasciando sorgenti e git."""
-    keep = {"_src", ".git", ".gitignore", "README.md", ".htaccess", "CNAME"}
+    keep = {"_src", ".git", ".github", ".gitignore", "README.md", ".htaccess", "CNAME"}
     for item in ROOT.iterdir():
         if item.name in keep:
             continue

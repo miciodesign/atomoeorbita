@@ -1,0 +1,34 @@
+name: Rassegna quotidiana
+
+on:
+  schedule:
+    - cron: "40 4 * * *"   # 06:40 ora italiana (05:40 in inverno)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rassegna:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install feedparser markdown jinja2
+      - name: Leggi i feed
+        run: python3 _src/rassegna.py
+      - name: Rigenera il sito
+        run: python3 _src/build.py
+      - name: Pubblica se è cambiato qualcosa
+        run: |
+          git config user.name "Rassegna Atomo e Orbita"
+          git config user.email "redazione@atomoeorbita.it"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nessuna novità"
+          else
+            git commit -m "Rassegna: aggiornamento automatico $(date -u +%Y-%m-%d)"
+            git push
+          fi
