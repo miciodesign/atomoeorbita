@@ -2,7 +2,7 @@
 title: La legge delega sul nucleare, spiegata senza tifo
 slug: legge-delega-nucleare-spiegata
 category: atomo
-date: 2026-10-20
+date: 2026-10-18
 description: Cosa dice davvero la legge 169/2026, cosa non dice, quali decreti mancano e quanto tempo serve prima di vedere un reattore. Letta sul testo, non sui comunicati.
 format: analisi
 pillar: true
