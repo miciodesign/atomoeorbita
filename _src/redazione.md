@@ -65,7 +65,7 @@ Primo Punto: lunedì 26 ottobre 2026. Primo Dossier: fine ottobre 2026.
 
 **Orbita in coda**: Vega E e il motore M10; COSMO-SkyMed terza generazione; Space Rider; l'astronauta italiano su Artemis; i dati satellitari come servizio.
 
-**Schede Numeri da fare**: inventario rifiuti radioattivi per regione (ISIN); reattori nel mondo (IAEA PRIS); lanci orbitali dell'anno; SMR in Europa per stato di avanzamento; satelliti italiani in orbita; contributi ESA per paese.
+**Schede Numeri da fare**: inventario rifiuti radioattivi per regione (ISIN); reattori nel mondo (fatta, aggiornare a ogni revisione WNA); lanci orbitali dell'anno; SMR in Europa per stato di avanzamento; satelliti italiani in orbita; contributi ESA per paese.
 
 ## Come si pubblica
 
@@ -83,12 +83,20 @@ Le pagine fisse stanno in `_src/content/pagine/`, le schede Numeri in `_src/cont
 - Affiliazioni (Amazon per i libri, corsi) solo nella pagina Risorse, dichiarate, e solo quando c'è traffico.
 - Nessun tracciamento con cookie: se servono statistiche, Search Console o uno strumento senza cookie.
 
+## Decisioni rinviate
+
+- **Versione inglese**: no per ora. Il vantaggio della testata è l'italiano; in inglese concorrono testate con redazioni vere. Da riconsiderare se Search Console mostra lettori dall'estero: in quel caso tradurre solo Dossier e schede Numeri, non tutto il sito.
+- **Abbonamento a pagamento**: quando c'è autorevolezza e una lista email di qualche migliaio di iscritti.
+- **Affiliazioni**: Amazon per i libri nella pagina Risorse, quando c'è traffico (Amazon chiude l'account senza 3 vendite in 180 giorni).
+- **Banner o ticker di notizie**: no. La Rassegna quotidiana è la risposta a quel bisogno.
+
 ## Strumenti e accessi
 
 - Hosting: Hostinger, deploy da GitHub (`miciodesign/atomoeorbita`, ramo `main`).
 - Email: Hostinger, `redazione@atomoeorbita.it`, con inoltro alla casella personale del direttore.
 - Newsletter: Brevo, lista "Atomo e Orbita", modulo con doppia conferma; pagine `/grazie/` e `/benvenuto/`.
 - Google Search Console: proprietà verificata con file HTML nella radice (non cancellarlo); sitemap inviata.
+- Social: Pagina Facebook e Pagina LinkedIn `atomoeorbita`, linkate nel footer.
 - Rassegna: GitHub Actions `.github/workflows/rassegna.yml`, ogni giorno alle 04:40 UTC; fonti in `_src/rassegna.py`.
 
 ## Per Claude, in una conversazione nuova
