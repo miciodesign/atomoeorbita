@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="wrap section">
+  <nav class="crumbs" aria-label="Percorso"><a href="/">Home</a> › <span>Numeri</span></nav>
+  <h1>Numeri</h1>
+  <p class="lead">Le schede dati che aggiorniamo nel tempo: reattori nel mondo, lanci dell'anno, progetti in Europa, aziende del settore. Ogni numero ha la sua fonte e la data dell'ultimo aggiornamento.</p>
+</section>
+
+<section class="wrap section">
+  {% if numeri %}
+  <div class="num-grid">
+    {% for n in numeri %}
+    <a class="num-card" href="{{ n.url }}">
+      <p class="num-value">{{ n.headline }}</p>
+      <p class="num-label">{{ n.title }}</p>
+      <p class="num-source">Fonte: {{ n.source }} · {{ n.updated_human }}</p>
+    </a>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="notice"><p><strong>Le prime schede arrivano con il lancio.</strong> Iscriviti alla newsletter per saperlo appena sono online.</p></div>
+  {% endif %}
+</section>
+{% endblock %}

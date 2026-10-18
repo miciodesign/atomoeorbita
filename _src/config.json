@@ -1,0 +1,43 @@
+{
+  "name": "Atomo e Orbita",
+  "title": "Atomo e Orbita · Energia e spazio, senza semplificazioni",
+  "description": "Analisi in italiano su nucleare e spazio, per chi lavora, investe o decide. Fonti primarie, dati verificati, nessuna propaganda.",
+  "payoff": "Energia e spazio, senza semplificazioni",
+  "claim": "Le tecnologie che decideranno i prossimi trent'anni, spiegate a chi deve capirle.",
+  "site_url": "https://atomoeorbita.it",
+  "email": "redazione@atomoeorbita.it",
+  "newsletter_action": "",
+  "linkedin": "",
+  "x": "",
+  "instagram": "",
+  "categories": [
+    {
+      "slug": "atomo",
+      "name": "Atomo",
+      "short": "Fissione, SMR, fusione, ciclo del combustibile, scorie",
+      "description": "Il nucleare letto con i numeri in mano: reattori, piccoli reattori modulari, fusione, combustibile e scorie, politica energetica italiana ed europea.",
+      "intro": "Fissione, piccoli reattori modulari, fusione, ciclo del combustibile, scorie. In questa sezione la politica energetica italiana ed europea si legge con i documenti e i numeri in mano, non con gli slogan di chi è pro o contro."
+    },
+    {
+      "slug": "orbita",
+      "name": "Orbita",
+      "short": "Lanciatori, satelliti, esplorazione, difesa, economia spaziale",
+      "description": "Lo spazio oltre il comunicato stampa: lanciatori, satelliti, esplorazione, difesa, l'economia spaziale, l'Italia e l'ESA.",
+      "intro": "Lanciatori, satelliti, esplorazione, difesa. L'economia spaziale è diventata una cosa seria e l'Italia ne è parte: qui raccontiamo chi fa cosa, quanto costa e cosa conta davvero, oltre il comunicato stampa."
+    },
+    {
+      "slug": "confine",
+      "name": "Confine",
+      "short": "Dove nucleare e spazio si toccano",
+      "description": "Propulsione nucleare, reattori per lo spazio, materiali critici, geopolitica delle grandi infrastrutture: la sezione dove atomo e orbita si incontrano.",
+      "intro": "Propulsione nucleare per Marte, reattori per le basi lunari, uranio e terre rare che due industrie si contendono, la geopolitica delle grandi infrastrutture. Confine è la sezione che nessun sito monotematico può scrivere: dove l'atomo e l'orbita si toccano. Qui esce anche Il Punto, l'analisi breve di ogni settimana."
+    }
+  ],
+  "formats": {
+    "punto": "Il Punto",
+    "dossier": "Dossier",
+    "spiegato": "Spiegato bene",
+    "intervista": "Intervista",
+    "analisi": "Analisi"
+  }
+}

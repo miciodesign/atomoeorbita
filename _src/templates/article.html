@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block ogtype %}article{% endblock %}
+{% block ogimage %}<meta property="og:image" content="{{ site_url }}{{ a.image_png if a.image_png else '/assets/og-default.png' }}">{% endblock %}
+{% block head %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":{{ a.title|tojson }},"description":{{ a.description|tojson }},"datePublished":"{{ a.date_iso }}","dateModified":"{{ a.updated_iso }}","inLanguage":"it-IT","author":{"@type":"Organization","name":"Redazione Atomo e Orbita","url":"{{ site_url }}/manifesto/"},"publisher":{"@type":"Organization","name":"Atomo e Orbita","url":"{{ site_url }}/"},"mainEntityOfPage":"{{ site_url }}{{ a.url }}"{% if a.image_png %},"image":"{{ site_url }}{{ a.image_png }}"{% endif %}}
+</script>
+{% endblock %}
+{% block content %}
+<article class="wrap article">
+  <header class="article-head">
+    <nav class="crumbs" aria-label="Percorso"><a href="/">Home</a> › <a href="{{ a.category_obj.url }}">{{ a.category_obj.name }}</a>{% if a.format == 'punto' %} › <a href="/il-punto/">Il Punto</a>{% elif a.format == 'dossier' %} › <a href="/dossier/">Dossier</a>{% endif %}</nav>
+    <p class="eyebrow">{{ a.format_name }}</p>
+    <h1>{{ a.title }}</h1>
+    <p class="lead">{{ a.description }}</p>
+    <p class="meta">Redazione Atomo e Orbita · {{ a.date_human }}{% if a.updated_iso != a.date_iso %} · aggiornato il {{ a.updated_human }}{% endif %} · {{ a.minutes }} minuti di lettura</p>
+  </header>
+
+  {% if a.image %}<figure class="hero-img"><img src="{{ a.image }}" alt="{{ a.image_alt or a.title }}" width="1200" height="700" loading="eager"></figure>{% endif %}
+
+  <div class="article-grid">
+    {% if a.toc %}
+    <aside class="toc">
+      <p class="toc-title">In questo articolo</p>
+      {{ a.toc|safe }}
+    </aside>
+    {% endif %}
+    <div class="article-body">
+      {{ a.body|safe }}
+    </div>
+  </div>
+
+  <footer class="article-foot">
+    <p class="small muted">Le fonti sono linkate nel testo. I dati sono quelli disponibili alla data di pubblicazione o di aggiornamento. Hai trovato un errore o un dato superato? Scrivici a {{ site.email }}: correggiamo e lo diciamo.</p>
+  </footer>
+</article>
+
+{% if related %}
+<section class="wrap section">
+  <h2 class="h3">Nella stessa sezione</h2>
+  <div class="post-list">
+    {% for r in related %}
+    <article class="post-card">
+      <p class="post-cat">{{ r.format_name }} · {{ r.minutes }} min</p>
+      <h3><a href="{{ r.url }}">{{ r.title }}</a></h3>
+      <p class="muted">{{ r.description }}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+{% endblock %}

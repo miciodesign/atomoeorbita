@@ -1,0 +1,136 @@
+{% extends "base.html" %}
+{% block head %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"Atomo e Orbita","url":"{{ site_url }}/","description":{{ site.description|tojson }},"inLanguage":"it-IT"}
+</script>
+{% endblock %}
+{% block content %}
+<section class="hero">
+  <div class="wrap hero-inner">
+    <div>
+      <p class="eyebrow">{{ site.payoff }}</p>
+      <h1>{{ site.claim }}</h1>
+      <p class="lead">Nucleare e spazio, analisi non notizie. Per chi lavora, investe o decide, e vuole leggere di atomo e orbita senza propaganda né scorciatoie.</p>
+      <form class="nl-form hero-form" action="{{ site.newsletter_action or '/newsletter/' }}" method="{{ 'post' if site.newsletter_action else 'get' }}">
+        <label for="nl-email-hero" class="sr-only">La tua email</label>
+        <input id="nl-email-hero" type="email" name="email" placeholder="La tua email" required>
+        <button type="submit" class="btn">Ricevi Il Punto</button>
+      </form>
+      <p class="small muted">Una newsletter a settimana, gratis. Niente spam, disiscrizione in un clic.</p>
+    </div>
+    <svg class="hero-art" viewBox="0 0 120 120" role="img" aria-label="Un nucleo con due orbite">
+      <g transform="rotate(-30 60 60)"><ellipse cx="60" cy="60" rx="52" ry="20" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="112" cy="60" r="5" fill="currentColor"/></g>
+      <g transform="rotate(50 60 60)"><ellipse cx="60" cy="60" rx="52" ry="20" fill="none" stroke="currentColor" stroke-width="1.5" opacity=".3"/></g>
+      <circle cx="60" cy="60" r="11" fill="var(--accent)"/>
+    </svg>
+  </div>
+</section>
+
+<section class="wrap section">
+  <div class="section-head row">
+    <h2 class="kicker">Il Punto</h2>
+    <span class="muted small">L'analisi breve della settimana · <a href="/il-punto/">tutti i numeri</a></span>
+  </div>
+  {% if punto %}
+  <article class="punto">
+    <div>
+      <p class="post-cat">{{ punto.category_obj.name }} · {{ punto.date_human }}</p>
+      <h3 class="punto-title"><a href="{{ punto.url }}">{{ punto.title }}</a></h3>
+      <p class="lead">{{ punto.description }}</p>
+      <a class="more" href="{{ punto.url }}">Leggi l'analisi · {{ punto.minutes }} min</a>
+    </div>
+    {% set recent = articles | rejectattr("format", "equalto", "punto") | list %}
+    {% if recent %}
+    <aside class="side-box">
+      <p class="side-title">Appena usciti</p>
+      {% for a in recent[:3] %}<p><a href="{{ a.url }}">{{ a.title }}</a></p>{% endfor %}
+    </aside>
+    {% endif %}
+  </article>
+  {% else %}
+  <div class="notice"><p><strong>Il primo Punto esce con il lancio del sito.</strong> Iscriviti alla newsletter per riceverlo appena pubblicato.</p></div>
+  {% endif %}
+</section>
+
+<section class="wrap section">
+  <div class="cat-grid">
+    {% for c in categories %}
+    <article class="cat-card{% if c.slug == 'confine' %} accent{% endif %}">
+      <h2><a href="{{ c.url }}">{{ c.name }}</a></h2>
+      <p class="muted">{{ c.short }}.</p>
+      {% if c.articles %}
+      <ul class="cat-list">
+        {% for a in c.articles[:3] %}<li><a href="{{ a.url }}">{{ a.title }}</a></li>{% endfor %}
+      </ul>
+      {% endif %}
+      <a class="more" href="{{ c.url }}">Tutti gli articoli</a>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="band-light">
+  <div class="wrap band-inner">
+    <div>
+      <p class="eyebrow">Dossier</p>
+      <h2>Un approfondimento al mese, con i dati che puoi scaricare.</h2>
+      <p class="lead">Chi, dove, quando e quanto costa. I Dossier mettono in fila le fonti primarie e ti lasciano le tabelle e i grafici, non solo le conclusioni.</p>
+    </div>
+    <div class="stack">
+      {% if dossier %}
+      {% for d in dossier %}
+      <a class="dossier-card" href="{{ d.url }}">
+        <p class="post-cat">{{ d.date_human }}</p>
+        <h3>{{ d.title }}</h3>
+        <p>{{ d.description }}</p>
+      </a>
+      {% endfor %}
+      {% else %}
+      <div class="dossier-card">
+        <p class="post-cat">In lavorazione</p>
+        <h3>Nucleare in Italia: la mappa completa</h3>
+        <p>Legge, attori, siti, aziende, tempi. Il primo Dossier, in uscita nelle prossime settimane.</p>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% if spiegati %}
+<section class="wrap section">
+  <div class="section-head row">
+    <h2 class="kicker">Spiegato bene</h2>
+    <span class="muted small">I pezzi didattici che non invecchiano</span>
+  </div>
+  <div class="post-list">
+    {% for a in spiegati %}
+    <article class="post-card">
+      <p class="post-cat">{{ a.category_obj.name }} · {{ a.minutes }} min</p>
+      <h3><a href="{{ a.url }}">{{ a.title }}</a></h3>
+      <p class="muted">{{ a.description }}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<section class="wrap section">
+  <div class="section-head row">
+    <h2 class="kicker">Numeri</h2>
+    <span class="muted small">Schede dati aggiornate, sempre con la fonte · <a href="/numeri/">tutte le schede</a></span>
+  </div>
+  {% if numeri %}
+  <div class="num-grid">
+    {% for n in numeri %}
+    <a class="num-card" href="{{ n.url }}">
+      <p class="num-value">{{ n.headline }}</p>
+      <p class="num-label">{{ n.title }}</p>
+      <p class="num-source">Fonte: {{ n.source }} · {{ n.updated_human }}</p>
+    </a>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="notice"><p><strong>Le prime schede Numeri arrivano con il lancio.</strong> Reattori nel mondo, lanci dell'anno, progetti SMR in Europa, satelliti italiani: ogni numero con la sua fonte.</p></div>
+  {% endif %}
+</section>
+{% endblock %}

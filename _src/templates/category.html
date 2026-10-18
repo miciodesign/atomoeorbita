@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="wrap section">
+  <nav class="crumbs" aria-label="Percorso"><a href="/">Home</a> › <span>{{ cat.name }}</span></nav>
+  <h1>{{ cat.name }}</h1>
+  <p class="lead">{{ cat.intro }}</p>
+</section>
+
+{% if cat.pillar %}
+<section class="wrap">
+  <a class="pillar-card" href="{{ cat.pillar.url }}">
+    <p class="eyebrow">Da dove partire</p>
+    <h2>{{ cat.pillar.title }}</h2>
+    <p>{{ cat.pillar.description }}</p>
+    <span class="btn">Leggi · {{ cat.pillar.minutes }} min</span>
+  </a>
+</section>
+{% endif %}
+
+<section class="wrap section">
+  {% set others = cat.articles | rejectattr("pillar") | list %}
+  {% if others %}
+  <h2 class="h3">Tutti gli articoli</h2>
+  <div class="post-list">
+    {% for a in others %}
+    <article class="post-card">
+      <p class="post-cat">{{ a.format_name }} · {{ a.date_human }} · {{ a.minutes }} min</p>
+      <h3><a href="{{ a.url }}">{{ a.title }}</a></h3>
+      <p class="muted">{{ a.description }}</p>
+    </article>
+    {% endfor %}
+  </div>
+  {% elif not cat.pillar %}
+  <div class="notice">
+    <p><strong>Questa sezione sta nascendo.</strong> I primi articoli arrivano con il lancio. Iscriviti alla newsletter per non perderli.</p>
+  </div>
+  {% else %}
+  <p class="muted">Altri articoli in arrivo nelle prossime settimane.</p>
+  {% endif %}
+</section>
+
+<section class="wrap section">
+  <h2 class="h3">Le altre sezioni</h2>
+  <div class="chips">
+    {% for c in categories if c.slug != cat.slug %}<a class="chip" href="{{ c.url }}">{{ c.name }}</a>{% endfor %}
+    <a class="chip" href="/dossier/">Dossier</a>
+    <a class="chip" href="/numeri/">Numeri</a>
+  </div>
+</section>
+{% endblock %}
