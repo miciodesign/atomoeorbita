@@ -115,8 +115,8 @@ def clean_output() -> None:
     """Rimuove l'HTML generato in precedenza, lasciando sorgenti e git."""
     keep = {"_src", ".git", ".github", ".gitignore", "README.md", ".htaccess", "CNAME"}
     for item in ROOT.iterdir():
-        if item.name in keep:
-            continue
+        if item.name in keep or item.name.startswith("google") and item.suffix == ".html":
+            continue  # file di verifica Google Search Console
         if item.is_dir():
             shutil.rmtree(item)
         else:
