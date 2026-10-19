@@ -1,0 +1,61 @@
+{
+  "updated": "2026-10-19T05:09:16.923234+00:00",
+  "window_hours": 48,
+  "sources": [
+    {
+      "name": "World Nuclear News",
+      "url": "https://www.world-nuclear-news.org/rss",
+      "section": "atomo"
+    },
+    {
+      "name": "ANS Nuclear Newswire",
+      "url": "https://www.ans.org/news/rss/",
+      "section": "atomo"
+    },
+    {
+      "name": "IAEA",
+      "url": "https://www.iaea.org/feeds/topnews",
+      "section": "atomo"
+    },
+    {
+      "name": "NucNet",
+      "url": "https://www.nucnet.org/feed",
+      "section": "atomo"
+    },
+    {
+      "name": "Qualenergia",
+      "url": "https://www.qualenergia.it/feed/",
+      "section": "atomo"
+    },
+    {
+      "name": "SpaceNews",
+      "url": "https://spacenews.com/feed/",
+      "section": "orbita"
+    },
+    {
+      "name": "ESA",
+      "url": "https://www.esa.int/rssfeed/TopNews",
+      "section": "orbita"
+    },
+    {
+      "name": "ASI",
+      "url": "https://www.asi.it/feed/",
+      "section": "orbita"
+    },
+    {
+      "name": "AstronautiNEWS",
+      "url": "https://www.astronautinews.it/feed/",
+      "section": "orbita"
+    },
+    {
+      "name": "European Spaceflight",
+      "url": "https://europeanspaceflight.com/feed/",
+      "section": "orbita"
+    }
+  ],
+  "errors": [
+    "ANS Nuclear Newswire: feed non leggibile"
+  ],
+  "atomo": [],
+  "orbita": []
+}
