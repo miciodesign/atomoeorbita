@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T05:04:37.368917+00:00",
+  "updated": "2026-10-21T05:05:47.263392+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -61,6 +61,69 @@
       "section": "atomo",
       "source": "World Nuclear News",
       "lang": "en",
+      "title": "Philippines advances plans for nuclear power as energy demand rises",
+      "url": "https://www.world-nuclear-news.org/articles/philippines-advances-plans-for-nuclear-power-as-energy-demand-rises",
+      "summary": "The Philippines is working to establish the policy, regulatory and commercial foundations for its first nuclear power project, with a target of 1.2 GW of capacity by 2032 and a longer-term ambition to reach 4.8 GW by 205",
+      "time": "2026-10-20T16:15:21+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Aura aims for final investment decision on Mauritania project this year",
+      "url": "https://www.world-nuclear-news.org/articles/aura-aims-fid-mauritania-project-this-year",
+      "summary": "Aura Energy Limited says it is targeting a final investment decision by the end of the year for the Tiris uranium project in Mauritania as a newly released bankable feasibility study confirms the project's economics. But",
+      "time": "2026-10-20T14:24:16+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Indiana considering 6 GW Candu nuclear project",
+      "url": "https://www.world-nuclear-news.org/articles/indiana-considering-6-gw-candu-nuclear-project",
+      "summary": "AtkinsR&eacute;alis Group, Hoosier Energy Rural Electric Cooperative and the State of Indiana in the US are to explore a potential project featuring up to eight Candu nuclear power units, with a combined 6 GW capacity. &",
+      "time": "2026-10-20T13:54:28+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Korean concern over proposed 'Made in EU' act's impact on nuclear power projects",
+      "url": "https://www.world-nuclear-news.org/articles/korean-concerns-over-proposed-made-in-eu-acts-impact-nuclear-power-projects",
+      "summary": "Progress on the Dukovany new nuclear project is continuing on schedule, but South Korea has concerns about the potential impact of the European Union's proposed Industrial Accelerator Act on non-member countries particip",
+      "time": "2026-10-20T11:56:26+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "NucNet",
+      "lang": "en",
+      "title": "Nuclear Industry Calls For Concrete Action In EU Post-2030 Energy Framework",
+      "url": "https://www.nucnet.org/news/nuclear-industry-calls-for-concrete-action-in-eu-post-2030-energy-framework-10-2-2026",
+      "summary": "Senior executives from Europe’s nuclear industry have called on the European Commission to take “concrete steps” to support nuclear investments under the EU’s post-2030 energy and climate framework, including a common cl",
+      "time": "2026-10-20T11:32:56+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "IAEA",
+      "lang": "en",
+      "title": "Atoms4Food: Protecting Biodiversity",
+      "url": "http://www.iaea.org/newscenter/multimedia/videos/atoms4food-protecting-biodiversity",
+      "summary": "",
+      "time": "2026-10-20T00:00:00+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "IAEA",
+      "lang": "en",
+      "title": "IAEA Mission Says UAE Response to Barakah Nuclear Power Plant Event in May 2026 was Effective",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-mission-says-uae-response-to-barakah-nuclear-power-plant-event-in-may-2026-was-effective",
+      "summary": "",
+      "time": "2026-10-20T00:00:00+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
       "title": "Joint venture to produce HALEU in South Africa",
       "url": "https://www.world-nuclear-news.org/articles/joint-ventureto-produce-haleu-in-south-africa",
       "summary": "A joint venture between ASP Isotopes Inc subsidiary Quantum Leap Energy and South African state-owned nuclear energy corporation Necsa will develop, finance, build and operate a test bench and commercial-scale facility f",
@@ -101,25 +164,70 @@
       "url": "https://www.world-nuclear-news.org/articles/oklo-plans-isotope-facility-under-us-launch-pad-initiative",
       "summary": "Oklo says the Groves-2 Forge isotope production and processing pilot facility will build on the deployment of its Groves Isotope Test Reactor, which reached criticality earlier this year. &nbsp;",
       "time": "2026-10-19T09:24:42+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "NucNet",
-      "lang": "en",
-      "title": "Slovakia’s Mochovce-4 Nuclear Power Plant Connected To Grid For First Time",
-      "url": "https://www.nucnet.org/news/slovakia-s-mochovce-4-nuclear-power-plant-connected-to-grid-for-first-time-10-1-2026",
-      "summary": "The Mochovce-4 nuclear power plant in Slovakia has been connected to the national electricity grid for the first time, marking a major milestone in the commissioning of the VVER-440 reactor unit. Slovak owner Slovenské E",
-      "time": "2026-10-19T09:17:29+00:00"
     }
   ],
   "orbita": [
+    {
+      "section": "orbita",
+      "source": "AstronautiNEWS",
+      "lang": "it",
+      "title": "È partita la missione MMX verso la luna marziana Fobos",
+      "url": "https://www.astronautinews.it/2026/10/e-partita-la-missione-mmx-verso-la-luna-marziana-fobos/",
+      "summary": "È finalmente iniziata la missione robotica giapponese Martian Moons eXploration (MMX) che, per la prima volta, tenterà di riportare a Terra campioni di suolo da Fobos, la maggiore delle due lune marziane. Il decollo, a b",
+      "time": "2026-10-20T17:00:00+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "European Spaceflight",
+      "lang": "en",
+      "title": "Space Rider Test Model Lost Following Failed Drop Test",
+      "url": "https://europeanspaceflight.com/space-rider-test-model-lost-following-failed-drop-test/",
+      "summary": "A full-scale drop test of the European Space Agency’s Space Rider spaceplane ended abruptly after the test model’s parafoil failed to deploy as expected. This marks the second time this year that a Space Rider drop test ",
+      "time": "2026-10-20T14:52:57+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "AnySignal to Deliver Space-to-Earth Communications for Three Reflect Orbital Missions",
+      "url": "https://spacenews.com/anysignal-to-deliver-space-to-earth-communications-for-three-reflect-orbital-missions/",
+      "summary": "LOS ANGELES — October 20, 2026&#160;AnySignal, a leading provider of software-defined radios and space-based networking, today announced an agreement with Reflect Orbital to deliver space-to-earth communications for Refl",
+      "time": "2026-10-20T13:00:00+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "European Spaceflight",
+      "lang": "en",
+      "title": "French MPs propose symbolic €1 budget line for VORTEX spaceplane",
+      "url": "https://europeanspaceflight.com/french-mps-propose-symbolic-e1-budget-line-for-vortex-spaceplane/",
+      "summary": "French lawmakers have proposed allocating a symbolic €1 for Dassault Aviation&#8217;s VORTEX spaceplane programme in an effort to compel the government to clarify its financial commitments to the project. In a 16 October",
+      "time": "2026-10-20T10:15:39+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ESA",
+      "lang": "en",
+      "title": "New brain for Galileo",
+      "url": "https://www.esa.int/Applications/Satellite_navigation/Galileo/New_brain_for_Galileo",
+      "summary": "Twelve Galileo Second Generation (G2) satellites will join the current fleet in the coming years. They will deliver unprecedented positioning, navigation and timing capabilities thanks to an array of new features, includ",
+      "time": "2026-10-20T08:11:00+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ASI",
+      "lang": "it",
+      "title": "Una nuova stazione laser per il Centro Spaziale ASI di Matera",
+      "url": "https://www.asi.it/2026/10/una-nuova-stazione-laser-per-il-centro-spaziale-asi-di-matera/",
+      "summary": "Completato il progetto di realizzazione della nuova stazione osservativa Matera Satellite Laser Ranging (MSLR): il Centro Spaziale ASI “Giuseppe Colombo” si dota di una nuova infrastruttura per il tracciamento laser dei ",
+      "time": "2026-10-20T08:02:37+00:00"
+    },
     {
       "section": "orbita",
       "source": "SpaceNews",
       "lang": "en",
       "title": "UARX Space troubleshoots anomalies on maiden OTV Flight",
       "url": "https://spacenews.com/uarx-space-troubleshoots-anomalies-on-maiden-otv-flight/",
-      "summary": "SAN FRANCISCO –Spanish startup UARX Space is remedying anomalies identified during the maiden flight of OSSIE-D, an orbital transfer vehicle (OTV) launched Oct. 1 aboard SpaceX’s Transporter-18 mission. At least [&#8230;",
+      "summary": "Correction: Dawn&#8217;s Docking and Fluid Transfer Port is not a hosted payload. UARX is testing it for future refueling missions. SAN FRANCISCO –Spanish startup UARX Space is remedying anomalies identified [&#8230;] Th",
       "time": "2026-10-19T16:31:12+00:00"
     },
     {
