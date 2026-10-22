@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T05:05:47.263392+00:00",
+  "updated": "2026-10-22T05:07:49.212698+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -61,6 +61,51 @@
       "section": "atomo",
       "source": "World Nuclear News",
       "lang": "en",
+      "title": "ASEAN nations assessing nuclear energy option",
+      "url": "https://www.world-nuclear-news.org/articles/asean-nations-assessing-nuclear-energy-option",
+      "summary": "Southeast Asian countries are taking a pragmatic look at nuclear power as they seek to meet rapidly growing electricity demand, strengthen energy security and diversify their power generation mix, delegates heard at the ",
+      "time": "2026-10-21T15:26:18+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Westinghouse invests USD1 billion in US LEU+ fuel plant",
+      "url": "https://www.world-nuclear-news.org/articles/westinghouse-invests-usd1-billion-in-us-leu-fuel-plant",
+      "summary": "Westinghouse has announced a USD1 billion investment in the first new fleet-scale nuclear fuel factory to be built in the USA in more than 50 years, at the Columbia Fuel Fabrication Facility in Hopkins, South Carolina. &",
+      "time": "2026-10-21T14:36:59+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "The Nuclear Company proposes 6.6 GW Kentucky project",
+      "url": "https://www.world-nuclear-news.org/articles/nuclear-company-proposes-66-gw-kentucky-project",
+      "summary": "The Nuclear Company has outlined plans for an energy campus in Lewis County, Kentucky, which could feature up to six AP1000 reactors - this would make its 6.6 GW capacity larger than any current nuclear power plant in th",
+      "time": "2026-10-21T13:44:17+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "IAEA says Barakah drone-strike response was effective",
+      "url": "https://www.world-nuclear-news.org/articles/iaea-says-barakah-drone-strike-response-was-effective",
+      "summary": "An International Atomic Energy Agency mission to the United Arab Emirates has said that effective action was taken following the loss of off-site power to Barakah Nuclear Power Plant's unit 3 following a drone strike in ",
+      "time": "2026-10-21T12:16:11+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "NucNet",
+      "lang": "en",
+      "title": "Westinghouse To Invest $1 Billion In New US Higher Enrichment Nuclear Fuel Facility",
+      "url": "https://www.nucnet.org/news/westinghouse-to-invest-usd1-billion-in-new-us-higher-enrichment-nuclear-fuel-facility-10-3-2026",
+      "summary": "Westinghouse Electric Company has announced an investment of approximately $1bn (€890m) in a new manufacturing facility for low-enriched uranium plus (LEU+) nuclear fuel at its existing Columbia fuel fabrication site in ",
+      "time": "2026-10-21T11:09:43+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
       "title": "Philippines advances plans for nuclear power as energy demand rises",
       "url": "https://www.world-nuclear-news.org/articles/philippines-advances-plans-for-nuclear-power-as-energy-demand-rises",
       "summary": "The Philippines is working to establish the policy, regulatory and commercial foundations for its first nuclear power project, with a target of 1.2 GW of capacity by 2032 and a longer-term ambition to reach 4.8 GW by 205",
@@ -101,72 +146,63 @@
       "url": "https://www.nucnet.org/news/nuclear-industry-calls-for-concrete-action-in-eu-post-2030-energy-framework-10-2-2026",
       "summary": "Senior executives from Europe’s nuclear industry have called on the European Commission to take “concrete steps” to support nuclear investments under the EU’s post-2030 energy and climate framework, including a common cl",
       "time": "2026-10-20T11:32:56+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "IAEA",
-      "lang": "en",
-      "title": "Atoms4Food: Protecting Biodiversity",
-      "url": "http://www.iaea.org/newscenter/multimedia/videos/atoms4food-protecting-biodiversity",
-      "summary": "",
-      "time": "2026-10-20T00:00:00+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "IAEA",
-      "lang": "en",
-      "title": "IAEA Mission Says UAE Response to Barakah Nuclear Power Plant Event in May 2026 was Effective",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-mission-says-uae-response-to-barakah-nuclear-power-plant-event-in-may-2026-was-effective",
-      "summary": "",
-      "time": "2026-10-20T00:00:00+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Joint venture to produce HALEU in South Africa",
-      "url": "https://www.world-nuclear-news.org/articles/joint-ventureto-produce-haleu-in-south-africa",
-      "summary": "A joint venture between ASP Isotopes Inc subsidiary Quantum Leap Energy and South African state-owned nuclear energy corporation Necsa will develop, finance, build and operate a test bench and commercial-scale facility f",
-      "time": "2026-10-19T13:59:40+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "AEP, Amazon and X-energy planning 12-SMR plant",
-      "url": "https://www.world-nuclear-news.org/articles/aep-amazon-and-x-energy-plan-12-smr-plant",
-      "summary": "US utility American Electric Power and X-energy have signed a joint development agreement to evaluate a potential 960 MW project at a former coal plant site in Sullivan County, Indiana. &nbsp;",
-      "time": "2026-10-19T13:35:54+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "NucNet",
-      "lang": "en",
-      "title": "Centrus Announces $116 Million Acquisition Of Centrifuge Component Supplier Westerman",
-      "url": "https://www.nucnet.org/news/centrus-announces-usd116-million-acquisition-of-centrifuge-component-supplier-westerman-10-1-2026",
-      "summary": "US nuclear fuel company Centrus Energy has acquired Westerman Holdings, a major supplier of components for its uranium enrichment centrifuges, for about $116m (€103m), a statement said. Centrus said the acquisition was f",
-      "time": "2026-10-19T13:29:26+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Rosatom signs floating nuclear power deal for Indonesia",
-      "url": "https://www.world-nuclear-news.org/articles/rosatom-signs-floating-nuclear-power-deal-for-indonesia",
-      "summary": "Electricity generated by floating nuclear power plants will be provided to an East Indonesian island, according to an agreement signed by Rosatom and Indonesian company PT Pembangkit Listrik Nuklir. &nbsp;",
-      "time": "2026-10-19T11:40:56+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Oklo plans isotope facility under US Launch Pad initiative",
-      "url": "https://www.world-nuclear-news.org/articles/oklo-plans-isotope-facility-under-us-launch-pad-initiative",
-      "summary": "Oklo says the Groves-2 Forge isotope production and processing pilot facility will build on the deployment of its Groves Isotope Test Reactor, which reached criticality earlier this year. &nbsp;",
-      "time": "2026-10-19T09:24:42+00:00"
     }
   ],
   "orbita": [
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "TechnoMile Recognized as a 2026 Inc. Power Partner Award Winner",
+      "url": "https://spacenews.com/technomile-recognized-as-a-2026-inc-power-partner-award-winner/",
+      "summary": "TechnoMile, the leading AI solution that unifies growth, contracts, compliance, and security workflows, has been named a 2026 Inc. Power Partner Awards winner, recognizing the company among the leading B2B [&#8230;] The ",
+      "time": "2026-10-21T15:26:29+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "Global Satcom Services Revenues to Reach $145 Billion by 2035",
+      "url": "https://spacenews.com/global-satcom-services-revenues-to-reach-145-billion-by-2035/",
+      "summary": "Paris, France &#124; October 2026 – Global satellite services revenues are forecast to grow 44% to reach $145 billion by 2035, according to the 33rd edition of Novaspace’s Satellite Connectivity [&#8230;] The post Global",
+      "time": "2026-10-21T15:00:22+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "European Spaceflight",
+      "lang": "en",
+      "title": "Airbus Ships First Lightweight Vulcain Aft Bay for Ariane 6 Block 2",
+      "url": "https://europeanspaceflight.com/airbus-ships-first-lightweight-vulcain-aft-bay-for-ariane-6-block-2/",
+      "summary": "Airbus Netherlands has delivered the first lightweight Vulcain Aft Bay for Ariane 6 as part of the rocket&#8217;s Block 2 upgrades. The total weight reduction, however, appears to be more modest than originally anticipat",
+      "time": "2026-10-21T14:34:27+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "Space Nuclear Power Corporation Awarded DARPA Agreement for Ground Test of Autonomous Nuclear Reactor Controller",
+      "url": "https://spacenews.com/space-nuclear-power-corporation-awarded-darpa-agreement-for-ground-test-of-autonomous-nuclear-reactor-controller/",
+      "summary": "LOS ALAMOS, N.M. — October 21, 2026 — Space Nuclear Power Corporation (SpaceNukes) announced today that the Defense Advanced Research Projects Agency (DARPA) has awarded the company an Other Transaction [&#8230;] The pos",
+      "time": "2026-10-21T14:29:57+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "Solstar provides Wi-Fi connectivity for NASA proximity operations demonstration",
+      "url": "https://spacenews.com/solstar-provides-wi-fi-connectivity-for-nasa-proximity-operations-demonstration/",
+      "summary": "SAN FRANCISCO – Wi-Fi technology from Solstar Space connected NASA’s R5-S10 cubesat with Momentus’ Vigoride-7 orbital service vehicle during proximity operations and relayed data to NASA’s Johnson Space Center, Solstar [",
+      "time": "2026-10-21T12:00:00+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "Summer of Quantum: Building momentum for space-based QKD",
+      "url": "https://spacenews.com/summer-of-quantum-building-momentum-for-space-based-qkd/",
+      "summary": "Glasgow, UK &#124; 21 October 2026 – The pace of development in quantum technologies continues to accelerate, and over the past few months, space engineering company Craft Prospect has been [&#8230;] The post Summer of Q",
+      "time": "2026-10-21T11:54:30+00:00"
+    },
     {
       "section": "orbita",
       "source": "AstronautiNEWS",
@@ -205,66 +241,12 @@
     },
     {
       "section": "orbita",
-      "source": "ESA",
-      "lang": "en",
-      "title": "New brain for Galileo",
-      "url": "https://www.esa.int/Applications/Satellite_navigation/Galileo/New_brain_for_Galileo",
-      "summary": "Twelve Galileo Second Generation (G2) satellites will join the current fleet in the coming years. They will deliver unprecedented positioning, navigation and timing capabilities thanks to an array of new features, includ",
-      "time": "2026-10-20T08:11:00+00:00"
-    },
-    {
-      "section": "orbita",
       "source": "ASI",
       "lang": "it",
       "title": "Una nuova stazione laser per il Centro Spaziale ASI di Matera",
       "url": "https://www.asi.it/2026/10/una-nuova-stazione-laser-per-il-centro-spaziale-asi-di-matera/",
       "summary": "Completato il progetto di realizzazione della nuova stazione osservativa Matera Satellite Laser Ranging (MSLR): il Centro Spaziale ASI “Giuseppe Colombo” si dota di una nuova infrastruttura per il tracciamento laser dei ",
       "time": "2026-10-20T08:02:37+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "UARX Space troubleshoots anomalies on maiden OTV Flight",
-      "url": "https://spacenews.com/uarx-space-troubleshoots-anomalies-on-maiden-otv-flight/",
-      "summary": "Correction: Dawn&#8217;s Docking and Fluid Transfer Port is not a hosted payload. UARX is testing it for future refueling missions. SAN FRANCISCO –Spanish startup UARX Space is remedying anomalies identified [&#8230;] Th",
-      "time": "2026-10-19T16:31:12+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "European Spaceflight",
-      "lang": "en",
-      "title": "US political uncertainty complicates long-term Artemis commitments, Polish minister says",
-      "url": "https://europeanspaceflight.com/us-political-uncertainty-complicates-long-term-artemis-commitments-polish-minister-says/",
-      "summary": "Political and budgetary uncertainty in the United States poses a risk to long-term planning for space exploration programmes, according to a Polish government minister. In a 13 October response to a parliamentary questio",
-      "time": "2026-10-19T14:49:20+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ESA",
-      "lang": "en",
-      "title": "Euclid discovers new comet",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet",
-      "summary": "The European Space Agency’s Euclid space telescope has discovered its first previously unknown comet, in images taken between 16 and 24 September 2026.",
-      "time": "2026-10-19T12:00:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ASI",
-      "lang": "it",
-      "title": "Gravità artificiale in orbita",
-      "url": "https://www.asi.it/2026/10/gravita-artificiale-in-orbita/",
-      "summary": "Consultazione della comunità scientifica [&#8230;]",
-      "time": "2026-10-19T07:30:24+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ASI",
-      "lang": "it",
-      "title": "Escape Moon: un’avventura spaziale per le scuole di tutta Italia!",
-      "url": "https://www.asi.it/2026/10/escape-moon-unavventura-spaziale-per-le-scuole-di-tutta-italia/",
-      "summary": "In occasione della Giornata Nazionale dello Spazio, invitiamo studentesse e studenti a unirsi al team che riporterà sulla Terra l’astronauta intrappolato sulla Luna [&#8230;]",
-      "time": "2026-10-19T06:41:49+00:00"
     }
   ]
 }
