@@ -71,7 +71,7 @@ Primo Punto: lunedì 26 ottobre 2026. Primo Dossier: fine ottobre 2026.
 
 1. Scrivere il file in `_src/content/articoli/AAAA-MM-GG-slug.md` con front matter: `title`, `slug`, `category`, `date`, `description`, `format`; opzionali `pillar: true`, `updated`, `draft: true`.
 2. `python3 _src/build.py` (serve `pip install markdown jinja2`).
-3. Commit e push su `main` del repository `miciodesign/atomoeorbita`. Hostinger pubblica da solo.
+3. Prima del commit: `git pull --rebase origin main`, perché la Rassegna fa un commit automatico ogni mattina. Se ci sono conflitti sui file HTML generati, rilanciare `python3 _src/build.py`, `git add -A` e continuare. Poi commit e push su `main` del repository `miciodesign/atomoeorbita`. Hostinger pubblica da solo.
 4. Verificare la pagina online. Per Il Punto, inviare la newsletter da Brevo con lo stesso testo e il link all'articolo.
 
 Le pagine fisse stanno in `_src/content/pagine/`, le schede Numeri in `_src/content/numeri/` (campi `title`, `slug`, `updated`, `source`, `headline`, `description`).
