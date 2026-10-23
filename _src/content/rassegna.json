@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T05:07:49.212698+00:00",
+  "updated": "2026-10-23T05:05:23.390500+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -59,6 +59,78 @@
   "atomo": [
     {
       "section": "atomo",
+      "source": "NucNet",
+      "lang": "en",
+      "title": "Finland Grants Operating Licence To World’s First Deep Geologic Nuclear Repository",
+      "url": "https://www.nucnet.org/news/finland-grants-operating-licence-to-world-s-first-deep-geologic-nuclear-repository-10-4-2026",
+      "summary": "Finland has granted an operating licence to Posiva for its spent nuclear fuel encapsulation and final disposal facility at Olkiluoto, marking the first time a deep geological repository for spent nuclear fuel has receive",
+      "time": "2026-10-22T12:11:35+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "OPG firm joins UK BWRX-300 project",
+      "url": "https://www.world-nuclear-news.org/articles/joint-venture-to-operate-planned-uk-bwrx-300-fleet",
+      "summary": "The UK-based project company of European SMR developer and investor SGE, and Origin Nuclear, a subsidiary of Ontario Power Generation, have signed a letter of intent to establish a joint venture for the future operation ",
+      "time": "2026-10-22T12:02:58+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Radiant microreactor selected for deployment by US Navy",
+      "url": "https://www.world-nuclear-news.org/articles/radiant-microreactor-selected-for-deployment-by-us-navy",
+      "summary": "The US Navy has selected Radiant's Kaleidos microreactor for deployment at Naval Weapons Station Crane, Indiana. &nbsp;",
+      "time": "2026-10-22T11:00:53+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "The challenge of securing uranium from seawater - podcast",
+      "url": "https://www.world-nuclear-news.org/articles/the-challenge-of-securing-uranium-from-seawater---podcast",
+      "summary": "Supercritical Materials has an exclusive licence from the US Department of Energy for a patented system to extract uranium from the world's oceans. Founder and CEO Canon Bryan outlined the company's plans to the World Nu",
+      "time": "2026-10-22T10:52:23+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "SMRs could be part of Port of Rotterdam's future, says study",
+      "url": "https://www.world-nuclear-news.org/articles/smrs-could-be-part-of-port-of-rotterdams-future-says-study",
+      "summary": "The Dutch port of Rotterdam could become part of the future small modular reactor supply chain - with opportunities extending well beyond the adoption of nuclear technology itself, according to a study conducted jointly ",
+      "time": "2026-10-22T09:30:35+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "Qualenergia",
+      "lang": "it",
+      "title": "Nucleare, un ruolo marginale nella transizione energetica",
+      "url": "https://www.qualenergia.it/articoli/nucleare-ruolo-marginale-transizione-energetica/",
+      "summary": "Il nucleare può contribuire alla decarbonizzazione, ma non sostituire la nuova produzione fotovoltaica ed eolica. Anche con 550-1.000 GW installati nel 2050, avrebbe una quota intorno al 10% della generazione mondiale. È",
+      "time": "2026-10-22T09:15:34+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "Qualenergia",
+      "lang": "it",
+      "title": "The Role of Nuclear in the Energy Transition: Complementary but Limited",
+      "url": "https://www.qualenergia.it/pro/documenti/the-role-of-nuclear-in-the-energy-transition-complementary-but-limited/",
+      "summary": "Il ruolo del nucleare nella transizione energetica e come può contribuire alla decarbonizzazione, ma non certo sostituire la nuova produzione fotovoltaica ed eolica. Anche con 550-1.000 GW installati nel 2050, la sua quo",
+      "time": "2026-10-22T05:00:50+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "IAEA",
+      "lang": "en",
+      "title": "IAEA Mission Finds Kenya Committed to Safe Management of Radioactive Waste as it Develops a Nuclear Power Programme",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-mission-finds-kenya-committed-to-safe-management-of-radioactive-waste-as-it-develops-a-nuclear-power-programme",
+      "summary": "",
+      "time": "2026-10-22T00:00:00+00:00"
+    },
+    {
+      "section": "atomo",
       "source": "World Nuclear News",
       "lang": "en",
       "title": "ASEAN nations assessing nuclear energy option",
@@ -92,63 +164,63 @@
       "url": "https://www.world-nuclear-news.org/articles/iaea-says-barakah-drone-strike-response-was-effective",
       "summary": "An International Atomic Energy Agency mission to the United Arab Emirates has said that effective action was taken following the loss of off-site power to Barakah Nuclear Power Plant's unit 3 following a drone strike in ",
       "time": "2026-10-21T12:16:11+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "NucNet",
-      "lang": "en",
-      "title": "Westinghouse To Invest $1 Billion In New US Higher Enrichment Nuclear Fuel Facility",
-      "url": "https://www.nucnet.org/news/westinghouse-to-invest-usd1-billion-in-new-us-higher-enrichment-nuclear-fuel-facility-10-3-2026",
-      "summary": "Westinghouse Electric Company has announced an investment of approximately $1bn (€890m) in a new manufacturing facility for low-enriched uranium plus (LEU+) nuclear fuel at its existing Columbia fuel fabrication site in ",
-      "time": "2026-10-21T11:09:43+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Philippines advances plans for nuclear power as energy demand rises",
-      "url": "https://www.world-nuclear-news.org/articles/philippines-advances-plans-for-nuclear-power-as-energy-demand-rises",
-      "summary": "The Philippines is working to establish the policy, regulatory and commercial foundations for its first nuclear power project, with a target of 1.2 GW of capacity by 2032 and a longer-term ambition to reach 4.8 GW by 205",
-      "time": "2026-10-20T16:15:21+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Aura aims for final investment decision on Mauritania project this year",
-      "url": "https://www.world-nuclear-news.org/articles/aura-aims-fid-mauritania-project-this-year",
-      "summary": "Aura Energy Limited says it is targeting a final investment decision by the end of the year for the Tiris uranium project in Mauritania as a newly released bankable feasibility study confirms the project's economics. But",
-      "time": "2026-10-20T14:24:16+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Indiana considering 6 GW Candu nuclear project",
-      "url": "https://www.world-nuclear-news.org/articles/indiana-considering-6-gw-candu-nuclear-project",
-      "summary": "AtkinsR&eacute;alis Group, Hoosier Energy Rural Electric Cooperative and the State of Indiana in the US are to explore a potential project featuring up to eight Candu nuclear power units, with a combined 6 GW capacity. &",
-      "time": "2026-10-20T13:54:28+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Korean concern over proposed 'Made in EU' act's impact on nuclear power projects",
-      "url": "https://www.world-nuclear-news.org/articles/korean-concerns-over-proposed-made-in-eu-acts-impact-nuclear-power-projects",
-      "summary": "Progress on the Dukovany new nuclear project is continuing on schedule, but South Korea has concerns about the potential impact of the European Union's proposed Industrial Accelerator Act on non-member countries particip",
-      "time": "2026-10-20T11:56:26+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "NucNet",
-      "lang": "en",
-      "title": "Nuclear Industry Calls For Concrete Action In EU Post-2030 Energy Framework",
-      "url": "https://www.nucnet.org/news/nuclear-industry-calls-for-concrete-action-in-eu-post-2030-energy-framework-10-2-2026",
-      "summary": "Senior executives from Europe’s nuclear industry have called on the European Commission to take “concrete steps” to support nuclear investments under the EU’s post-2030 energy and climate framework, including a common cl",
-      "time": "2026-10-20T11:32:56+00:00"
     }
   ],
   "orbita": [
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "Rethinking networks in space with Aalyria’s Brian Barritt",
+      "url": "https://spacenews.com/rethinking-networks-in-space-with-aalyrias-brian-barritt/",
+      "summary": "In this episode, SpaceNews’ Mike Gruss talks with the CEO of Aalyria Brian Barritt about how networks are evolving, what scaling the company means and the role of software interoperability [&#8230;] The post Rethinking n",
+      "time": "2026-10-22T18:13:38+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "European Spaceflight",
+      "lang": "en",
+      "title": "ESA Provides New Details on Failed Space Rider Drop Test",
+      "url": "https://europeanspaceflight.com/esa-provides-new-details-on-failed-space-rider-drop-test/",
+      "summary": "The European Space Agency (ESA) has provided new details about the failed Space Rider drop test, confirming that the vehicle&#8217;s parafoil detached during deployment, sending the full-scale test model back to terra fi",
+      "time": "2026-10-22T15:02:37+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ESA",
+      "lang": "en",
+      "title": "350th ESA Council: Media information session",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/350th_ESA_Council_Media_information_session",
+      "summary": "Video: 01:45:34 Watch the replay of the media information session where ESA Director General Josef Aschbacher and ESA Council Chair at delegate level Juan Carlos Cortés outline the key decisions and main outcomes of the ",
+      "time": "2026-10-22T14:00:00+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ESA",
+      "lang": "en",
+      "title": "ESA Open Days 2026",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/ESA_Open_Days_2026",
+      "summary": "Video: 00:00:49 ESA Open Days 2026 welcomed over 23 000 visitors across its six establishments, giving the public the opportunity to discover more about Europe’s space activities, meet the people behind the missions and ",
+      "time": "2026-10-22T09:00:00+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ESA",
+      "lang": "en",
+      "title": "ESA Council approves appointment of two new directors",
+      "url": "https://www.esa.int/About_Us/Corporate_news/ESA_Council_approves_appointment_of_two_new_directors",
+      "summary": "The European Space Agency Council has approved the appointment of two new directors: Andrzej Banasiak as Director of Commercialisation and Industry Partnership, and Nicolaus Hanowski as Director of Space Operations.",
+      "time": "2026-10-22T08:26:00+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ESA",
+      "lang": "en",
+      "title": "Stars brewing in a nebulous cauldron",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Stars_brewing_in_a_nebulous_cauldron",
+      "summary": "Image: Stars brewing in a nebulous cauldron",
+      "time": "2026-10-22T08:00:00+00:00"
+    },
     {
       "section": "orbita",
       "source": "SpaceNews",
@@ -173,7 +245,7 @@
       "lang": "en",
       "title": "Airbus Ships First Lightweight Vulcain Aft Bay for Ariane 6 Block 2",
       "url": "https://europeanspaceflight.com/airbus-ships-first-lightweight-vulcain-aft-bay-for-ariane-6-block-2/",
-      "summary": "Airbus Netherlands has delivered the first lightweight Vulcain Aft Bay for Ariane 6 as part of the rocket&#8217;s Block 2 upgrades. The total weight reduction, however, appears to be more modest than originally anticipat",
+      "summary": "Airbus Netherlands has delivered the first lightweight Vulcain Aft Bay for Ariane 6 as part of the rocket&#8217;s Block 2 upgrades. In a 21 October LinkedIn post, Airbus Netherlands President Rob Postma announced that th",
       "time": "2026-10-21T14:34:27+00:00"
     },
     {
@@ -202,51 +274,6 @@
       "url": "https://spacenews.com/summer-of-quantum-building-momentum-for-space-based-qkd/",
       "summary": "Glasgow, UK &#124; 21 October 2026 – The pace of development in quantum technologies continues to accelerate, and over the past few months, space engineering company Craft Prospect has been [&#8230;] The post Summer of Q",
       "time": "2026-10-21T11:54:30+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "AstronautiNEWS",
-      "lang": "it",
-      "title": "È partita la missione MMX verso la luna marziana Fobos",
-      "url": "https://www.astronautinews.it/2026/10/e-partita-la-missione-mmx-verso-la-luna-marziana-fobos/",
-      "summary": "È finalmente iniziata la missione robotica giapponese Martian Moons eXploration (MMX) che, per la prima volta, tenterà di riportare a Terra campioni di suolo da Fobos, la maggiore delle due lune marziane. Il decollo, a b",
-      "time": "2026-10-20T17:00:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "European Spaceflight",
-      "lang": "en",
-      "title": "Space Rider Test Model Lost Following Failed Drop Test",
-      "url": "https://europeanspaceflight.com/space-rider-test-model-lost-following-failed-drop-test/",
-      "summary": "A full-scale drop test of the European Space Agency’s Space Rider spaceplane ended abruptly after the test model’s parafoil failed to deploy as expected. This marks the second time this year that a Space Rider drop test ",
-      "time": "2026-10-20T14:52:57+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "AnySignal to Deliver Space-to-Earth Communications for Three Reflect Orbital Missions",
-      "url": "https://spacenews.com/anysignal-to-deliver-space-to-earth-communications-for-three-reflect-orbital-missions/",
-      "summary": "LOS ANGELES — October 20, 2026&#160;AnySignal, a leading provider of software-defined radios and space-based networking, today announced an agreement with Reflect Orbital to deliver space-to-earth communications for Refl",
-      "time": "2026-10-20T13:00:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "European Spaceflight",
-      "lang": "en",
-      "title": "French MPs propose symbolic €1 budget line for VORTEX spaceplane",
-      "url": "https://europeanspaceflight.com/french-mps-propose-symbolic-e1-budget-line-for-vortex-spaceplane/",
-      "summary": "French lawmakers have proposed allocating a symbolic €1 for Dassault Aviation&#8217;s VORTEX spaceplane programme in an effort to compel the government to clarify its financial commitments to the project. In a 16 October",
-      "time": "2026-10-20T10:15:39+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ASI",
-      "lang": "it",
-      "title": "Una nuova stazione laser per il Centro Spaziale ASI di Matera",
-      "url": "https://www.asi.it/2026/10/una-nuova-stazione-laser-per-il-centro-spaziale-asi-di-matera/",
-      "summary": "Completato il progetto di realizzazione della nuova stazione osservativa Matera Satellite Laser Ranging (MSLR): il Centro Spaziale ASI “Giuseppe Colombo” si dota di una nuova infrastruttura per il tracciamento laser dei ",
-      "time": "2026-10-20T08:02:37+00:00"
     }
   ]
 }
