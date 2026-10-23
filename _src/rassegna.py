@@ -21,7 +21,7 @@ OUT = ROOT / "_src" / "content" / "rassegna.json"
 # (sezione, nome fonte, url feed, lingua)
 FEEDS = [
     ("atomo", "World Nuclear News", "https://www.world-nuclear-news.org/rss", "en"),
-    ("atomo", "ANS Nuclear Newswire", "https://www.ans.org/news/rss/", "en"),
+    ("atomo", "POWER Magazine", "https://www.powermag.com/category/nuclear/feed/", "en"),
     ("atomo", "IAEA", "https://www.iaea.org/feeds/topnews", "en"),
     ("atomo", "NucNet", "https://www.nucnet.org/feed", "en"),
     ("atomo", "Qualenergia", "https://www.qualenergia.it/feed/", "it"),
