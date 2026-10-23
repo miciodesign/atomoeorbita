@@ -3,6 +3,7 @@ title: "L'Italia nello spazio: ASI, ESA e la filiera, spiegati a chi arriva da f
 slug: italia-nello-spazio-asi-esa-filiera
 category: orbita
 date: 2026-10-18
+updated: 2026-10-23
 description: Chi decide, chi paga e chi costruisce nello spazio italiano. L'Agenzia, il rapporto con l'ESA, i 3,5 miliardi della Ministeriale di Brema, la legge spaziale del 2025 e le aziende, con la fusione Airbus-Leonardo-Thales sullo sfondo.
 format: spiegato
 pillar: true
@@ -37,7 +38,7 @@ Attorno ai grandi, una rete di aziende che lavorano su propulsione, strutture, o
 
 - **COSMO-SkyMed**: la costellazione radar nazionale, in servizio dal 2007, con il terzo satellite di seconda generazione lanciato a gennaio 2026. È il prodotto spaziale italiano più usato, in ambito civile e militare.
 - **IRIDE**: la costellazione di osservazione della Terra finanziata dal PNRR, con i primi 16 satelliti operativi lanciati nel 2025. Il programma più grande mai gestito interamente a livello nazionale.
-- **Vega C**: il lanciatore per piccoli e medi carichi, tornato in servizio regolare dopo l'incidente del 2022; nel 2026 ha portato in orbita la missione scientifica SMILE e il satellite Sentinel-3C.
+- **Vega C**: il lanciatore per piccoli e medi carichi, tornato in volo a fine 2024 dopo l'incidente del 2022 e oggi gestito commercialmente da Avio; la sua evoluzione, Vega E, è raccontata [qui](/orbita/vega-e-futuro-lanciatore-italiano/).
 - **Artemis**: l'Italia fornisce strutture e sistemi del modulo di servizio europeo della capsula Orion e i moduli abitativi del Gateway; Artemis 2, con il primo volo con equipaggio intorno alla Luna, è avvenuto nella primavera 2026.
 - **Scienza**: strumenti italiani su BepiColombo (in orbita attorno a Mercurio da novembre 2026), Juice, Euclid, Hera.
 
@@ -66,3 +67,5 @@ L'Italia spaziale ha tre punti di forza reali, un lanciatore proprio, una capaci
 ---
 
 *Fonti: [ASI, comunicato sulla Ministeriale CM25](https://www.asi.it/2025/11/cm25-esa-si-e-conclusa-la-ministeriale-europea-dedicata-allo-spazio/), novembre 2025; [legge 13 giugno 2025, n. 89](https://cms.law/it/ita/publication/la-nuova-legge-sull-economia-dello-spazio-quadro-normativo-e-incentivi-per-le-imprese), GU 24 giugno 2025; [Euronews](https://it.euronews.com/2026/10/09/spazio-litalia-rischia-di-perdere-le-chiavi-il-nodo-leonardo-nella-maxi-alleanza-europea) sulla fusione Airbus-Leonardo-Thales, ottobre 2026; dati sulla filiera da ASI e I-Com via [Giornalemondo](https://giornalemondo.it/tecnologia/space-economy-italia-valore-missioni-crescita/).*
+
+*Correzione del 23 ottobre 2026: una versione precedente indicava tra i lanci di Vega C del 2026 la missione SMILE e il satellite Sentinel-3C; non abbiamo trovato conferma nelle fonti ufficiali e abbiamo rimosso il riferimento.*
