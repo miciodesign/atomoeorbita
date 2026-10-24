@@ -1,0 +1,44 @@
+name: Vendor confini del mondo
+
+# Scarica una volta i confini dei paesi (world-atlas, dati Natural Earth, pubblico dominio)
+# e topojson-client, così la mappa disegna da sé lo sfondo senza servizi esterni.
+on:
+  push:
+    paths:
+      - ".github/workflows/geo.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  vendor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Scarica
+        run: |
+          mkdir -p /tmp/g && cd /tmp/g
+          npm pack world-atlas@2.0.2 topojson-client@3.1.0
+          mkdir wa tc && tar xzf world-atlas-2.0.2.tgz -C wa && tar xzf topojson-client-3.1.0.tgz -C tc
+          D="$GITHUB_WORKSPACE/_src/static/geo"; mkdir -p "$D"
+          cp wa/package/countries-50m.json "$D/countries-50m.json"
+          cp wa/package/LICENSE "$D/LICENSE-world-atlas"
+          cp tc/package/dist/topojson-client.min.js "$D/topojson-client.min.js"
+          cp tc/package/LICENSE "$D/LICENSE-topojson-client"
+          ls -la "$D"
+      - name: Pubblica
+        run: |
+          git config user.name "Atomo e Orbita"
+          git config user.email "redazione@atomoeorbita.it"
+          git add _src/static/geo
+          git stash
+          git pull --rebase origin main
+          git stash pop || true
+          pip install markdown jinja2 >/dev/null
+          python _src/build.py
+          git add -A
+          if git diff --cached --quiet; then echo "Già presente"; else git commit -m "Confini del mondo ospitati localmente per la mappa"; git push; fi
