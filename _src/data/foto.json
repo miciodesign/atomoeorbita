@@ -71,14 +71,6 @@
   "origine": "Atucha Nuclear Power Plant",
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Central_Nuclear_Atucha_I_-_II.JPG/1280px-Central_Nuclear_Atucha_I_-_II.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  },
- "Avio, Colleferro": {
-  "autore": "Giorgio Galeotti",
-  "file": "https://commons.wikimedia.org/wiki/File:Castello_di_Avio_-_Sabbionara,_Avio,_Trento,_Italy_-_July_21,_2014_01.jpg",
-  "licenza": "CC BY 4.0",
-  "licenza_url": "https://creativecommons.org/licenses/by/4.0",
-  "origine": "cerca:Colleferro Avio",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Castello_di_Avio_-_Sabbionara%2C_Avio%2C_Trento%2C_Italy_-_July_21%2C_2014_01.jpg/1280px-Castello_di_Avio_-_Sabbionara%2C_Avio%2C_Trento%2C_Italy_-_July_21%2C_2014_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
- },
  "Baikonur": {
   "autore": "Bill Ingalls",
   "file": "https://commons.wikimedia.org/wiki/File:Baikonur_Cosmodrome_Soyuz_launch_pad.jpg",
@@ -286,14 +278,6 @@
   "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0",
   "origine": "cerca:Guiana Space Centre Ariane launch",
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Zone_de_lancement_Vega_3.jpg/1280px-Zone_de_lancement_Vega_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
- },
- "Centro di geodesia spaziale, Matera": {
-  "autore": "Torzog",
-  "file": "https://commons.wikimedia.org/wiki/File:Pendulum_Matera.jpg",
-  "licenza": "CC0",
-  "licenza_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "origine": "cerca:Centro di Geodesia Spaziale Matera",
-  "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Pendulum_Matera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
  },
  "Centro spaziale Luigi Broglio (Malindi)": {
   "autore": "autore su Commons",
@@ -1215,14 +1199,6 @@
   "origine": "Salem Nuclear Power Plant",
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Salem_Nuclear_Power_Plant.jpg/1280px-Salem_Nuclear_Power_Plant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  },
- "Salto di Quirra (Perdasdefogu)": {
-  "autore": "The original uploader was Cadria at Italian Wikipedia.",
-  "file": "https://commons.wikimedia.org/wiki/File:Lance1988.jpg",
-  "licenza": "GFDL",
-  "licenza_url": "http://www.gnu.org/copyleft/fdl.html",
-  "origine": "cerca:Salto di Quirra",
-  "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Lance1988.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
- },
  "Sanmen": {
   "autore": "我",
   "file": "https://commons.wikimedia.org/wiki/File:Sanmen_Nuclear_Power_Station.jpg",
@@ -1471,14 +1447,6 @@
   "origine": "Temelín Nuclear Power Station",
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Jete_side_remastered_%28cropped%29.jpg/1280px-Jete_side_remastered_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  },
- "Thales Alenia Space, Torino": {
-  "autore": "European Space Agency",
-  "file": "https://commons.wikimedia.org/wiki/File:Euclid%27s_twin_arrives_at_mission_control_-_arrival_ESA25482240.jpg",
-  "licenza": "CC BY-SA 3.0 igo",
-  "licenza_url": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
-  "origine": "cerca:Thales Alenia Space Torino",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Euclid%27s_twin_arrives_at_mission_control_-_arrival_ESA25482240.jpg/1280px-Euclid%27s_twin_arrives_at_mission_control_-_arrival_ESA25482240.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
- },
  "Tianwan": {
   "autore": "WPTO",
   "file": "https://commons.wikimedia.org/wiki/File:%E7%94%B0%E6%B9%BE%E6%A0%B8%E7%94%B5%E7%AB%99%E6%A0%B8%E5%B2%9B%E4%BF%AF%E7%9E%B0%E5%9B%BE.jpg",
@@ -1696,11 +1664,11 @@
   "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Yellowcake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
  },
  "articolo:vega-e-futuro-lanciatore-italiano": {
-  "autore": "El fosilmaníaco",
-  "file": "https://commons.wikimedia.org/wiki/File:Kourou_launchers_mockups.jpg",
+  "autore": "Don-vip",
+  "file": "https://commons.wikimedia.org/wiki/File:Zone_de_lancement_Vega_3.jpg",
   "licenza": "CC BY-SA 4.0",
   "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "origine": "cerca:Vega C launch Kourou",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Kourou_launchers_mockups.jpg/1280px-Kourou_launchers_mockups.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  "origine": "File:Zone_de_lancement_Vega_3.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Zone_de_lancement_Vega_3.jpg/1280px-Zone_de_lancement_Vega_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  }
 }
