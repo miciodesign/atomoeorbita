@@ -1,7 +1,7 @@
 ---
 title: "Vega E, il futuro dell'unico lanciatore italiano: cosa cambia, quando arriva, cosa non sappiamo"
 slug: vega-e-futuro-lanciatore-italiano
-foto: en:Vega C | cerca:Vega C launch Kourou | cerca:Vega rocket launch
+foto: File:Zone_de_lancement_Vega_3.jpg
 category: orbita
 date: 2026-10-23
 description: Avio sviluppa con 350 milioni dell'ESA la nuova versione di Vega, con uno stadio a metano al posto di due. Cosa migliora, perché toglie una dipendenza dall'Ucraina, perché la data del primo volo è slittata due volte e cosa dice il fatto che i lanci di Vega C siano già venduti fino al 2031.

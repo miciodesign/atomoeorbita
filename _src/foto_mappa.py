@@ -40,8 +40,6 @@ SPAZIO_WIKI = {
     "Spazioporto di Grottaglie": "en:Taranto-Grottaglie Airport",
     "Centro spaziale del Fucino": "en:Fucino Space Centre",
     "ESA ESRIN, Frascati": "en:ESRIN",
-    "Centro di geodesia spaziale, Matera": "it:Centro di geodesia spaziale Giuseppe Colombo",
-    "Salto di Quirra (Perdasdefogu)": "it:Poligono sperimentale e di addestramento interforze di Salto di Quirra",
 }
 
 # Abbinamenti verificati a mano come sbagliati (la foto mostra un impianto vicino o un modellino).
@@ -58,10 +56,6 @@ SPAZIO_CERCA = {
     "Naro": "Naro Space Center",
     "Alcântara": "Alcântara Launch Center",
     "Andøya Spaceport": "Andøya Space Center",
-    "Avio, Colleferro": "Colleferro Avio",
-    "Centro di geodesia spaziale, Matera": "Centro di Geodesia Spaziale Matera",
-    "Thales Alenia Space, Torino": "Thales Alenia Space Torino",
-    "Salto di Quirra (Perdasdefogu)": "Salto di Quirra",
     "Centro spaziale del Fucino": "Telespazio Fucino antenne",
 }
 
