@@ -69,7 +69,7 @@ Primo Punto: lunedì 26 ottobre 2026. Primo Dossier: fine ottobre 2026.
 
 ## Come si pubblica
 
-1. Scrivere il file in `_src/content/articoli/AAAA-MM-GG-slug.md` con front matter: `title`, `slug`, `category`, `date`, `description`, `format`; opzionali `pillar: true`, `updated`, `draft: true`.
+1. Scrivere il file in `_src/content/articoli/AAAA-MM-GG-slug.md` con front matter: `title`, `slug`, `category`, `date`, `description`, `format`; opzionali `pillar: true`, `updated`, `draft: true`, `foto`. La `foto` è la foto d'apertura da Wikimedia Commons: `foto: File:Nome_esatto.jpg` oppure `foto: en:Titolo voce Wikipedia` (prende la foto principale della voce), più alternative separate da `|` (anche `cerca:parole chiave`). Il workflow `foto.yml` parte da solo al push dell'articolo, salva autore e licenza in `_src/data/foto.json` e ricostruisce il sito: dopo il push aspettare un minuto, fare pull e controllare in `foto.json` che la foto mostri davvero il soggetto (niente loghi, schemi, impianti vicini o omonimi). Se è sbagliata, indicare un `File:` preciso. Le foto della mappa si correggono con `ESCLUSI` e `SPAZIO_CERCA` in `_src/foto_mappa.py`.
 2. `python3 _src/build.py` (serve `pip install markdown jinja2`).
 3. Prima del commit: `git pull --rebase origin main`, perché la Rassegna fa un commit automatico ogni mattina. Se ci sono conflitti sui file HTML generati, rilanciare `python3 _src/build.py`, `git add -A` e continuare. Poi commit e push su `main` del repository `miciodesign/atomoeorbita`. Hostinger pubblica da solo.
 4. Verificare la pagina online. Per Il Punto, inviare la newsletter da Brevo con lo stesso testo e il link all'articolo.
