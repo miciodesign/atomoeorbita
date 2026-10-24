@@ -1,7 +1,7 @@
 ---
 title: "Satelliti e difesa: perché l'orbita è diventata un dominio militare"
 slug: satelliti-difesa-orbita-dominio-militare
-foto: en:COSMO-SkyMed
+foto: cerca:COSMO-SkyMed satellite | cerca:Sicral satellite
 category: orbita
 date: 2026-10-18
 description: Dall'Ucraina a IRIS², passando per la costellazione nazionale annunciata dall'Italia. Come la guerra ha cambiato il modo in cui l'Europa guarda ai satelliti, cosa sta costruendo e quanto manca.

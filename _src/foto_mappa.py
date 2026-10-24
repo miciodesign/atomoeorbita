@@ -47,7 +47,23 @@ SPAZIO_WIKI = {
 # Abbinamenti verificati a mano come sbagliati (la foto mostra un impianto vicino o un modellino).
 ESCLUSI = {"Lingao", "Fangjiashan", "Tarapur"}
 
-SCARTA = re.compile(r"(logo|locator|location|map|mappa|karte|flag|emblem|seal|insignia|patch|\.svg$)", re.I)
+SCARTA = re.compile(r"(logo|locator|location|map|mappa|karte|flag|emblem|seal|insignia|patch|diagram|kaavio|scheme|schema|model|flare|panoramio|alveo|\.svg$|\.pdf$|\.tiff?$)", re.I)
+
+# Ricerca di riserva su Commons, se la voce di Wikipedia non ha una foto adatta.
+SPAZIO_CERCA = {
+    "Centre Spatial Guyanais (Kourou)": "Guiana Space Centre Ariane launch",
+    "Starbase (Boca Chica)": "Starbase Boca Chica Starship launch site",
+    "Plesetsk": "Plesetsk Cosmodrome",
+    "Taiyuan": "Taiyuan Satellite Launch Center",
+    "Naro": "Naro Space Center",
+    "Alcântara": "Alcântara Launch Center",
+    "Andøya Spaceport": "Andøya Space Center",
+    "Avio, Colleferro": "Colleferro Avio",
+    "Centro di geodesia spaziale, Matera": "Centro di Geodesia Spaziale Matera",
+    "Thales Alenia Space, Torino": "Thales Alenia Space Torino",
+    "Salto di Quirra (Perdasdefogu)": "Salto di Quirra",
+    "Centro spaziale del Fucino": "Telespazio Fucino antenne",
+}
 
 
 def get(url, params=None):
@@ -116,6 +132,32 @@ def pageimage(spec):
     return None
 
 
+def cerca_commons(q):
+    d = get("https://commons.wikimedia.org/w/api.php", {
+        "action": "query", "list": "search", "srsearch": q + " filetype:bitmap", "srnamespace": 6,
+        "srlimit": 15, "format": "json", "formatversion": 2})
+    for r in d.get("query", {}).get("search", []):
+        f = r["title"][5:]
+        if not SCARTA.search(f) and re.search(r"\.(jpe?g|png|webp)$", f, re.I):
+            return f
+    return None
+
+
+def risolvi(specs):
+    """Prova in ordine: "File:Nome.jpg", "en:Titolo voce" (foto principale), "cerca:parole" (ricerca su Commons)."""
+    for spec in specs:
+        if spec.startswith("File:"):
+            f = spec[5:]
+        elif spec.startswith("cerca:"):
+            f = cerca_commons(spec[6:])
+        else:
+            f = pageimage(spec)
+        time.sleep(0.5)
+        if f and not SCARTA.search(f):
+            return f, spec
+    return None
+
+
 def pulisci(t):
     t = re.sub(r"<[^>]+>", "", html.unescape(t or "")).strip()
     return re.sub(r"\s+", " ", t)[:80]
@@ -161,23 +203,19 @@ def main():
         if c:
             scelte[s["n"]] = (c["file"], c["label"])
     for s in spazio:
-        spec = SPAZIO_WIKI.get(s["n"])
-        if spec:
-            f = pageimage(spec)
-            if f and not SCARTA.search(f):
-                scelte[s["n"]] = (f, spec)
-            time.sleep(0.5)
+        specs = [x for x in (SPAZIO_WIKI.get(s["n"]),) if x] + (["cerca:" + SPAZIO_CERCA[s["n"]]] if s["n"] in SPAZIO_CERCA else [])
+        r = risolvi(specs)
+        if r:
+            scelte[s["n"]] = r
     # articoli: riga "foto: en:Titolo voce" oppure "foto: File:Nome.jpg" nel front matter
     for art in sorted((SRC / "content/articoli").glob("*.md")):
         t = art.read_text(encoding="utf-8")
         m, sl = re.search(r"^foto:\s*(.+)$", t, re.M), re.search(r"^slug:\s*(.+)$", t, re.M)
         if not (m and sl):
             continue
-        spec = m[1].strip().strip('"')
-        f = spec[5:] if spec.startswith("File:") else pageimage(spec)
-        if f:
-            scelte["articolo:" + sl[1].strip()] = (f, spec)
-        time.sleep(0.5)
+        r = risolvi([x.strip() for x in m[1].strip().strip('"').split("|")])
+        if r:
+            scelte["articolo:" + sl[1].strip()] = r
     info = info_commons([f for f, _ in scelte.values()])
     out = {}
     for n, (f, origine) in scelte.items():
