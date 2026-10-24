@@ -21,14 +21,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install markdown jinja2
+      - run: pip install markdown jinja2 pillow
       - name: Cerca le foto
         run: python _src/foto_mappa.py
       - name: Pubblica
         run: |
           git config user.name "Atomo e Orbita"
           git config user.email "redazione@atomoeorbita.it"
-          git add _src/data/foto.json
+          git add _src/data/foto.json _src/static/foto
           git stash
           git pull --rebase origin main
           git stash pop || true

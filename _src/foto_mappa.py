@@ -164,7 +164,7 @@ def info_commons(files):
         chunk = files[i:i + 40]
         d = get("https://commons.wikimedia.org/w/api.php", {
             "action": "query", "titles": "|".join("File:" + f for f in chunk),
-            "prop": "imageinfo", "iiprop": "url|extmetadata", "iiurlwidth": 1200,
+            "prop": "imageinfo", "iiprop": "url|extmetadata", "iiurlwidth": 1280,
             "format": "json", "formatversion": 2})
         norm_map = {n["to"]: n["from"] for n in d.get("query", {}).get("normalized", [])}
         for p in d.get("query", {}).get("pages", []):
@@ -185,6 +185,45 @@ def info_commons(files):
             }
         time.sleep(1)
     return res
+
+
+DEST = SRC / "static" / "foto"
+
+
+def slugify(t):
+    import unicodedata
+    t = unicodedata.normalize("NFKD", t).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-")[:60]
+
+
+def scarica(url, dest_base, sizes):
+    """Scarica la miniatura da Commons e la salva in JPEG alle larghezze indicate."""
+    from io import BytesIO
+    from PIL import Image
+    if all((DEST / f"{dest_base}-{w}.jpg").exists() for w in sizes):
+        return True
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    for i in range(5):
+        try:
+            with urllib.request.urlopen(req, timeout=90) as r:
+                data = r.read()
+            break
+        except Exception as e:  # noqa: BLE001
+            print("download retry", i, url[-60:], e)
+            time.sleep(10 * (i + 1))
+    else:
+        return False
+    im = Image.open(BytesIO(data))
+    im.seek(0)
+    im = im.convert("RGB")
+    DEST.mkdir(parents=True, exist_ok=True)
+    for w in sizes:
+        x = im.copy()
+        if x.width > w:
+            x = x.resize((w, round(x.height * w / x.width)), Image.LANCZOS)
+        x.save(DEST / f"{dest_base}-{w}.jpg", "JPEG", quality=80, optimize=True, progressive=True)
+    time.sleep(0.5)
+    return True
 
 
 def main():
@@ -216,7 +255,17 @@ def main():
         k = f.replace("_", " ")
         k = k[0].upper() + k[1:]
         if k in info:
-            out[n] = dict(info[k], origine=origine)
+            art = n.startswith("articolo:")
+            base = ("a-" if art else "m-") + slugify(n.split(":", 1)[-1] if art else n)
+            sizes = (1280, 640) if art else (480,)
+            # ogni foto prende il nome dal file di Commons: se cambia la foto, cambia il nome
+            base += "-" + slugify(k)[:20]
+            if scarica(info[k]["thumb"], base, sizes):
+                out[n] = dict(info[k], origine=origine, locale={w: f"/assets/foto/{base}-{w}.jpg" for w in sizes})
+    tenuti = {pathlib.Path(u).name for v in out.values() for u in v["locale"].values()}
+    for f in DEST.glob("*.jpg"):
+        if f.name not in tenuti:
+            f.unlink()
     print("Foto trovate:", len(out), "su", len(centrali) + len(spazio))
     (SRC / "data/foto.json").write_text(json.dumps(out, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
 

@@ -164,9 +164,9 @@ def load_articles() -> list[dict]:
             "pillar": meta.get("pillar") == "true",
         }
         f = foto.get("articolo:" + meta["slug"])
-        if f:
-            article["image"] = thumb(f["thumb"], 1200)
-            article["image_small"] = thumb(f["thumb"], 640)
+        if f and "locale" in f:
+            article["image"] = f["locale"]["1280"]
+            article["image_small"] = f["locale"]["640"]
             article["credit"] = f
         articles.append(article)
     articles.sort(key=lambda a: a["date_iso"], reverse=True)
@@ -292,8 +292,8 @@ def build() -> None:
     foto = load_foto()
     for s in centrali + spazio:
         f = foto.get(s["n"])
-        if f:
-            s["f"] = {"u": thumb(f["thumb"], 480), "p": f["file"], "a": f["autore"], "l": f["licenza"]}
+        if f and "locale" in f:
+            s["f"] = {"u": f["locale"]["480"], "p": f["file"], "a": f["autore"], "l": f["licenza"]}
     write(ROOT / "mappa" / "index.html", env.get_template("mappa.html").render(
         **base_ctx, centrali=centrali, spazio=spazio, n_foto=sum(1 for s in centrali + spazio if 'f' in s), c_sites=len(centrali),
         c_reactors=sum(c["r"] for c in centrali), page_url="/mappa/",
