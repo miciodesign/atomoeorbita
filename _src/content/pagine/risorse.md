@@ -9,6 +9,8 @@ Questa pagina raccoglie quello che consigliamo a chi vuole andare oltre i nostri
 
 ## Fonti di dati che usiamo
 
+L'elenco completo di agenzie, autorità ed enti di ricerca, italiani e internazionali, con i link ai siti ufficiali, è nella pagina [Organizzazioni](/organizzazioni/).
+
 - **IAEA PRIS** (Power Reactor Information System): il database ufficiale dei reattori nucleari nel mondo, in esercizio, in costruzione e chiusi.
 - **World Nuclear Association**: schede paese e dati sul ciclo del combustibile.
 - **ESA** e **ASI**: programmi, bilanci e documenti ufficiali delle agenzie spaziali europea e italiana.
