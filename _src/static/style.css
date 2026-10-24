@@ -241,3 +241,4 @@ a.dossier-card:first-child:hover h3{color:var(--accent)}
 .pillar-card.has-img{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:28px;align-items:center}
 .pillar-img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:6px;background:var(--line)}
 @media (max-width:720px){.pillar-card.has-img{grid-template-columns:1fr}.pillar-img{order:-1;aspect-ratio:16/9}}
+.hero-img img{max-height:480px;width:100%}
