@@ -1,0 +1,34 @@
+name: Foto della mappa
+
+# Cerca su Wikidata e Wikimedia Commons le foto dei punti della mappa
+# e salva link, autore e licenza in _src/data/foto.json.
+on:
+  push:
+    paths:
+      - "_src/foto_mappa.py"
+      - ".github/workflows/foto.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  foto:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Cerca le foto
+        run: python _src/foto_mappa.py
+      - name: Pubblica
+        run: |
+          git config user.name "Atomo e Orbita"
+          git config user.email "redazione@atomoeorbita.it"
+          git add _src/data/foto.json
+          git stash
+          git pull --rebase origin main
+          git stash pop || true
+          git add _src/data/foto.json
+          if git diff --cached --quiet; then echo "Nessun cambiamento"; else git commit -m "Foto della mappa da Wikimedia Commons"; git push; fi
