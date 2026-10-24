@@ -1,6 +1,7 @@
 ---
 title: "Le scorie: dove sono oggi e dove andranno"
 slug: scorie-dove-sono-dove-andranno
+foto: en:Onkalo spent nuclear fuel repository
 category: atomo
 date: 2026-10-18
 description: L'Italia ha 33.766 metri cubi di rifiuti radioattivi sparsi in decine di depositi temporanei, un Deposito nazionale che aspetta un sito dal 2021 e combustibile esaurito all'estero che prima o poi tornerà. I numeri, senza allarmismi e senza minimizzare.

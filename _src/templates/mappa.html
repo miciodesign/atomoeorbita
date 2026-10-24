@@ -23,7 +23,7 @@
 
 <section class="wrap section">
   <div class="notice">
-    <p><strong>Come leggere i dati.</strong> Le centrali vengono dal database aperto <a href="https://github.com/cristianst85/GeoNuclearData" rel="noopener" target="_blank">GeoNuclearData</a> (licenza ODbL), costruito sui dati IAEA PRIS aggiornati al 2 marzo 2024. Lo abbiamo corretto per i cambiamenti successivi che abbiamo potuto verificare: l'entrata in servizio di Flamanville 3, Vogtle 4, Barakah 4 e Mochovce 4 e la chiusura di Doel 1 e 2, Tihange 1, Maanshan 1 e 2, Pickering 1 e 4. Restano differenze in tre paesi rispetto ai dati di ottobre 2026: <strong>Cina</strong> (qui 56 reattori, in realtà 65), <strong>India</strong> (23 invece di 24) e <strong>Russia</strong> (37 invece di 34). Il totale aggiornato è nella scheda <a href="/numeri/reattori-nel-mondo/">Reattori nel mondo</a>. In Giappone molti reattori risultano fermi in attesa di riavvio: alcuni potrebbero essere ripartiti dopo il 2024. Le posizioni dei siti spaziali sono indicative. I dati corretti sono scaricabili, con la stessa licenza ODbL: <a href="/assets/dati/centrali.json">centrali.json</a> e <a href="/assets/dati/spazio.json">spazio.json</a>.</p>
+    <p><strong>Come leggere i dati.</strong> Le centrali vengono dal database aperto <a href="https://github.com/cristianst85/GeoNuclearData" rel="noopener" target="_blank">GeoNuclearData</a> (licenza ODbL), costruito sui dati IAEA PRIS aggiornati al 2 marzo 2024. Lo abbiamo corretto per i cambiamenti successivi che abbiamo potuto verificare: l'entrata in servizio di Flamanville 3, Vogtle 4, Barakah 4 e Mochovce 4 e la chiusura di Doel 1 e 2, Tihange 1, Maanshan 1 e 2, Pickering 1 e 4. Restano differenze in tre paesi rispetto ai dati di ottobre 2026: <strong>Cina</strong> (qui 56 reattori, in realtà 65), <strong>India</strong> (23 invece di 24) e <strong>Russia</strong> (37 invece di 34). Il totale aggiornato è nella scheda <a href="/numeri/reattori-nel-mondo/">Reattori nel mondo</a>. In Giappone molti reattori risultano fermi in attesa di riavvio: alcuni potrebbero essere ripartiti dopo il 2024. Le posizioni dei siti spaziali sono indicative. {% if n_foto %}Le foto ({{ n_foto }}) vengono da Wikimedia Commons: autore e licenza sono indicati sotto ciascuna, con il link alla pagina originale.{% endif %} I dati corretti sono scaricabili, con la stessa licenza ODbL: <a href="/assets/dati/centrali.json">centrali.json</a> e <a href="/assets/dati/spazio.json">spazio.json</a>.</p>
   </div>
 </section>
 
@@ -66,19 +66,24 @@
   map.on("focus", function () { map.scrollWheelZoom.enable(); });
   map.on("blur", function () { map.scrollWheelZoom.disable(); });
   function esc(t) { var d = document.createElement("div"); d.textContent = t; return d.innerHTML; }
+  function foto(s) {
+    if (!s.f) return "";
+    return '<figure class="map-photo"><img src="' + esc(s.f.u) + '" alt="' + esc(s.n) + '" loading="lazy" width="240" height="150">' +
+      '<figcaption>Foto: <a href="' + esc(s.f.p) + '" rel="noopener" target="_blank">' + esc(s.f.a) + '</a>, ' + esc(s.f.l) + ', Wikimedia Commons</figcaption></figure>';
+  }
   function fmt(n) { return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "."); }
   var nuc = L.layerGroup(), launch = L.layerGroup(), dev = L.layerGroup(), ita = L.layerGroup();
   C.forEach(function (s) {
     var off = s.s === s.r;
     var r = Math.max(4, Math.min(15, Math.sqrt(s.mw) / 6));
     var m = L.circleMarker([s.lat, s.lon], { radius: r, weight: 1, color: off ? "#5E7C78" : "#3DDCC8", fillColor: off ? "#5E7C78" : "#3DDCC8", fillOpacity: off ? 0.35 : 0.6 });
-    m.bindPopup("<strong>" + esc(s.n) + "</strong><br>" + esc(s.c) + "<br>" + s.r + (s.r === 1 ? " reattore" : " reattori") + (s.s ? " (" + s.s + " fermi nei dati 2024)" : "") + "<br>" + fmt(s.mw) + " MWe · " + esc(s.t));
+    m.bindPopup(foto(s) + "<strong>" + esc(s.n) + "</strong><br>" + esc(s.c) + "<br>" + s.r + (s.r === 1 ? " reattore" : " reattori") + (s.s ? " (" + s.s + " fermi nei dati 2024)" : "") + "<br>" + fmt(s.mw) + " MWe · " + esc(s.t), { maxWidth: 260 });
     m.addTo(nuc);
   });
   var col = { lancio: "#F2A33A", sviluppo: "#E8653A", italia: "#4FB3E8" };
   S.forEach(function (s) {
     var m = L.circleMarker([s.lat, s.lon], { radius: 7, weight: 2, color: "#121417", fillColor: col[s.k], fillOpacity: 0.95 });
-    m.bindPopup("<strong>" + esc(s.n) + "</strong><br>" + esc(s.c) + "<br>" + esc(s.d));
+    m.bindPopup(foto(s) + "<strong>" + esc(s.n) + "</strong><br>" + esc(s.c) + "<br>" + esc(s.d), { maxWidth: 260 });
     m.addTo(s.k === "lancio" ? launch : s.k === "sviluppo" ? dev : ita);
   });
   nuc.addTo(map); launch.addTo(map); dev.addTo(map); ita.addTo(map);

@@ -1,6 +1,7 @@
 ---
 title: SMR, cosa sono e perché l'Europa ci scommette
 slug: smr-cosa-sono-europa
+foto: en:Akademik Lomonosov
 category: atomo
 date: 2026-10-18
 description: I piccoli reattori modulari promettono costi e tempi più bassi del nucleare tradizionale. Cosa sono davvero, chi li sta costruendo in Europa, cosa ha scelto l'Italia e cosa manca ancora per vederli funzionare.

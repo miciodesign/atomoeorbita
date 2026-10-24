@@ -16,7 +16,7 @@
     <p class="meta">Redazione Atomo e Orbita · {{ a.date_human }}{% if a.updated_iso != a.date_iso %} · aggiornato il {{ a.updated_human }}{% endif %} · {{ a.minutes }} minuti di lettura</p>
   </header>
 
-  {% if a.image %}<figure class="hero-img"><img src="{{ a.image }}" alt="{{ a.image_alt or a.title }}" width="1200" height="700" loading="eager"></figure>{% endif %}
+  {% if a.image %}<figure class="hero-img"><img src="{{ a.image }}" alt="{{ a.image_alt or a.title }}" width="1200" height="675" loading="eager">{% if a.credit %}<figcaption>Foto: <a href="{{ a.credit.file }}" rel="noopener" target="_blank">{{ a.credit.autore }}</a>, {{ a.credit.licenza }}, via Wikimedia Commons</figcaption>{% endif %}</figure>{% endif %}
 
   <div class="article-grid">
     {% if a.toc %}
@@ -40,7 +40,7 @@
   <h2 class="h3">Nella stessa sezione</h2>
   <div class="post-list">
     {% for r in related %}
-    <article class="post-card">
+    <article class="post-card{% if r.image_small %} has-img{% endif %}">{% if r.image_small %}<a class="post-thumb" href="{{ r.url }}" tabindex="-1" aria-hidden="true"><img src="{{ r.image_small }}" alt="" loading="lazy" width="640" height="360"></a>{% endif %}
       <p class="post-cat">{{ r.format_name }} · {{ r.minutes }} min</p>
       <h3><a href="{{ r.url }}">{{ r.title }}</a></h3>
       <p class="muted">{{ r.description }}</p>

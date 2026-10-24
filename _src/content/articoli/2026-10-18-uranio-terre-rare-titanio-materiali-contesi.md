@@ -1,6 +1,7 @@
 ---
 title: "Uranio, terre rare e titanio: i materiali che atomo e orbita si contendono"
 slug: uranio-terre-rare-titanio-materiali-contesi
+foto: en:Yellowcake
 category: confine
 date: 2026-10-18
 description: Nucleare e spazio dipendono dalle stesse filiere, e quasi tutte passano da Russia e Cina. Dall'arricchimento dell'uranio al titanio dei razzi, dalle terre rare dei satelliti allo xeno dei propulsori: dove l'Europa è esposta, con i numeri.

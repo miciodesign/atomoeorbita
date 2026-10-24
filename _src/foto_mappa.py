@@ -44,6 +44,9 @@ SPAZIO_WIKI = {
     "Salto di Quirra (Perdasdefogu)": "it:Poligono sperimentale e di addestramento interforze di Salto di Quirra",
 }
 
+# Abbinamenti verificati a mano come sbagliati (la foto mostra un impianto vicino o un modellino).
+ESCLUSI = {"Lingao", "Fangjiashan", "Tarapur"}
+
 SCARTA = re.compile(r"(logo|locator|location|map|mappa|karte|flag|emblem|seal|insignia|patch|\.svg$)", re.I)
 
 
@@ -125,7 +128,7 @@ def info_commons(files):
         chunk = files[i:i + 40]
         d = get("https://commons.wikimedia.org/w/api.php", {
             "action": "query", "titles": "|".join("File:" + f for f in chunk),
-            "prop": "imageinfo", "iiprop": "url|extmetadata", "iiurlwidth": 480,
+            "prop": "imageinfo", "iiprop": "url|extmetadata", "iiurlwidth": 1200,
             "format": "json", "formatversion": 2})
         norm_map = {n["to"]: n["from"] for n in d.get("query", {}).get("normalized", [])}
         for p in d.get("query", {}).get("pages", []):
@@ -136,7 +139,7 @@ def info_commons(files):
             lic = pulisci(md.get("LicenseShortName", {}).get("value"))
             if not lic:
                 continue
-            key = norm_map.get(p["title"], p["title"])[5:]
+            key = p["title"][5:]
             res[key] = {
                 "thumb": ii.get("thumburl") or ii["url"],
                 "file": ii.get("descriptionurl"),
@@ -154,7 +157,7 @@ def main():
     scelte = {}
     cand = centrali_wikidata()
     for s in centrali:
-        c = scegli_centrale(s, cand)
+        c = None if s["n"] in ESCLUSI else scegli_centrale(s, cand)
         if c:
             scelte[s["n"]] = (c["file"], c["label"])
     for s in spazio:
@@ -164,10 +167,22 @@ def main():
             if f and not SCARTA.search(f):
                 scelte[s["n"]] = (f, spec)
             time.sleep(0.5)
+    # articoli: riga "foto: en:Titolo voce" oppure "foto: File:Nome.jpg" nel front matter
+    for art in sorted((SRC / "content/articoli").glob("*.md")):
+        t = art.read_text(encoding="utf-8")
+        m, sl = re.search(r"^foto:\s*(.+)$", t, re.M), re.search(r"^slug:\s*(.+)$", t, re.M)
+        if not (m and sl):
+            continue
+        spec = m[1].strip().strip('"')
+        f = spec[5:] if spec.startswith("File:") else pageimage(spec)
+        if f:
+            scelte["articolo:" + sl[1].strip()] = (f, spec)
+        time.sleep(0.5)
     info = info_commons([f for f, _ in scelte.values()])
     out = {}
     for n, (f, origine) in scelte.items():
         k = f.replace("_", " ")
+        k = k[0].upper() + k[1:]
         if k in info:
             out[n] = dict(info[k], origine=origine)
     print("Foto trovate:", len(out), "su", len(centrali) + len(spazio))

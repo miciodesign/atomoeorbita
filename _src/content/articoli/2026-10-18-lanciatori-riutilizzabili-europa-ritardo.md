@@ -1,6 +1,7 @@
 ---
 title: "Lanciatori riutilizzabili: la tecnologia che ha cambiato i conti, e l'Europa che insegue"
 slug: lanciatori-riutilizzabili-europa-ritardo
+foto: en:Falcon 9
 category: orbita
 date: 2026-10-18
 description: Far atterrare un razzo e rilanciarlo ha diviso per dieci il costo di andare in orbita. Come funziona, perché SpaceX è sola, dove sta l'Europa con Ariane 6, Themis e la Launcher Challenge, e cosa può fare l'Italia con Vega.

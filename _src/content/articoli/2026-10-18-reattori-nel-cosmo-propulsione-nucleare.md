@@ -1,6 +1,7 @@
 ---
 title: "Reattori nel cosmo: la propulsione nucleare per Marte e la Luna"
 slug: reattori-nel-cosmo-propulsione-nucleare
+foto: en:NERVA
 category: confine
 date: 2026-10-18
 description: Gli Stati Uniti hanno cancellato il razzo nucleare DRACO e promesso un reattore sulla Luna entro il 2030; la Cina ne vuole uno entro metà anni 2030; l'Europa punta al 2035. Cosa c'è dietro, come funziona davvero un reattore nello spazio e perché sessant'anni di tentativi hanno prodotto un solo volo.

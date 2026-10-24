@@ -34,7 +34,7 @@
     <span class="muted small">L'analisi breve della settimana · <a href="/il-punto/">tutti i numeri</a></span>
   </div>
   {% if punto %}
-  <article class="punto">
+  <article class="punto">{% if punto.image_small %}<a class="punto-img" href="{{ punto.url }}" tabindex="-1" aria-hidden="true"><img src="{{ punto.image_small }}" alt="" loading="lazy" width="640" height="360"></a>{% endif %}
     <div>
       <p class="post-cat">{{ punto.category_obj.name }} · {{ punto.date_human }}</p>
       <h3 class="punto-title"><a href="{{ punto.url }}">{{ punto.title }}</a></h3>
@@ -116,7 +116,7 @@
   </div>
   <div class="post-list">
     {% for a in spiegati %}
-    <article class="post-card">
+    <article class="post-card{% if a.image_small %} has-img{% endif %}">{% if a.image_small %}<a class="post-thumb" href="{{ a.url }}" tabindex="-1" aria-hidden="true"><img src="{{ a.image_small }}" alt="" loading="lazy" width="640" height="360"></a>{% endif %}
       <p class="post-cat">{{ a.category_obj.name }} · {{ a.minutes }} min</p>
       <h3><a href="{{ a.url }}">{{ a.title }}</a></h3>
       <p class="muted">{{ a.description }}</p>

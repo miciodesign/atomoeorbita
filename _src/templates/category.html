@@ -23,7 +23,7 @@
   <h2 class="h3">Tutti gli articoli</h2>
   <div class="post-list">
     {% for a in others %}
-    <article class="post-card">
+    <article class="post-card{% if a.image_small %} has-img{% endif %}">{% if a.image_small %}<a class="post-thumb" href="{{ a.url }}" tabindex="-1" aria-hidden="true"><img src="{{ a.image_small }}" alt="" loading="lazy" width="640" height="360"></a>{% endif %}
       <p class="post-cat">{{ a.format_name }} · {{ a.date_human }} · {{ a.minutes }} min</p>
       <h3><a href="{{ a.url }}">{{ a.title }}</a></h3>
       <p class="muted">{{ a.description }}</p>

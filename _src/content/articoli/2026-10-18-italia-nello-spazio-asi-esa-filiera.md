@@ -1,6 +1,7 @@
 ---
 title: "L'Italia nello spazio: ASI, ESA e la filiera, spiegati a chi arriva da fuori"
 slug: italia-nello-spazio-asi-esa-filiera
+foto: en:Columbus (ISS module)
 category: orbita
 date: 2026-10-18
 updated: 2026-10-23

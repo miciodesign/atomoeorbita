@@ -124,7 +124,18 @@ def clean_output() -> None:
 
 
 # ---------------------------------------------------------------- content
+def load_foto() -> dict:
+    p = SRC / "data" / "foto.json"
+    return json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
+
+
+def thumb(url: str, width: int) -> str:
+    """Le miniature di Commons hanno la larghezza nel nome: /1200px-File.jpg."""
+    return re.sub(r"/\d+px-", f"/{width}px-", url, count=1)
+
+
 def load_articles() -> list[dict]:
+    foto = load_foto()
     articles = []
     for path in sorted((CONTENT / "articoli").glob("*.md")):
         meta, body = parse_front_matter(path.read_text(encoding="utf-8"))
@@ -149,6 +160,11 @@ def load_articles() -> list[dict]:
             "minutes": reading_time(body),
             "pillar": meta.get("pillar") == "true",
         }
+        f = foto.get("articolo:" + meta["slug"])
+        if f:
+            article["image"] = f["thumb"]
+            article["image_small"] = thumb(f["thumb"], 640)
+            article["credit"] = f
         articles.append(article)
     articles.sort(key=lambda a: a["date_iso"], reverse=True)
     return articles
@@ -270,8 +286,13 @@ def build() -> None:
     data_dir = SRC / "data"
     centrali = json.loads((data_dir / "centrali.json").read_text(encoding="utf-8"))["sites"]
     spazio = json.loads((data_dir / "spazio.json").read_text(encoding="utf-8"))["sites"]
+    foto = load_foto()
+    for s in centrali + spazio:
+        f = foto.get(s["n"])
+        if f:
+            s["f"] = {"u": thumb(f["thumb"], 480), "p": f["file"], "a": f["autore"], "l": f["licenza"]}
     write(ROOT / "mappa" / "index.html", env.get_template("mappa.html").render(
-        **base_ctx, centrali=centrali, spazio=spazio, c_sites=len(centrali),
+        **base_ctx, centrali=centrali, spazio=spazio, n_foto=sum(1 for s in centrali + spazio if 'f' in s), c_sites=len(centrali),
         c_reactors=sum(c["r"] for c in centrali), page_url="/mappa/",
         title=f"Mappa delle centrali nucleari e delle basi spaziali · {CONFIG['name']}",
         description="Mappa interattiva delle centrali nucleari operabili nel mondo, degli spazioporti e dei siti spaziali italiani, con fonti e limiti dei dati."))
