@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mappa delle centrali nucleari e delle basi spaziali · Atomo e Orbita</title>
+<meta name="description" content="Mappa interattiva delle centrali nucleari operabili nel mondo, degli spazioporti e dei siti spaziali italiani, con fonti e limiti dei dati.">
+<link rel="canonical" href="https://atomoeorbita.it/mappa/">
+<meta property="og:site_name" content="Atomo e Orbita">
+<meta property="og:title" content="Mappa delle centrali nucleari e delle basi spaziali · Atomo e Orbita">
+<meta property="og:description" content="Mappa interattiva delle centrali nucleari operabili nel mondo, degli spazioporti e dei siti spaziali italiani, con fonti e limiti dei dati.">
+<meta property="og:url" content="https://atomoeorbita.it/mappa/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://atomoeorbita.it/assets/og-default.png"><meta property="og:locale" content="it_IT">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#121417">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="Atomo e Orbita" href="/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="/assets/style.css?v=2026-10-24">
+<link rel="stylesheet" href="/assets/leaflet/leaflet.css?v=2026-10-24">
+<script src="/assets/leaflet/leaflet.js?v=2026-10-24"></script>
+</head>
+<body>
+<a class="skip" href="#main">Vai al contenuto</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="/" aria-label="Atomo e Orbita, home">
+      <svg width="36" height="36" viewBox="0 0 120 120" aria-hidden="true"><g transform="rotate(-30 60 60)"><ellipse cx="60" cy="60" rx="52" ry="20" fill="none" stroke="currentColor" stroke-width="5"/><circle cx="112" cy="60" r="7" fill="currentColor"/></g><circle cx="60" cy="60" r="14" fill="var(--accent)"/></svg>
+      <span>Atomo <em>&amp;</em> Orbita</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav" onclick="var n=document.getElementById('nav');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">Menu</button>
+    <nav id="nav" class="nav" aria-label="Sezioni">
+      <a href="/atomo/">Atomo</a>
+      <a href="/orbita/">Orbita</a>
+      <a href="/confine/">Confine</a>
+      <a href="/dossier/">Dossier</a>
+      <a href="/numeri/">Numeri</a>
+      <a href="/mappa/" aria-current="page">Mappa</a>
+      <a class="nav-cta" href="/newsletter/">Newsletter</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="wrap section">
+  <nav class="crumbs" aria-label="Percorso"><a href="/">Home</a> › <a href="/numeri/">Numeri</a> › <span>Mappa</span></nav>
+  <h1>La mappa: centrali nucleari e basi spaziali</h1>
+  <p class="lead">Le 189 centrali nucleari operabili nel mondo, con 436 reattori, e i principali spazioporti, più i siti spaziali italiani. Clicca su un punto per i dettagli; usa il riquadro in alto a destra per mostrare o nascondere i livelli.</p>
+</section>
+
+<section class="wrap">
+  <div id="map" class="map" role="region" aria-label="Mappa interattiva di centrali nucleari e basi spaziali"></div>
+  <ul class="map-legend" aria-label="Legenda">
+    <li><span class="dot dot-nuc" aria-hidden="true"></span> Centrale nucleare in esercizio (la dimensione è proporzionale alla potenza)</li>
+    <li><span class="dot dot-nuc-off" aria-hidden="true"></span> Centrale con tutti i reattori fermi nei dati di riferimento</li>
+    <li><span class="dot dot-launch" aria-hidden="true"></span> Base di lancio orbitale</li>
+    <li><span class="dot dot-dev" aria-hidden="true"></span> Spazioporto in sviluppo o sito di test</li>
+    <li><span class="dot dot-it" aria-hidden="true"></span> Sito spaziale italiano</li>
+  </ul>
+</section>
+
+<section class="wrap section">
+  <div class="notice">
+    <p><strong>Come leggere i dati.</strong> Le centrali vengono dal database aperto <a href="https://github.com/cristianst85/GeoNuclearData" rel="noopener" target="_blank">GeoNuclearData</a> (licenza ODbL), costruito sui dati IAEA PRIS aggiornati al 2 marzo 2024. Lo abbiamo corretto per i cambiamenti successivi che abbiamo potuto verificare: l'entrata in servizio di Flamanville 3, Vogtle 4, Barakah 4 e Mochovce 4 e la chiusura di Doel 1 e 2, Tihange 1, Maanshan 1 e 2, Pickering 1 e 4. Restano differenze in tre paesi rispetto ai dati di ottobre 2026: <strong>Cina</strong> (qui 56 reattori, in realtà 65), <strong>India</strong> (23 invece di 24) e <strong>Russia</strong> (37 invece di 34). Il totale aggiornato è nella scheda <a href="/numeri/reattori-nel-mondo/">Reattori nel mondo</a>. In Giappone molti reattori risultano fermi in attesa di riavvio: alcuni potrebbero essere ripartiti dopo il 2024. Le posizioni dei siti spaziali sono indicative. I dati corretti sono scaricabili, con la stessa licenza ODbL: <a href="/assets/dati/centrali.json">centrali.json</a> e <a href="/assets/dati/spazio.json">spazio.json</a>.</p>
+  </div>
+</section>
+
+<section class="wrap section">
+  <h2 class="h3">Le centrali più grandi</h2>
+  <div class="table-wrap">
+    <table class="data-table">
+      <thead><tr><th>Centrale</th><th>Paese</th><th>Reattori</th><th>Potenza (MWe)</th><th>Tipo</th></tr></thead>
+      <tbody>
+        <tr><td>Kashiwazaki Kariwa</td><td>Giappone</td><td>7 (7 fermi)</td><td>7.965</td><td>BWR</td></tr>
+        <tr><td>Hongyanhe</td><td>Cina</td><td>6</td><td>6.366</td><td>PWR</td></tr>
+        <tr><td>Bruce</td><td>Canada</td><td>8</td><td>6.225</td><td>PHWR</td></tr>
+        <tr><td>Fuqing</td><td>Cina</td><td>6</td><td>6.150</td><td>PWR</td></tr>
+        <tr><td>Tianwan</td><td>Cina</td><td>6</td><td>6.100</td><td>PWR</td></tr>
+        <tr><td>Yangjiang</td><td>Cina</td><td>6</td><td>6.042</td><td>PWR</td></tr>
+        <tr><td>Zaporozhye</td><td>Ucraina</td><td>6</td><td>5.700</td><td>PWR</td></tr>
+        <tr><td>Hanul</td><td>Corea del Sud</td><td>6</td><td>5.653</td><td>PWR</td></tr>
+        <tr><td>Hanbit</td><td>Corea del Sud</td><td>6</td><td>5.649</td><td>PWR</td></tr>
+        <tr><td>Gravelines</td><td>Francia</td><td>6</td><td>5.460</td><td>PWR</td></tr>
+        <tr><td>Paluel</td><td>Francia</td><td>4</td><td>5.320</td><td>PWR</td></tr>
+        <tr><td>Barakah</td><td>Emirati Arabi Uniti</td><td>4</td><td>5.240</td><td>PWR</td></tr>
+        <tr><td>Cattenom</td><td>Francia</td><td>4</td><td>5.200</td><td>PWR</td></tr>
+        <tr><td>Vogtle</td><td>Stati Uniti</td><td>4</td><td>4.457</td><td>PWR</td></tr>
+        <tr><td>Flamanville</td><td>Francia</td><td>3</td><td>4.290</td><td>PWR</td></tr>
+        <tr><td>Ningde</td><td>Cina</td><td>4</td><td>4.072</td><td>PWR</td></tr>
+        <tr><td>Lingao</td><td>Cina</td><td>4</td><td>3.914</td><td>PWR</td></tr>
+        <tr><td>Palo Verde</td><td>Stati Uniti</td><td>3</td><td>3.829</td><td>PWR</td></tr>
+        <tr><td>Balakovo</td><td>Russia</td><td>4</td><td>3.800</td><td>PWR</td></tr>
+        <tr><td>Kalinin</td><td>Russia</td><td>4</td><td>3.800</td><td>PWR</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <details class="all-list">
+    <summary>Tutte le 189 centrali, per paese</summary>
+    <p><strong>Argentina</strong>: Atucha (2), Embalse (1)</p>
+    <p><strong>Armenia</strong>: Armenian (1)</p>
+    <p><strong>Belgio</strong>: Doel (1), Tihange (1)</p>
+    <p><strong>Bielorussia</strong>: Belarusian (2)</p>
+    <p><strong>Brasile</strong>: Angra (2)</p>
+    <p><strong>Bulgaria</strong>: Kozloduy (2)</p>
+    <p><strong>Canada</strong>: Bruce (8), Darlington (4), Pickering (4), Point Lepreau (1)</p>
+    <p><strong>Cina</strong>: CEFR (1), Changjiang (2), Daya Bay (2), Fangchenggang (3), Fangjiashan (2), Fuqing (6), Haiyang (2), Hongyanhe (6), Lingao (4), Ningde (4), Qinshan (1), Qinshan-2 (4), Qinshan-3 (2), Sanmen (2), Shidao Bay (1), Taishan (2), Tianwan (6), Yangjiang (6)</p>
+    <p><strong>Corea del Sud</strong>: Hanbit (6), Hanul (6), Kori (3), Saeul (2), Shin-Hanul (2), Shin-Kori (2), Shin-Wolsong (2), Wolsong (3)</p>
+    <p><strong>Emirati Arabi Uniti</strong>: Barakah (4)</p>
+    <p><strong>Finlandia</strong>: Loviisa (2), Olkiluoto (3)</p>
+    <p><strong>Francia</strong>: Belleville (2), Blayais (4), Bugey (4), Cattenom (4), Chinon-B1 (1), Chinon-B2 (1), Chinon-B3 (1), Chinon-B4 (1), Chooz-B1 (1), Chooz-B2 (1), Civaux (2), Cruas (4), Dampierre (4), Flamanville (3), Golfech (2), Gravelines (6), Nogent (2), Paluel (4), Penly (2), St. Alban (2), St. Laurent-B1 (1), St. Laurent-B2 (1), Tricastin (4)</p>
+    <p><strong>Giappone</strong>: Genkai (2), Hamaoka (3), Higashi Dori (1), Ikata (1), Kashiwazaki Kariwa (7), Mihama (1), Ohi (2), Onagawa (2), Sendai (2), Shika (2), Shimane (1), Takahama (4), Tokai (1), Tomari (3), Tsuruga (1)</p>
+    <p><strong>India</strong>: Kaiga (4), Kakrapar (3), Kalpakkam (2), Kudankulam (2), Narora (2), Rajasthan (6), Tarapur (4)</p>
+    <p><strong>Iran</strong>: Bushehr (1)</p>
+    <p><strong>Messico</strong>: Laguna Verde (2)</p>
+    <p><strong>Paesi Bassi</strong>: Borssele (1)</p>
+    <p><strong>Pakistan</strong>: CHASNUPP (4), KANUPP (2)</p>
+    <p><strong>Regno Unito</strong>: Hartlepool-A1 (1), Hartlepool-A2 (1), Heysham-A1 (1), Heysham-A2 (1), Heysham-B1 (1), Heysham-B2 (1), Sizewell-B (1), Torness (2)</p>
+    <p><strong>Repubblica Ceca</strong>: Dukovany (4), Temelin (2)</p>
+    <p><strong>Romania</strong>: Cernavoda (2)</p>
+    <p><strong>Russia</strong>: Akademik Lomonosov (2), Balakovo (4), Beloyarsk (2), Bilibino (3), Kalinin (4), Kola (4), Kursk (3), Leningrad (2), Leningrad 2 (2), Novovoronezh (2), Novovoronezh 2 (2), Rostov (4), Smolensk (3)</p>
+    <p><strong>Slovacchia</strong>: Bohunice (2), Mochovce (4)</p>
+    <p><strong>Slovenia</strong>: Krsko (1)</p>
+    <p><strong>Spagna</strong>: Almaraz (2), Asco (2), Cofrentes (1), Trillo (1), Vandellos (1)</p>
+    <p><strong>Stati Uniti</strong>: Arkansas Nuclear One (2), Beaver Valley (2), Braidwood (2), Browns Ferry (3), Brunswick (2), Byron (2), Callaway (1), Calvert Cliffs (2), Catawba (2), Clinton (1), Columbia (1), Comanche Peak (2), Cooper (1), Davis Besse (1), Diablo Canyon (2), Donald Cook (2), Dresden (2), Enrico Fermi (1), Farley (2), FitzPatrick (1), Grand Gulf (1), H. B. Robinson (1), Hatch (2), Hope Creek (1), LaSalle (2), Limerick (2), McGuire (2), Millstone (2), Monticello (1), Nine Mile Point (2), North Anna (2), Oconee (3), Palo Verde (3), Peach Bottom (2), Perry (1), Point Beach (2), Prairie Island (2), Quad Cities (2), R. E. Ginna (1), River Bend (1), Salem (2), Seabrook (1), Sequoyah (2), Shearon Harris (1), South Texas (2), St. Lucie (2), Summer (1), Surry (2), Susquehanna (2), Turkey Point (2), Vogtle (4), Waterford (1), Watts Bar (2), Wolf Creek (1)</p>
+    <p><strong>Sudafrica</strong>: Koeberg (2)</p>
+    <p><strong>Svezia</strong>: Forsmark (3), Oskarshamn (1), Ringhals (2)</p>
+    <p><strong>Svizzera</strong>: Beznau (2), Goesgen (1), Leibstadt (1)</p>
+    <p><strong>Ucraina</strong>: Khmelnitski (2), Rivne (4), South Ukraine (3), Zaporozhye (6)</p>
+    <p><strong>Ungheria</strong>: Paks (4)</p>
+  </details>
+  <details class="all-list">
+    <summary>Tutti i siti spaziali</summary>
+    <p><strong>Centre Spatial Guyanais (Kourou)</strong>, Guyana francese (Francia). Lo spazioporto europeo: Ariane 6 e Vega C. Gestito da CNES, ESA e Arianespace; Avio vi assembla i Vega.</p>
+    <p><strong>Cape Canaveral e Kennedy Space Center</strong>, Stati Uniti. La base più attiva al mondo: Falcon 9, Falcon Heavy, Vulcan, New Glenn, SLS e Artemis.</p>
+    <p><strong>Vandenberg</strong>, Stati Uniti. Base della Space Force in California per le orbite polari e sole-sincrone.</p>
+    <p><strong>Wallops (MARS)</strong>, Stati Uniti. Base NASA in Virginia: Antares, Electron, razzi sonda.</p>
+    <p><strong>Starbase (Boca Chica)</strong>, Stati Uniti. Il sito di sviluppo e lancio di Starship di SpaceX, in Texas.</p>
+    <p><strong>Pacific Spaceport Complex</strong>, Stati Uniti (Alaska). Spazioporto commerciale sull&#39;isola di Kodiak, per orbite polari.</p>
+    <p><strong>Rocket Lab Launch Complex 1</strong>, Nuova Zelanda. Penisola di Mahia: il sito privato da cui parte il piccolo lanciatore Electron.</p>
+    <p><strong>Baikonur</strong>, Kazakistan (in affitto alla Russia). Il primo cosmodromo della storia, da cui partono le Soyuz con equipaggio verso la ISS.</p>
+    <p><strong>Vostochny</strong>, Russia. Il nuovo cosmodromo russo in Estremo Oriente, pensato per sostituire Baikonur.</p>
+    <p><strong>Plesetsk</strong>, Russia. Il cosmodromo militare russo, nel nord del paese.</p>
+    <p><strong>Jiuquan</strong>, Cina. Nel deserto del Gobi: da qui partono gli astronauti cinesi verso la stazione Tiangong.</p>
+    <p><strong>Taiyuan</strong>, Cina. Base per le orbite polari e sole-sincrone.</p>
+    <p><strong>Xichang</strong>, Cina. Base per l&#39;orbita geostazionaria e le missioni lunari Chang&#39;e.</p>
+    <p><strong>Wenchang</strong>, Cina. Sull&#39;isola di Hainan, per i lanciatori pesanti Lunga Marcia 5 e le missioni lunari e marziane.</p>
+    <p><strong>Tanegashima</strong>, Giappone. Il principale centro di lancio della JAXA, per H3.</p>
+    <p><strong>Uchinoura</strong>, Giappone. Base JAXA per lanciatori a solido e razzi sonda.</p>
+    <p><strong>Satish Dhawan (Sriharikota)</strong>, India. Lo spazioporto dell&#39;ISRO, da cui sono partite le missioni lunari Chandrayaan.</p>
+    <p><strong>Naro</strong>, Corea del Sud. Il centro spaziale coreano, base del lanciatore Nuri.</p>
+    <p><strong>Imam Khomeini (Semnan)</strong>, Iran. Il principale sito di lancio iraniano.</p>
+    <p><strong>Sohae</strong>, Corea del Nord. Il sito di lancio nordcoreano sulla costa occidentale.</p>
+    <p><strong>Palmachim</strong>, Israele. Base aerea da cui Israele lancia verso ovest, sul Mediterraneo.</p>
+    <p><strong>Alcântara</strong>, Brasile. Vicinissimo all&#39;equatore, il sito brasiliano aperto anche a operatori stranieri.</p>
+    <p><strong>Andøya Spaceport</strong>, Norvegia. Il primo spazioporto orbitale dell&#39;Europa continentale, usato da Isar Aerospace.</p>
+    <p><strong>SaxaVord</strong>, Regno Unito. Spazioporto in costruzione nelle isole Shetland, per piccoli lanciatori.</p>
+    <p><strong>Esrange</strong>, Svezia. Vicino a Kiruna: razzi sonda e test, tra cui il dimostratore riutilizzabile europeo Themis.</p>
+    <p><strong>Centro spaziale Luigi Broglio (Malindi)</strong>, Kenya (gestito dall&#39;ASI). La base italiana in Kenya, storica sede del programma San Marco, oggi stazione di terra per il tracciamento dei satelliti.</p>
+    <p><strong>Spazioporto di Grottaglie</strong>, Italia. L&#39;aeroporto in provincia di Taranto designato come primo spazioporto italiano, per voli suborbitali. Non ancora operativo.</p>
+    <p><strong>Avio, Colleferro</strong>, Italia. Lo stabilimento dove si costruiscono il lanciatore Vega e i motori a solido degli Ariane.</p>
+    <p><strong>Centro spaziale del Fucino</strong>, Italia. Il teleporto di Telespazio in Abruzzo, designato centro di controllo della costellazione europea IRIS².</p>
+    <p><strong>ESA ESRIN, Frascati</strong>, Italia. Il centro ESA per l&#39;osservazione della Terra, sede delle attività del programma Copernicus.</p>
+    <p><strong>Centro di geodesia spaziale, Matera</strong>, Italia. Centro dell&#39;ASI per la geodesia spaziale e la ricezione dei dati satellitari.</p>
+    <p><strong>Thales Alenia Space, Torino</strong>, Italia. Dove sono stati costruiti circa metà dei moduli pressurizzati della ISS e quelli del Gateway lunare.</p>
+    <p><strong>Salto di Quirra (Perdasdefogu)</strong>, Italia. Poligono in Sardegna; vicino, a Perdasdefogu, Avio prova i nuovi motori a metano.</p>
+  </details>
+</section>
+
+<script>
+(function () {
+  var C = [{"c": "Giappone", "lat": 37.434, "lon": 138.598, "mw": 7965, "n": "Kashiwazaki Kariwa", "r": 7, "s": 7, "t": "BWR"}, {"c": "Cina", "lat": 39.797, "lon": 121.479, "mw": 6366, "n": "Hongyanhe", "r": 6, "s": 0, "t": "PWR"}, {"c": "Canada", "lat": 44.341, "lon": -81.572, "mw": 6225, "n": "Bruce", "r": 8, "s": 0, "t": "PHWR"}, {"c": "Cina", "lat": 25.628, "lon": 119.407, "mw": 6150, "n": "Fuqing", "r": 6, "s": 0, "t": "PWR"}, {"c": "Cina", "lat": 34.687, "lon": 119.456, "mw": 6100, "n": "Tianwan", "r": 6, "s": 0, "t": "PWR"}, {"c": "Cina", "lat": 21.782, "lon": 112.119, "mw": 6042, "n": "Yangjiang", "r": 6, "s": 0, "t": "PWR"}, {"c": "Ucraina", "lat": 47.508, "lon": 34.627, "mw": 5700, "n": "Zaporozhye", "r": 6, "s": 0, "t": "PWR"}, {"c": "Corea del Sud", "lat": 37.09, "lon": 129.384, "mw": 5653, "n": "Hanul", "r": 6, "s": 0, "t": "PWR"}, {"c": "Corea del Sud", "lat": 35.405, "lon": 126.41, "mw": 5649, "n": "Hanbit", "r": 6, "s": 0, "t": "PWR"}, {"c": "Francia", "lat": 51.014, "lon": 2.138, "mw": 5460, "n": "Gravelines", "r": 6, "s": 0, "t": "PWR"}, {"c": "Francia", "lat": 49.857, "lon": 0.635, "mw": 5320, "n": "Paluel", "r": 4, "s": 0, "t": "PWR"}, {"c": "Emirati Arabi Uniti", "lat": 23.953, "lon": 52.198, "mw": 5240, "n": "Barakah", "r": 4, "s": 0, "t": "PWR"}, {"c": "Francia", "lat": 49.416, "lon": 6.217, "mw": 5200, "n": "Cattenom", "r": 4, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 33.141, "lon": -81.765, "mw": 4457, "n": "Vogtle", "r": 4, "s": 0, "t": "PWR"}, {"c": "Francia", "lat": 49.537, "lon": -1.881, "mw": 4290, "n": "Flamanville", "r": 3, "s": 0, "t": "PWR"}, {"c": "Cina", "lat": 27.046, "lon": 120.287, "mw": 4072, "n": "Ningde", "r": 4, "s": 0, "t": "PWR"}, {"c": "Cina", "lat": 22.608, "lon": 114.551, "mw": 3914, "n": "Lingao", "r": 4, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 33.387, "lon": -112.863, "mw": 3829, "n": "Palo Verde", "r": 3, "s": 0, "t": "PWR"}, {"c": "Russia", "lat": 52.092, "lon": 47.952, "mw": 3800, "n": "Balakovo", "r": 4, "s": 0, "t": "PWR"}, {"c": "Russia", "lat": 57.903, "lon": 35.057, "mw": 3800, "n": "Kalinin", "r": 4, "s": 0, "t": "PWR"}, {"c": "Russia", "lat": 47.599, "lon": 42.373, "mw": 3800, "n": "Rostov", "r": 4, "s": 0, "t": "PWR"}, {"c": "Francia", "lat": 44.331, "lon": 4.733, "mw": 3660, "n": "Tricastin", "r": 4, "s": 0, "t": "PWR"}, {"c": "Francia", "lat": 45.256, "lon": -0.691, "mw": 3640, "n": "Blayais", "r": 4, "s": 0, "t": "PWR"}, {"c": "Francia", "lat": 45.798, "lon": 5.268, "mw": 3640, "n": "Bugey", "r": 4, "s": 0, "t": "PWR"}, {"c": "Francia", "lat": 47.732, "lon": 2.513, "mw": 3560, "n": "Dampierre", "r": 4, "s": 0, "t": "PWR"}, {"c": "Francia", "lat": 44.634, "lon": 4.757, "mw": 3555, "n": "Cruas", "r": 4, "s": 0, "t": "PWR"}, {"c": "Canada", "lat": 43.867, "lon": -78.724, "mw": 3524, "n": "Darlington", "r": 4, "s": 0, "t": "PHWR"}, {"c": "Giappone", "lat": 34.621, "lon": 138.141, "mw": 3473, "n": "Hamaoka", "r": 3, "s": 3, "t": "BWR"}, {"c": "Cina", "lat": 21.918, "lon": 112.982, "mw": 3320, "n": "Taishan", "r": 2, "s": 0, "t": "PWR"}, {"c": "Giappone", "lat": 35.52, "lon": 135.503, "mw": 3220, "n": "Takahama", "r": 4, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 34.704, "lon": -87.119, "mw": 3195, "n": "Browns Ferry", "r": 3, "s": 0, "t": "BWR"}, {"c": "Cina", "lat": 21.6, "lon": 108.3, "mw": 3000, "n": "Fangchenggang", "r": 3, "s": 0, "t": "PWR"}, {"c": "Finlandia", "lat": 61.235, "lon": 21.441, "mw": 2920, "n": "Olkiluoto", "r": 3, "s": 0, "t": "BWR/PWR"}, {"c": "Francia", "lat": 46.457, "lon": 0.654, "mw": 2900, "n": "Civaux", "r": 2, "s": 0, "t": "PWR"}, {"c": "Svezia", "lat": 60.405, "lon": 18.168, "mw": 2850, "n": "Forsmark", "r": 3, "s": 0, "t": "BWR"}, {"c": "Ucraina", "lat": 47.811, "lon": 31.22, "mw": 2850, "n": "South Ukraine", "r": 3, "s": 0, "t": "PWR"}, {"c": "Russia", "lat": 51.674, "lon": 35.607, "mw": 2775, "n": "Kursk", "r": 3, "s": 0, "t": "LWGR"}, {"c": "Russia", "lat": 54.169, "lon": 33.245, "mw": 2775, "n": "Smolensk", "r": 3, "s": 0, "t": "LWGR"}, {"c": "Corea del Sud", "lat": 37.084, "lon": 129.392, "mw": 2680, "n": "Shin-Hanul", "r": 2, "s": 0, "t": "PWR"}, {"c": "Corea del Sud", "lat": 35.327, "lon": 129.302, "mw": 2680, "n": "Saeul", "r": 2, "s": 0, "t": "PWR"}, {"c": "Francia", "lat": 45.404, "lon": 4.754, "mw": 2670, "n": "St. Alban", "r": 2, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 34.796, "lon": -82.894, "mw": 2661, "n": "Oconee", "r": 3, "s": 0, "t": "PWR"}, {"c": "Francia", "lat": 49.975, "lon": 1.215, "mw": 2660, "n": "Penly", "r": 2, "s": 0, "t": "PWR"}, {"c": "Ucraina", "lat": 51.326, "lon": 25.9, "mw": 2645, "n": "Rivne", "r": 4, "s": 0, "t": "PWR"}, {"c": "Corea del Sud", "lat": 35.321, "lon": 129.295, "mw": 2631, "n": "Kori", "r": 3, "s": 0, "t": "PWR"}, {"c": "Francia", "lat": 47.511, "lon": 2.871, "mw": 2620, "n": "Belleville", "r": 2, "s": 0, "t": "PWR"}, {"c": "Francia", "lat": 44.105, "lon": 0.845, "mw": 2620, "n": "Golfech", "r": 2, "s": 0, "t": "PWR"}, {"c": "Francia", "lat": 48.517, "lon": 3.52, "mw": 2620, "n": "Nogent", "r": 2, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 28.797, "lon": -96.044, "mw": 2500, "n": "South Texas", "r": 2, "s": 0, "t": "PWR"}, {"c": "Cina", "lat": 30.44, "lon": 120.95, "mw": 2458, "n": "Qinshan-2", "r": 4, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 35.601, "lon": -84.789, "mw": 2383, "n": "Watts Bar", "r": 2, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 35.433, "lon": -80.946, "mw": 2360, "n": "McGuire", "r": 2, "s": 0, "t": "PWR"}, {"c": "Cina", "lat": 29.101, "lon": 121.642, "mw": 2314, "n": "Sanmen", "r": 2, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 32.301, "lon": -97.787, "mw": 2300, "n": "Comanche Peak", "r": 2, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 35.228, "lon": -85.094, "mw": 2296, "n": "Sequoyah", "r": 2, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 35.053, "lon": -81.071, "mw": 2290, "n": "Catawba", "r": 2, "s": 0, "t": "PWR"}, {"c": "Giappone", "lat": 33.518, "lon": 129.837, "mw": 2254, "n": "Genkai", "r": 2, "s": 0, "t": "PWR"}, {"c": "Giappone", "lat": 35.544, "lon": 135.652, "mw": 2254, "n": "Ohi", "r": 2, "s": 0, "t": "PWR"}, {"c": "Cina", "lat": 36.704, "lon": 121.382, "mw": 2252, "n": "Haiyang", "r": 2, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 41.247, "lon": -88.23, "mw": 2240, "n": "Braidwood", "r": 2, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 42.074, "lon": -89.277, "mw": 2240, "n": "Byron", "r": 2, "s": 0, "t": "PWR"}, {"c": "Russia", "lat": 51.273, "lon": 39.197, "mw": 2228, "n": "Novovoronezh 2", "r": 2, "s": 0, "t": "PWR"}, {"c": "Bielorussia", "lat": 54.767, "lon": 26.117, "mw": 2220, "n": "Belarusian", "r": 2, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 39.463, "lon": -75.534, "mw": 2205, "n": "Salem", "r": 2, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 35.212, "lon": -120.854, "mw": 2190, "n": "Diablo Canyon", "r": 2, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 41.246, "lon": -88.672, "mw": 2156, "n": "LaSalle", "r": 2, "s": 0, "t": "BWR"}, {"c": "Russia", "lat": 59.837, "lon": 29.039, "mw": 2132, "n": "Leningrad 2", "r": 2, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 41.975, "lon": -86.564, "mw": 2130, "n": "Donald Cook", "r": 2, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 39.759, "lon": -76.27, "mw": 2130, "n": "Peach Bottom", "r": 2, "s": 0, "t": "BWR"}, {"c": "Stati Uniti", "lat": 41.093, "lon": -76.143, "mw": 2130, "n": "Susquehanna", "r": 2, "s": 0, "t": "BWR"}, {"c": "Stati Uniti", "lat": 40.225, "lon": -75.584, "mw": 2110, "n": "Limerick", "r": 2, "s": 0, "t": "BWR"}, {"c": "Canada", "lat": 43.812, "lon": -79.07, "mw": 2064, "n": "Pickering", "r": 4, "s": 0, "t": "PHWR"}, {"c": "Repubblica Ceca", "lat": 49.181, "lon": 14.377, "mw": 2056, "n": "Temelin", "r": 2, "s": 0, "t": "PWR"}, {"c": "Svezia", "lat": 57.259, "lon": 12.111, "mw": 2045, "n": "Ringhals", "r": 2, "s": 0, "t": "PWR"}, {"c": "Pakistan", "lat": 24.845, "lon": 66.79, "mw": 2031, "n": "KANUPP", "r": 2, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 41.312, "lon": -72.166, "mw": 2029, "n": "Millstone", "r": 2, "s": 0, "t": "PWR"}, {"c": "Cina", "lat": 30.416, "lon": 120.951, "mw": 2000, "n": "Fangjiashan", "r": 2, "s": 0, "t": "PWR"}, {"c": "Corea del Sud", "lat": 35.327, "lon": 129.302, "mw": 1993, "n": "Shin-Kori", "r": 2, "s": 0, "t": "PWR"}, {"c": "Corea del Sud", "lat": 35.71, "lon": 129.476, "mw": 1986, "n": "Wolsong", "r": 3, "s": 0, "t": "PHWR"}, {"c": "Giappone", "lat": 43.038, "lon": 140.515, "mw": 1966, "n": "Tomari", "r": 3, "s": 3, "t": "PWR"}, {"c": "Bulgaria", "lat": 43.744, "lon": 23.776, "mw": 1956, "n": "Kozloduy", "r": 2, "s": 0, "t": "PWR"}, {"c": "Ucraina", "lat": 50.301, "lon": 26.649, "mw": 1900, "n": "Khmelnitski", "r": 2, "s": 0, "t": "PWR"}, {"c": "Corea del Sud", "lat": 35.722, "lon": 129.479, "mw": 1900, "n": "Shin-Wolsong", "r": 2, "s": 0, "t": "PWR"}, {"c": "Cina", "lat": 22.599, "lon": 114.544, "mw": 1860, "n": "Daya Bay", "r": 2, "s": 0, "t": "PWR"}, {"c": "Brasile", "lat": -23.008, "lon": -44.457, "mw": 1854, "n": "Angra", "r": 2, "s": 0, "t": "PWR"}, {"c": "Russia", "lat": 59.837, "lon": 29.039, "mw": 1850, "n": "Leningrad", "r": 2, "s": 0, "t": "LWGR"}, {"c": "Sudafrica", "lat": -33.677, "lon": 18.433, "mw": 1842, "n": "Koeberg", "r": 2, "s": 0, "t": "PWR"}, {"c": "India", "lat": 8.167, "lon": 77.713, "mw": 1834, "n": "Kudankulam", "r": 2, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 38.061, "lon": -77.792, "mw": 1814, "n": "North Anna", "r": 2, "s": 0, "t": "PWR"}, {"c": "Giappone", "lat": 37.061, "lon": 136.728, "mw": 1809, "n": "Shika", "r": 2, "s": 2, "t": "BWR"}, {"c": "Spagna", "lat": 39.807, "lon": -5.698, "mw": 1800, "n": "Almaraz", "r": 2, "s": 0, "t": "PWR"}, {"c": "Spagna", "lat": 41.202, "lon": 0.571, "mw": 1776, "n": "Asco", "r": 2, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 35.31, "lon": -93.23, "mw": 1762, "n": "Arkansas Nuclear One", "r": 2, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 43.522, "lon": -76.412, "mw": 1720, "n": "Nine Mile Point", "r": 2, "s": 0, "t": "BWR"}, {"c": "Slovacchia", "lat": 48.261, "lon": 18.455, "mw": 1696, "n": "Mochovce", "r": 4, "s": 0, "t": "PWR"}, {"c": "Giappone", "lat": 31.834, "lon": 130.193, "mw": 1692, "n": "Sendai", "r": 2, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 38.435, "lon": -76.439, "mw": 1690, "n": "Calvert Cliffs", "r": 2, "s": 0, "t": "PWR"}, {"c": "Repubblica Ceca", "lat": 49.089, "lon": 16.149, "mw": 1680, "n": "Dukovany", "r": 4, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 40.624, "lon": -80.432, "mw": 1671, "n": "Beaver Valley", "r": 2, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 27.348, "lon": -80.244, "mw": 1660, "n": "St. Lucie", "r": 2, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 31.223, "lon": -85.115, "mw": 1658, "n": "Farley", "r": 2, "s": 0, "t": "PWR"}, {"c": "Russia", "lat": 67.467, "lon": 32.491, "mw": 1644, "n": "Kola", "r": 4, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 33.958, "lon": -78.007, "mw": 1642, "n": "Brunswick", "r": 2, "s": 0, "t": "BWR"}, {"c": "Ungheria", "lat": 46.574, "lon": 18.855, "mw": 1638, "n": "Paks", "r": 4, "s": 0, "t": "PWR"}, {"c": "Giappone", "lat": 38.4, "lon": 141.504, "mw": 1592, "n": "Onagawa", "r": 2, "s": 2, "t": "BWR"}, {"c": "Stati Uniti", "lat": 41.353, "lon": -88.349, "mw": 1588, "n": "Dresden", "r": 2, "s": 0, "t": "BWR"}, {"c": "Stati Uniti", "lat": 41.727, "lon": -90.308, "mw": 1578, "n": "Quad Cities", "r": 2, "s": 0, "t": "BWR"}, {"c": "Stati Uniti", "lat": 37.166, "lon": -76.7, "mw": 1576, "n": "Surry", "r": 2, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 31.935, "lon": -82.346, "mw": 1561, "n": "Hatch", "r": 2, "s": 0, "t": "BWR"}, {"c": "Messico", "lat": 19.719, "lon": -96.405, "mw": 1560, "n": "Laguna Verde", "r": 2, "s": 0, "t": "BWR"}, {"c": "Francia", "lat": 50.086, "lon": 4.792, "mw": 1455, "n": "Chooz-B1", "r": 1, "s": 0, "t": "PWR"}, {"c": "Francia", "lat": 50.086, "lon": 4.792, "mw": 1455, "n": "Chooz-B2", "r": 1, "s": 0, "t": "PWR"}, {"c": "India", "lat": 19.834, "lon": 72.657, "mw": 1404, "n": "Tarapur", "r": 4, "s": 2, "t": "BWR/PHWR"}, {"c": "Stati Uniti", "lat": 25.435, "lon": -80.33, "mw": 1386, "n": "Turkey Point", "r": 2, "s": 0, "t": "PWR"}, {"c": "Russia", "lat": 56.842, "lon": 61.321, "mw": 1380, "n": "Beloyarsk", "r": 2, "s": 0, "t": "FBR"}, {"c": "Cina", "lat": 30.44, "lon": 120.95, "mw": 1354, "n": "Qinshan-3", "r": 2, "s": 0, "t": "PHWR"}, {"c": "Russia", "lat": 51.828, "lon": 39.209, "mw": 1335, "n": "Novovoronezh", "r": 2, "s": 0, "t": "PWR"}, {"c": "Romania", "lat": 44.322, "lon": 28.061, "mw": 1300, "n": "Cernavoda", "r": 2, "s": 0, "t": "PHWR"}, {"c": "Regno Unito", "lat": 55.966, "lon": -2.399, "mw": 1290, "n": "Torness", "r": 2, "s": 0, "t": "GCR"}, {"c": "Stati Uniti", "lat": 32.007, "lon": -91.045, "mw": 1250, "n": "Grand Gulf", "r": 1, "s": 0, "t": "BWR"}, {"c": "Pakistan", "lat": 32.392, "lon": 71.463, "mw": 1228, "n": "CHASNUPP", "r": 4, "s": 0, "t": "PWR"}, {"c": "India", "lat": 24.876, "lon": 75.608, "mw": 1222, "n": "Rajasthan", "r": 6, "s": 1, "t": "PHWR"}, {"c": "Stati Uniti", "lat": 41.801, "lon": -81.147, "mw": 1205, "n": "Perry", "r": 1, "s": 0, "t": "BWR"}, {"c": "Cina", "lat": 19.461, "lon": 108.9, "mw": 1202, "n": "Changjiang", "r": 2, "s": 0, "t": "PWR"}, {"c": "Regno Unito", "lat": 52.212, "lon": 1.621, "mw": 1188, "n": "Sizewell-B", "r": 1, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 38.763, "lon": -91.781, "mw": 1171, "n": "Callaway", "r": 1, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 38.239, "lon": -95.691, "mw": 1170, "n": "Wolf Creek", "r": 1, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 42.897, "lon": -70.849, "mw": 1149, "n": "Seabrook", "r": 1, "s": 0, "t": "PWR"}, {"c": "Giappone", "lat": 35.672, "lon": 136.079, "mw": 1115, "n": "Tsuruga", "r": 1, "s": 1, "t": "PWR"}, {"c": "Stati Uniti", "lat": 29.994, "lon": -90.471, "mw": 1104, "n": "Waterford", "r": 1, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 46.471, "lon": -119.333, "mw": 1100, "n": "Columbia", "r": 1, "s": 0, "t": "BWR"}, {"c": "Stati Uniti", "lat": 41.96, "lon": -83.257, "mw": 1093, "n": "Enrico Fermi", "r": 1, "s": 0, "t": "BWR"}, {"c": "Giappone", "lat": 41.188, "lon": 141.393, "mw": 1067, "n": "Higashi Dori", "r": 1, "s": 1, "t": "BWR"}, {"c": "Stati Uniti", "lat": 39.467, "lon": -75.535, "mw": 1067, "n": "Hope Creek", "r": 1, "s": 0, "t": "BWR"}, {"c": "Stati Uniti", "lat": 44.622, "lon": -92.631, "mw": 1060, "n": "Prairie Island", "r": 2, "s": 0, "t": "PWR"}, {"c": "Giappone", "lat": 36.466, "lon": 140.612, "mw": 1056, "n": "Tokai", "r": 1, "s": 1, "t": "BWR"}, {"c": "Svezia", "lat": 57.415, "lon": 16.666, "mw": 1050, "n": "Oskarshamn", "r": 1, "s": 0, "t": "BWR"}, {"c": "India", "lat": 21.236, "lon": 73.351, "mw": 1034, "n": "Kakrapar", "r": 3, "s": 0, "t": "PHWR"}, {"c": "Belgio", "lat": 50.533, "lon": 5.271, "mw": 1020, "n": "Tihange", "r": 1, "s": 0, "t": "PWR"}, {"c": "Argentina", "lat": -33.967, "lon": -59.209, "mw": 1011, "n": "Atucha", "r": 2, "s": 0, "t": "PHWR"}, {"c": "Belgio", "lat": 51.323, "lon": 4.259, "mw": 1000, "n": "Doel", "r": 1, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 44.282, "lon": -87.534, "mw": 994, "n": "Point Beach", "r": 2, "s": 0, "t": "PWR"}, {"c": "Spagna", "lat": 40.699, "lon": -2.622, "mw": 990, "n": "Trillo", "r": 1, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 30.727, "lon": -91.372, "mw": 966, "n": "River Bend", "r": 1, "s": 0, "t": "BWR"}, {"c": "Svizzera", "lat": 47.601, "lon": 8.183, "mw": 960, "n": "Leibstadt", "r": 1, "s": 0, "t": "BWR"}, {"c": "Stati Uniti", "lat": 40.172, "lon": -88.834, "mw": 950, "n": "Clinton", "r": 1, "s": 0, "t": "BWR"}, {"c": "Spagna", "lat": 39.216, "lon": -1.051, "mw": 939, "n": "Cofrentes", "r": 1, "s": 0, "t": "BWR"}, {"c": "Slovacchia", "lat": 48.494, "lon": 17.687, "mw": 932, "n": "Bohunice", "r": 2, "s": 0, "t": "PWR"}, {"c": "Spagna", "lat": 40.949, "lon": 0.867, "mw": 930, "n": "Vandellos", "r": 1, "s": 0, "t": "PWR"}, {"c": "Svizzera", "lat": 47.366, "lon": 7.969, "mw": 920, "n": "Goesgen", "r": 1, "s": 0, "t": "PWR"}, {"c": "Iran", "lat": 28.831, "lon": 50.887, "mw": 915, "n": "Bushehr", "r": 1, "s": 0, "t": "PWR"}, {"c": "Francia", "lat": 47.724, "lon": 1.582, "mw": 915, "n": "St. Laurent-B1", "r": 1, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 41.597, "lon": -83.092, "mw": 906, "n": "Davis Besse", "r": 1, "s": 0, "t": "PWR"}, {"c": "Francia", "lat": 47.232, "lon": 0.167, "mw": 905, "n": "Chinon-B3", "r": 1, "s": 0, "t": "PWR"}, {"c": "Francia", "lat": 47.232, "lon": 0.167, "mw": 905, "n": "Chinon-B4", "r": 1, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 35.635, "lon": -78.955, "mw": 900, "n": "Shearon Harris", "r": 1, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 34.299, "lon": -81.314, "mw": 900, "n": "Summer", "r": 1, "s": 0, "t": "PWR"}, {"c": "Francia", "lat": 47.72, "lon": 1.581, "mw": 880, "n": "St. Laurent-B2", "r": 1, "s": 0, "t": "PWR"}, {"c": "Francia", "lat": 47.232, "lon": 0.167, "mw": 870, "n": "Chinon-B1", "r": 1, "s": 0, "t": "PWR"}, {"c": "Francia", "lat": 47.232, "lon": 0.167, "mw": 870, "n": "Chinon-B2", "r": 1, "s": 0, "t": "PWR"}, {"c": "Giappone", "lat": 33.491, "lon": 132.309, "mw": 846, "n": "Ikata", "r": 1, "s": 0, "t": "PWR"}, {"c": "Finlandia", "lat": 60.372, "lon": 26.342, "mw": 840, "n": "Loviisa", "r": 2, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 43.521, "lon": -76.403, "mw": 821, "n": "FitzPatrick", "r": 1, "s": 0, "t": "BWR"}, {"c": "India", "lat": 14.865, "lon": 74.438, "mw": 808, "n": "Kaiga", "r": 4, "s": 0, "t": "PHWR"}, {"c": "Giappone", "lat": 35.537, "lon": 132.999, "mw": 789, "n": "Shimane", "r": 1, "s": 1, "t": "BWR"}, {"c": "Giappone", "lat": 35.701, "lon": 135.962, "mw": 780, "n": "Mihama", "r": 1, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 40.361, "lon": -95.643, "mw": 778, "n": "Cooper", "r": 1, "s": 0, "t": "BWR"}, {"c": "Svizzera", "lat": 47.552, "lon": 8.229, "mw": 700, "n": "Beznau", "r": 2, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 34.402, "lon": -80.158, "mw": 700, "n": "H. B. Robinson", "r": 1, "s": 0, "t": "PWR"}, {"c": "Canada", "lat": 45.068, "lon": -66.455, "mw": 660, "n": "Point Lepreau", "r": 1, "s": 0, "t": "PHWR"}, {"c": "Slovenia", "lat": 45.939, "lon": 15.516, "mw": 632, "n": "Krsko", "r": 1, "s": 0, "t": "PWR"}, {"c": "Regno Unito", "lat": 54.029, "lon": -2.912, "mw": 615, "n": "Heysham-B1", "r": 1, "s": 0, "t": "GCR"}, {"c": "Regno Unito", "lat": 54.029, "lon": -2.912, "mw": 615, "n": "Heysham-B2", "r": 1, "s": 0, "t": "GCR"}, {"c": "Regno Unito", "lat": 54.029, "lon": -2.912, "mw": 611, "n": "Heysham-A1", "r": 1, "s": 0, "t": "GCR"}, {"c": "Regno Unito", "lat": 54.029, "lon": -2.912, "mw": 611, "n": "Heysham-A2", "r": 1, "s": 0, "t": "GCR"}, {"c": "Argentina", "lat": -32.232, "lon": -64.442, "mw": 608, "n": "Embalse", "r": 1, "s": 0, "t": "PHWR"}, {"c": "Regno Unito", "lat": 54.634, "lon": -1.18, "mw": 595, "n": "Hartlepool-A2", "r": 1, "s": 0, "t": "GCR"}, {"c": "Regno Unito", "lat": 54.634, "lon": -1.18, "mw": 590, "n": "Hartlepool-A1", "r": 1, "s": 0, "t": "GCR"}, {"c": "Stati Uniti", "lat": 45.334, "lon": -93.85, "mw": 545, "n": "Monticello", "r": 1, "s": 0, "t": "BWR"}, {"c": "Paesi Bassi", "lat": 51.431, "lon": 3.719, "mw": 495, "n": "Borssele", "r": 1, "s": 0, "t": "PWR"}, {"c": "Stati Uniti", "lat": 43.279, "lon": -77.311, "mw": 470, "n": "R. E. Ginna", "r": 1, "s": 0, "t": "PWR"}, {"c": "India", "lat": 12.553, "lon": 80.174, "mw": 404, "n": "Kalpakkam", "r": 2, "s": 1, "t": "PHWR"}, {"c": "India", "lat": 28.155, "lon": 78.409, "mw": 404, "n": "Narora", "r": 2, "s": 0, "t": "PHWR"}, {"c": "Armenia", "lat": 40.182, "lon": 44.147, "mw": 375, "n": "Armenian", "r": 1, "s": 0, "t": "PWR"}, {"c": "Cina", "lat": 30.44, "lon": 120.95, "mw": 289, "n": "Qinshan", "r": 1, "s": 0, "t": "PWR"}, {"c": "Cina", "lat": 36.979, "lon": 122.531, "mw": 200, "n": "Shidao Bay", "r": 1, "s": 0, "t": "HTGR"}, {"c": "Russia", "lat": 69.71, "lon": 170.306, "mw": 60, "n": "Akademik Lomonosov", "r": 2, "s": 0, "t": "PWR"}, {"c": "Russia", "lat": 68.059, "lon": 166.492, "mw": 33, "n": "Bilibino", "r": 3, "s": 0, "t": "LWGR"}, {"c": "Cina", "lat": 39.739, "lon": 116.03, "mw": 20, "n": "CEFR", "r": 1, "s": 0, "t": "FBR"}];
+  var S = [{"c": "Guyana francese (Francia)", "d": "Lo spazioporto europeo: Ariane 6 e Vega C. Gestito da CNES, ESA e Arianespace; Avio vi assembla i Vega.", "k": "lancio", "lat": 5.236, "lon": -52.769, "n": "Centre Spatial Guyanais (Kourou)"}, {"c": "Stati Uniti", "d": "La base pi\u00f9 attiva al mondo: Falcon 9, Falcon Heavy, Vulcan, New Glenn, SLS e Artemis.", "k": "lancio", "lat": 28.488, "lon": -80.578, "n": "Cape Canaveral e Kennedy Space Center"}, {"c": "Stati Uniti", "d": "Base della Space Force in California per le orbite polari e sole-sincrone.", "k": "lancio", "lat": 34.742, "lon": -120.572, "n": "Vandenberg"}, {"c": "Stati Uniti", "d": "Base NASA in Virginia: Antares, Electron, razzi sonda.", "k": "lancio", "lat": 37.833, "lon": -75.488, "n": "Wallops (MARS)"}, {"c": "Stati Uniti", "d": "Il sito di sviluppo e lancio di Starship di SpaceX, in Texas.", "k": "lancio", "lat": 25.997, "lon": -97.157, "n": "Starbase (Boca Chica)"}, {"c": "Stati Uniti (Alaska)", "d": "Spazioporto commerciale sull\u0027isola di Kodiak, per orbite polari.", "k": "lancio", "lat": 57.435, "lon": -152.338, "n": "Pacific Spaceport Complex"}, {"c": "Nuova Zelanda", "d": "Penisola di Mahia: il sito privato da cui parte il piccolo lanciatore Electron.", "k": "lancio", "lat": -39.262, "lon": 177.865, "n": "Rocket Lab Launch Complex 1"}, {"c": "Kazakistan (in affitto alla Russia)", "d": "Il primo cosmodromo della storia, da cui partono le Soyuz con equipaggio verso la ISS.", "k": "lancio", "lat": 45.965, "lon": 63.305, "n": "Baikonur"}, {"c": "Russia", "d": "Il nuovo cosmodromo russo in Estremo Oriente, pensato per sostituire Baikonur.", "k": "lancio", "lat": 51.884, "lon": 128.333, "n": "Vostochny"}, {"c": "Russia", "d": "Il cosmodromo militare russo, nel nord del paese.", "k": "lancio", "lat": 62.925, "lon": 40.577, "n": "Plesetsk"}, {"c": "Cina", "d": "Nel deserto del Gobi: da qui partono gli astronauti cinesi verso la stazione Tiangong.", "k": "lancio", "lat": 40.958, "lon": 100.291, "n": "Jiuquan"}, {"c": "Cina", "d": "Base per le orbite polari e sole-sincrone.", "k": "lancio", "lat": 38.849, "lon": 111.608, "n": "Taiyuan"}, {"c": "Cina", "d": "Base per l\u0027orbita geostazionaria e le missioni lunari Chang\u0027e.", "k": "lancio", "lat": 28.246, "lon": 102.027, "n": "Xichang"}, {"c": "Cina", "d": "Sull\u0027isola di Hainan, per i lanciatori pesanti Lunga Marcia 5 e le missioni lunari e marziane.", "k": "lancio", "lat": 19.614, "lon": 110.951, "n": "Wenchang"}, {"c": "Giappone", "d": "Il principale centro di lancio della JAXA, per H3.", "k": "lancio", "lat": 30.4, "lon": 130.97, "n": "Tanegashima"}, {"c": "Giappone", "d": "Base JAXA per lanciatori a solido e razzi sonda.", "k": "lancio", "lat": 31.251, "lon": 131.082, "n": "Uchinoura"}, {"c": "India", "d": "Lo spazioporto dell\u0027ISRO, da cui sono partite le missioni lunari Chandrayaan.", "k": "lancio", "lat": 13.72, "lon": 80.23, "n": "Satish Dhawan (Sriharikota)"}, {"c": "Corea del Sud", "d": "Il centro spaziale coreano, base del lanciatore Nuri.", "k": "lancio", "lat": 34.432, "lon": 127.535, "n": "Naro"}, {"c": "Iran", "d": "Il principale sito di lancio iraniano.", "k": "lancio", "lat": 35.234, "lon": 53.921, "n": "Imam Khomeini (Semnan)"}, {"c": "Corea del Nord", "d": "Il sito di lancio nordcoreano sulla costa occidentale.", "k": "lancio", "lat": 39.66, "lon": 124.705, "n": "Sohae"}, {"c": "Israele", "d": "Base aerea da cui Israele lancia verso ovest, sul Mediterraneo.", "k": "lancio", "lat": 31.884, "lon": 34.68, "n": "Palmachim"}, {"c": "Brasile", "d": "Vicinissimo all\u0027equatore, il sito brasiliano aperto anche a operatori stranieri.", "k": "lancio", "lat": -2.373, "lon": -44.396, "n": "Alc\u00e2ntara"}, {"c": "Norvegia", "d": "Il primo spazioporto orbitale dell\u0027Europa continentale, usato da Isar Aerospace.", "k": "lancio", "lat": 69.294, "lon": 16.02, "n": "And\u00f8ya Spaceport"}, {"c": "Regno Unito", "d": "Spazioporto in costruzione nelle isole Shetland, per piccoli lanciatori.", "k": "sviluppo", "lat": 60.82, "lon": -0.77, "n": "SaxaVord"}, {"c": "Svezia", "d": "Vicino a Kiruna: razzi sonda e test, tra cui il dimostratore riutilizzabile europeo Themis.", "k": "sviluppo", "lat": 67.893, "lon": 21.107, "n": "Esrange"}, {"c": "Kenya (gestito dall\u0027ASI)", "d": "La base italiana in Kenya, storica sede del programma San Marco, oggi stazione di terra per il tracciamento dei satelliti.", "k": "italia", "lat": -2.94, "lon": 40.21, "n": "Centro spaziale Luigi Broglio (Malindi)"}, {"c": "Italia", "d": "L\u0027aeroporto in provincia di Taranto designato come primo spazioporto italiano, per voli suborbitali. Non ancora operativo.", "k": "italia", "lat": 40.517, "lon": 17.4, "n": "Spazioporto di Grottaglie"}, {"c": "Italia", "d": "Lo stabilimento dove si costruiscono il lanciatore Vega e i motori a solido degli Ariane.", "k": "italia", "lat": 41.73, "lon": 13.0, "n": "Avio, Colleferro"}, {"c": "Italia", "d": "Il teleporto di Telespazio in Abruzzo, designato centro di controllo della costellazione europea IRIS\u00b2.", "k": "italia", "lat": 41.978, "lon": 13.6, "n": "Centro spaziale del Fucino"}, {"c": "Italia", "d": "Il centro ESA per l\u0027osservazione della Terra, sede delle attivit\u00e0 del programma Copernicus.", "k": "italia", "lat": 41.827, "lon": 12.674, "n": "ESA ESRIN, Frascati"}, {"c": "Italia", "d": "Centro dell\u0027ASI per la geodesia spaziale e la ricezione dei dati satellitari.", "k": "italia", "lat": 40.649, "lon": 16.704, "n": "Centro di geodesia spaziale, Matera"}, {"c": "Italia", "d": "Dove sono stati costruiti circa met\u00e0 dei moduli pressurizzati della ISS e quelli del Gateway lunare.", "k": "italia", "lat": 45.083, "lon": 7.62, "n": "Thales Alenia Space, Torino"}, {"c": "Italia", "d": "Poligono in Sardegna; vicino, a Perdasdefogu, Avio prova i nuovi motori a metano.", "k": "italia", "lat": 39.68, "lon": 9.44, "n": "Salto di Quirra (Perdasdefogu)"}];
+  if (typeof L === "undefined") { document.getElementById("map").textContent = "La mappa non si è caricata. Gli elenchi completi sono qui sotto."; return; }
+  var map = L.map("map", { worldCopyJump: true, scrollWheelZoom: false }).setView([30, 10], 2);
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
+    maxZoom: 12, subdomains: "abcd",
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
+  }).addTo(map);
+  map.on("focus", function () { map.scrollWheelZoom.enable(); });
+  map.on("blur", function () { map.scrollWheelZoom.disable(); });
+  function esc(t) { var d = document.createElement("div"); d.textContent = t; return d.innerHTML; }
+  function fmt(n) { return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "."); }
+  var nuc = L.layerGroup(), launch = L.layerGroup(), dev = L.layerGroup(), ita = L.layerGroup();
+  C.forEach(function (s) {
+    var off = s.s === s.r;
+    var r = Math.max(4, Math.min(15, Math.sqrt(s.mw) / 6));
+    var m = L.circleMarker([s.lat, s.lon], { radius: r, weight: 1, color: off ? "#5E7C78" : "#3DDCC8", fillColor: off ? "#5E7C78" : "#3DDCC8", fillOpacity: off ? 0.35 : 0.6 });
+    m.bindPopup("<strong>" + esc(s.n) + "</strong><br>" + esc(s.c) + "<br>" + s.r + (s.r === 1 ? " reattore" : " reattori") + (s.s ? " (" + s.s + " fermi nei dati 2024)" : "") + "<br>" + fmt(s.mw) + " MWe · " + esc(s.t));
+    m.addTo(nuc);
+  });
+  var col = { lancio: "#F2A33A", sviluppo: "#E8653A", italia: "#4FB3E8" };
+  S.forEach(function (s) {
+    var m = L.circleMarker([s.lat, s.lon], { radius: 7, weight: 2, color: "#121417", fillColor: col[s.k], fillOpacity: 0.95 });
+    m.bindPopup("<strong>" + esc(s.n) + "</strong><br>" + esc(s.c) + "<br>" + esc(s.d));
+    m.addTo(s.k === "lancio" ? launch : s.k === "sviluppo" ? dev : ita);
+  });
+  nuc.addTo(map); launch.addTo(map); dev.addTo(map); ita.addTo(map);
+  L.control.layers(null, {
+    "Centrali nucleari": nuc, "Basi di lancio": launch, "Spazioporti in sviluppo": dev, "Siti spaziali italiani": ita
+  }, { collapsed: false }).addTo(map);
+})();
+</script>
+</main>
+
+<section class="nl-band">
+  <div class="wrap nl-inner">
+    <div>
+      <p class="eyebrow">Il Punto, ogni settimana</p>
+      <h2>Energia e spazio nella tua casella, senza semplificazioni.</h2>
+      <p class="muted">Un'analisi a settimana, gratis. Niente pubblicità, disiscrizione in un clic.</p>
+    </div>
+    <form class="nl-form" action="https://bbe7c28e.sibforms.com/serve/MUIFANbSu_IuqpCgMETrSGKJec3_1kT_IAkrlDzO1KrVynTMfzhK2SZ-wCyLRJKZKorvyx2nMe6k2albVeEMbLsD6F0gLcRYnWOELy51ZPs3gFSStpKL4k7JusTwEkwwy_cNKEemz-s_Z4IW4jf_Hto57SBbpX7J5g88ZSG-nuDlHgsEDEy0G0LSEMyHSHuYXkHftcW9h2v6Zu_YHA==" method="post">
+      <label for="nl-email-foot" class="sr-only">La tua email</label>
+      <input id="nl-email-foot" type="email" name="EMAIL" placeholder="nome@esempio.it" required>
+      <input type="text" name="email_address_check" value="" class="sr-only" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input type="hidden" name="locale" value="it">
+      <button type="submit" class="btn">Iscriviti</button>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p class="footer-brand">Atomo <em>&amp;</em> Orbita</p>
+      <p class="muted">Energia e spazio, senza semplificazioni. Analisi su nucleare e spazio per chi lavora, investe o decide: fonti primarie, dati verificati, nessuna propaganda.</p>
+      <p class="muted small">Testata indipendente. Non riceviamo fondi da aziende o enti dei settori di cui scriviamo. <a href="/manifesto/">Il nostro manifesto</a>.</p>
+    </div>
+    <div>
+      <p class="footer-title">Sezioni</p>
+      <ul class="footer-list">
+<li><a href="/atomo/">Atomo</a></li><li><a href="/orbita/">Orbita</a></li><li><a href="/confine/">Confine</a></li>        <li><a href="/il-punto/">Il Punto</a></li>
+        <li><a href="/dossier/">Dossier</a></li>
+        <li><a href="/numeri/">Numeri</a></li>
+        <li><a href="/mappa/">Mappa</a></li>
+        <li><a href="/rassegna/">Rassegna</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-title">Atomo e Orbita</p>
+      <ul class="footer-list">
+        <li><a href="/manifesto/">Manifesto</a></li>
+        <li><a href="/risorse/">Risorse</a></li>
+        <li><a href="/organizzazioni/">Organizzazioni</a></li>
+        <li><a href="/glossario/">Glossario</a></li>
+        <li><a href="/contatti/">Contatti</a></li>
+        <li><a href="/privacy/">Privacy e cookie</a></li>
+        <li><a href="/feed.xml">Feed RSS</a></li>
+<li><a href="https://www.linkedin.com/company/atomoeorbita" rel="noopener" target="_blank">LinkedIn</a></li><li><a href="https://www.facebook.com/atomoeorbita" rel="noopener" target="_blank">Facebook</a></li>      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p class="small muted">© 2026 Atomo e Orbita · atomoeorbita.it · Alcuni link nella pagina Risorse sono di affiliazione e sono sempre dichiarati. <a href="/manifesto/">Come lavoriamo</a>.</p>
+  </div>
+</footer>
+</body>
+</html>

@@ -229,6 +229,7 @@ def build() -> None:
 
     # assets
     shutil.copytree(STATIC, ROOT / "assets")
+    shutil.copytree(SRC / "data", ROOT / "assets" / "dati")
 
     # home
     write(ROOT / "index.html", env.get_template("home.html").render(
@@ -265,6 +266,16 @@ def build() -> None:
         title=f"Rassegna · {CONFIG['name']}",
         description="Le notizie delle ultime 48 ore dalle fonti specialistiche su nucleare e spazio, aggiornate ogni mattina."))
 
+    # mappa
+    data_dir = SRC / "data"
+    centrali = json.loads((data_dir / "centrali.json").read_text(encoding="utf-8"))["sites"]
+    spazio = json.loads((data_dir / "spazio.json").read_text(encoding="utf-8"))["sites"]
+    write(ROOT / "mappa" / "index.html", env.get_template("mappa.html").render(
+        **base_ctx, centrali=centrali, spazio=spazio, c_sites=len(centrali),
+        c_reactors=sum(c["r"] for c in centrali), page_url="/mappa/",
+        title=f"Mappa delle centrali nucleari e delle basi spaziali · {CONFIG['name']}",
+        description="Mappa interattiva delle centrali nucleari operabili nel mondo, degli spazioporti e dei siti spaziali italiani, con fonti e limiti dei dati."))
+
     # numeri
     write(ROOT / "numeri" / "index.html", env.get_template("numeri.html").render(
         **base_ctx, numeri=numeri, page_url="/numeri/",
@@ -294,7 +305,7 @@ def build() -> None:
         description=""))
 
     # sitemap, robots, feed
-    urls = (["/", "/dossier/", "/il-punto/", "/numeri/", "/rassegna/"] + [c["url"] for c in categories]
+    urls = (["/", "/dossier/", "/il-punto/", "/numeri/", "/rassegna/", "/mappa/"] + [c["url"] for c in categories]
             + [a["url"] for a in articles] + [n["url"] for n in numeri] + [p["url"] for p in pages])
     sitemap = ['<?xml version="1.0" encoding="UTF-8"?>',
                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']

@@ -42,7 +42,7 @@ p{margin:0 0 1em}
 .notice p{margin:0}
 
 /* header */
-.site-header{background:var(--bg);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
+.site-header{background:var(--bg);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:1100}
 .header-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:70px;flex-wrap:wrap}
 .logo{display:flex;align-items:center;gap:12px;color:var(--ink);text-decoration:none;font-family:var(--display);font-weight:700;font-size:18px;letter-spacing:.14em;text-transform:uppercase;white-space:nowrap}
 .logo em,.footer-brand em{font-style:normal;color:var(--accent);font-weight:500}
@@ -204,3 +204,26 @@ a.dossier-card:first-child:hover h3{color:var(--accent)}
 .rassegna-list a:hover{color:var(--accent)}
 .rassegna-meta{font:400 13px var(--display);color:var(--muted)}
 @media (max-width:820px){.rassegna-grid{grid-template-columns:1fr;gap:28px}}
+
+/* mappa */
+.map{height:min(70vh,620px);min-height:380px;border:1px solid var(--line);border-radius:var(--radius);background:#0d0f12}
+.map-legend{list-style:none;margin:14px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px 22px;font:400 14px var(--display);color:var(--muted)}
+.map-legend li{display:flex;align-items:center;gap:8px}
+.dot{display:inline-block;width:12px;height:12px;border-radius:50%;border:1px solid #121417}
+.dot-nuc{background:#3DDCC8}.dot-nuc-off{background:#5E7C78}.dot-launch{background:#F2A33A}.dot-dev{background:#E8653A}.dot-it{background:#4FB3E8}
+.map.leaflet-container{font-family:var(--display);background:#0d0f12}
+.map .leaflet-popup-content-wrapper,.map .leaflet-popup-tip{background:var(--paper);color:var(--ink);border:1px solid var(--line)}
+.map .leaflet-popup-content{font-size:14px;line-height:1.45}
+.map a{color:var(--accent)}
+.map .leaflet-control-layers{background:var(--paper);color:var(--ink);border:1px solid var(--line)!important}
+.map .leaflet-control-attribution{background:rgba(18,20,23,.8)!important;color:var(--muted)}
+.map .leaflet-bar a{background:var(--paper);color:var(--ink);border-color:var(--line)}
+.table-wrap{overflow-x:auto;margin-bottom:18px}
+.data-table{border-collapse:collapse;width:100%;font:400 15px var(--display)}
+.data-table th,.data-table td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+.data-table th{background:var(--paper)}
+.all-list{margin-top:12px;font-size:16px}
+.all-list summary{font:700 15px var(--display);cursor:pointer;padding:10px 0;color:var(--accent)}
+.all-list p{margin:0 0 8px}
+.map .leaflet-popup-close-button{color:var(--muted)}
+.map .leaflet-control-layers label{margin:2px 0}

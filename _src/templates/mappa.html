@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+{% block head %}
+<link rel="stylesheet" href="/assets/leaflet/leaflet.css?v={{ build_date }}">
+<script src="/assets/leaflet/leaflet.js?v={{ build_date }}"></script>
+{% endblock %}
+{% block content %}
+<section class="wrap section">
+  <nav class="crumbs" aria-label="Percorso"><a href="/">Home</a> › <a href="/numeri/">Numeri</a> › <span>Mappa</span></nav>
+  <h1>La mappa: centrali nucleari e basi spaziali</h1>
+  <p class="lead">Le {{ c_sites }} centrali nucleari operabili nel mondo, con {{ c_reactors }} reattori, e i principali spazioporti, più i siti spaziali italiani. Clicca su un punto per i dettagli; usa il riquadro in alto a destra per mostrare o nascondere i livelli.</p>
+</section>
+
+<section class="wrap">
+  <div id="map" class="map" role="region" aria-label="Mappa interattiva di centrali nucleari e basi spaziali"></div>
+  <ul class="map-legend" aria-label="Legenda">
+    <li><span class="dot dot-nuc" aria-hidden="true"></span> Centrale nucleare in esercizio (la dimensione è proporzionale alla potenza)</li>
+    <li><span class="dot dot-nuc-off" aria-hidden="true"></span> Centrale con tutti i reattori fermi nei dati di riferimento</li>
+    <li><span class="dot dot-launch" aria-hidden="true"></span> Base di lancio orbitale</li>
+    <li><span class="dot dot-dev" aria-hidden="true"></span> Spazioporto in sviluppo o sito di test</li>
+    <li><span class="dot dot-it" aria-hidden="true"></span> Sito spaziale italiano</li>
+  </ul>
+</section>
+
+<section class="wrap section">
+  <div class="notice">
+    <p><strong>Come leggere i dati.</strong> Le centrali vengono dal database aperto <a href="https://github.com/cristianst85/GeoNuclearData" rel="noopener" target="_blank">GeoNuclearData</a> (licenza ODbL), costruito sui dati IAEA PRIS aggiornati al 2 marzo 2024. Lo abbiamo corretto per i cambiamenti successivi che abbiamo potuto verificare: l'entrata in servizio di Flamanville 3, Vogtle 4, Barakah 4 e Mochovce 4 e la chiusura di Doel 1 e 2, Tihange 1, Maanshan 1 e 2, Pickering 1 e 4. Restano differenze in tre paesi rispetto ai dati di ottobre 2026: <strong>Cina</strong> (qui 56 reattori, in realtà 65), <strong>India</strong> (23 invece di 24) e <strong>Russia</strong> (37 invece di 34). Il totale aggiornato è nella scheda <a href="/numeri/reattori-nel-mondo/">Reattori nel mondo</a>. In Giappone molti reattori risultano fermi in attesa di riavvio: alcuni potrebbero essere ripartiti dopo il 2024. Le posizioni dei siti spaziali sono indicative. I dati corretti sono scaricabili, con la stessa licenza ODbL: <a href="/assets/dati/centrali.json">centrali.json</a> e <a href="/assets/dati/spazio.json">spazio.json</a>.</p>
+  </div>
+</section>
+
+<section class="wrap section">
+  <h2 class="h3">Le centrali più grandi</h2>
+  <div class="table-wrap">
+    <table class="data-table">
+      <thead><tr><th>Centrale</th><th>Paese</th><th>Reattori</th><th>Potenza (MWe)</th><th>Tipo</th></tr></thead>
+      <tbody>
+        {% for s in centrali[:20] %}
+        <tr><td>{{ s.n }}</td><td>{{ s.c }}</td><td>{{ s.r }}{% if s.s %} ({{ s.s }} fermi){% endif %}</td><td>{{ "{:,}".format(s.mw).replace(",", ".") }}</td><td>{{ s.t }}</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  <details class="all-list">
+    <summary>Tutte le {{ c_sites }} centrali, per paese</summary>
+    {% for paese, items in centrali|groupby("c") %}
+    <p><strong>{{ paese }}</strong>: {% for s in items|sort(attribute="n") %}{{ s.n }} ({{ s.r }}){% if not loop.last %}, {% endif %}{% endfor %}</p>
+    {% endfor %}
+  </details>
+  <details class="all-list">
+    <summary>Tutti i siti spaziali</summary>
+    {% for s in spazio %}
+    <p><strong>{{ s.n }}</strong>, {{ s.c }}. {{ s.d }}</p>
+    {% endfor %}
+  </details>
+</section>
+
+<script>
+(function () {
+  var C = {{ centrali|tojson }};
+  var S = {{ spazio|tojson }};
+  if (typeof L === "undefined") { document.getElementById("map").textContent = "La mappa non si è caricata. Gli elenchi completi sono qui sotto."; return; }
+  var map = L.map("map", { worldCopyJump: true, scrollWheelZoom: false }).setView([30, 10], 2);
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
+    maxZoom: 12, subdomains: "abcd",
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
+  }).addTo(map);
+  map.on("focus", function () { map.scrollWheelZoom.enable(); });
+  map.on("blur", function () { map.scrollWheelZoom.disable(); });
+  function esc(t) { var d = document.createElement("div"); d.textContent = t; return d.innerHTML; }
+  function fmt(n) { return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "."); }
+  var nuc = L.layerGroup(), launch = L.layerGroup(), dev = L.layerGroup(), ita = L.layerGroup();
+  C.forEach(function (s) {
+    var off = s.s === s.r;
+    var r = Math.max(4, Math.min(15, Math.sqrt(s.mw) / 6));
+    var m = L.circleMarker([s.lat, s.lon], { radius: r, weight: 1, color: off ? "#5E7C78" : "#3DDCC8", fillColor: off ? "#5E7C78" : "#3DDCC8", fillOpacity: off ? 0.35 : 0.6 });
+    m.bindPopup("<strong>" + esc(s.n) + "</strong><br>" + esc(s.c) + "<br>" + s.r + (s.r === 1 ? " reattore" : " reattori") + (s.s ? " (" + s.s + " fermi nei dati 2024)" : "") + "<br>" + fmt(s.mw) + " MWe · " + esc(s.t));
+    m.addTo(nuc);
+  });
+  var col = { lancio: "#F2A33A", sviluppo: "#E8653A", italia: "#4FB3E8" };
+  S.forEach(function (s) {
+    var m = L.circleMarker([s.lat, s.lon], { radius: 7, weight: 2, color: "#121417", fillColor: col[s.k], fillOpacity: 0.95 });
+    m.bindPopup("<strong>" + esc(s.n) + "</strong><br>" + esc(s.c) + "<br>" + esc(s.d));
+    m.addTo(s.k === "lancio" ? launch : s.k === "sviluppo" ? dev : ita);
+  });
+  nuc.addTo(map); launch.addTo(map); dev.addTo(map); ita.addTo(map);
+  L.control.layers(null, {
+    "Centrali nucleari": nuc, "Basi di lancio": launch, "Spazioporti in sviluppo": dev, "Siti spaziali italiani": ita
+  }, { collapsed: false }).addTo(map);
+})();
+</script>
+{% endblock %}
