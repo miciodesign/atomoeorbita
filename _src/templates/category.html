@@ -8,11 +8,14 @@
 
 {% if cat.pillar %}
 <section class="wrap">
-  <a class="pillar-card" href="{{ cat.pillar.url }}">
-    <p class="eyebrow">Da dove partire</p>
-    <h2>{{ cat.pillar.title }}</h2>
-    <p>{{ cat.pillar.description }}</p>
-    <span class="btn">Leggi · {{ cat.pillar.minutes }} min</span>
+  <a class="pillar-card{% if cat.pillar.image_small %} has-img{% endif %}" href="{{ cat.pillar.url }}">
+    <div class="pillar-text">
+      <p class="eyebrow">Da dove partire</p>
+      <h2>{{ cat.pillar.title }}</h2>
+      <p>{{ cat.pillar.description }}</p>
+      <span class="btn">Leggi · {{ cat.pillar.minutes }} min</span>
+    </div>
+    {% if cat.pillar.image_small %}<img class="pillar-img" src="{{ cat.pillar.image_small }}" alt="" loading="lazy" width="640" height="480">{% endif %}
   </a>
 </section>
 {% endif %}

@@ -21,6 +21,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - run: pip install markdown jinja2
       - name: Cerca le foto
         run: python _src/foto_mappa.py
       - name: Pubblica
@@ -31,5 +32,6 @@ jobs:
           git stash
           git pull --rebase origin main
           git stash pop || true
-          git add _src/data/foto.json
+          python _src/build.py
+          git add -A
           if git diff --cached --quiet; then echo "Nessun cambiamento"; else git commit -m "Foto della mappa da Wikimedia Commons"; git push; fi

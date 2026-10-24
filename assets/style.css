@@ -238,3 +238,6 @@ a.dossier-card:first-child:hover h3{color:var(--accent)}
 .post-thumb img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;height:auto;background:var(--line)}
 .punto-img{grid-column:1/-1;display:block;margin-bottom:16px;border-radius:var(--radius);overflow:hidden}
 .punto-img img{display:block;width:100%;aspect-ratio:21/9;object-fit:cover;height:auto}
+.pillar-card.has-img{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:28px;align-items:center}
+.pillar-img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:6px;background:var(--line)}
+@media (max-width:720px){.pillar-card.has-img{grid-template-columns:1fr}.pillar-img{order:-1;aspect-ratio:16/9}}

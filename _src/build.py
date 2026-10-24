@@ -69,6 +69,8 @@ def parse_front_matter(text: str) -> tuple[dict, str]:
         value = value.strip()
         if value.startswith("[") and value.endswith("]"):
             value = [v.strip().strip("'\"") for v in value[1:-1].split(",") if v.strip()]
+        elif len(value) >= 2 and value[0] == value[-1] and value[0] in "\"'":
+            value = value[1:-1]
         meta[key.strip()] = value
     return meta, body.lstrip("\n")
 
@@ -131,6 +133,7 @@ def load_foto() -> dict:
 
 def thumb(url: str, width: int) -> str:
     """Le miniature di Commons hanno la larghezza nel nome: /1200px-File.jpg."""
+    url = url.split("?", 1)[0]
     return re.sub(r"/\d+px-", f"/{width}px-", url, count=1)
 
 
@@ -162,7 +165,7 @@ def load_articles() -> list[dict]:
         }
         f = foto.get("articolo:" + meta["slug"])
         if f:
-            article["image"] = f["thumb"]
+            article["image"] = thumb(f["thumb"], 1200)
             article["image_small"] = thumb(f["thumb"], 640)
             article["credit"] = f
         articles.append(article)
