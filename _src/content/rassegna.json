@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T05:05:23.390500+00:00",
+  "updated": "2026-10-24T05:02:36.529189+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -8,8 +8,8 @@
       "section": "atomo"
     },
     {
-      "name": "ANS Nuclear Newswire",
-      "url": "https://www.ans.org/news/rss/",
+      "name": "POWER Magazine",
+      "url": "https://www.powermag.com/category/nuclear/feed/",
       "section": "atomo"
     },
     {
@@ -53,10 +53,89 @@
       "section": "orbita"
     }
   ],
-  "errors": [
-    "ANS Nuclear Newswire: feed non leggibile"
-  ],
+  "errors": [],
   "atomo": [
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Posiva given go-ahead to operate Finnish used fuel repository",
+      "url": "https://www.world-nuclear-news.org/articles/posiva-given-go-ahead-to-operate-finnish-used-fuel-repository",
+      "summary": "Finnish radioactive waste management company Posiva has been granted a licence to operate the encapsulation and final disposal facility for used nuclear fuel located in Olkiluoto. It is the world's first repository for u",
+      "time": "2026-10-23T16:00:37+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Viewpoint: Four million workers won't be enough without the right leaders",
+      "url": "https://www.world-nuclear-news.org/articles/viewpoint-four-million-workers-wont-be-enough-without-the-right-leaders",
+      "summary": "Who will lead the tripling of nuclear capacity? Isis Leslie, Head of Leadership and Capacity Development at World Nuclear Association, looks at what the next generation of nuclear leaders will need and how the industry c",
+      "time": "2026-10-23T14:27:31+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "FID sees Etango enter full-scale construction",
+      "url": "https://www.world-nuclear-news.org/articles/fid-sees-etango-enter-full-scale-construction",
+      "summary": "A positive final investment decision from the Bannerman Energy-CNNC Overseas joint venture means the Etango uranium project in Namibia can transition into full-scale construction activities, with commissioning and produc",
+      "time": "2026-10-23T14:13:54+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "NucNet",
+      "lang": "en",
+      "title": "Nano Nuclear Signs Engineering Agreement With Argentina’s IMPSA For Kronos Microreactor",
+      "url": "https://www.nucnet.org/news/nano-nuclear-signs-engineering-agreement-with-argentina-s-impsa-for-kronos-microreactor-10-5-2026",
+      "summary": "US advanced reactor developer Nano Nuclear Energy has signed a three-year engineering services agreement with the US subsidiary of Argentina’s IMPSA to assess the design and manufacture of key components for its Kronos m",
+      "time": "2026-10-23T13:38:57+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Rosatom eyes 2027 for Uzbek large reactor construction",
+      "url": "https://www.world-nuclear-news.org/articles/rosatom-eyes-2027-for-uzbek-reactor-construction",
+      "summary": "Rosatom plans to launch construction of the large-scale nuclear units at the planned power plant in Uzbekistan in 2027, CEO Alexey Likhachev has said during a visit to the construction site. &nbsp;",
+      "time": "2026-10-23T11:59:44+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Slovenia's deep borehole disposal options studied",
+      "url": "https://www.world-nuclear-news.org/articles/slovenias-deep-borehole-disposal-options-studied",
+      "summary": "The US firm Deep Isolation has conducted a cost assessment for Slovenia's radioactive waste agency which has concluded it would be more economic for used fuel from the TRIGA II research reactor and from the Kr&scaron;ko ",
+      "time": "2026-10-23T11:06:07+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "IAEA",
+      "lang": "en",
+      "title": "Update 372 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-372-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "time": "2026-10-23T00:00:00+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "IAEA",
+      "lang": "en",
+      "title": "What is Nuclear Fuel?",
+      "url": "http://www.iaea.org/newscenter/news/what-is-nuclear-fuel",
+      "summary": "",
+      "time": "2026-10-23T00:00:00+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "POWER Magazine",
+      "lang": "en",
+      "title": "NRC Finalizes Rule Allowing Reactor Applicants to Use DOE, DOW Demonstration Data",
+      "url": "https://www.powermag.com/nrc-finalizes-rule-allowing-reactor-applicants-to-use-doe-dow-demonstration-data/",
+      "summary": "The Nuclear Regulatory Commission (NRC) on Oct. 22 finalized a rule that allows commercial nuclear reactor applicants to use analyses, test data, and other technical evidence from reactor demonstrations previously author",
+      "time": "2026-10-22T21:27:16+00:00"
+    },
     {
       "section": "atomo",
       "source": "NucNet",
@@ -83,90 +162,45 @@
       "url": "https://www.world-nuclear-news.org/articles/radiant-microreactor-selected-for-deployment-by-us-navy",
       "summary": "The US Navy has selected Radiant's Kaleidos microreactor for deployment at Naval Weapons Station Crane, Indiana. &nbsp;",
       "time": "2026-10-22T11:00:53+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "The challenge of securing uranium from seawater - podcast",
-      "url": "https://www.world-nuclear-news.org/articles/the-challenge-of-securing-uranium-from-seawater---podcast",
-      "summary": "Supercritical Materials has an exclusive licence from the US Department of Energy for a patented system to extract uranium from the world's oceans. Founder and CEO Canon Bryan outlined the company's plans to the World Nu",
-      "time": "2026-10-22T10:52:23+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "SMRs could be part of Port of Rotterdam's future, says study",
-      "url": "https://www.world-nuclear-news.org/articles/smrs-could-be-part-of-port-of-rotterdams-future-says-study",
-      "summary": "The Dutch port of Rotterdam could become part of the future small modular reactor supply chain - with opportunities extending well beyond the adoption of nuclear technology itself, according to a study conducted jointly ",
-      "time": "2026-10-22T09:30:35+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "Qualenergia",
-      "lang": "it",
-      "title": "Nucleare, un ruolo marginale nella transizione energetica",
-      "url": "https://www.qualenergia.it/articoli/nucleare-ruolo-marginale-transizione-energetica/",
-      "summary": "Il nucleare può contribuire alla decarbonizzazione, ma non sostituire la nuova produzione fotovoltaica ed eolica. Anche con 550-1.000 GW installati nel 2050, avrebbe una quota intorno al 10% della generazione mondiale. È",
-      "time": "2026-10-22T09:15:34+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "Qualenergia",
-      "lang": "it",
-      "title": "The Role of Nuclear in the Energy Transition: Complementary but Limited",
-      "url": "https://www.qualenergia.it/pro/documenti/the-role-of-nuclear-in-the-energy-transition-complementary-but-limited/",
-      "summary": "Il ruolo del nucleare nella transizione energetica e come può contribuire alla decarbonizzazione, ma non certo sostituire la nuova produzione fotovoltaica ed eolica. Anche con 550-1.000 GW installati nel 2050, la sua quo",
-      "time": "2026-10-22T05:00:50+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "IAEA",
-      "lang": "en",
-      "title": "IAEA Mission Finds Kenya Committed to Safe Management of Radioactive Waste as it Develops a Nuclear Power Programme",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-mission-finds-kenya-committed-to-safe-management-of-radioactive-waste-as-it-develops-a-nuclear-power-programme",
-      "summary": "",
-      "time": "2026-10-22T00:00:00+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "ASEAN nations assessing nuclear energy option",
-      "url": "https://www.world-nuclear-news.org/articles/asean-nations-assessing-nuclear-energy-option",
-      "summary": "Southeast Asian countries are taking a pragmatic look at nuclear power as they seek to meet rapidly growing electricity demand, strengthen energy security and diversify their power generation mix, delegates heard at the ",
-      "time": "2026-10-21T15:26:18+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Westinghouse invests USD1 billion in US LEU+ fuel plant",
-      "url": "https://www.world-nuclear-news.org/articles/westinghouse-invests-usd1-billion-in-us-leu-fuel-plant",
-      "summary": "Westinghouse has announced a USD1 billion investment in the first new fleet-scale nuclear fuel factory to be built in the USA in more than 50 years, at the Columbia Fuel Fabrication Facility in Hopkins, South Carolina. &",
-      "time": "2026-10-21T14:36:59+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "The Nuclear Company proposes 6.6 GW Kentucky project",
-      "url": "https://www.world-nuclear-news.org/articles/nuclear-company-proposes-66-gw-kentucky-project",
-      "summary": "The Nuclear Company has outlined plans for an energy campus in Lewis County, Kentucky, which could feature up to six AP1000 reactors - this would make its 6.6 GW capacity larger than any current nuclear power plant in th",
-      "time": "2026-10-21T13:44:17+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "IAEA says Barakah drone-strike response was effective",
-      "url": "https://www.world-nuclear-news.org/articles/iaea-says-barakah-drone-strike-response-was-effective",
-      "summary": "An International Atomic Energy Agency mission to the United Arab Emirates has said that effective action was taken following the loss of off-site power to Barakah Nuclear Power Plant's unit 3 following a drone strike in ",
-      "time": "2026-10-21T12:16:11+00:00"
     }
   ],
   "orbita": [
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "Nov. 5: Satellite Mission Management at the Edge",
+      "url": "https://spacenews.com/satellite-mission-management-at-the-edge-event/",
+      "summary": "Join us to explore how emerging technologies and commercial capabilities are transforming satellite operations The post Nov. 5: Satellite Mission Management at the Edge appeared first on SpaceNews.",
+      "time": "2026-10-23T19:53:25+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ESA",
+      "lang": "en",
+      "title": "Week in images: 19-23 October 2026",
+      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_19-23_October_2026",
+      "summary": "Week in images: 19-23 October 2026 Discover our week through the lens",
+      "time": "2026-10-23T13:15:00+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "European Spaceflight",
+      "lang": "en",
+      "title": "ESA Director “Not Sure” Themis Will Make Its First Flight in 2026",
+      "url": "https://europeanspaceflight.com/esa-director-not-sure-themis-will-make-its-first-flight-in-2026/",
+      "summary": "The European Space Agency&#8217;s (ESA) Director of Space Transportation, Géraldine Naja, said on 22 October that she was uncertain whether the agency would be able to complete the first flight of its Themis reusable roc",
+      "time": "2026-10-23T11:06:47+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ESA",
+      "lang": "en",
+      "title": "Earth from Space: The pink city",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Earth_from_Space_The_pink_city",
+      "summary": "Image: This image shows a detailed view of the city of Toulouse in southwest France, with its terracotta tiled rooftops lending it the nickname la ville rose, or the pink city.",
+      "time": "2026-10-23T08:00:00+00:00"
+    },
     {
       "section": "orbita",
       "source": "SpaceNews",
@@ -220,60 +254,6 @@
       "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Stars_brewing_in_a_nebulous_cauldron",
       "summary": "Image: Stars brewing in a nebulous cauldron",
       "time": "2026-10-22T08:00:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "TechnoMile Recognized as a 2026 Inc. Power Partner Award Winner",
-      "url": "https://spacenews.com/technomile-recognized-as-a-2026-inc-power-partner-award-winner/",
-      "summary": "TechnoMile, the leading AI solution that unifies growth, contracts, compliance, and security workflows, has been named a 2026 Inc. Power Partner Awards winner, recognizing the company among the leading B2B [&#8230;] The ",
-      "time": "2026-10-21T15:26:29+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "Global Satcom Services Revenues to Reach $145 Billion by 2035",
-      "url": "https://spacenews.com/global-satcom-services-revenues-to-reach-145-billion-by-2035/",
-      "summary": "Paris, France &#124; October 2026 – Global satellite services revenues are forecast to grow 44% to reach $145 billion by 2035, according to the 33rd edition of Novaspace’s Satellite Connectivity [&#8230;] The post Global",
-      "time": "2026-10-21T15:00:22+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "European Spaceflight",
-      "lang": "en",
-      "title": "Airbus Ships First Lightweight Vulcain Aft Bay for Ariane 6 Block 2",
-      "url": "https://europeanspaceflight.com/airbus-ships-first-lightweight-vulcain-aft-bay-for-ariane-6-block-2/",
-      "summary": "Airbus Netherlands has delivered the first lightweight Vulcain Aft Bay for Ariane 6 as part of the rocket&#8217;s Block 2 upgrades. In a 21 October LinkedIn post, Airbus Netherlands President Rob Postma announced that th",
-      "time": "2026-10-21T14:34:27+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "Space Nuclear Power Corporation Awarded DARPA Agreement for Ground Test of Autonomous Nuclear Reactor Controller",
-      "url": "https://spacenews.com/space-nuclear-power-corporation-awarded-darpa-agreement-for-ground-test-of-autonomous-nuclear-reactor-controller/",
-      "summary": "LOS ALAMOS, N.M. — October 21, 2026 — Space Nuclear Power Corporation (SpaceNukes) announced today that the Defense Advanced Research Projects Agency (DARPA) has awarded the company an Other Transaction [&#8230;] The pos",
-      "time": "2026-10-21T14:29:57+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "Solstar provides Wi-Fi connectivity for NASA proximity operations demonstration",
-      "url": "https://spacenews.com/solstar-provides-wi-fi-connectivity-for-nasa-proximity-operations-demonstration/",
-      "summary": "SAN FRANCISCO – Wi-Fi technology from Solstar Space connected NASA’s R5-S10 cubesat with Momentus’ Vigoride-7 orbital service vehicle during proximity operations and relayed data to NASA’s Johnson Space Center, Solstar [",
-      "time": "2026-10-21T12:00:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "Summer of Quantum: Building momentum for space-based QKD",
-      "url": "https://spacenews.com/summer-of-quantum-building-momentum-for-space-based-qkd/",
-      "summary": "Glasgow, UK &#124; 21 October 2026 – The pace of development in quantum technologies continues to accelerate, and over the past few months, space engineering company Craft Prospect has been [&#8230;] The post Summer of Q",
-      "time": "2026-10-21T11:54:30+00:00"
     }
   ]
 }
