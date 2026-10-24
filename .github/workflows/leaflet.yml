@@ -1,0 +1,36 @@
+name: Vendor Leaflet
+
+# Scarica una volta Leaflet 1.9.4 dal registro npm (integrità verificata da npm)
+# e lo salva in _src/static/leaflet, così la mappa non dipende da CDN esterne.
+on:
+  push:
+    paths:
+      - ".github/workflows/leaflet.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  vendor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Scarica Leaflet
+        run: |
+          mkdir -p /tmp/lf && cd /tmp/lf
+          npm pack leaflet@1.9.4
+          tar xzf leaflet-1.9.4.tgz
+          mkdir -p "$GITHUB_WORKSPACE/_src/static/leaflet"
+          cp package/dist/leaflet.js package/dist/leaflet.css package/LICENSE "$GITHUB_WORKSPACE/_src/static/leaflet/"
+          cp -r package/dist/images "$GITHUB_WORKSPACE/_src/static/leaflet/"
+      - name: Pubblica
+        run: |
+          git config user.name "Atomo e Orbita"
+          git config user.email "redazione@atomoeorbita.it"
+          git pull --rebase origin main
+          git add _src/static/leaflet
+          if git diff --cached --quiet; then echo "Già presente"; else git commit -m "Leaflet 1.9.4 ospitato localmente"; git push; fi
