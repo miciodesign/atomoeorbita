@@ -7,6 +7,14 @@
   "origine": "Akademik Lomonosov",
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/%D0%A1%D0%BF%D1%83%D1%81%D0%BA_%D0%9F%D0%90%D0%A2%D0%AD%D0%A1_%D0%BD%D0%B0_%D0%B2%D0%BE%D0%B4%D1%83_20190823.jpg/1280px-%D0%A1%D0%BF%D1%83%D1%81%D0%BA_%D0%9F%D0%90%D0%A2%D0%AD%D0%A1_%D0%BD%D0%B0_%D0%B2%D0%BE%D0%B4%D1%83_20190823.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  },
+ "Alcântara": {
+  "autore": "Agência Brasil",
+  "file": "https://commons.wikimedia.org/wiki/File:Lan%C3%A7amento_do_foguete_brasileiro_de_m%C3%A9dio_porte_VSB-30_V07_da_Base_de_Alc%C3%A2ntara.jpg",
+  "licenza": "CC BY 3.0",
+  "licenza_url": "https://creativecommons.org/licenses/by/3.0",
+  "origine": "cerca:Alcântara Launch Center",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Lan%C3%A7amento_do_foguete_brasileiro_de_m%C3%A9dio_porte_VSB-30_V07_da_Base_de_Alc%C3%A2ntara.jpg/1280px-Lan%C3%A7amento_do_foguete_brasileiro_de_m%C3%A9dio_porte_VSB-30_V07_da_Base_de_Alc%C3%A2ntara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
  "Almaraz": {
   "autore": "Frobles",
   "file": "https://commons.wikimedia.org/wiki/File:Centraldealmaraz.JPG",
@@ -14,6 +22,14 @@
   "licenza_url": "https://creativecommons.org/licenses/by-sa/3.0",
   "origine": "Almaraz Nuclear Power Plant",
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Centraldealmaraz.JPG/1280px-Centraldealmaraz.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ "Andøya Spaceport": {
+  "autore": "MM2sp",
+  "file": "https://commons.wikimedia.org/wiki/File:Rocketrangesummer.JPG",
+  "licenza": "Public domain",
+  "licenza_url": "",
+  "origine": "cerca:Andøya Space Center",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/44/Rocketrangesummer.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
  },
  "Angra": {
   "autore": "Sturm",
@@ -54,6 +70,14 @@
   "licenza_url": "https://creativecommons.org/licenses/by-sa/3.0",
   "origine": "Atucha Nuclear Power Plant",
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Central_Nuclear_Atucha_I_-_II.JPG/1280px-Central_Nuclear_Atucha_I_-_II.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ "Avio, Colleferro": {
+  "autore": "Giorgio Galeotti",
+  "file": "https://commons.wikimedia.org/wiki/File:Castello_di_Avio_-_Sabbionara,_Avio,_Trento,_Italy_-_July_21,_2014_01.jpg",
+  "licenza": "CC BY 4.0",
+  "licenza_url": "https://creativecommons.org/licenses/by/4.0",
+  "origine": "cerca:Colleferro Avio",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Castello_di_Avio_-_Sabbionara%2C_Avio%2C_Trento%2C_Italy_-_July_21%2C_2014_01.jpg/1280px-Castello_di_Avio_-_Sabbionara%2C_Avio%2C_Trento%2C_Italy_-_July_21%2C_2014_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  },
  "Baikonur": {
   "autore": "Bill Ingalls",
@@ -255,6 +279,22 @@
   "origine": "Cattenom Nuclear Power Plant",
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Atomkraftwerk_Cattenom_und_K%C3%BChlwasserstausee_Lac_du_Mirgenbach.JPG/1280px-Atomkraftwerk_Cattenom_und_K%C3%BChlwasserstausee_Lac_du_Mirgenbach.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  },
+ "Centre Spatial Guyanais (Kourou)": {
+  "autore": "Don-vip",
+  "file": "https://commons.wikimedia.org/wiki/File:Zone_de_lancement_Vega_3.jpg",
+  "licenza": "CC BY-SA 4.0",
+  "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "origine": "cerca:Guiana Space Centre Ariane launch",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Zone_de_lancement_Vega_3.jpg/1280px-Zone_de_lancement_Vega_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ "Centro di geodesia spaziale, Matera": {
+  "autore": "Torzog",
+  "file": "https://commons.wikimedia.org/wiki/File:Pendulum_Matera.jpg",
+  "licenza": "CC0",
+  "licenza_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "origine": "cerca:Centro di Geodesia Spaziale Matera",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Pendulum_Matera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+ },
  "Centro spaziale Luigi Broglio (Malindi)": {
   "autore": "autore su Commons",
   "file": "https://commons.wikimedia.org/wiki/File:San_Marco_launch_platform.jpg",
@@ -262,14 +302,6 @@
   "licenza_url": "",
   "origine": "en:Broglio Space Center",
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/San_Marco_launch_platform.jpg/1280px-San_Marco_launch_platform.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
- },
- "Centro spaziale del Fucino": {
-  "autore": "righini",
-  "file": "https://commons.wikimedia.org/wiki/File:Alveo_del_Fucino_-_panoramio.jpg",
-  "licenza": "CC BY 3.0",
-  "licenza_url": "https://creativecommons.org/licenses/by/3.0",
-  "origine": "en:Fucino Space Centre",
-  "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Alveo_del_Fucino_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
  },
  "Cernavoda": {
   "autore": "Petr Štefek",
@@ -1047,6 +1079,14 @@
   "origine": "Pickering Nuclear Generating Station",
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Pickering_Nuclear_Generating_Station_at_Beachfront_Park%2C_June_6_2026_%2803%29_%285-3_cropped%29.jpg/1280px-Pickering_Nuclear_Generating_Station_at_Beachfront_Park%2C_June_6_2026_%2803%29_%285-3_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  },
+ "Plesetsk": {
+  "autore": "Department of Information of the Ministry of Defense of Russia",
+  "file": "https://commons.wikimedia.org/wiki/File:Plesetsk_Cosmodrome_2015.jpg",
+  "licenza": "CC BY 4.0",
+  "licenza_url": "https://creativecommons.org/licenses/by/4.0",
+  "origine": "cerca:Plesetsk Cosmodrome",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/07/Plesetsk_Cosmodrome_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+ },
  "Point Beach": {
   "autore": "Yodel2010",
   "file": "https://commons.wikimedia.org/wiki/File:Point_Beach_Nuclear_Plant.jpg",
@@ -1174,6 +1214,14 @@
   "licenza_url": "https://creativecommons.org/licenses/by-sa/3.0",
   "origine": "Salem Nuclear Power Plant",
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Salem_Nuclear_Power_Plant.jpg/1280px-Salem_Nuclear_Power_Plant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ "Salto di Quirra (Perdasdefogu)": {
+  "autore": "The original uploader was Cadria at Italian Wikipedia.",
+  "file": "https://commons.wikimedia.org/wiki/File:Lance1988.jpg",
+  "licenza": "GFDL",
+  "licenza_url": "http://www.gnu.org/copyleft/fdl.html",
+  "origine": "cerca:Salto di Quirra",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Lance1988.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
  },
  "Sanmen": {
   "autore": "我",
@@ -1351,6 +1399,14 @@
   "origine": "St. Lucie Nuclear Power Plant",
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/St._Lucie_Nuclear_Power_Plant_photo_Don_Ramey_Logan.jpg/1280px-St._Lucie_Nuclear_Power_Plant_photo_Don_Ramey_Logan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  },
+ "Starbase (Boca Chica)": {
+  "autore": "Jaredkrahn",
+  "file": "https://commons.wikimedia.org/wiki/File:SpaceX_Boca_Chica_Launch_Pad_-_SN9.jpg",
+  "licenza": "CC BY-SA 4.0",
+  "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "origine": "cerca:Starbase Boca Chica Starship launch site",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/SpaceX_Boca_Chica_Launch_Pad_-_SN9.jpg/1280px-SpaceX_Boca_Chica_Launch_Pad_-_SN9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
  "Summer": {
   "autore": "DJSlawSlaw",
   "file": "https://commons.wikimedia.org/wiki/File:Virgil_C._Summer_Nuclear_Station_Unit_1.jpg",
@@ -1383,6 +1439,14 @@
   "origine": "Taishan Nuclear Power Plant",
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Taishan_Nuclear_Power_Plant.jpg/1280px-Taishan_Nuclear_Power_Plant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  },
+ "Taiyuan": {
+  "autore": "SpaceFrom.Space",
+  "file": "https://commons.wikimedia.org/wiki/File:Taiyuan_Satellite_Launch_Center_in_SAR_-_2023-06-20_(53264414596).jpg",
+  "licenza": "CC BY 2.0",
+  "licenza_url": "https://creativecommons.org/licenses/by/2.0",
+  "origine": "cerca:Taiyuan Satellite Launch Center",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Taiyuan_Satellite_Launch_Center_in_SAR_-_2023-06-20_%2853264414596%29.jpg/1280px-Taiyuan_Satellite_Launch_Center_in_SAR_-_2023-06-20_%2853264414596%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
  "Takahama": {
   "autore": "Hirorinmasa",
   "file": "https://commons.wikimedia.org/wiki/File:Takahama_Nuclear_Power_Plant.jpg",
@@ -1406,6 +1470,14 @@
   "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0",
   "origine": "Temelín Nuclear Power Station",
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Jete_side_remastered_%28cropped%29.jpg/1280px-Jete_side_remastered_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ "Thales Alenia Space, Torino": {
+  "autore": "European Space Agency",
+  "file": "https://commons.wikimedia.org/wiki/File:Euclid%27s_twin_arrives_at_mission_control_-_arrival_ESA25482240.jpg",
+  "licenza": "CC BY-SA 3.0 igo",
+  "licenza_url": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+  "origine": "cerca:Thales Alenia Space Torino",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Euclid%27s_twin_arrives_at_mission_control_-_arrival_ESA25482240.jpg/1280px-Euclid%27s_twin_arrives_at_mission_control_-_arrival_ESA25482240.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  },
  "Tianwan": {
   "autore": "WPTO",
@@ -1470,14 +1542,6 @@
   "licenza_url": "https://creativecommons.org/licenses/by-sa/3.0",
   "origine": "Tsuruga Nuclear Power Plant",
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Tsuruga_Nuclear_Power_Plant.jpg/1280px-Tsuruga_Nuclear_Power_Plant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
- },
- "Turkey Point": {
-  "autore": "Fred Ward",
-  "file": "https://commons.wikimedia.org/wiki/File:TURKEY_POINT_NUCLEAR_PLANT_-_NARA_-_544495.tif",
-  "licenza": "Public domain",
-  "licenza_url": "",
-  "origine": "Turkey Point Nuclear Generating Station",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/TURKEY_POINT_NUCLEAR_PLANT_-_NARA_-_544495.tif/lossy-page1-1280px-TURKEY_POINT_NUCLEAR_PLANT_-_NARA_-_544495.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  },
  "Uchinoura": {
   "autore": "Ippukucho",
@@ -1576,12 +1640,12 @@
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Columbus_module_-_cropped.jpg/1280px-Columbus_module_-_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  },
  "articolo:lanciatori-riutilizzabili-europa-ritardo": {
-  "autore": "Philip Terry Graham",
-  "file": "https://commons.wikimedia.org/wiki/File:Falcon_9_logo.svg",
-  "licenza": "Public domain",
-  "licenza_url": "",
-  "origine": "en:Falcon 9",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Falcon_9_logo.svg/1280px-Falcon_9_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  "autore": "SpaceX Photos",
+  "file": "https://commons.wikimedia.org/wiki/File:ORBCOMM-2_(23802549782).jpg",
+  "licenza": "CC0",
+  "licenza_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "origine": "en:Falcon 9 Full Thrust",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/ORBCOMM-2_%2823802549782%29.jpg/1280px-ORBCOMM-2_%2823802549782%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  },
  "articolo:legge-delega-nucleare-spiegata": {
   "autore": "Simone Ramella from Rome, Italy",
@@ -1600,20 +1664,20 @@
   "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ea/NTS_-_ETS-1_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
  },
  "articolo:satelliti-difesa-orbita-dominio-militare": {
-  "autore": "autore su Commons",
-  "file": "https://commons.wikimedia.org/wiki/File:COSMO_Skymed_flare.PNG",
-  "licenza": "CC BY-SA 3.0",
-  "licenza_url": "https://creativecommons.org/licenses/by-sa/3.0",
-  "origine": "en:COSMO-SkyMed",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/COSMO_Skymed_flare.PNG/1280px-COSMO_Skymed_flare.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
- },
- "articolo:scorie-dove-sono-dove-andranno": {
-  "autore": "Unknown authorUnknown author",
-  "file": "https://commons.wikimedia.org/wiki/File:Onkalo-kaaviokuva.svg",
+  "autore": "U.S. Air Force/Matthew Plew",
+  "file": "https://commons.wikimedia.org/wiki/File:Vandenberg_launches_D-II,_COSMO-SkyMed_satellite_(070607-F-3452P-025).jpg",
   "licenza": "Public domain",
   "licenza_url": "",
-  "origine": "en:Onkalo spent nuclear fuel repository",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Onkalo-kaaviokuva.svg/1280px-Onkalo-kaaviokuva.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  "origine": "cerca:COSMO-SkyMed satellite",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Vandenberg_launches_D-II%2C_COSMO-SkyMed_satellite_%28070607-F-3452P-025%29.jpg/1280px-Vandenberg_launches_D-II%2C_COSMO-SkyMed_satellite_%28070607-F-3452P-025%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ "articolo:scorie-dove-sono-dove-andranno": {
+  "autore": "kallerna",
+  "file": "https://commons.wikimedia.org/wiki/File:Tunnel_end_Onkalo.jpg",
+  "licenza": "CC BY-SA 4.0",
+  "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "origine": "cerca:Onkalo repository tunnel",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Tunnel_end_Onkalo.jpg/1280px-Tunnel_end_Onkalo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  },
  "articolo:smr-cosa-sono-europa": {
   "autore": "Elena Dider",
@@ -1630,5 +1694,13 @@
   "licenza_url": "",
   "origine": "en:Yellowcake",
   "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Yellowcake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+ },
+ "articolo:vega-e-futuro-lanciatore-italiano": {
+  "autore": "El fosilmaníaco",
+  "file": "https://commons.wikimedia.org/wiki/File:Kourou_launchers_mockups.jpg",
+  "licenza": "CC BY-SA 4.0",
+  "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "origine": "cerca:Vega C launch Kourou",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Kourou_launchers_mockups.jpg/1280px-Kourou_launchers_mockups.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  }
 }
