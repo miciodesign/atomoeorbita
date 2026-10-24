@@ -381,7 +381,7 @@ def build() -> None:
         "ErrorDocument 404 /404.html",
         "AddDefaultCharset UTF-8",
         "<IfModule mod_deflate.c>",
-        "  AddOutputFilterByType DEFLATE text/html text/css application/javascript image/svg+xml application/xml",
+        "  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml application/xml",
         "</IfModule>",
         "<IfModule mod_expires.c>",
         "  ExpiresActive On",

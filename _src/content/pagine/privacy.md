@@ -23,7 +23,7 @@ Il titolare del trattamento è la redazione di Atomo e Orbita, contattabile a re
 
 Il sito non imposta cookie propri di profilazione. I caratteri tipografici sono caricati da Google Fonts: il tuo browser richiede i file a Google, che può registrare la richiesta secondo la propria informativa.
 
-Nella pagina [Mappa](/mappa/) le tessere della cartina sono caricate da CARTO, su dati OpenStreetMap: il tuo browser le richiede ai loro server, che ricevono l'indirizzo IP secondo le proprie informative. La pagina non imposta cookie. Le foto di mappa e articoli vengono da Wikimedia Commons ma sono ospitate su questo sito: aprendole il tuo browser non contatta Wikimedia.
+La pagina [Mappa](/mappa/) è disegnata interamente con file ospitati su questo sito (confini dei paesi da Natural Earth) e non imposta cookie. Le foto di mappa e articoli vengono da Wikimedia Commons ma sono ospitate su questo sito: aprendole il tuo browser non contatta Wikimedia.
 
 Nella pagina Risorse alcuni link verso librerie e piattaforme di corsi sono di affiliazione: cliccandoli, il sito di destinazione può impostare cookie sul suo dominio per riconoscere la provenienza della visita. Questo avviene sul sito di destinazione, non su atomoeorbita.it, e segue l'informativa di quel sito.
 
