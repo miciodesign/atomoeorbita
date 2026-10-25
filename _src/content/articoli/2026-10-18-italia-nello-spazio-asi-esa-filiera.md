@@ -1,11 +1,11 @@
 ---
-title: "L'Italia nello spazio: ASI, ESA e la filiera, spiegati a chi arriva da fuori"
+title: "L'Italia nello spazio: Agenzia Spaziale Italiana, ESA e industria, spiegate a chi arriva da fuori"
 slug: italia-nello-spazio-asi-esa-filiera
 foto: en:Columbus (ISS module)
 category: orbita
 date: 2026-10-18
 updated: 2026-10-23
-description: Chi decide, chi paga e chi costruisce nello spazio italiano. L'Agenzia, il rapporto con l'ESA, i 3,5 miliardi della Ministeriale di Brema, la legge spaziale del 2025 e le aziende, con la fusione Airbus-Leonardo-Thales sullo sfondo.
+description: Chi decide, chi paga e chi costruisce nello spazio italiano. L'Agenzia Spaziale Italiana (ASI), il rapporto con l'ESA, i 3,5 miliardi della Ministeriale di Brema, la legge spaziale del 2025 e l'industria aerospaziale, con la fusione Airbus-Leonardo-Thales sullo sfondo.
 format: spiegato
 pillar: true
 ---
@@ -15,7 +15,7 @@ L'Italia è uno dei pochi paesi al mondo con una filiera spaziale completa: prog
 
 La politica spaziale italiana dipende dalla **Presidenza del Consiglio**, che la esercita attraverso un ministro delegato: oggi Adolfo Urso, ministro delle Imprese e del Made in Italy. Il coordinamento tra i ministeri passa dal **COMINT**, il Comitato interministeriale per le politiche relative allo spazio, che approva gli indirizzi e il documento strategico pluriennale.
 
-L'**Agenzia Spaziale Italiana** (ASI), fondata nel 1988 e con sede a Roma, è il braccio operativo: gestisce i programmi nazionali, rappresenta l'Italia nell'ESA e finanzia industria e ricerca. Il suo piano triennale 2024-2026 prevede investimenti per 4,7 miliardi di euro, metà circa da fondi pubblici nazionali. È presieduta da Teodoro Valente. Ha inoltre un ruolo nuovo dal 2025: autorità per le autorizzazioni e il registro degli oggetti spaziali, come vedremo.
+L'**Agenzia Spaziale Italiana** (ASI), fondata nel 1988 e con sede a Roma, è il braccio operativo. Viene spesso chiamata "la NASA italiana", ma il paragone regge solo in parte: il bilancio è una frazione di quello americano e gran parte dei programmi passa dall'ESA. L'ASI gestisce i programmi nazionali, rappresenta l'Italia nell'ESA e finanzia industria e ricerca. Il suo piano triennale 2024-2026 prevede investimenti per 4,7 miliardi di euro, metà circa da fondi pubblici nazionali. È presieduta da Teodoro Valente. Ha inoltre un ruolo nuovo dal 2025: autorità per le autorizzazioni e il registro degli oggetti spaziali, come vedremo.
 
 ## L'ESA, e perché l'Italia conta
 

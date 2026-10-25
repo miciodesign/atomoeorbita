@@ -315,8 +315,8 @@ def build() -> None:
     write(ROOT / "mappa" / "index.html", env.get_template("mappa.html").render(
         **base_ctx, centrali=centrali, spazio=spazio, n_foto=sum(1 for s in centrali + spazio if 'f' in s), c_sites=len(centrali),
         c_reactors=sum(c["r"] for c in centrali), page_url="/mappa/",
-        title=f"Mappa delle centrali nucleari e delle basi spaziali · {CONFIG['name']}",
-        description="Mappa interattiva delle centrali nucleari operabili nel mondo, degli spazioporti e dei siti spaziali italiani, con fonti e limiti dei dati."))
+        title=f"Centrali nucleari nel mondo e basi spaziali: la mappa · {CONFIG['name']}",
+        description="Mappa interattiva di tutte le centrali e i reattori nucleari in funzione nel mondo, degli spazioporti e dei siti spaziali italiani, con fonti e limiti dei dati."))
 
     # numeri
     write(ROOT / "numeri" / "index.html", env.get_template("numeri.html").render(

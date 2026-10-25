@@ -1,17 +1,17 @@
 ---
-title: SMR, cosa sono e perché l'Europa ci scommette
+title: "Cosa significa SMR: i piccoli reattori modulari e perché l'Europa ci scommette"
 slug: smr-cosa-sono-europa
 foto: en:Akademik Lomonosov
 category: atomo
 date: 2026-10-18
-description: I piccoli reattori modulari promettono costi e tempi più bassi del nucleare tradizionale. Cosa sono davvero, chi li sta costruendo in Europa, cosa ha scelto l'Italia e cosa manca ancora per vederli funzionare.
+description: SMR significa Small Modular Reactor, piccolo reattore modulare. Promettono costi e tempi più bassi del nucleare tradizionale. Cosa sono davvero, chi li sta costruendo in Europa, cosa ha scelto l'Italia e cosa manca ancora per vederli funzionare.
 format: spiegato
 ---
 Nelle dichiarazioni sul ritorno del nucleare in Italia ricorre sempre una sigla: SMR. Il Governo li indica come la tecnologia di riferimento, Enel e Ansaldo stanno selezionando quale modello adottare, Edison ed EDF ne hanno presentato uno a Milano. Vale la pena capire cosa sono, perché l'Europa ci sta investendo e, soprattutto, cosa separa oggi la promessa dalla realtà.
 
-## Cosa significa "piccolo e modulare"
+## Cosa significa SMR: "piccolo e modulare"
 
-SMR sta per *Small Modular Reactor*. Le due parole contano entrambe.
+SMR sta per *Small Modular Reactor*, in italiano piccolo reattore modulare. Le due parole contano entrambe.
 
 **Small** indica la potenza: per convenzione dell'Agenzia internazionale per l'energia atomica, fino a 300 MW elettrici per unità, contro i 1.000-1.600 MW di un reattore di grande taglia. In pratica, il mercato usa la sigla con una certa elasticità: il Rolls-Royce SMR britannico arriva a 470 MW, il Nuward franco-italiano a 400.
 

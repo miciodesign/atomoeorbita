@@ -1,5 +1,5 @@
 ---
-title: "Satelliti e difesa: perché l'orbita è diventata un dominio militare"
+title: "Satelliti militari: perché l'orbita è diventata un dominio della difesa"
 slug: satelliti-difesa-orbita-dominio-militare
 foto: cerca:COSMO-SkyMed satellite | cerca:Sicral satellite
 category: orbita
