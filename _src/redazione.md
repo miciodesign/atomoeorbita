@@ -63,7 +63,9 @@ Primo Punto: lunedì 26 ottobre 2026. Primo Dossier: fine ottobre 2026.
 
 **Atomo in coda**: fusione (ITER, progetti privati, Eni-CFS); il Deposito nazionale regione per regione; costo del kWh nucleare, cosa dicono i contratti veri (Hinkley, Dukovany); Italia e il PNIEC.
 
-**Orbita in coda**: Vega E e il motore M10; COSMO-SkyMed terza generazione; Space Rider; l'astronauta italiano su Artemis; i dati satellitari come servizio.
+**Orbita in coda**: **costellazioni satellitari: quanto costano, a cosa servono, chi le fa in Italia** (priorità: Search Console mostra già ricerche su costi, casi d'uso e osservazione della Terra); Vega E e il motore M10; COSMO-SkyMed terza generazione; Space Rider; l'astronauta italiano su Artemis; i dati satellitari come servizio.
+
+**Search Console (25 ottobre 2026)**: le pagine con più impressioni e zero clic erano SMR (60), Italia nello spazio (55) e satelliti militari (48). Il 25 ottobre ho ritoccato i titoli sulle ricerche reali: "cosa significa SMR", "Agenzia Spaziale Italiana" e "NASA italiana", "satellite militare", "centrali nucleari nel mondo". Ricontrollare a metà novembre.
 
 **Schede Numeri da fare**: inventario rifiuti radioattivi per regione (ISIN); reattori nel mondo (fatta, aggiornare a ogni revisione WNA); lanci orbitali dell'anno; SMR in Europa per stato di avanzamento; satelliti italiani in orbita; contributi ESA per paese.
 
