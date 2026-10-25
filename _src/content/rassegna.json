@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T05:02:36.529189+00:00",
+  "updated": "2026-10-25T05:05:30.370795+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -108,60 +108,6 @@
       "url": "https://www.world-nuclear-news.org/articles/slovenias-deep-borehole-disposal-options-studied",
       "summary": "The US firm Deep Isolation has conducted a cost assessment for Slovenia's radioactive waste agency which has concluded it would be more economic for used fuel from the TRIGA II research reactor and from the Kr&scaron;ko ",
       "time": "2026-10-23T11:06:07+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "IAEA",
-      "lang": "en",
-      "title": "Update 372 – IAEA Director General Statement on Situation in Ukraine",
-      "url": "http://www.iaea.org/newscenter/pressreleases/update-372-iaea-director-general-statement-on-situation-in-ukraine",
-      "summary": "",
-      "time": "2026-10-23T00:00:00+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "IAEA",
-      "lang": "en",
-      "title": "What is Nuclear Fuel?",
-      "url": "http://www.iaea.org/newscenter/news/what-is-nuclear-fuel",
-      "summary": "",
-      "time": "2026-10-23T00:00:00+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "POWER Magazine",
-      "lang": "en",
-      "title": "NRC Finalizes Rule Allowing Reactor Applicants to Use DOE, DOW Demonstration Data",
-      "url": "https://www.powermag.com/nrc-finalizes-rule-allowing-reactor-applicants-to-use-doe-dow-demonstration-data/",
-      "summary": "The Nuclear Regulatory Commission (NRC) on Oct. 22 finalized a rule that allows commercial nuclear reactor applicants to use analyses, test data, and other technical evidence from reactor demonstrations previously author",
-      "time": "2026-10-22T21:27:16+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "NucNet",
-      "lang": "en",
-      "title": "Finland Grants Operating Licence To World’s First Deep Geologic Nuclear Repository",
-      "url": "https://www.nucnet.org/news/finland-grants-operating-licence-to-world-s-first-deep-geologic-nuclear-repository-10-4-2026",
-      "summary": "Finland has granted an operating licence to Posiva for its spent nuclear fuel encapsulation and final disposal facility at Olkiluoto, marking the first time a deep geological repository for spent nuclear fuel has receive",
-      "time": "2026-10-22T12:11:35+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "OPG firm joins UK BWRX-300 project",
-      "url": "https://www.world-nuclear-news.org/articles/joint-venture-to-operate-planned-uk-bwrx-300-fleet",
-      "summary": "The UK-based project company of European SMR developer and investor SGE, and Origin Nuclear, a subsidiary of Ontario Power Generation, have signed a letter of intent to establish a joint venture for the future operation ",
-      "time": "2026-10-22T12:02:58+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Radiant microreactor selected for deployment by US Navy",
-      "url": "https://www.world-nuclear-news.org/articles/radiant-microreactor-selected-for-deployment-by-us-navy",
-      "summary": "The US Navy has selected Radiant's Kaleidos microreactor for deployment at Naval Weapons Station Crane, Indiana. &nbsp;",
-      "time": "2026-10-22T11:00:53+00:00"
     }
   ],
   "orbita": [
@@ -200,60 +146,6 @@
       "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Earth_from_Space_The_pink_city",
       "summary": "Image: This image shows a detailed view of the city of Toulouse in southwest France, with its terracotta tiled rooftops lending it the nickname la ville rose, or the pink city.",
       "time": "2026-10-23T08:00:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "Rethinking networks in space with Aalyria’s Brian Barritt",
-      "url": "https://spacenews.com/rethinking-networks-in-space-with-aalyrias-brian-barritt/",
-      "summary": "In this episode, SpaceNews’ Mike Gruss talks with the CEO of Aalyria Brian Barritt about how networks are evolving, what scaling the company means and the role of software interoperability [&#8230;] The post Rethinking n",
-      "time": "2026-10-22T18:13:38+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "European Spaceflight",
-      "lang": "en",
-      "title": "ESA Provides New Details on Failed Space Rider Drop Test",
-      "url": "https://europeanspaceflight.com/esa-provides-new-details-on-failed-space-rider-drop-test/",
-      "summary": "The European Space Agency (ESA) has provided new details about the failed Space Rider drop test, confirming that the vehicle&#8217;s parafoil detached during deployment, sending the full-scale test model back to terra fi",
-      "time": "2026-10-22T15:02:37+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ESA",
-      "lang": "en",
-      "title": "350th ESA Council: Media information session",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/350th_ESA_Council_Media_information_session",
-      "summary": "Video: 01:45:34 Watch the replay of the media information session where ESA Director General Josef Aschbacher and ESA Council Chair at delegate level Juan Carlos Cortés outline the key decisions and main outcomes of the ",
-      "time": "2026-10-22T14:00:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ESA",
-      "lang": "en",
-      "title": "ESA Open Days 2026",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/ESA_Open_Days_2026",
-      "summary": "Video: 00:00:49 ESA Open Days 2026 welcomed over 23 000 visitors across its six establishments, giving the public the opportunity to discover more about Europe’s space activities, meet the people behind the missions and ",
-      "time": "2026-10-22T09:00:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ESA",
-      "lang": "en",
-      "title": "ESA Council approves appointment of two new directors",
-      "url": "https://www.esa.int/About_Us/Corporate_news/ESA_Council_approves_appointment_of_two_new_directors",
-      "summary": "The European Space Agency Council has approved the appointment of two new directors: Andrzej Banasiak as Director of Commercialisation and Industry Partnership, and Nicolaus Hanowski as Director of Space Operations.",
-      "time": "2026-10-22T08:26:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ESA",
-      "lang": "en",
-      "title": "Stars brewing in a nebulous cauldron",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Stars_brewing_in_a_nebulous_cauldron",
-      "summary": "Image: Stars brewing in a nebulous cauldron",
-      "time": "2026-10-22T08:00:00+00:00"
     }
   ]
 }
