@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T05:05:30.370795+00:00",
+  "updated": "2026-10-26T05:11:19.709978+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -54,98 +54,16 @@
     }
   ],
   "errors": [],
-  "atomo": [
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Posiva given go-ahead to operate Finnish used fuel repository",
-      "url": "https://www.world-nuclear-news.org/articles/posiva-given-go-ahead-to-operate-finnish-used-fuel-repository",
-      "summary": "Finnish radioactive waste management company Posiva has been granted a licence to operate the encapsulation and final disposal facility for used nuclear fuel located in Olkiluoto. It is the world's first repository for u",
-      "time": "2026-10-23T16:00:37+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Viewpoint: Four million workers won't be enough without the right leaders",
-      "url": "https://www.world-nuclear-news.org/articles/viewpoint-four-million-workers-wont-be-enough-without-the-right-leaders",
-      "summary": "Who will lead the tripling of nuclear capacity? Isis Leslie, Head of Leadership and Capacity Development at World Nuclear Association, looks at what the next generation of nuclear leaders will need and how the industry c",
-      "time": "2026-10-23T14:27:31+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "FID sees Etango enter full-scale construction",
-      "url": "https://www.world-nuclear-news.org/articles/fid-sees-etango-enter-full-scale-construction",
-      "summary": "A positive final investment decision from the Bannerman Energy-CNNC Overseas joint venture means the Etango uranium project in Namibia can transition into full-scale construction activities, with commissioning and produc",
-      "time": "2026-10-23T14:13:54+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "NucNet",
-      "lang": "en",
-      "title": "Nano Nuclear Signs Engineering Agreement With Argentina’s IMPSA For Kronos Microreactor",
-      "url": "https://www.nucnet.org/news/nano-nuclear-signs-engineering-agreement-with-argentina-s-impsa-for-kronos-microreactor-10-5-2026",
-      "summary": "US advanced reactor developer Nano Nuclear Energy has signed a three-year engineering services agreement with the US subsidiary of Argentina’s IMPSA to assess the design and manufacture of key components for its Kronos m",
-      "time": "2026-10-23T13:38:57+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Rosatom eyes 2027 for Uzbek large reactor construction",
-      "url": "https://www.world-nuclear-news.org/articles/rosatom-eyes-2027-for-uzbek-reactor-construction",
-      "summary": "Rosatom plans to launch construction of the large-scale nuclear units at the planned power plant in Uzbekistan in 2027, CEO Alexey Likhachev has said during a visit to the construction site. &nbsp;",
-      "time": "2026-10-23T11:59:44+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Slovenia's deep borehole disposal options studied",
-      "url": "https://www.world-nuclear-news.org/articles/slovenias-deep-borehole-disposal-options-studied",
-      "summary": "The US firm Deep Isolation has conducted a cost assessment for Slovenia's radioactive waste agency which has concluded it would be more economic for used fuel from the TRIGA II research reactor and from the Kr&scaron;ko ",
-      "time": "2026-10-23T11:06:07+00:00"
-    }
-  ],
+  "atomo": [],
   "orbita": [
     {
       "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "Nov. 5: Satellite Mission Management at the Edge",
-      "url": "https://spacenews.com/satellite-mission-management-at-the-edge-event/",
-      "summary": "Join us to explore how emerging technologies and commercial capabilities are transforming satellite operations The post Nov. 5: Satellite Mission Management at the Edge appeared first on SpaceNews.",
-      "time": "2026-10-23T19:53:25+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ESA",
-      "lang": "en",
-      "title": "Week in images: 19-23 October 2026",
-      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_19-23_October_2026",
-      "summary": "Week in images: 19-23 October 2026 Discover our week through the lens",
-      "time": "2026-10-23T13:15:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "European Spaceflight",
-      "lang": "en",
-      "title": "ESA Director “Not Sure” Themis Will Make Its First Flight in 2026",
-      "url": "https://europeanspaceflight.com/esa-director-not-sure-themis-will-make-its-first-flight-in-2026/",
-      "summary": "The European Space Agency&#8217;s (ESA) Director of Space Transportation, Géraldine Naja, said on 22 October that she was uncertain whether the agency would be able to complete the first flight of its Themis reusable roc",
-      "time": "2026-10-23T11:06:47+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ESA",
-      "lang": "en",
-      "title": "Earth from Space: The pink city",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Earth_from_Space_The_pink_city",
-      "summary": "Image: This image shows a detailed view of the city of Toulouse in southwest France, with its terracotta tiled rooftops lending it the nickname la ville rose, or the pink city.",
-      "time": "2026-10-23T08:00:00+00:00"
+      "source": "AstronautiNEWS",
+      "lang": "it",
+      "title": "Perduto uno dei modelli di sviluppo del mini shuttle europeo Space Rider",
+      "url": "https://www.astronautinews.it/2026/10/perduto-uno-dei-modelli-di-sviluppo-del-mini-shuttle-europeo-space-rider/",
+      "summary": "Lo scorso 22 ottobre, nel corso della rituale conferenza stampa convocata al termine del trentacinquesimo Consiglio dell'ESA, la direttrice del settore Space Transportation di ESA Géraldine Naja ha fornito vari aggiornam",
+      "time": "2026-10-25T17:30:00+00:00"
     }
   ]
 }
