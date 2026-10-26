@@ -90,6 +90,7 @@ Le pagine fisse stanno in `_src/content/pagine/`, le schede Numeri in `_src/cont
 - **Versione inglese**: no per ora. Il vantaggio della testata è l'italiano; in inglese concorrono testate con redazioni vere. Da riconsiderare se Search Console mostra lettori dall'estero: in quel caso tradurre solo Dossier e schede Numeri, non tutto il sito.
 - **Abbonamento a pagamento**: quando c'è autorevolezza e una lista email di qualche migliaio di iscritti.
 - **Affiliazioni**: Amazon per i libri nella pagina Risorse, quando c'è traffico (Amazon chiude l'account senza 3 vendite in 180 giorni).
+- **Instagram**: no per ora (niente link nei post, serve materiale visivo dedicato, il nostro lettore è su LinkedIn). Registrare solo il nome @atomoeorbita con logo e link al sito, senza pubblicare.
 - **Banner o ticker di notizie**: no. La Rassegna quotidiana è la risposta a quel bisogno.
 
 ## Strumenti e accessi
