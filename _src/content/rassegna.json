@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T05:11:19.709978+00:00",
+  "updated": "2026-10-27T05:08:54.916504+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -54,15 +54,115 @@
     }
   ],
   "errors": [],
-  "atomo": [],
+  "atomo": [
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Tilted fuel assembly retrieved from Palisades plant",
+      "url": "https://www.world-nuclear-news.org/articles/tilted-fuel-assembly-retrieved-from-palisades-plant",
+      "summary": "Holtec International's operation to retrieve the fuel assembly from the plant in Michigan was completed using a purpose-built machine that was conceived, engineered, manufactured and delivered in just two weeks. &nbsp;",
+      "time": "2026-10-26T16:24:47+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Regulatory milestone for US laser enrichment plant",
+      "url": "https://www.world-nuclear-news.org/articles/regulatory-milestone-for-us-laser-enrichment-plant",
+      "summary": "The US regulator has issued its Final Environmental Impact Statement for Global Laser Enrichment's Paducah Laser Enrichment Facility, recommending that a construction and operation licence is issued for the proposed plan",
+      "time": "2026-10-26T15:39:11+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Studsvik's waste treatment technology heads to Fukushima",
+      "url": "https://www.world-nuclear-news.org/articles/studsviks-waste-treatment-technology-heads-to-fukushima",
+      "summary": "Swedish nuclear technical services provider Studsvik is to provide Japanese nuclear engineering start-up ReNu Industries Inc with technical information and advice on design conditions for a Japanese version of inDRUM, it",
+      "time": "2026-10-26T15:32:01+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "First reactor unit launched on Chukotka icebreaker",
+      "url": "https://www.world-nuclear-news.org/articles/first-reactor-unit-launched-on-chukotka-icebreaker",
+      "summary": "The starboard reactor unit on the new Chukotka nuclear-powered icebreaker has been brought to minimum controlled power level. &nbsp;",
+      "time": "2026-10-26T15:09:12+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Preparations for advanced nuclear at ports should begin now, study concludes",
+      "url": "https://www.world-nuclear-news.org/articles/preparations-for-advanced-nuclear-at-ports-should-begin-now-study-concludes",
+      "summary": "Ports should begin structured planning for advanced nuclear technology now, treating it as a long-term infrastructure and operating-model question rather than a new marine fuel, according to a new joint paper from the Br",
+      "time": "2026-10-26T14:50:59+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "NucNet",
+      "lang": "en",
+      "title": "New Polling Reveals Majority Of Australians Support Nuclear Energy",
+      "url": "https://www.nucnet.org/news/new-polling-reveals-majority-of-australians-support-nuclear-energy-10-1-2026",
+      "summary": "Almost two-thirds of Australians believe nuclear power should be part of the nation's energy future, as new polling reveals growing concerns about Australia's ability to meet its electricity needs. New YouGov research co",
+      "time": "2026-10-26T14:49:55+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "NucNet",
+      "lang": "en",
+      "title": "Integrated Repository For Slovenia’s Krško Plant And Test Reactor ‘Cheaper Than Standalone Site’",
+      "url": "https://www.nucnet.org/news/integrated-repository-for-slovenia-s-krsko-plant-and-test-reactor-cheaper-than-standalone-site-10-1-2026",
+      "summary": "Integrating a deep geologic repository for spent nuclear fuel from Slovenia’s Triga II research reactor into a site at the country’s Krško nuclear power plant would be cheaper than creating a standalone site, a study has",
+      "time": "2026-10-26T11:35:33+00:00"
+    }
+  ],
   "orbita": [
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "Flexell Space Establishes French Subsidiary to Strengthen European Presence",
+      "url": "https://spacenews.com/flexell-space-establishes-french-subsidiary-to-strengthen-european-presence/",
+      "summary": "– Paris-based FLEXELL SPACE FRANCE SAS creates a local business hub in Europe– New entity to support ongoing contract and volume-production discussions with European customers, from technical reviews to supply [&#8230;] ",
+      "time": "2026-10-26T20:00:00+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "Astranis Upgrades Falcon 9 Launch Contract to Dedicated Mission for Entire Block 4 Production Run of Satellites",
+      "url": "https://spacenews.com/astranis-upgrades-falcon-9-launch-contract-to-dedicated-mission-for-entire-block-4-production-run-of-satellites/",
+      "summary": "SAN FRANCISCO —October 26, 2026—Today, Astranis announced it has upgraded its 4th launch to a dedicated mission aboard a SpaceX Falcon 9 rocket set to launch in 2028, allowing it [&#8230;] The post Astranis Upgrades Falc",
+      "time": "2026-10-26T13:00:00+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "European Spaceflight",
+      "lang": "en",
+      "title": "Australia Counters ESA’s Offer for Mission to ISS for Bennell-Pegg",
+      "url": "https://europeanspaceflight.com/australia-counters-esas-offer-for-mission-to-iss-for-bennell-pegg/",
+      "summary": "The Australian government has submitted a counteroffer to the European Space Agency (ESA) to secure a flight to the International Space Station for Australian astronaut Katherine Bennell-Pegg. Support for the mission is ",
+      "time": "2026-10-26T10:53:24+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ESA",
+      "lang": "en",
+      "title": "Ice mission CRISTAL opens its wings",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Ice_mission_CRISTAL_opens_its_wings",
+      "summary": "With its solar arrays integrated and key qualification reviews under way, Europe’s new ice-monitoring satellite, CRISTAL, is moving from assembly into the demanding testing phase that will demonstrate its readiness for t",
+      "time": "2026-10-26T10:00:00+00:00"
+    },
     {
       "section": "orbita",
       "source": "AstronautiNEWS",
       "lang": "it",
       "title": "Perduto uno dei modelli di sviluppo del mini shuttle europeo Space Rider",
       "url": "https://www.astronautinews.it/2026/10/perduto-uno-dei-modelli-di-sviluppo-del-mini-shuttle-europeo-space-rider/",
-      "summary": "Lo scorso 22 ottobre, nel corso della rituale conferenza stampa convocata al termine del trentacinquesimo Consiglio dell'ESA, la direttrice del settore Space Transportation di ESA Géraldine Naja ha fornito vari aggiornam",
+      "summary": "Lo scorso 22 ottobre, nel corso della rituale conferenza stampa convocata al termine del 350o Consiglio dell'ESA, la direttrice del settore Space Transportation di ESA Géraldine Naja ha fornito vari aggiornamenti sulle c",
       "time": "2026-10-25T17:30:00+00:00"
     }
   ]
