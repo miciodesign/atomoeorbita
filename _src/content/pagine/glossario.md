@@ -49,6 +49,8 @@ I termini che usiamo negli articoli, spiegati in poche righe. Il glossario cresc
 
 **Generazioni (II, III, III+, IV)** – Classificazione informale: II i reattori degli anni '70-'90, III e III+ quelli attuali con sicurezza passiva (EPR, AP1000), IV i concetti avanzati con refrigeranti diversi dall'acqua.
 
+**Uprate** – Aumento della potenza autorizzata di un reattore già in funzione. Va dal 2% (misure più precise) fino al 20% (sostituzione di turbine e componenti), senza costruire un reattore nuovo. [Approfondimento](/atomo/uprate-nucleare-potenza-centrali-esistenti/).
+
 **SMR (Small Modular Reactor)** – In italiano piccolo reattore modulare. Reattori di potenza ridotta (in genere sotto i 300 MW elettrici) progettati per essere costruiti in fabbrica e assemblati in cantiere. A ottobre 2026 nessun SMR occidentale è in esercizio commerciale.
 
 **AMR (Advanced Modular Reactor)** – Sottoinsieme degli SMR che usa tecnologie non ad acqua: refrigeranti a piombo, sodio, sali fusi o gas. Più lontani dal mercato.
