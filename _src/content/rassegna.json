@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T05:08:54.916504+00:00",
+  "updated": "2026-10-28T05:15:52.103665+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -57,6 +57,87 @@
   "atomo": [
     {
       "section": "atomo",
+      "source": "POWER Magazine",
+      "lang": "en",
+      "title": "DOE Offers Constellation Up to $5B Loan for 1.1 GW of Nuclear Uprates at Eight Plants",
+      "url": "https://www.powermag.com/doe-offers-constellation-up-to-5b-loan-for-1-1-gw-of-nuclear-uprates-at-eight-plants/",
+      "summary": "The Department of Energy (DOE) has offered Constellation Energy a conditional loan commitment of up to $5 billion to finance nuclear power uprates and modernization at eight plants in Illinois, Maryland, and Pennsylvania",
+      "time": "2026-10-27T23:43:23+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "POWER Magazine",
+      "lang": "en",
+      "title": "Antares Secures BWXT Fuel Agreement, Advances DOE Review for Electricity-Producing Mark-1",
+      "url": "https://www.powermag.com/antares-secures-bwxt-fuel-agreement-advances-doe-review-for-electricity-producing-mark-1/",
+      "summary": "Antares Nuclear has secured a multi-year agreement with BWX Technologies (BWXT) for advanced nuclear fuel fabrication and received initial Department of Energy (DOE) safety approval for its Mark-1 microreactor, advancing",
+      "time": "2026-10-27T14:29:52+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Korea's Kori 3 and 4 set for restarts in 2027",
+      "url": "https://www.world-nuclear-news.org/articles/koreas-kori-3-and-4-get-go-ahead-to-restart",
+      "summary": "Korea Hydro &amp; Nuclear Power has been given approval by South Korea's Nuclear Safety and Security Commission to continue operating Kori Nuclear Power Plant&rsquo;s unit 3 and 4 for a further 10 years. &nbsp;",
+      "time": "2026-10-27T14:18:24+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "NucNet",
+      "lang": "en",
+      "title": "European GenAI Platform Now Runs In Production Across All Swiss Nuclear Power Plants",
+      "url": "https://www.nucnet.org/news/european-genai-platform-now-runs-in-production-across-all-swiss-nuclear-power-plants-10-2-2026",
+      "summary": "GRAYOAK Nuclear, a European provider of generative AI for the nuclear sector, has confirmed that its platform is now in active use at every Swiss nuclear power plant, developed in close partnership with operator Axpo. Tw",
+      "time": "2026-10-27T13:44:34+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "NVIDIA to consider data centres at former German nuclear sites",
+      "url": "https://www.world-nuclear-news.org/articles/nvidia-to-consider-data-centres-at-former-german-nuclear-sites",
+      "summary": "Germany's PreussenElektra and multinational technology company NVIDIA are to explore whether PreussenElektra's former nuclear power plant sites are suitable for the construction of so-called AI factories. &nbsp;",
+      "time": "2026-10-27T12:14:46+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Singapore looks to develop nuclear energy expertise",
+      "url": "https://www.world-nuclear-news.org/articles/singapore-looks-to-develop-nuclear-energy-workforce",
+      "summary": "The Ministry of Energy, Trade and Industry and the Energy Market Authority of Singapore have launched schemes to develop &quot;a strong pipeline of local expertise in nuclear energy&quot;. &nbsp;",
+      "time": "2026-10-27T11:54:37+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Cross-party interest in Australian nuclear future, poll suggests",
+      "url": "https://www.world-nuclear-news.org/articles/cross-party-interest-in-australian-nuclear-future-poll-suggests",
+      "summary": "A YouGov poll commissioned by grassroots organisation Nuclear for Australia suggests that almost two-thirds of Australians believe nuclear should be considered as part of the nation's energy future. &nbsp;",
+      "time": "2026-10-27T08:59:46+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "IAEA",
+      "lang": "en",
+      "title": "IAEA’s Grossi Calls for Progress in Deploying Nuclear Power as Ministerial Conference Opens",
+      "url": "http://www.iaea.org/newscenter/news/iaeas-grossi-calls-for-progress-in-deploying-nuclear-power-as-ministerial-conference-opens",
+      "summary": "IAEA Director General Rafael Mariano Grossi called on countries to turn growing support for nuclear power into concrete results as the International Ministerial Conference on Nuclear Power opened in the Republic of Korea",
+      "time": "2026-10-27T00:00:00+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "IAEA",
+      "lang": "en",
+      "title": "Tritium Level Far Below Japan’s Operational Limit in 25th Batch of ALPS Treated Water, IAEA Confirms",
+      "url": "http://www.iaea.org/newscenter/pressreleases/tritium-level-far-below-japans-operational-limit-in-25th-batch-of-alps-treated-water-iaea-confirms",
+      "summary": "",
+      "time": "2026-10-27T00:00:00+00:00"
+    },
+    {
+      "section": "atomo",
       "source": "World Nuclear News",
       "lang": "en",
       "title": "Tilted fuel assembly retrieved from Palisades plant",
@@ -81,45 +162,63 @@
       "url": "https://www.world-nuclear-news.org/articles/studsviks-waste-treatment-technology-heads-to-fukushima",
       "summary": "Swedish nuclear technical services provider Studsvik is to provide Japanese nuclear engineering start-up ReNu Industries Inc with technical information and advice on design conditions for a Japanese version of inDRUM, it",
       "time": "2026-10-26T15:32:01+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "First reactor unit launched on Chukotka icebreaker",
-      "url": "https://www.world-nuclear-news.org/articles/first-reactor-unit-launched-on-chukotka-icebreaker",
-      "summary": "The starboard reactor unit on the new Chukotka nuclear-powered icebreaker has been brought to minimum controlled power level. &nbsp;",
-      "time": "2026-10-26T15:09:12+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Preparations for advanced nuclear at ports should begin now, study concludes",
-      "url": "https://www.world-nuclear-news.org/articles/preparations-for-advanced-nuclear-at-ports-should-begin-now-study-concludes",
-      "summary": "Ports should begin structured planning for advanced nuclear technology now, treating it as a long-term infrastructure and operating-model question rather than a new marine fuel, according to a new joint paper from the Br",
-      "time": "2026-10-26T14:50:59+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "NucNet",
-      "lang": "en",
-      "title": "New Polling Reveals Majority Of Australians Support Nuclear Energy",
-      "url": "https://www.nucnet.org/news/new-polling-reveals-majority-of-australians-support-nuclear-energy-10-1-2026",
-      "summary": "Almost two-thirds of Australians believe nuclear power should be part of the nation's energy future, as new polling reveals growing concerns about Australia's ability to meet its electricity needs. New YouGov research co",
-      "time": "2026-10-26T14:49:55+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "NucNet",
-      "lang": "en",
-      "title": "Integrated Repository For Slovenia’s Krško Plant And Test Reactor ‘Cheaper Than Standalone Site’",
-      "url": "https://www.nucnet.org/news/integrated-repository-for-slovenia-s-krsko-plant-and-test-reactor-cheaper-than-standalone-site-10-1-2026",
-      "summary": "Integrating a deep geologic repository for spent nuclear fuel from Slovenia’s Triga II research reactor into a site at the country’s Krško nuclear power plant would be cheaper than creating a standalone site, a study has",
-      "time": "2026-10-26T11:35:33+00:00"
     }
   ],
   "orbita": [
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "Ukrainian startup, GomSpace test satellite for future communications network",
+      "url": "https://spacenews.com/ukrainian-startup-gomspace-test-satellite-for-future-communications-network/",
+      "summary": "The companies said the experimental spacecraft, launched Oct. 1, could lead to a Ukrainian-controlled satellite network The post Ukrainian startup, GomSpace test satellite for future communications network appeared first",
+      "time": "2026-10-27T20:21:30+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ASI",
+      "lang": "it",
+      "title": "ONU, Quarta Commissione dell’Assemblea Generale: l’Ambasciatore Mario Cospito interviene in qualità di Presidente del COPUOS",
+      "url": "https://www.asi.it/2026/10/onu-quarta-commissione-dellassemblea-generale-lambasciatore-mario-cospito-interviene-in-qualita-di-presidente-del-copuos/",
+      "summary": "L’intervento ha così confermato il ruolo di primo piano dell’Italia nella diplomazia spaziale internazionale [&#8230;]",
+      "time": "2026-10-27T15:16:32+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "European Spaceflight",
+      "lang": "en",
+      "title": "ESA’s INVICTUS Hypersonic Programme Clears First Major Review",
+      "url": "https://europeanspaceflight.com/esas-invictus-hypersonic-programme-clears-first-major-review/",
+      "summary": "The European Space Agency’s (ESA) INVICTUS hypersonic aircraft programme has cleared its first major requirements review and moved into the next phase of development, with a second review expected in October 2027. Stepha",
+      "time": "2026-10-27T14:32:07+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ESA",
+      "lang": "en",
+      "title": "First light: Hera resolves two asteroids instead of one",
+      "url": "https://www.esa.int/Space_Safety/Hera/First_light_Hera_resolves_two_asteroids_instead_of_one",
+      "summary": "The European Space Agency’s Hera spacecraft for planetary defence has resolved its two target asteroids separately for the very first time, revealing the binary nature of the Didymos system, currently some 197 million km",
+      "time": "2026-10-27T14:00:00+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "Craft Prospect kicks off PERSEUS project to advance optical communications for space",
+      "url": "https://spacenews.com/craft-prospect-kicks-off-perseus-project-to-advance-optical-communications-for-space/",
+      "summary": "Craft Prospect is working with Fraunhofer Centre for Applied Photonics (Fraunhofer CAP) and Vector Photonics on a new project exploring the potential of next-generation laser technology for high-performance optical commu",
+      "time": "2026-10-27T12:00:00+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ESA",
+      "lang": "en",
+      "title": "ESA procures four new Galileo Second Generation satellites",
+      "url": "https://www.esa.int/Applications/Satellite_navigation/Galileo/ESA_procures_four_new_Galileo_Second_Generation_satellites",
+      "summary": "The European Space Agency (ESA) has extended ongoing contracts to build four additional Galileo Second Generation (G2) satellites, ensuring the long-term continuity of the constellation and supporting the rollout of new ",
+      "time": "2026-10-27T10:00:00+00:00"
+    },
     {
       "section": "orbita",
       "source": "SpaceNews",
@@ -155,15 +254,6 @@
       "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Ice_mission_CRISTAL_opens_its_wings",
       "summary": "With its solar arrays integrated and key qualification reviews under way, Europe’s new ice-monitoring satellite, CRISTAL, is moving from assembly into the demanding testing phase that will demonstrate its readiness for t",
       "time": "2026-10-26T10:00:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "AstronautiNEWS",
-      "lang": "it",
-      "title": "Perduto uno dei modelli di sviluppo del mini shuttle europeo Space Rider",
-      "url": "https://www.astronautinews.it/2026/10/perduto-uno-dei-modelli-di-sviluppo-del-mini-shuttle-europeo-space-rider/",
-      "summary": "Lo scorso 22 ottobre, nel corso della rituale conferenza stampa convocata al termine del 350o Consiglio dell'ESA, la direttrice del settore Space Transportation di ESA Géraldine Naja ha fornito vari aggiornamenti sulle c",
-      "time": "2026-10-25T17:30:00+00:00"
     }
   ]
 }
