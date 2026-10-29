@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T05:15:52.103665+00:00",
+  "updated": "2026-10-29T05:18:36.255404+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -59,112 +59,130 @@
       "section": "atomo",
       "source": "POWER Magazine",
       "lang": "en",
-      "title": "DOE Offers Constellation Up to $5B Loan for 1.1 GW of Nuclear Uprates at Eight Plants",
-      "url": "https://www.powermag.com/doe-offers-constellation-up-to-5b-loan-for-1-1-gw-of-nuclear-uprates-at-eight-plants/",
-      "summary": "The Department of Energy (DOE) has offered Constellation Energy a conditional loan commitment of up to $5 billion to finance nuclear power uprates and modernization at eight plants in Illinois, Maryland, and Pennsylvania",
-      "time": "2026-10-27T23:43:23+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "POWER Magazine",
-      "lang": "en",
-      "title": "Antares Secures BWXT Fuel Agreement, Advances DOE Review for Electricity-Producing Mark-1",
-      "url": "https://www.powermag.com/antares-secures-bwxt-fuel-agreement-advances-doe-review-for-electricity-producing-mark-1/",
-      "summary": "Antares Nuclear has secured a multi-year agreement with BWX Technologies (BWXT) for advanced nuclear fuel fabrication and received initial Department of Energy (DOE) safety approval for its Mark-1 microreactor, advancing",
-      "time": "2026-10-27T14:29:52+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Korea's Kori 3 and 4 set for restarts in 2027",
-      "url": "https://www.world-nuclear-news.org/articles/koreas-kori-3-and-4-get-go-ahead-to-restart",
-      "summary": "Korea Hydro &amp; Nuclear Power has been given approval by South Korea's Nuclear Safety and Security Commission to continue operating Kori Nuclear Power Plant&rsquo;s unit 3 and 4 for a further 10 years. &nbsp;",
-      "time": "2026-10-27T14:18:24+00:00"
+      "title": "Advancing the Safe Transport of Activated Metallic Waste",
+      "url": "https://www.powermag.com/advancing-the-safe-transport-of-activated-metallic-waste/",
+      "summary": "Activated metallic components generated during reactor operation, maintenance, and decommissioning rarely present a uniform packaging challenge. They can vary widely in shape, mass, dose rate, and radiation profile, and ",
+      "time": "2026-10-28T17:30:23+00:00"
     },
     {
       "section": "atomo",
       "source": "NucNet",
       "lang": "en",
-      "title": "European GenAI Platform Now Runs In Production Across All Swiss Nuclear Power Plants",
-      "url": "https://www.nucnet.org/news/european-genai-platform-now-runs-in-production-across-all-swiss-nuclear-power-plants-10-2-2026",
-      "summary": "GRAYOAK Nuclear, a European provider of generative AI for the nuclear sector, has confirmed that its platform is now in active use at every Swiss nuclear power plant, developed in close partnership with operator Axpo. Tw",
-      "time": "2026-10-27T13:44:34+00:00"
+      "title": "US Agency Signs Agreement With Oil Company On Study Into SMRs For Turkey",
+      "url": "https://www.nucnet.org/news/us-agency-signs-agreement-with-oil-company-on-study-into-smrs-for-turkey-10-3-2026",
+      "summary": "The US Trade and Development Agency (USTDA) has signed an agreement with Turkish oil refiner Tüpraş to fund a study into the potential use of small modular reactors (SMRs) to supply electricity, heat and steam for refine",
+      "time": "2026-10-28T15:19:59+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "NucNet",
+      "lang": "en",
+      "title": "Deep Isolation Announces Start Of Site Preparation At Texas Demonstration Project",
+      "url": "https://www.nucnet.org/news/deep-isolation-announces-start-of-site-preparation-at-texas-demonstration-project-10-3-2026",
+      "summary": "US-based nuclear waste disposal technology company Deep Isolation Nuclear has begun site preparation activities at its deep borehole demonstration centre in Texas. The company said the work marks an early milestone under",
+      "time": "2026-10-28T13:52:30+00:00"
     },
     {
       "section": "atomo",
       "source": "World Nuclear News",
       "lang": "en",
-      "title": "NVIDIA to consider data centres at former German nuclear sites",
-      "url": "https://www.world-nuclear-news.org/articles/nvidia-to-consider-data-centres-at-former-german-nuclear-sites",
-      "summary": "Germany's PreussenElektra and multinational technology company NVIDIA are to explore whether PreussenElektra's former nuclear power plant sites are suitable for the construction of so-called AI factories. &nbsp;",
-      "time": "2026-10-27T12:14:46+00:00"
+      "title": "Nuclear fuel delivered for Bangladesh’s second unit",
+      "url": "https://www.world-nuclear-news.org/articles/nuclear-fuel-delivered-for-bangladeshs-second-unit",
+      "summary": "Russia's state nuclear corporation Rosatom says that the initial fuel load for Rooppur Nuclear Power Plant's second unit has been delivered. &nbsp;",
+      "time": "2026-10-28T13:17:56+00:00"
     },
     {
       "section": "atomo",
       "source": "World Nuclear News",
       "lang": "en",
-      "title": "Singapore looks to develop nuclear energy expertise",
-      "url": "https://www.world-nuclear-news.org/articles/singapore-looks-to-develop-nuclear-energy-workforce",
-      "summary": "The Ministry of Energy, Trade and Industry and the Energy Market Authority of Singapore have launched schemes to develop &quot;a strong pipeline of local expertise in nuclear energy&quot;. &nbsp;",
-      "time": "2026-10-27T11:54:37+00:00"
+      "title": "Hyundai Engineering agrees to cooperate with US SMR developers",
+      "url": "https://www.world-nuclear-news.org/articles/hyundai-engineering-agrees-to-cooperate-with-us-smr-developers",
+      "summary": "South Korea's Hyundai Engineering is aiming to establish a role in the global small modular reactor market by signing memorandums of understanding with US SMR developers NANO Nuclear Energy and ARC Clean Technology. &nbs",
+      "time": "2026-10-28T12:52:40+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "Qualenergia",
+      "lang": "it",
+      "title": "Nucleare, il “piano di divulgazione” Enea e i dubbi del Polimi su tempi e costi",
+      "url": "https://www.qualenergia.it/articoli/nucleare-piano-divulgazione-enea-polimi-incognite-tempi-costi/",
+      "summary": "La filiera nucleare italiana è rimasta competitiva e l’atomo può assumere un ruolo chiave nel mix di generazione elettrica nazionale come fonte programmabile e complementare alle rinnovabili. Tuttavia, sullo sviluppo fut",
+      "time": "2026-10-28T12:30:10+00:00"
     },
     {
       "section": "atomo",
       "source": "World Nuclear News",
       "lang": "en",
-      "title": "Cross-party interest in Australian nuclear future, poll suggests",
-      "url": "https://www.world-nuclear-news.org/articles/cross-party-interest-in-australian-nuclear-future-poll-suggests",
-      "summary": "A YouGov poll commissioned by grassroots organisation Nuclear for Australia suggests that almost two-thirds of Australians believe nuclear should be considered as part of the nation's energy future. &nbsp;",
-      "time": "2026-10-27T08:59:46+00:00"
+      "title": "US government loan to support Constellation uprates",
+      "url": "https://www.world-nuclear-news.org/articles/us-government-loan-to-support-constellation-uprates",
+      "summary": "US utility Constellation has secured a conditional loan commitment of up to USD5 billion from the Department of Energy's Office of Energy Dominance Financing towards uprates and modernisation projects across its nuclear ",
+      "time": "2026-10-28T12:08:41+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Nuclear is Ethiopia's next chapter, PM says",
+      "url": "https://www.world-nuclear-news.org/articles/nuclear-is-ethiopias-next-chapter-pm-says",
+      "summary": "Ethiopia's next chapter is about transforming its immense potential and abundant natural resources into tangible development, technological advancement, and shared prosperity, the country's Prime Minister Abiy Ahmed Ali ",
+      "time": "2026-10-28T10:29:34+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "Qualenergia",
+      "lang": "it",
+      "title": "Le batterie stanno mettendo fuori mercato le centrali a gas di punta",
+      "url": "https://www.qualenergia.it/pro/articoli-pro/batterie-stanno-mettendo-fuori-mercato-centrali-gas-punta/",
+      "summary": "Anche se c’è chi si danna per mantenerle in vita, magari affiancandole al nuovo, mirabolante nucleare che nessuno ha ancora visto, la transizione verso le rinnovabili sta travolgendo una dopo l’altra le vecchie tecnologi",
+      "time": "2026-10-28T08:45:11+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Togo signs nuclear energy MoU with Rosatom",
+      "url": "https://www.world-nuclear-news.org/articles/togo-signs-nuclear-energy-mou-with-rosatom",
+      "summary": "The Ministry of Energy of Togo has signed a memorandum of understanding with Russia&rsquo;s state nuclear corporation Rosatom to assess opportunities for implementing nuclear power projects. &nbsp;",
+      "time": "2026-10-28T08:33:48+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "Qualenergia",
+      "lang": "it",
+      "title": "Sistemi di accumulo dell’energia a batteria presso ex centrale nucleare di Latina",
+      "url": "https://www.qualenergia.it/pro/documenti/sistemi-di-accumulo-dellenergia-a-batteria-presso-ex-centrale-nucleare-di-latina/",
+      "summary": "Concessione in PPP della progettazione, realizzazione, manutenzione e gestione di sistemi di accumulo dell&#8217;energia a batteria (BESS) presso l&#8217;area dell&#8217;impianto &#8220;Cirene&#8221; nel compendio dell&#",
+      "time": "2026-10-28T06:00:12+00:00"
     },
     {
       "section": "atomo",
       "source": "IAEA",
       "lang": "en",
-      "title": "IAEA’s Grossi Calls for Progress in Deploying Nuclear Power as Ministerial Conference Opens",
-      "url": "http://www.iaea.org/newscenter/news/iaeas-grossi-calls-for-progress-in-deploying-nuclear-power-as-ministerial-conference-opens",
-      "summary": "IAEA Director General Rafael Mariano Grossi called on countries to turn growing support for nuclear power into concrete results as the International Ministerial Conference on Nuclear Power opened in the Republic of Korea",
-      "time": "2026-10-27T00:00:00+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "IAEA",
-      "lang": "en",
-      "title": "Tritium Level Far Below Japan’s Operational Limit in 25th Batch of ALPS Treated Water, IAEA Confirms",
-      "url": "http://www.iaea.org/newscenter/pressreleases/tritium-level-far-below-japans-operational-limit-in-25th-batch-of-alps-treated-water-iaea-confirms",
+      "title": "IAEA and International Laboratories Confirm Japanese Marine Monitoring Data for ALPS-Treated Water Discharge under Additional Measures",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-and-international-laboratories-confirm-japanese-marine-monitoring-data-for-alps-treated-water-discharge-under-additional-measures",
       "summary": "",
-      "time": "2026-10-27T00:00:00+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Tilted fuel assembly retrieved from Palisades plant",
-      "url": "https://www.world-nuclear-news.org/articles/tilted-fuel-assembly-retrieved-from-palisades-plant",
-      "summary": "Holtec International's operation to retrieve the fuel assembly from the plant in Michigan was completed using a purpose-built machine that was conceived, engineered, manufactured and delivered in just two weeks. &nbsp;",
-      "time": "2026-10-26T16:24:47+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Regulatory milestone for US laser enrichment plant",
-      "url": "https://www.world-nuclear-news.org/articles/regulatory-milestone-for-us-laser-enrichment-plant",
-      "summary": "The US regulator has issued its Final Environmental Impact Statement for Global Laser Enrichment's Paducah Laser Enrichment Facility, recommending that a construction and operation licence is issued for the proposed plan",
-      "time": "2026-10-26T15:39:11+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Studsvik's waste treatment technology heads to Fukushima",
-      "url": "https://www.world-nuclear-news.org/articles/studsviks-waste-treatment-technology-heads-to-fukushima",
-      "summary": "Swedish nuclear technical services provider Studsvik is to provide Japanese nuclear engineering start-up ReNu Industries Inc with technical information and advice on design conditions for a Japanese version of inDRUM, it",
-      "time": "2026-10-26T15:32:01+00:00"
+      "time": "2026-10-28T00:00:00+00:00"
     }
   ],
   "orbita": [
+    {
+      "section": "orbita",
+      "source": "AstronautiNEWS",
+      "lang": "it",
+      "title": "Artemis III sarà una missione complessa e impegnativa",
+      "url": "https://www.astronautinews.it/2026/10/artemis-iii-sara-una-missione-complessa-e-impegnativa/",
+      "summary": "Il 23 ottobre 2026 scorso la NASA ha condiviso una ricca serie di aggiornamenti riguardanti il programma Artemis. Le novità interessano sia la missione Artemis III, attualmente prevista per il luglio 2027, a cui partecip",
+      "time": "2026-10-28T17:00:00+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "Flexell Space and Satoro Agree to Collaborate on In-Orbit Demonstration of Next-Generation Space Solar Cells",
+      "url": "https://spacenews.com/flexell-space-and-satoro-agree-to-collaborate-on-in-orbit-demonstration-of-next-generation-space-solar-cells/",
+      "summary": "– Two demonstration missions planned aboard SpaceX Falcon 9, one each in 2027 and 2028 – Satoro to provide “Satellite-as-a-service” solution; Flexell Space to supply solar cells and test modules [&#8230;] The post Flexel",
+      "time": "2026-10-28T14:43:08+00:00"
+    },
     {
       "section": "orbita",
       "source": "SpaceNews",
@@ -218,42 +236,6 @@
       "url": "https://www.esa.int/Applications/Satellite_navigation/Galileo/ESA_procures_four_new_Galileo_Second_Generation_satellites",
       "summary": "The European Space Agency (ESA) has extended ongoing contracts to build four additional Galileo Second Generation (G2) satellites, ensuring the long-term continuity of the constellation and supporting the rollout of new ",
       "time": "2026-10-27T10:00:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "Flexell Space Establishes French Subsidiary to Strengthen European Presence",
-      "url": "https://spacenews.com/flexell-space-establishes-french-subsidiary-to-strengthen-european-presence/",
-      "summary": "– Paris-based FLEXELL SPACE FRANCE SAS creates a local business hub in Europe– New entity to support ongoing contract and volume-production discussions with European customers, from technical reviews to supply [&#8230;] ",
-      "time": "2026-10-26T20:00:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "Astranis Upgrades Falcon 9 Launch Contract to Dedicated Mission for Entire Block 4 Production Run of Satellites",
-      "url": "https://spacenews.com/astranis-upgrades-falcon-9-launch-contract-to-dedicated-mission-for-entire-block-4-production-run-of-satellites/",
-      "summary": "SAN FRANCISCO —October 26, 2026—Today, Astranis announced it has upgraded its 4th launch to a dedicated mission aboard a SpaceX Falcon 9 rocket set to launch in 2028, allowing it [&#8230;] The post Astranis Upgrades Falc",
-      "time": "2026-10-26T13:00:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "European Spaceflight",
-      "lang": "en",
-      "title": "Australia Counters ESA’s Offer for Mission to ISS for Bennell-Pegg",
-      "url": "https://europeanspaceflight.com/australia-counters-esas-offer-for-mission-to-iss-for-bennell-pegg/",
-      "summary": "The Australian government has submitted a counteroffer to the European Space Agency (ESA) to secure a flight to the International Space Station for Australian astronaut Katherine Bennell-Pegg. Support for the mission is ",
-      "time": "2026-10-26T10:53:24+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ESA",
-      "lang": "en",
-      "title": "Ice mission CRISTAL opens its wings",
-      "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Ice_mission_CRISTAL_opens_its_wings",
-      "summary": "With its solar arrays integrated and key qualification reviews under way, Europe’s new ice-monitoring satellite, CRISTAL, is moving from assembly into the demanding testing phase that will demonstrate its readiness for t",
-      "time": "2026-10-26T10:00:00+00:00"
     }
   ]
 }
