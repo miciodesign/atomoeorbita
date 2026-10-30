@@ -4,10 +4,16 @@ slug: smr-cosa-sono-europa
 foto: en:Akademik Lomonosov
 category: atomo
 date: 2026-10-18
-description: SMR significa Small Modular Reactor, piccolo reattore modulare. Promettono costi e tempi più bassi del nucleare tradizionale. Cosa sono davvero, chi li sta costruendo in Europa, cosa ha scelto l'Italia e cosa manca ancora per vederli funzionare.
+description: "SMR significa Small Modular Reactor, in italiano piccolo reattore modulare: un reattore nucleare più piccolo delle grandi centrali, pensato per la costruzione in serie. Cosa sono, chi li costruisce in Europa, cosa fa l'Italia."
+updated: 2026-10-30
 format: spiegato
+serie: smr
+ordine: 0
+serie_label: Cosa significa SMR (la guida)
 ---
-Nelle dichiarazioni sul ritorno del nucleare in Italia ricorre sempre una sigla: SMR. Il Governo li indica come la tecnologia di riferimento, Enel e Ansaldo stanno selezionando quale modello adottare, Edison ed EDF ne hanno presentato uno a Milano. Vale la pena capire cosa sono, perché l'Europa ci sta investendo e, soprattutto, cosa separa oggi la promessa dalla realtà.
+**SMR significa Small Modular Reactor, in italiano piccolo reattore modulare.** Gli SMR sono reattori nucleari di dimensioni e potenza generalmente inferiori rispetto ai grandi reattori tradizionali e progettati secondo una logica modulare. Promettono costi e tempi di costruzione più contenuti, ma la vera sfida è dimostrare questi vantaggi su scala commerciale.
+
+Nelle dichiarazioni sul ritorno del nucleare in Italia la sigla ricorre sempre. Il Governo li indica come la tecnologia di riferimento, Enel e Ansaldo stanno selezionando quale modello adottare, Edison ed EDF ne hanno presentato uno a Milano. Vale la pena capire cosa sono, perché l'Europa ci sta investendo e, soprattutto, cosa separa oggi la promessa dalla realtà.
 
 ## Cosa significa SMR: "piccolo e modulare"
 
@@ -17,7 +23,7 @@ SMR sta per *Small Modular Reactor*, in italiano piccolo reattore modulare. Le d
 
 **Modular** è l'idea industriale: costruire i componenti principali in fabbrica, in serie, e assemblarli in cantiere, invece di costruire ogni centrale come un'opera unica. È la stessa logica che ha abbattuto i costi di pannelli solari e turbine eoliche. Nel nucleare non è mai stata applicata su scala commerciale.
 
-La fisica non cambia. La grande maggioranza degli SMR in sviluppo in Occidente sono reattori ad acqua leggera pressurizzata o bollente, cioè la stessa tecnologia delle centrali attuali, ridisegnata in piccolo con più sistemi di sicurezza passivi: raffreddamento per circolazione naturale, nessuna pompa da alimentare in emergenza, contenimento semplificato. Una minoranza, i cosiddetti reattori avanzati o AMR, usa refrigeranti diversi (piombo, sodio, sali fusi, elio) e in alcuni casi combustibile riciclato; sono più lontani dal mercato.
+La fisica non cambia. La grande maggioranza degli SMR in sviluppo in Occidente sono reattori ad acqua leggera pressurizzata o bollente, cioè la stessa tecnologia delle centrali attuali, ridisegnata in piccolo con più sistemi di sicurezza passivi: raffreddamento per circolazione naturale, nessuna pompa da alimentare in emergenza, contenimento semplificato. Per capire nel dettaglio il funzionamento, leggi [Come funziona un SMR](/atomo/come-funziona-smr/). Una minoranza, i cosiddetti reattori avanzati o AMR, usa refrigeranti diversi (piombo, sodio, sali fusi, elio) e in alcuni casi combustibile riciclato; sono più lontani dal mercato.
 
 ## Perché l'Europa ci scommette
 
@@ -49,7 +55,7 @@ Fonti: [Nuclear News Network](https://www.nuclearnewsnetwork.com/news/top-smr-de
 
 In Italia si muovono tre soggetti, con ruoli diversi che spesso vengono confusi.
 
-**Nuclitalia** è la società costituita a maggio 2025 da Enel (51%), Ansaldo Energia (39%) e Leonardo (10%), tutte riconducibili al Tesoro. Non costruisce reattori: **li seleziona**. Il suo compito è valutare i design SMR ad acqua più maturi e definire i requisiti per il sistema Paese, con una scelta attesa entro novembre 2026 e una mappatura di circa 800 imprese italiane della filiera. È il soggetto da seguire per capire quale tecnologia arriverà davvero.
+**Nuclitalia** è la società costituita a maggio 2025 da Enel (51%), Ansaldo Energia (39%) e Leonardo (10%), tutte riconducibili al Tesoro. Non costruisce reattori: **li seleziona**. Il suo compito è valutare i design SMR ad acqua più maturi e definire i requisiti per il sistema Paese, con una scelta attesa entro fine 2026 e una mappatura di circa 800 imprese italiane della filiera. È il soggetto da seguire per capire quale tecnologia arriverà davvero.
 
 **Edison ed EDF**, con Nuward, hanno presentato a Milano il 18 settembre 2026 il progetto di un SMR europeo da 400 MW: [una prima serie di dieci impianti](https://www.milanofinanza.it/news/edison-ed-edf-mettono-il-turbo-al-nuovo-nucleare-piano-da-oltre-10-miliardi-per-10-smr-202609181158125422) tra Francia, Italia, Polonia, Belgio e Finlandia, cantieri dal 2030, primo reattore italiano operativo nel 2035. Edison si propone come investitore e operatore; Ansaldo Nucleare è partner industriale di Nuward dal 2023; tra i fornitori citati Saipem, Webuild, Walter Tosto, ATB Riva Calzoni. L'investimento dichiarato è "nell'ordine di decine di miliardi" per l'intera serie. Nessun sito italiano è stato indicato.
 
@@ -73,8 +79,23 @@ Essere onesti con il lettore vuol dire mettere in fila anche questo.
 
 Tre segnali diranno se la scommessa europea sta diventando realtà:
 
-1. **La scelta di Nuclitalia**, attesa entro novembre 2026: quale design e con quale partner industriale.
+1. **La scelta di Nuclitalia**, attesa [entro fine 2026](https://www.milanofinanza.it/news/nucleare-dalle-indicazioni-di-nuclitalia-alle-forme-di-finanziamento-l-analisi-di-accenture-202610290046594107): quale design e con quale partner industriale.
 2. **I primi cantieri nucleari veri**, non lavori preparatori: Doicești e Wylfa sono i candidati, e le date di posa della prima pietra sono il dato da confrontare con gli annunci.
 3. **Il primo prezzo dichiarato per kilowattora** di un SMR europeo, in un contratto e non in un comunicato. Finché non c'è quello, il confronto con rinnovabili e gas resta teorico.
 
 Nel frattempo, la regola per leggere le notizie sugli SMR è semplice: distinguere tra *accordo*, *decisione di investimento*, *licenza* e *cantiere*. Sono quattro cose diverse, e in Europa, a oggi, quasi tutto si ferma alla seconda.
+
+## Domande frequenti
+
+**Cosa significa SMR?**
+SMR significa Small Modular Reactor, cioè piccolo reattore modulare: un reattore nucleare più piccolo di quelli tradizionali, pensato per essere costruito in fabbrica e montato in cantiere.
+
+**Quanta potenza ha un SMR?**
+Per l'Agenzia internazionale per l'energia atomica fino a circa 300 MW elettrici per unità, contro i 1.000-1.600 MW di un grande reattore. Alcuni modelli chiamati SMR arrivano a 400-470 MW.
+
+**Qual è la differenza tra un SMR e una centrale nucleare tradizionale?**
+La fisica è la stessa: fissione, calore, vapore, turbina. Cambiano la taglia, la costruzione in serie e il ricorso a sistemi di sicurezza passivi. I dettagli sono in [Come funziona un SMR](/atomo/come-funziona-smr/).
+
+**Esistono SMR in Italia?**
+No. La legge delega che permette il ritorno al nucleare è in vigore dal 15 ottobre 2026, i decreti attuativi sono annunciati per inizio dicembre e le prime centrali sono indicate tra il 2033 e il 2035. Il quadro completo è nel Dossier [Nucleare in Italia: la mappa completa](/atomo/nucleare-italia-mappa-completa/).
+

@@ -173,6 +173,7 @@ def load_articles() -> list[dict]:
     for path in sorted((CONTENT / "articoli").glob("*.md")):
         meta, body = parse_front_matter(path.read_text(encoding="utf-8"))
         if meta.get("draft") == "true":
+            FUTURE_URLS.add(f"/{meta.get('category', '')}/{meta.get('slug', '')}/")
             continue
         if dt.date.fromisoformat(meta["date"]) > dt.date.today():
             # programmato: esce da solo con la ricostruzione quotidiana del sito
@@ -205,8 +206,15 @@ def load_articles() -> list[dict]:
             article["credit"] = f
         articles.append(article)
     articles.sort(key=lambda a: a["date_iso"], reverse=True)
+    published = {a["url"] for a in articles}
+    sections = tuple(f"/{c['slug']}/" for c in CONFIG["categories"])
+    def repl(m):
+        url = m.group(1)
+        if url.startswith(sections) and url.count("/") == 3 and url not in published:
+            return m.group(2)  # articolo non (ancora) pubblicato: resta il testo, senza link
+        return m.group(0)
     for a in articles:
-        a["body"] = unlink_future(a["body"])
+        a["body"] = re.sub(r'<a href="(/[^"#]+/)"[^>]*>(.*?)</a>', repl, a["body"])
     return articles
 
 
