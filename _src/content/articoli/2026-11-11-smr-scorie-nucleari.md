@@ -21,7 +21,7 @@ Una cosa è certa: con o senza SMR, il combustibile esaurito richiede un deposit
 
 Secondo la [World Nuclear Association](https://world-nuclear.org/nuclear-essentials/what-is-nuclear-waste-and-what-do-we-do-with-it), l'associazione dell'industria nucleare, i rifiuti a bassa e bassissima attività sono il 90% del volume: tute, attrezzi, filtri. Quelli a media attività sono il 7%: resine, fanghi, materiali da smantellamento. Il combustibile esaurito e i rifiuti ad alta attività sono meno del 3% del volume, ma contengono il 95% della radioattività.
 
-È quest'ultima categoria a decidere tutto. Richiede isolamento per decine di migliaia di anni, e la dimensione di un deposito geologico dipende dal calore che il combustibile emette, non solo dal suo volume.
+È quest'ultima categoria a decidere tutto: richiede isolamento per decine di migliaia di anni, e un deposito geologico si dimensiona sul calore emesso, non solo sul volume.
 
 ## Lo studio di Stanford
 
@@ -50,11 +50,11 @@ A novembre 2022 Argonne e Idaho National Laboratory hanno analizzato tre modelli
 | Argonne e Idaho National Laboratory | Novembre 2022 | VOYGR, Natrium, Xe-100 | Più o meno paragonabili |
 | Membri del CoRWM britannico | Gennaio 2025 | Rassegna | Le scorie vanno progettate fin dall'inizio |
 
-L'ultima riga è la sintesi più equilibrata. Quattro membri o ex membri del CoRWM, il comitato che consiglia il governo britannico sui rifiuti radioattivi, hanno notato sul [Bulletin of the Atomic Scientists](https://thebulletin.org/premium/2025-01/small-and-advanced-nuclear-reactors-closing-the-fuel-cycle/) che i due studi arrivano a conclusioni opposte. E che i costruttori raramente spiegano come gestiranno le scorie.
+Quattro membri o ex membri del CoRWM, il comitato che consiglia il governo britannico sui rifiuti radioattivi, hanno notato sul [Bulletin of the Atomic Scientists](https://thebulletin.org/premium/2025-01/small-and-advanced-nuclear-reactors-closing-the-fuel-cycle/) che i due studi arrivano a conclusioni opposte, e che i costruttori raramente spiegano come gestiranno le scorie.
 
 ## Lo smantellamento
 
-Qui il dato di Stanford è il meno contestato. Più acciaio attivato per unità di energia significa più rifiuti a media attività quando il reattore chiude. Non sono rifiuti ad alta attività, ma vanno condizionati e messi in un deposito. Per i reattori raffreddati a metalli liquidi, secondo gli autori del Bulletin, non esiste ancora una via di smaltimento consolidata per i componenti attivati.
+Più acciaio attivato per unità di energia significa più rifiuti a media attività quando il reattore chiude: non ad alta attività, ma da condizionare e mettere in un deposito. Per i reattori raffreddati a metalli liquidi, secondo gli autori del Bulletin, non esiste ancora una via di smaltimento consolidata per i componenti attivati.
 
 ## Reattori avanzati e HALEU
 

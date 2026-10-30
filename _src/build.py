@@ -345,6 +345,36 @@ def build() -> None:
         title=f"Centrali nucleari nel mondo e basi spaziali: la mappa · {CONFIG['name']}",
         description="Mappa interattiva di tutte le centrali e i reattori nucleari in funzione nel mondo, degli spazioporti e dei siti spaziali italiani, con fonti e limiti dei dati."))
 
+    # ricerca interna: indice JSON letto da /cerca/ nel browser, nessun servizio esterno
+    def plain(h: str, n: int = 4000) -> str:
+        t = re.sub(r"<[^>]+>", " ", h)
+        return re.sub(r"\s+", " ", html.unescape(t)).strip()[:n]
+    idx = []
+    for a in articles:
+        idx.append({"t": a["title"], "u": a["url"], "k": f"{a['format_name']} · {a['category_obj']['name']}",
+                    "d": a["description"], "x": plain(a["body"], 20000), "w": 3})
+    for n in numeri:
+        idx.append({"t": n["title"], "u": n["url"], "k": "Numeri", "d": n.get("description", ""), "x": plain(n["body"]), "w": 3})
+    for p in pages:
+        if p["slug"] in ("grazie", "benvenuto"):
+            continue
+        idx.append({"t": p["title"], "u": p["url"], "k": "Pagina", "d": p.get("description", ""), "x": plain(p["body"], 1500), "w": 2})
+        if p["slug"] == "glossario":
+            for m in re.finditer(r"<strong>([^<]+)</strong>\s*[–-]\s*(.+?)</p>", p["body"]):
+                idx.append({"t": html.unescape(m.group(1)), "u": "/glossario/", "k": "Glossario",
+                            "d": plain(m.group(2), 220), "x": "", "w": 2})
+    idx.append({"t": "Mappa delle centrali nucleari e delle basi spaziali", "u": "/mappa/", "k": "Mappa",
+                "d": "Le centrali nucleari in funzione nel mondo, le basi di lancio e i siti spaziali italiani.", "x": "", "w": 3})
+    for c in centrali:
+        idx.append({"t": f"{c['n']} ({c['c']})", "u": "/mappa/", "k": "Centrale nucleare sulla mappa",
+                    "d": f"{c['r']} reattori, {c['mw']} MWe", "x": "", "w": 1})
+    for sp in spazio:
+        idx.append({"t": f"{sp['n']} ({sp['c']})", "u": "/mappa/", "k": "Sito spaziale sulla mappa", "d": sp["d"], "x": "", "w": 1})
+    (ROOT / "assets" / "cerca.json").write_text(json.dumps(idx, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    write(ROOT / "cerca" / "index.html", env.get_template("cerca.html").render(
+        **base_ctx, page_url="/cerca/", title=f"Cerca · {CONFIG['name']}",
+        description="Cerca negli articoli, nel glossario, nelle schede e nella mappa di Atomo e Orbita."))
+
     # numeri
     write(ROOT / "numeri" / "index.html", env.get_template("numeri.html").render(
         **base_ctx, numeri=numeri, anteprima=anteprima_mappa(centrali, spazio), page_url="/numeri/",

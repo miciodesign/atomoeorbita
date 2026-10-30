@@ -252,3 +252,14 @@ a.dossier-card:first-child:hover h3{color:var(--accent)}
 .serie-box{margin:40px 0 0;padding:22px 26px;background:var(--paper);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:var(--radius)}
 .serie-title{font-family:'Space Grotesk',sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:13px;color:var(--accent);margin:0 0 10px}
 .serie-box ol{margin:0;padding-left:22px}.serie-box li{margin:6px 0;font-size:16px}.serie-box a{color:var(--ink)}.serie-box a:hover{color:var(--accent)}
+.nav .nav-search{display:inline-flex;align-items:center;gap:6px}
+.nav-search-label{display:none}
+@media (max-width:860px){.nav-search-label{display:inline}}
+.search-form input{width:100%;max-width:680px;font:400 20px var(--body,inherit);padding:14px 16px;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:6px}
+.search-form input:focus{outline:2px solid var(--accent);outline-offset:1px}
+.search-results{list-style:none;padding:0;margin:24px 0 0;max-width:760px}
+.search-results li{padding:16px 0;border-bottom:1px solid var(--line)}
+.search-results a{font-family:var(--display);font-weight:600;font-size:19px;color:var(--ink);text-decoration:none}
+.search-results a:hover{color:var(--accent)}
+.search-kind{display:block;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-top:4px}
+.search-results p{margin:6px 0 0;font-size:16px;color:var(--muted)}
