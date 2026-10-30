@@ -2212,16 +2212,16 @@
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/%D0%A1%D0%BF%D1%83%D1%81%D0%BA_%D0%9F%D0%90%D0%A2%D0%AD%D0%A1_%D0%BD%D0%B0_%D0%B2%D0%BE%D0%B4%D1%83_20190823.jpg/1280px-%D0%A1%D0%BF%D1%83%D1%81%D0%BA_%D0%9F%D0%90%D0%A2%D0%AD%D0%A1_%D0%BD%D0%B0_%D0%B2%D0%BE%D0%B4%D1%83_20190823.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  },
  "articolo:come-funziona-smr": {
-  "autore": "NuScale",
-  "file": "https://commons.wikimedia.org/wiki/File:Nuscale-portland-office.jpg",
-  "licenza": "CC BY-SA 3.0",
-  "licenza_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "autore": "中国新闻社",
+  "file": "https://commons.wikimedia.org/wiki/File:%E9%99%86%E4%B8%8A%E6%A8%A1%E5%9D%97%E5%8C%96%E5%B0%8F%E5%9E%8B%E6%A0%B8%E5%8F%8D%E5%BA%94%E5%A0%86%E2%80%9C%E7%8E%B2%E9%BE%99%E4%B8%80%E5%8F%B7%E2%80%9D%E6%96%BD%E5%B7%A5%E7%8E%B0%E5%9C%BA.png",
+  "licenza": "CC BY 4.0",
+  "licenza_url": "https://creativecommons.org/licenses/by/4.0",
   "locale": {
-   "640": "/assets/foto/a-come-funziona-smr-nuscale-portland-off-640.jpg",
-   "1280": "/assets/foto/a-come-funziona-smr-nuscale-portland-off-1280.jpg"
+   "640": "/assets/foto/a-come-funziona-smr-png-640.jpg",
+   "1280": "/assets/foto/a-come-funziona-smr-png-1280.jpg"
   },
-  "origine": "en:NuScale Power",
-  "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Nuscale-portland-office.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  "origine": "cerca:Linglong One reactor",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/83/%E9%99%86%E4%B8%8A%E6%A8%A1%E5%9D%97%E5%8C%96%E5%B0%8F%E5%9E%8B%E6%A0%B8%E5%8F%8D%E5%BA%94%E5%A0%86%E2%80%9C%E7%8E%B2%E9%BE%99%E4%B8%80%E5%8F%B7%E2%80%9D%E6%96%BD%E5%B7%A5%E7%8E%B0%E5%9C%BA.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
  },
  "articolo:italia-nello-spazio-asi-esa-filiera": {
   "autore": "NASA",
