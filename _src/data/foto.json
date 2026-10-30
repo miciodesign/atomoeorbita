@@ -375,14 +375,14 @@
  },
  "Centre Spatial Guyanais (Kourou)": {
   "autore": "Don-vip",
-  "file": "https://commons.wikimedia.org/wiki/File:Zone_de_lancement_Vega_1.jpg",
+  "file": "https://commons.wikimedia.org/wiki/File:Zone_de_lancement_Vega_3.jpg",
   "licenza": "CC BY-SA 4.0",
   "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0",
   "locale": {
    "480": "/assets/foto/m-centre-spatial-guyanais-kourou-zone-de-lancement-ve-480.jpg"
   },
   "origine": "cerca:Guiana Space Centre Ariane launch",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Zone_de_lancement_Vega_1.jpg/1280px-Zone_de_lancement_Vega_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Zone_de_lancement_Vega_3.jpg/1280px-Zone_de_lancement_Vega_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  },
  "Centro spaziale Luigi Broglio (Malindi)": {
   "autore": "autore su Commons",
@@ -2234,6 +2234,18 @@
   },
   "origine": "en:Caorso Nuclear Power Plant",
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Carso_NPP_1.jpg/1280px-Carso_NPP_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ "articolo:nucleare-italia-mappa-completa": {
+  "autore": "© Ra Boe / Wikipedia",
+  "file": "https://commons.wikimedia.org/wiki/File:Centrale_Nucleare_di_Borgo_Sabotino_by-RaBoe_04.jpg",
+  "licenza": "CC BY-SA 3.0 de",
+  "licenza_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+  "locale": {
+   "640": "/assets/foto/a-nucleare-italia-mappa-completa-centrale-nucleare-di-640.jpg",
+   "1280": "/assets/foto/a-nucleare-italia-mappa-completa-centrale-nucleare-di-1280.jpg"
+  },
+  "origine": "en:Latina Nuclear Power Plant",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Centrale_Nucleare_di_Borgo_Sabotino_by-RaBoe_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
  },
  "articolo:onkalo-themis-infrastrutture-lunghe": {
   "autore": "kallerna",
