@@ -2199,6 +2199,18 @@
   "origine": "Zaporizhzhia Nuclear Power Plant",
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Kernkraftwerk_Saporischschja.JPG/1280px-Kernkraftwerk_Saporischschja.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  },
+ "articolo:aziende-smr": {
+  "autore": "Elena Dider",
+  "file": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%BF%D1%83%D1%81%D0%BA_%D0%9F%D0%90%D0%A2%D0%AD%D0%A1_%D0%BD%D0%B0_%D0%B2%D0%BE%D0%B4%D1%83_20190823.jpg",
+  "licenza": "CC BY-SA 4.0",
+  "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "locale": {
+   "640": "/assets/foto/a-aziende-smr-20190823-jpg-640.jpg",
+   "1280": "/assets/foto/a-aziende-smr-20190823-jpg-1280.jpg"
+  },
+  "origine": "en:Akademik Lomonosov",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/%D0%A1%D0%BF%D1%83%D1%81%D0%BA_%D0%9F%D0%90%D0%A2%D0%AD%D0%A1_%D0%BD%D0%B0_%D0%B2%D0%BE%D0%B4%D1%83_20190823.jpg/1280px-%D0%A1%D0%BF%D1%83%D1%81%D0%BA_%D0%9F%D0%90%D0%A2%D0%AD%D0%A1_%D0%BD%D0%B0_%D0%B2%D0%BE%D0%B4%D1%83_20190823.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
  "articolo:come-funziona-smr": {
   "autore": "NuScale",
   "file": "https://commons.wikimedia.org/wiki/File:Nuscale-portland-office.jpg",
@@ -2261,15 +2273,15 @@
  },
  "articolo:onkalo-themis-infrastrutture-lunghe": {
   "autore": "kallerna",
-  "file": "https://commons.wikimedia.org/wiki/File:Onkalo_spent_nuclear_fuel_repository.jpg",
+  "file": "https://commons.wikimedia.org/wiki/File:Tunnel_end_Onkalo.jpg",
   "licenza": "CC BY-SA 4.0",
   "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0",
   "locale": {
-   "640": "/assets/foto/a-onkalo-themis-infrastrutture-lunghe-onkalo-spent-nuclear-640.jpg",
-   "1280": "/assets/foto/a-onkalo-themis-infrastrutture-lunghe-onkalo-spent-nuclear-1280.jpg"
+   "640": "/assets/foto/a-onkalo-themis-infrastrutture-lunghe-tunnel-end-onkalo-jp-640.jpg",
+   "1280": "/assets/foto/a-onkalo-themis-infrastrutture-lunghe-tunnel-end-onkalo-jp-1280.jpg"
   },
-  "origine": "cerca:Onkalo Olkiluoto Posiva",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Onkalo_spent_nuclear_fuel_repository.jpg/1280px-Onkalo_spent_nuclear_fuel_repository.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  "origine": "File:Tunnel_end_Onkalo.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Tunnel_end_Onkalo.jpg/1280px-Tunnel_end_Onkalo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  },
  "articolo:quanto-costa-smr": {
   "autore": "Robert T Bell from Oshawa, Canada",
@@ -2282,6 +2294,18 @@
   },
   "origine": "en:Darlington Nuclear Generating Station",
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Darlington_Nuclear_Generating_Station_IMG_7476_%28cropped%29.jpg/1280px-Darlington_Nuclear_Generating_Station_IMG_7476_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ "articolo:quanto-e-grande-smr": {
+  "autore": "NuScale",
+  "file": "https://commons.wikimedia.org/wiki/File:Nuscale-portland-office.jpg",
+  "licenza": "CC BY-SA 3.0",
+  "licenza_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "locale": {
+   "640": "/assets/foto/a-quanto-e-grande-smr-nuscale-portland-off-640.jpg",
+   "1280": "/assets/foto/a-quanto-e-grande-smr-nuscale-portland-off-1280.jpg"
+  },
+  "origine": "en:NuScale Power",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Nuscale-portland-office.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
  },
  "articolo:reattori-nel-cosmo-propulsione-nucleare": {
   "autore": "Federal Government of the United States",
@@ -2309,15 +2333,15 @@
  },
  "articolo:scorie-dove-sono-dove-andranno": {
   "autore": "kallerna",
-  "file": "https://commons.wikimedia.org/wiki/File:Tunnel_end_Onkalo.jpg",
+  "file": "https://commons.wikimedia.org/wiki/File:Onkalo_spent_nuclear_fuel_repository.jpg",
   "licenza": "CC BY-SA 4.0",
   "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0",
   "locale": {
-   "640": "/assets/foto/a-scorie-dove-sono-dove-andranno-tunnel-end-onkalo-jp-640.jpg",
-   "1280": "/assets/foto/a-scorie-dove-sono-dove-andranno-tunnel-end-onkalo-jp-1280.jpg"
+   "640": "/assets/foto/a-scorie-dove-sono-dove-andranno-onkalo-spent-nuclear-640.jpg",
+   "1280": "/assets/foto/a-scorie-dove-sono-dove-andranno-onkalo-spent-nuclear-1280.jpg"
   },
-  "origine": "cerca:Onkalo repository tunnel",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Tunnel_end_Onkalo.jpg/1280px-Tunnel_end_Onkalo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  "origine": "cerca:Onkalo Olkiluoto",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Onkalo_spent_nuclear_fuel_repository.jpg/1280px-Onkalo_spent_nuclear_fuel_repository.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  },
  "articolo:smr-cosa-sono-europa": {
   "autore": "Elena Dider",
@@ -2331,6 +2355,30 @@
   "origine": "en:Akademik Lomonosov",
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/%D0%A1%D0%BF%D1%83%D1%81%D0%BA_%D0%9F%D0%90%D0%A2%D0%AD%D0%A1_%D0%BD%D0%B0_%D0%B2%D0%BE%D0%B4%D1%83_20190823.jpg/1280px-%D0%A1%D0%BF%D1%83%D1%81%D0%BA_%D0%9F%D0%90%D0%A2%D0%AD%D0%A1_%D0%BD%D0%B0_%D0%B2%D0%BE%D0%B4%D1%83_20190823.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  },
+ "articolo:smr-europa": {
+  "autore": "Anonymous",
+  "file": "https://commons.wikimedia.org/wiki/File:Outfall_from_Wylfa_Power_Station_-_geograph.org.uk_-_668216.jpg",
+  "licenza": "CC BY-SA 2.0",
+  "licenza_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "locale": {
+   "640": "/assets/foto/a-smr-europa-outfall-from-wylfa-p-640.jpg",
+   "1280": "/assets/foto/a-smr-europa-outfall-from-wylfa-p-1280.jpg"
+  },
+  "origine": "en:Wylfa Nuclear Power Station",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/49/Outfall_from_Wylfa_Power_Station_-_geograph.org.uk_-_668216.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+ },
+ "articolo:smr-italia": {
+  "autore": "Tuscanycalling",
+  "file": "https://commons.wikimedia.org/wiki/File:Centro_Ricerche_Brasimone_2.jpg",
+  "licenza": "CC BY-SA 3.0",
+  "licenza_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "locale": {
+   "640": "/assets/foto/a-smr-italia-centro-ricerche-bras-640.jpg",
+   "1280": "/assets/foto/a-smr-italia-centro-ricerche-bras-1280.jpg"
+  },
+  "origine": "cerca:ENEA Brasimone",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Centro_Ricerche_Brasimone_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+ },
  "articolo:smr-significato-sigle": {
   "autore": "U.S. Government Accountability Office from Washington, DC, United States",
   "file": "https://commons.wikimedia.org/wiki/File:Figure_4_Illustration_of_a_light_water_small_modular_nuclear_reactor_(SMR)_(20848048201).jpg",
@@ -2342,6 +2390,18 @@
   },
   "origine": "en:Small modular reactor",
   "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Figure_4_Illustration_of_a_light_water_small_modular_nuclear_reactor_%28SMR%29_%2820848048201%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+ },
+ "articolo:smr-vs-centrale-nucleare-tradizionale": {
+  "autore": "JKremona",
+  "file": "https://commons.wikimedia.org/wiki/File:Flamanville_Nuclear_Plant_2023.jpg",
+  "licenza": "CC BY-SA 4.0",
+  "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "locale": {
+   "640": "/assets/foto/a-smr-vs-centrale-nucleare-tradizionale-flamanville-nuclear--640.jpg",
+   "1280": "/assets/foto/a-smr-vs-centrale-nucleare-tradizionale-flamanville-nuclear--1280.jpg"
+  },
+  "origine": "en:Flamanville Nuclear Power Plant",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Flamanville_Nuclear_Plant_2023.jpg/1280px-Flamanville_Nuclear_Plant_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  },
  "articolo:uprate-nucleare-potenza-centrali-esistenti": {
   "autore": "MediaGuy768",
