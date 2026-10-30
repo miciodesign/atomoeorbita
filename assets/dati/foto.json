@@ -2273,15 +2273,15 @@
  },
  "articolo:onkalo-themis-infrastrutture-lunghe": {
   "autore": "kallerna",
-  "file": "https://commons.wikimedia.org/wiki/File:Tunnel_end_Onkalo.jpg",
+  "file": "https://commons.wikimedia.org/wiki/File:Onkalo_spent_nuclear_fuel_repository.jpg",
   "licenza": "CC BY-SA 4.0",
   "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0",
   "locale": {
-   "640": "/assets/foto/a-onkalo-themis-infrastrutture-lunghe-tunnel-end-onkalo-jp-640.jpg",
-   "1280": "/assets/foto/a-onkalo-themis-infrastrutture-lunghe-tunnel-end-onkalo-jp-1280.jpg"
+   "640": "/assets/foto/a-onkalo-themis-infrastrutture-lunghe-onkalo-spent-nuclear-640.jpg",
+   "1280": "/assets/foto/a-onkalo-themis-infrastrutture-lunghe-onkalo-spent-nuclear-1280.jpg"
   },
-  "origine": "File:Tunnel_end_Onkalo.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Tunnel_end_Onkalo.jpg/1280px-Tunnel_end_Onkalo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  "origine": "cerca:Onkalo Olkiluoto Posiva",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Onkalo_spent_nuclear_fuel_repository.jpg/1280px-Onkalo_spent_nuclear_fuel_repository.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  },
  "articolo:quanto-costa-smr": {
   "autore": "Robert T Bell from Oshawa, Canada",
@@ -2333,15 +2333,15 @@
  },
  "articolo:scorie-dove-sono-dove-andranno": {
   "autore": "kallerna",
-  "file": "https://commons.wikimedia.org/wiki/File:Onkalo_spent_nuclear_fuel_repository.jpg",
+  "file": "https://commons.wikimedia.org/wiki/File:Tunnel_end_Onkalo.jpg",
   "licenza": "CC BY-SA 4.0",
   "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0",
   "locale": {
-   "640": "/assets/foto/a-scorie-dove-sono-dove-andranno-onkalo-spent-nuclear-640.jpg",
-   "1280": "/assets/foto/a-scorie-dove-sono-dove-andranno-onkalo-spent-nuclear-1280.jpg"
+   "640": "/assets/foto/a-scorie-dove-sono-dove-andranno-tunnel-end-onkalo-jp-640.jpg",
+   "1280": "/assets/foto/a-scorie-dove-sono-dove-andranno-tunnel-end-onkalo-jp-1280.jpg"
   },
-  "origine": "cerca:Onkalo Olkiluoto",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Onkalo_spent_nuclear_fuel_repository.jpg/1280px-Onkalo_spent_nuclear_fuel_repository.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  "origine": "cerca:Onkalo repository tunnel",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Tunnel_end_Onkalo.jpg/1280px-Tunnel_end_Onkalo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  },
  "articolo:smr-cosa-sono-europa": {
   "autore": "Elena Dider",
@@ -2378,6 +2378,18 @@
   },
   "origine": "cerca:ENEA Brasimone",
   "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Centro_Ricerche_Brasimone_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+ },
+ "articolo:smr-scorie-nucleari": {
+  "autore": "Nuclear Regulatory Commission",
+  "file": "https://commons.wikimedia.org/wiki/File:Nuclear_dry_storage.jpg",
+  "licenza": "Public domain",
+  "licenza_url": "",
+  "locale": {
+   "640": "/assets/foto/a-smr-scorie-nucleari-nuclear-dry-storage--640.jpg",
+   "1280": "/assets/foto/a-smr-scorie-nucleari-nuclear-dry-storage--1280.jpg"
+  },
+  "origine": "en:Dry cask storage",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Nuclear_dry_storage.jpg/1280px-Nuclear_dry_storage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  },
  "articolo:smr-significato-sigle": {
   "autore": "U.S. Government Accountability Office from Washington, DC, United States",
