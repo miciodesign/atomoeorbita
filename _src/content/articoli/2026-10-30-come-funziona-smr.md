@@ -1,7 +1,7 @@
 ---
 title: "Come funziona un SMR: dentro un piccolo reattore nucleare modulare"
 slug: come-funziona-smr
-foto: en:BWRX-300 | en:NuScale Power | cerca:small modular reactor module
+foto: en:ACP100 | cerca:Linglong One reactor | cerca:Darlington BWRX-300 construction
 category: atomo
 date: 2026-10-30
 description: "Un SMR funziona come una centrale ad acqua: la fissione scalda l'acqua, il vapore fa girare una turbina. Cambiano architettura, circolazione senza pompe, sistemi passivi e costruzione in fabbrica."

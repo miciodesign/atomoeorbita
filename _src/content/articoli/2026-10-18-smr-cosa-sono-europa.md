@@ -41,9 +41,9 @@ Lo stato dei progetti a ottobre 2026, dai più avanzati:
 
 | Paese | Progetto | Tecnologia | Stato | Primo esercizio previsto |
 | --- | --- | --- | --- | --- |
-| Romania | Doicești, RoPower | NuScale, 6 moduli, 462 MWe | Decisione finale di investimento presa a febbraio 2026 | inizio anni 2030 |
+| Romania | Doicești, RoPower | NuScale, 6 moduli, 462 MWe | Decisione finale di investimento a febbraio 2026, condizionata; a luglio gli azionisti hanno confermato NuScale | inizio anni 2030 |
 | Regno Unito | Wylfa, Great British Energy-Nuclear | Rolls-Royce SMR, 3 unità da 470 MWe | Contratto firmato ad aprile 2026, oltre 2,5 miliardi di sterline pubblici; design in fase 3 di valutazione | metà anni 2030 |
-| Repubblica Ceca | Temelín, ČEZ | Rolls-Royce SMR, fino a 6 unità | Contratti per lavori preliminari, aprile 2026 | metà anni 2030 |
+| Repubblica Ceca | Temelín, ČEZ | Rolls-Royce SMR | Contratto per lavori preliminari, aprile 2026 | metà anni 2030 |
 | Polonia | Orlen Synthos | GE Vernova BWRX-300, 14 unità in 3 siti (programma da 26) | Richiesta di aiuto di Stato | primi anni 2030 |
 | Francia e Italia | Nuward (EDF, Edison) | PWR da 400 MWe | Prima serie di 10 impianti annunciata il 18 settembre 2026, cantieri dal 2030 | 2035 per il primo in Italia |
 
@@ -69,7 +69,7 @@ Essere onesti con il lettore vuol dire mettere in fila anche questo.
 
 **I costi.** L'argomento della serie funziona se la serie c'è. Il primo esemplare di qualunque SMR costerà come un prototipo, e il caso NuScale è istruttivo: il progetto nello Utah fu cancellato nel novembre 2023 quando il prezzo stimato dell'elettricità superò quello che le utility clienti accettavano di pagare, prima ancora di posare una pietra. Le stime attuali dei primi impianti europei non sono pubbliche nel dettaglio.
 
-**I tempi di licenza.** Un reattore nuovo va autorizzato dall'autorità di sicurezza di ciascun paese. EDF e Nuward stanno conducendo una *Joint Early Review* con otto autorità europee per allineare in anticipo i requisiti: è un'iniziativa intelligente, ma in Italia l'autorità con cui dialogare è ancora da istituire, come abbiamo spiegato nell'[analisi sulla legge delega](/atomo/legge-delega-nucleare-spiegata/).
+**I tempi di licenza.** Un reattore nuovo va autorizzato dall'autorità di sicurezza di ciascun paese. EDF e Nuward stanno conducendo una *Joint Early Review* con diverse autorità europee per allineare in anticipo i requisiti: è un'iniziativa intelligente, ma in Italia l'autorità con cui dialogare è ancora da istituire, come abbiamo spiegato nell'[analisi sulla legge delega](/atomo/legge-delega-nucleare-spiegata/).
 
 **La filiera.** Costruire in fabbrica presuppone la fabbrica. Nessuno in Europa ha oggi una linea di produzione in serie per recipienti in pressione e moduli nucleari; Rolls-Royce la sta progettando nel Regno Unito. L'Italia ha competenze reali (Ansaldo Nucleare ha fornito settori della camera a vuoto di ITER, Walter Tosto e altri lavorano per i grandi reattori esteri) ma nessuno stabilimento nato per questo.
 

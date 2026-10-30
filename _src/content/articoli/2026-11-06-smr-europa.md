@@ -53,7 +53,7 @@ Aggiorniamo la tabella della guida principale con le fonti più recenti. GDA è 
 
 **Estonia.** A giugno 2026 il Parlamento ha approvato la [legge sul nucleare](https://www.neimagazine.com/news/estonia-clears-nuclear-law-hurdle/) e il regolatore partirà il 1° gennaio 2027. Fermi Energia, società privata, vuole due BWRX-300 per 4,5 miliardi di euro. Il calendario prevede la scelta del sito entro novembre 2027, l'avvio del cantiere nel 2031 e la prima unità nel 2036.
 
-**Francia.** EDF ha ridisegnato Nuward nel 2024 dopo un blocco tecnico. A metà 2026 ha [chiuso il progetto concettuale](https://www.neimagazine.com/news/edf-bets-big-on-european-smrs/) della nuova versione da 400 MWe. Il calendario prevede il progetto di base nel 2028, l'avvio dei cantieri nel 2030 e dieci unità in Europa entro il 2035: la prima in Francia, la seconda in Italia con Edison. Diversi regolatori europei partecipano a un esame preliminare comune del progetto.
+**Francia.** EDF ha ridisegnato Nuward nel 2024 dopo un blocco tecnico e a metà 2026 ha [chiuso il progetto concettuale](https://www.neimagazine.com/news/edf-bets-big-on-european-smrs/) della versione da 400 MWe. Calendario: progetto di base nel 2028, cantieri dal 2030, dieci unità in Europa entro il 2035, la prima in Francia e la seconda in Italia con Edison.
 
 ## Chi studia
 
