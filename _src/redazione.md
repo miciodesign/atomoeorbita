@@ -67,6 +67,8 @@ Primo Punto: lunedì 26 ottobre 2026. Primo Dossier: fine ottobre 2026.
 
 **Search Console (25 ottobre 2026)**: le pagine con più impressioni e zero clic erano SMR (60), Italia nello spazio (55) e satelliti militari (48). Il 25 ottobre ho ritoccato i titoli sulle ricerche reali: "cosa significa SMR", "Agenzia Spaziale Italiana" e "NASA italiana", "satellite militare", "centrali nucleari nel mondo". Ricontrollare a metà novembre.
 
+**Serie SMR (cluster, decisa il 30 ottobre 2026 con il direttore).** Guida principale: `/atomo/smr-cosa-sono-europa/` (non riscriverla: osservare 3-4 settimane la posizione di "smr significato" in Search Console). Satelliti pubblicati o programmati: Come funziona (30/10), SMR in Italia (3/11), Quanto costa (5/11), SMR vs centrale tradizionale (10/11). Bozze pronte e NON pubblicate (`draft: true`): significato delle sigle, quanto è grande, aziende, Europa, sicurezza, scorie. Si pubblicano solo se Search Console mostra ricerche su quei temi; prima ricontrollare date e cifre. Le serie si fanno con i campi `serie`, `ordine`, `serie_label`; gli articoli con data futura escono da soli con la ricostruzione quotidiana delle 04:40 UTC; i link verso articoli non pubblicati restano testo semplice finché non escono. Una versione riscritta della guida è in archivio nella conversazione, non sul sito.
+
 **Schede Numeri da fare**: inventario rifiuti radioattivi per regione (ISIN); reattori nel mondo (fatta, aggiornare a ogni revisione WNA); lanci orbitali dell'anno; SMR in Europa per stato di avanzamento; satelliti italiani in orbita; contributi ESA per paese.
 
 ## Come si pubblica
