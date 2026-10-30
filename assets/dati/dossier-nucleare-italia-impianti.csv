@@ -1,0 +1,13 @@
+impianto,comune,provincia,regione,tipo,stato
+Centrale di Trino,Trino,Vercelli,Piemonte,centrale nucleare,in smantellamento (Sogin)
+Centrale di Caorso,Caorso,Piacenza,Emilia-Romagna,centrale nucleare,in smantellamento (Sogin)
+Centrale di Latina,Latina,Latina,Lazio,centrale nucleare,in smantellamento (Sogin)
+Centrale del Garigliano,Sessa Aurunca,Caserta,Campania,centrale nucleare,in smantellamento (Sogin)
+Eurex,Saluggia,Vercelli,Piemonte,impianto di riprocessamento e ricerca,in smantellamento (Sogin)
+Itrec,Rotondella,Matera,Basilicata,ricerca sul ciclo del combustibile,in smantellamento (Sogin)
+Opec e Ipu,Roma (Casaccia),Roma,Lazio,laboratori sul combustibile,in smantellamento (Sogin)
+Impianto di Bosco Marengo,Bosco Marengo,Alessandria,Piemonte,fabbricazione del combustibile,in smantellamento (Sogin)
+Reattore Ispra-1,Ispra,Varese,Lombardia,reattore di ricerca,in smantellamento (Sogin)
+TRIGA RC-1,Roma (Casaccia),Roma,Lazio,reattore di ricerca ENEA,in uso per ricerca
+TAPIRO,Roma (Casaccia),Roma,Lazio,reattore di ricerca ENEA a neutroni veloci,in uso per ricerca
+DTT,Frascati,Roma,Lazio,macchina sperimentale per la fusione (ENEA ed Eni),in costruzione
