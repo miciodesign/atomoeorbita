@@ -30,6 +30,15 @@
     </div>
   </div>
 
+  {% if serie|length > 1 %}
+  <nav class="serie-box" aria-label="Guida agli SMR">
+    <p class="serie-title">Guida agli SMR · {{ serie|length }} articoli</p>
+    <ol>
+      {% for x in serie %}<li>{% if x is sameas a %}<strong>{{ x.serie_label or x.title }}</strong>{% else %}<a href="{{ x.url }}">{{ x.serie_label or x.title }}</a>{% endif %}</li>{% endfor %}
+    </ol>
+  </nav>
+  {% endif %}
+
   <footer class="article-foot">
     <p class="small muted">Le fonti sono linkate nel testo. I dati sono quelli disponibili alla data di pubblicazione o di aggiornamento. Hai trovato un errore o un dato superato? Scrivici a {{ site.email }}: correggiamo e lo diciamo.</p>
   </footer>

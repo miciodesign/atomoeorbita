@@ -249,3 +249,6 @@ a.dossier-card:first-child:hover h3{color:var(--accent)}
 .map.leaflet-container{background:#0B0D10}
 .map .leaflet-pane svg{max-width:none!important;max-height:none!important}
 .map .leaflet-bar a.leaflet-disabled{background:#1B1F24;color:#4A525B}
+.serie-box{margin:40px 0 0;padding:22px 26px;background:var(--paper);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:var(--radius)}
+.serie-title{font-family:'Space Grotesk',sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:13px;color:var(--accent);margin:0 0 10px}
+.serie-box ol{margin:0;padding-left:22px}.serie-box li{margin:6px 0;font-size:16px}.serie-box a{color:var(--ink)}.serie-box a:hover{color:var(--accent)}

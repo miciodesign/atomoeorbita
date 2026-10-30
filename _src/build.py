@@ -155,12 +155,29 @@ def anteprima_mappa(centrali: list, spazio: list) -> str:
     return "".join(out)
 
 
+FUTURE_URLS: set = set()
+
+
+def unlink_future(html_body: str) -> str:
+    """Toglie i link verso articoli programmati ma non ancora usciti (restano come testo)."""
+    if not FUTURE_URLS:
+        return html_body
+    def repl(m):
+        return m.group(2) if m.group(1) in FUTURE_URLS else m.group(0)
+    return re.sub(r'<a href="(/[^"#]+/)"[^>]*>(.*?)</a>', repl, html_body)
+
+
 def load_articles() -> list[dict]:
     foto = load_foto()
     articles = []
     for path in sorted((CONTENT / "articoli").glob("*.md")):
         meta, body = parse_front_matter(path.read_text(encoding="utf-8"))
         if meta.get("draft") == "true":
+            continue
+        if dt.date.fromisoformat(meta["date"]) > dt.date.today():
+            # programmato: esce da solo con la ricostruzione quotidiana del sito
+            cat_slug = meta.get("category", "")
+            FUTURE_URLS.add(f"/{cat_slug}/{meta['slug']}/")
             continue
         html_body, toc = render_markdown(body)
         html_body = mark_external_links(html_body)
@@ -188,6 +205,8 @@ def load_articles() -> list[dict]:
             article["credit"] = f
         articles.append(article)
     articles.sort(key=lambda a: a["date_iso"], reverse=True)
+    for a in articles:
+        a["body"] = unlink_future(a["body"])
     return articles
 
 
@@ -330,9 +349,12 @@ def build() -> None:
 
     # articoli
     for a in articles:
-        related = [x for x in articles if x["category"] == a["category"] and x is not a][:4]
+        serie = []
+        if a.get("serie"):
+            serie = sorted([x for x in articles if x.get("serie") == a["serie"]], key=lambda x: int(x.get("ordine", 99)))
+        related = [x for x in articles if x["category"] == a["category"] and x is not a and x not in serie][:4]
         write(ROOT / a["category"] / a["slug"] / "index.html", env.get_template("article.html").render(
-            **base_ctx, a=a, related=related, page_url=a["url"],
+            **base_ctx, a=a, related=related, serie=serie, page_url=a["url"],
             title=f"{a['title']} · {CONFIG['name']}", description=a["description"]))
 
     # pagine fisse
