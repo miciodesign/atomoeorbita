@@ -3,9 +3,8 @@ title: "SMR o centrale nucleare tradizionale: differenze, vantaggi e limiti"
 slug: smr-vs-centrale-nucleare-tradizionale
 foto: en:Flamanville Nuclear Power Plant | cerca:Flamanville EPR
 category: atomo
-date: 2026-11-04
+date: 2026-11-10
 description: "Un SMR ha tra un quinto e metà della potenza di un grande reattore, promette cantieri brevi e usi industriali, ma oggi costa di più per kW e in Occidente non è ancora in esercizio."
-draft: true
 format: spiegato
 serie: smr
 ordine: 5
@@ -15,7 +14,7 @@ La differenza principale tra un piccolo reattore modulare (SMR, *Small Modular R
 
 La fisica invece resta la stessa. Gran parte degli SMR occidentali sono reattori ad acqua leggera come quelli in funzione oggi, ridisegnati in piccolo e con più sistemi di sicurezza passivi, come spiega la [guida principale](/atomo/smr-cosa-sono-europa/).
 
-Il confronto, a fine 2026, è sbilanciato in un senso preciso. I grandi reattori hanno decenni di esercizio e costi consuntivi, spesso pessimi. Gli SMR occidentali hanno promesse e stime, perché nessuno è ancora in esercizio commerciale. Si confronta un prodotto noto con uno da dimostrare.
+Il confronto, oggi, è sbilanciato in un senso preciso. I grandi reattori hanno decenni di esercizio e costi consuntivi, spesso pessimi. Gli SMR occidentali hanno promesse e stime, perché nessuno è ancora in esercizio commerciale. Si confronta un prodotto noto con uno da dimostrare.
 
 ## Il confronto in una tabella
 

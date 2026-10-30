@@ -1,11 +1,10 @@
 ---
-title: "Quanto costa un SMR: cifre reali, costo per kW e prezzo dell'energia"
+title: "Quanto costa un SMR: tempi, potenza e investimenti, con le cifre reali"
 slug: quanto-costa-smr
 foto: en:Darlington Nuclear Generating Station | cerca:Darlington new nuclear SMR construction
 category: atomo
-date: 2026-11-02
+date: 2026-11-05
 description: "Il primo SMR occidentale in costruzione, a Darlington in Canada, costa 7,7 miliardi di dollari canadesi per 300 MW (stima). Le cifre vere, il costo per kW e il confronto con le grandi centrali."
-draft: true
 format: spiegato
 serie: smr
 ordine: 3
@@ -49,7 +48,7 @@ Nella storia del nucleare la curva di apprendimento ha funzionato dove si è cos
 
 **NuScale-UAMPS (Stati Uniti).** Sei moduli da 77 MW, 462 MW in tutto, nell'Idaho. A gennaio 2023 il prezzo obiettivo dell'energia è salito da 58 a [89 dollari al MWh](https://www.neimagazine.com/news/uamps-and-nuscale-cancel-plans-to-build-smrs-at-inl-11297083/), già al netto dei sussidi federali. Il costo di costruzione, secondo l'analisi dell'istituto IEEFA sui documenti del consorzio, era passato da 5,3 a [9,3 miliardi di dollari](https://ieefa.org/resources/eye-popping-new-cost-estimates-released-nuscale-small-modular-reactor). A novembre 2023 il progetto è stato cancellato: troppo pochi clienti disposti a comprare a quel prezzo.
 
-**Doicești (Romania, NuScale).** Stesso impianto da 462 MW, su un ex sito a carbone. Decisione finale di investimento a febbraio 2026, ma condizionata: si costruisce prima un solo modulo e gli altri cinque solo se funziona. Nuclearelectrica [non pubblica il budget](https://nuclearelectrica.ro/snn/en/2026/02/12/the-doicesti-small-modular-reactors-smr-project-obtains-the-final-investment-decision-and-enters-the-third-stage-of-development/). Documenti citati dalla stampa romena e ripresi da [NEI Magazine](https://www.neimagazine.com/news/fid-for-doicesti-smr/) indicano circa 4,9 miliardi di dollari, con un margine del 20-30%. Il premier romeno Ilie Bolojan, a maggio 2026, ha parlato di [6-7 miliardi](https://www.economica.net/bolojan-da-de-pamant-cu-smr-urile-americane-de-la-doicesti-am-consumat-240-de-milioane-de-dolari-si-vom-ramane-cu-un-teren-si-cu-niste-hartii_941830.html).
+**Doicești (Romania, NuScale).** Stesso impianto da 462 MW, su un ex sito a carbone. Decisione finale di investimento a febbraio 2026, ma condizionata: si costruisce prima un solo modulo e gli altri cinque solo se funziona. Nuclearelectrica [non pubblica il budget](https://nuclearelectrica.ro/snn/en/2026/02/12/the-doicesti-small-modular-reactors-smr-project-obtains-the-final-investment-decision-and-enters-the-third-stage-of-development/). Documenti citati dalla stampa romena e ripresi da [NEI Magazine](https://www.neimagazine.com/news/fid-for-doicesti-smr/) indicano circa 4,9 miliardi di dollari, con un margine del 20-30%. A maggio 2026 il governo romeno ha parlato pubblicamente di [6-7 miliardi](https://www.economica.net/bolojan-da-de-pamant-cu-smr-urile-americane-de-la-doicesti-am-consumat-240-de-milioane-de-dolari-si-vom-ramane-cu-un-teren-si-cu-niste-hartii_941830.html).
 
 **Rolls-Royce SMR (Regno Unito).** Tre unità da 470 MW a Wylfa, contratto firmato ad aprile 2026. Il costo del progetto non è pubblico. Il governo ha accantonato [2,6 miliardi di sterline](https://www.ans.org/news/2026-04-15/article-7937/rollsroyce-gben-contract-kickstarts-uks-smr-plans-for-wylfa-site/) per avviarlo. Nel 2020 l'azienda indicava come obiettivo [1,75 miliardi di sterline](https://www.spglobal.com/commodity-insights/en/news-research/latest-news/electric-power/012420-rolls-royce-aims-for-2029-uk-nuclear-generation-at-sub-gbp60mwh) per unità ed energia sotto i 60 sterline al MWh: era un obiettivo, non un preventivo.
 
