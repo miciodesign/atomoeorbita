@@ -1,17 +1,16 @@
 ---
-title: "SMR in Italia: chi li sceglie, dove andranno e quando arriveranno"
+title: "SMR in Italia: progetti, aziende, costi e possibili siti"
 slug: smr-italia
 foto: cerca:ENEA Brasimone | en:Trino Nuclear Power Plant
 category: atomo
-date: 2026-11-09
+date: 2026-11-03
 description: "Il Governo punta sui piccoli reattori modulari: legge in vigore, decreti attesi a dicembre, scelta di Nuclitalia entro fine 2026. Prime centrali nel 2033-2035, siti e fondi ancora da decidere."
-draft: true
 format: analisi
 serie: smr
 ordine: 8
 serie_label: Gli SMR in Italia
 ---
-Gli SMR, i piccoli reattori modulari, sono la tecnologia su cui il Governo costruisce il ritorno del nucleare in Italia. A fine ottobre 2026 esiste una legge che lo permette, la 169/2026. Non esistono ancora un modello scelto, un sito, un'autorità di sicurezza attrezzata né un meccanismo per pagare gli impianti. Le prime centrali sono indicate tra il 2033 e il 2035.
+Gli SMR, i piccoli reattori modulari, sono la tecnologia su cui il Governo costruisce il ritorno del nucleare in Italia. Oggi esiste una legge che lo permette, la 169/2026. Non esistono ancora un modello scelto, un sito, un'autorità di sicurezza attrezzata né un meccanismo per pagare gli impianti. Le prime centrali sono indicate tra il 2033 e il 2035.
 
 A scegliere il reattore sarà soprattutto Nuclitalia, la società di Enel, Ansaldo Energia e Leonardo, che deve chiudere la sua valutazione entro la fine del 2026. In parallelo Edison ed EDF propongono il loro modello, Nuward, e la startup Newcleo sviluppa una tecnologia diversa.
 
@@ -54,7 +53,7 @@ Nuward ha molti legami industriali con l'Italia, anche attraverso Ansaldo, socia
 
 ## Newcleo e Ansaldo: la quarta generazione
 
-**Newcleo**, società italo-francese fondata da Stefano Buono, sviluppa reattori veloci raffreddati al piombo, alimentati con MOX, un combustibile di uranio e plutonio. Al Brasimone, sull'Appennino bolognese, costruisce un dimostratore non nucleare da 10 MW termici. La sua tabella di marcia prevede la decisione di investimento sul primo impianto commerciale intorno al 2029 e il primo reattore in Francia "già nel 2032" ([World Nuclear News](https://wnn.world-nuclear.org/articles/newcleo-advances-mox-fuel-licensing-in-france)). Dal 22 settembre è quotata al Nasdaq, con una raccolta lorda di circa 247 milioni di dollari ([Forbes Italia](https://forbes.it/2026/09/22/newcleo-nasdaq-ipo-valutazione-2-4-miliardi-nucleare)).
+**Newcleo**, società italo-francese fondata da Stefano Buono, sviluppa reattori veloci raffreddati al piombo, alimentati con MOX, un combustibile di uranio e plutonio. Al Brasimone, sull'Appennino bolognese, sviluppa con l'ENEA un dimostratore non nucleare da 10 MW termici. La sua tabella di marcia prevede la decisione di investimento sul primo impianto commerciale intorno al 2029 e il primo reattore in Francia "già nel 2032" ([World Nuclear News](https://wnn.world-nuclear.org/articles/newcleo-advances-mox-fuel-licensing-in-france)). Dal 22 settembre è quotata al Nasdaq, con una raccolta lorda di circa 247 milioni di dollari ([Forbes Italia](https://forbes.it/2026/09/22/newcleo-nasdaq-ipo-valutazione-2-4-miliardi-nucleare)).
 
 **Ansaldo Nucleare** guida anche il consorzio FALCON, con ENEA, sul reattore al piombo ALFRED, selezionato nel 2024 dall'Alleanza industriale europea sugli SMR ([Fortune Italia](https://www.fortuneita.com/?p=345200)).
 
@@ -76,7 +75,7 @@ L'autorità tecnica è l'ISIN, l'Ispettorato nazionale per la sicurezza nucleare
 
 ## Chi paga
 
-La legge stanzia 67,5 milioni di euro fino al 2029, per studi e informazione. Per gli impianti si discutono contratti per differenza, il modello RAB con pagamenti in bolletta durante la costruzione, e contratti privati con grandi consumatori. Nuclitalia chiede "misure regolatorie di minimizzazione e condivisione dei rischi" e partenariati pubblico-privati. Il Politecnico stima per il primo SMR italiano un costo dell'elettricità tra 135 e 196 euro per MWh: i dettagli sono in [quanto costa un SMR](/atomo/quanto-costa-smr/).
+La legge stanzia 67,5 milioni di euro fino al 2029, per studi e informazione. Per gli impianti si discutono contratti per differenza, il modello RAB con pagamenti in bolletta durante la costruzione, e contratti privati con grandi consumatori. Nuclitalia chiede "misure regolatorie di minimizzazione e condivisione dei rischi" e partenariati pubblico-privati. Il Politecnico di Milano stima per il primo SMR italiano un costo dell'elettricità tra 135 e 196 euro per MWh ([Canale Energia](https://www.canaleenergia.com/rubriche/scenari/nucleare-in-italia-filiera-pronta-e-mercati-in-fermento/)). Il confronto con i costi dei progetti esteri è in [quanto costa un SMR](/atomo/quanto-costa-smr/).
 
 ## Il calendario
 
