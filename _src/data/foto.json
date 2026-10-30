@@ -2199,6 +2199,18 @@
   "origine": "Zaporizhzhia Nuclear Power Plant",
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Kernkraftwerk_Saporischschja.JPG/1280px-Kernkraftwerk_Saporischschja.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  },
+ "articolo:come-funziona-smr": {
+  "autore": "NuScale",
+  "file": "https://commons.wikimedia.org/wiki/File:Nuscale-portland-office.jpg",
+  "licenza": "CC BY-SA 3.0",
+  "licenza_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "locale": {
+   "640": "/assets/foto/a-come-funziona-smr-nuscale-portland-off-640.jpg",
+   "1280": "/assets/foto/a-come-funziona-smr-nuscale-portland-off-1280.jpg"
+  },
+  "origine": "en:NuScale Power",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Nuscale-portland-office.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+ },
  "articolo:italia-nello-spazio-asi-esa-filiera": {
   "autore": "NASA",
   "file": "https://commons.wikimedia.org/wiki/File:Columbus_module_-_cropped.jpg",
@@ -2306,6 +2318,18 @@
   },
   "origine": "en:Akademik Lomonosov",
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/%D0%A1%D0%BF%D1%83%D1%81%D0%BA_%D0%9F%D0%90%D0%A2%D0%AD%D0%A1_%D0%BD%D0%B0_%D0%B2%D0%BE%D0%B4%D1%83_20190823.jpg/1280px-%D0%A1%D0%BF%D1%83%D1%81%D0%BA_%D0%9F%D0%90%D0%A2%D0%AD%D0%A1_%D0%BD%D0%B0_%D0%B2%D0%BE%D0%B4%D1%83_20190823.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ "articolo:smr-significato-sigle": {
+  "autore": "U.S. Government Accountability Office from Washington, DC, United States",
+  "file": "https://commons.wikimedia.org/wiki/File:Figure_4_Illustration_of_a_light_water_small_modular_nuclear_reactor_(SMR)_(20848048201).jpg",
+  "licenza": "Public domain",
+  "licenza_url": "",
+  "locale": {
+   "640": "/assets/foto/a-smr-significato-sigle-figure-4-illustratio-640.jpg",
+   "1280": "/assets/foto/a-smr-significato-sigle-figure-4-illustratio-1280.jpg"
+  },
+  "origine": "en:Small modular reactor",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Figure_4_Illustration_of_a_light_water_small_modular_nuclear_reactor_%28SMR%29_%2820848048201%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
  },
  "articolo:uprate-nucleare-potenza-centrali-esistenti": {
   "autore": "MediaGuy768",
