@@ -13,12 +13,17 @@ on:
 permissions:
   contents: write
 
+# Un solo aggiornamento foto alla volta: i push ravvicinati non si scontrano più
+concurrency:
+  group: foto
+  cancel-in-progress: false
+
 jobs:
   foto:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - run: pip install markdown jinja2 pillow
@@ -34,4 +39,12 @@ jobs:
           git stash pop || true
           python _src/build.py
           git add -A
-          if git diff --cached --quiet; then echo "Nessun cambiamento"; else git commit -m "Foto della mappa da Wikimedia Commons"; git push; fi
+          if git diff --cached --quiet; then echo "Nessun cambiamento"; exit 0; fi
+          git commit -m "Foto della mappa da Wikimedia Commons"
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            echo "Push rifiutato, riprovo ($i)"; sleep $((i*10))
+            git pull --rebase origin main || { git rebase --abort; git pull --rebase -X theirs origin main; }
+            python _src/build.py && git add -A && (git diff --cached --quiet || git commit -m "Ricostruzione dopo aggiornamento")
+          done
+          exit 1
