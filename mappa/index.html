@@ -19,10 +19,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="/assets/style.css?v=2026-10-30">
-<link rel="stylesheet" href="/assets/leaflet/leaflet.css?v=2026-10-30">
-<script src="/assets/leaflet/leaflet.js?v=2026-10-30"></script>
-<script src="/assets/geo/topojson-client.min.js?v=2026-10-30"></script>
+<link rel="stylesheet" href="/assets/style.css?v=2026-10-31">
+<link rel="stylesheet" href="/assets/leaflet/leaflet.css?v=2026-10-31">
+<script src="/assets/leaflet/leaflet.js?v=2026-10-31"></script>
+<script src="/assets/geo/topojson-client.min.js?v=2026-10-31"></script>
 </head>
 <body>
 <a class="skip" href="#main">Vai al contenuto</a>
@@ -179,7 +179,7 @@
   var map = L.map("map", { worldCopyJump: false, scrollWheelZoom: false, minZoom: 2, maxZoom: 9, maxBounds: [[-75, -200], [85, 200]], maxBoundsViscosity: 0.8 }).setView([30, 10], 2);
   map.attributionControl.addAttribution('Confini: <a href="https://www.naturalearthdata.com/" rel="noopener" target="_blank">Natural Earth</a>');
   map.createPane("terre"); map.getPane("terre").style.zIndex = 250;
-  fetch("/assets/geo/countries-50m.json?v=2026-10-30").then(function (r) { return r.json(); }).then(function (topo) {
+  fetch("/assets/geo/countries-50m.json?v=2026-10-31").then(function (r) { return r.json(); }).then(function (topo) {
     if (typeof topojson === "undefined") return;
     // i paesi a cavallo del meridiano 180 (Russia, Fiji): rende continue le longitudini
     function unwrap(ring) { for (var i = 1; i < ring.length; i++) { var d = ring[i][0] - ring[i - 1][0]; if (d > 180) ring[i][0] -= 360; else if (d < -180) ring[i][0] += 360; } }
