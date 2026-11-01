@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T05:15:43.266015+00:00",
+  "updated": "2026-11-01T05:20:46.220906+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -126,42 +126,6 @@
       "url": "https://www.world-nuclear-news.org/articles/game-of-thrones-actor-aims-to-highlight-chernobyls-need-for-international-support",
       "summary": "Danish actor and United Nations Goodwill Ambassador Nikolaj Coster-Waldau has visited the Chernobyl nuclear power plant site, for a project which &quot;aims to draw international attention to the need for support in rest",
       "time": "2026-10-30T10:10:34+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "IAEA",
-      "lang": "en",
-      "title": "Update 373 – IAEA Director General Statement on Situation in Ukraine",
-      "url": "http://www.iaea.org/newscenter/pressreleases/update-373-iaea-director-general-statement-on-situation-in-ukraine",
-      "summary": "",
-      "time": "2026-10-30T00:00:00+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "IAEA",
-      "lang": "en",
-      "title": "How Nuclear Technology Is Helping Cities Become More Sustainable",
-      "url": "http://www.iaea.org/newscenter/news/how-nuclear-technology-is-helping-cities-become-more-sustainable",
-      "summary": "",
-      "time": "2026-10-30T00:00:00+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "POWER Magazine",
-      "lang": "en",
-      "title": "Keeping America’s Nuclear Fleet Reliable as Electricity Demand Grows",
-      "url": "https://www.powermag.com/keeping-americas-nuclear-fleet-reliable-as-electricity-demand-grows/",
-      "summary": "Artificial intelligence (AI), data centers, and electrification are increasing U.S. electricity demand. Lawrence Berkeley National Laboratory estimates data centers could account for 11.8% of electricity consumption by 2",
-      "time": "2026-10-29T21:01:26+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "POWER Magazine",
-      "lang": "en",
-      "title": "Curtiss-Wright Invests $30M to Expand Nuclear Instrumentation Manufacturing in Texas",
-      "url": "https://www.powermag.com/curtiss-wright-invests-30m-to-expand-nuclear-instrumentation-manufacturing-in-texas/",
-      "summary": "Curtiss-Wright Corp. will invest $30 million to expand its manufacturing facility in Round Rock, Texas, to increase production capacity for pressure and temperature sensors used in commercial nuclear reactors and industr",
-      "time": "2026-10-29T17:58:31+00:00"
     }
   ],
   "orbita": [
@@ -218,33 +182,6 @@
       "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Earth_from_Space_Champi_s_eerie_eye",
       "summary": "Image: This image of Super Typhoon Champi from Copernicus Sentinel-3 was captured on 21 October 2026 off the coasts of Taiwan and the Philippines.",
       "time": "2026-10-30T09:00:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "Advice for optimizing the space industry with Laura Crabtree",
-      "url": "https://spacenews.com/advice-for-optimizing-the-space-industry-with-laura-crabtree/",
-      "summary": "In this episode, Mike Gruss speaks with Laura Crabtree, the CEO of Epsilon3, who is also a former SpaceX astronaut trainer. They talk about ways that space companies can organize [&#8230;] The post Advice for optimizing ",
-      "time": "2026-10-29T15:01:09+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ESA",
-      "lang": "en",
-      "title": "Ghostly Cat’s Head Nebula lurks within sight of Hubble and Webb",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Ghostly_Cat_s_Head_Nebula_lurks_within_sight_of_Hubble_and_Webb",
-      "summary": "The NASA/ESA Hubble and the NASA/ESA/CSA James Webb Space Telescopes recently stared at an eerie star-forming scene within the Carina Nebula, a massive gas and dust cloud located approximately 7500 light-years away from ",
-      "time": "2026-10-29T14:00:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "European Spaceflight",
-      "lang": "en",
-      "title": "UK MOD Awards £15 Million Orbital Warfare Project to Astroscale",
-      "url": "https://europeanspaceflight.com/uk-mod-awards-15-million-orbital-warfare-project-to-astroscale/",
-      "summary": "Japanese space technology company Astroscale has officially announced that its UK-based subsidiary has been awarded a £15 million (€17.9 million) Ministry of Defence contract for Project LEDA. While few details about the",
-      "time": "2026-10-29T07:31:25+00:00"
     }
   ]
 }
