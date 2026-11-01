@@ -99,7 +99,7 @@ I termini che usiamo negli articoli, spiegati in poche righe. Il glossario cresc
 
 **CNAPI e CNAI** – Carta nazionale delle aree potenzialmente idonee (2021, 67 aree) e Carta nazionale delle aree idonee (2023, 51 aree) per il Deposito nazionale.
 
-**Deposito geologico** – La soluzione definitiva per i rifiuti ad alta attività: un deposito a centinaia di metri di profondità in roccia stabile. Nessuno è in esercizio nel mondo; la Finlandia (Onkalo) è la più vicina.
+**Deposito geologico** – La soluzione definitiva per i rifiuti ad alta attività: un deposito a centinaia di metri di profondità in roccia stabile. Nessuno è ancora in esercizio: il primo sarà Onkalo, in Finlandia, che ha ottenuto la licenza di esercizio il 22 ottobre 2026 e attende l'ispezione finale dell'autorità di sicurezza.
 
 **Decommissioning** – Lo smantellamento di un impianto nucleare a fine vita e la bonifica del sito. In Italia lo fa Sogin per le quattro centrali chiuse e gli impianti del ciclo.
 
