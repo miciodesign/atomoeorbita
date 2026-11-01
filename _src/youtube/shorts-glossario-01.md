@@ -4,6 +4,8 @@ Video verticali 9:16, 45-60 secondi. Testo da leggere con calma: circa 130 parol
 Struttura fissa: la parola scritta grande per i primi 2 secondi, poi le immagini, alla fine il logo e "atomoeorbita.it".
 Le immagini indicate sono sul nostro sito, con autore e licenza nella pagina dell'articolo (Wikimedia Commons): in descrizione va sempre la riga "Foto: Wikimedia Commons" con autore e licenza.
 
+**Voce del canale (scelta il 1° novembre 2026):** ElevenLabs, voce "Luca - Warm Italian Narrator", modello Eleven v4, stabilità circa 65% (verso Robusto), somiglianza 75%, output MP3 44.1 kHz. Usare sempre la stessa voce.
+
 Descrizione standard, da adattare:
 > [Frase di una riga sul tema]. Approfondisci su Atomo e Orbita: [link]. Glossario completo: https://atomoeorbita.it/glossario/ · Ogni lunedì Il Punto via email: https://atomoeorbita.it/newsletter/ · Foto: [autore, licenza], Wikimedia Commons.
 > #nucleare #spazio #shorts
