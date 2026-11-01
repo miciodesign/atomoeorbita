@@ -1,0 +1,25 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: S,Inter,58,&H00EFECE8,&H00FFFFFF,&H00171412,&H96171412,1,0,0,0,100,100,0,0,3,18,0,2,70,70,330,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.05,0:00:01.49,S,,0,0,0,,SMR.
+Dialogue: 0,0:00:01.80,0:00:05.57,S,,0,0,0,,Tre lettere che senti ogni volta\Nche si parla di nucleare in Italia.
+Dialogue: 0,0:00:05.84,0:00:08.49,S,,0,0,0,,Significano Small Modular Reactor:
+Dialogue: 0,0:00:08.75,0:00:10.37,S,,0,0,0,,piccolo reattore modulare.
+Dialogue: 0,0:00:10.69,0:00:13.97,S,,0,0,0,,Piccolo, perché produce\Nfino a circa 300 megawatt.
+Dialogue: 0,0:00:14.19,0:00:16.45,S,,0,0,0,,Una grande centrale\Nne fa più di mille.
+Dialogue: 0,0:00:16.74,0:00:20.55,S,,0,0,0,,Modulare, perché l'idea è costruirlo\Nin fabbrica, a pezzi,
+Dialogue: 0,0:00:20.40,0:00:22.13,S,,0,0,0,,e poi montarlo sul posto.
+Dialogue: 0,0:00:22.36,0:00:24.36,S,,0,0,0,,Come si fa con le navi\No con gli aerei.
+Dialogue: 0,0:00:24.70,0:00:27.85,S,,0,0,0,,Oggi in Occidente non ce n'è\Nancora nessuno in funzione.
+Dialogue: 0,0:00:28.02,0:00:32.20,S,,0,0,0,,Il primo dovrebbe accendersi in Canada,\Na Darlington, nel 2030.
+Dialogue: 0,0:00:32.46,0:00:33.21,S,,0,0,0,,E in Italia?
+Dialogue: 0,0:00:33.44,0:00:36.75,S,,0,0,0,,Il governo parla\Ndel 2033-2035.
+Dialogue: 0,0:00:36.99,0:00:42.18,S,,0,0,0,,Come funziona, quanto costa e chi li costruisce:\Nlo trovi su Atomo e Orbita.
