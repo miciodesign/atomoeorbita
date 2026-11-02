@@ -40,7 +40,7 @@ Un neutrone colpisce un nucleo di uranio. Il nucleo si divide in due pezzi più 
 Ma libera anche due o tre nuovi neutroni. Che colpiscono altri nuclei. Che si spezzano a loro volta.
 È la reazione a catena. In una centrale viene tenuta sotto controllo, in modo che resti costante.
 Il calore scalda l'acqua, l'acqua diventa vapore, il vapore fa girare una turbina. Ed ecco l'elettricità.
-È così che funzionano tutte le centrali nucleari in esercizio oggi nel mondo, più di quattrocento.
+È così che funzionano tutti i reattori nucleari in esercizio oggi nel mondo: più di quattrocento.
 Il contrario della fissione è la fusione. Ma quella è un'altra storia. La prossima.
 
 **Immagini:** animazione semplice nucleo + neutrone (si può fare con forme geometriche); schema calore-vapore-turbina; mappa delle centrali del sito con il numero.
