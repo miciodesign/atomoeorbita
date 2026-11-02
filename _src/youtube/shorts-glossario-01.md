@@ -75,8 +75,8 @@ Uranio arricchito. Sembra una cosa da film. È più semplice.
 L'uranio che si estrae dalle miniere contiene pochissimo uranio-235, quello che si spezza facilmente: lo 0,7 per cento.
 Per far funzionare una centrale ne serve di più, tra il 3 e il 5 per cento. Arricchire vuol dire proprio questo: aumentare quella percentuale, facendo girare il gas di uranio in migliaia di centrifughe.
 Le armi richiedono livelli molto più alti, oltre il 90 per cento. Per questo si controlla con tanta attenzione chi arricchisce e quanto.
-Oggi gli impianti sono pochi: in Russia, in Europa, in Cina e negli Stati Uniti.
-E alcuni reattori di nuova generazione chiedono uranio fino al 20 per cento, che oggi produce quasi solo la Russia. Un problema strategico per l'Europa.
+I grandi impianti sono pochi: in Russia, in Europa, in Cina e negli Stati Uniti.
+E alcuni reattori di nuova generazione chiedono uranio fino al 20 per cento, che finora vendeva quasi solo la Russia. Un problema strategico per l'Europa.
 
 **Immagini:** foto di pastiglie di combustibile / yellowcake (articolo Uranio, terre rare e titanio); grafico a barre 0,7% / 3-5% / 20% / oltre 90%; foto di una sala di centrifughe da Wikimedia.
 **Link:** https://atomoeorbita.it/confine/uranio-terre-rare-titanio-materiali-contesi/
@@ -89,30 +89,30 @@ E alcuni reattori di nuova generazione chiedono uranio fino al 20 per cento, che
 
 **Testo:**
 Scorie nucleari. In Italia ce ne sono già, anche se le centrali sono chiuse da quasi quarant'anni.
-Sono circa 33.500 metri cubi. Per avere un'idea: riempirebbero più o meno tredici piscine olimpiche.
+Sono quasi 34.000 metri cubi. Per avere un'idea: riempirebbero più o meno tredici piscine olimpiche.
 Ma il 99 per cento è a bassa o bassissima attività: tute, guanti, filtri, metalli delle vecchie centrali e rifiuti di ospedali e industria.
-La parte pericolosa, ad alta attività, è piccola in volume. Viene soprattutto dal vecchio combustibile, mandato a trattare in Francia e nel Regno Unito. Per contratto, dovrà tornare in Italia.
+La parte pericolosa, ad alta attività, è piccola in volume. Una parte è all'estero: il vecchio combustibile, mandato a trattare in Francia e nel Regno Unito. Per contratto, dovrà tornare in Italia.
 Oggi tutto è sparso in decine di depositi temporanei.
 Il Deposito nazionale, che dovrebbe raccoglierli, non ha ancora un sito.
 Dove sono, e dove andranno: lo spieghiamo su Atomo e Orbita.
 
 **Immagini:** foto della galleria di Onkalo o della centrale di Latina; numero "33.500 m³" grande; torta 99% / 1%; cartina dell'Italia con i siti (Trino, Caorso, Latina, Garigliano, Saluggia, Rotondella).
-**Nota:** 33.500 m³ diviso 2.500 m³ (piscina olimpica 50×25×2 m) = circa 13. Calcolo nostro.
+**Nota:** inventario ISIN al 31/12/2024: 33.766 m³. Diviso 2.500 m³ (piscina olimpica 50×25×2 m) = circa 13,5. Calcolo nostro.
 **Link:** https://atomoeorbita.it/atomo/scorie-dove-sono-dove-andranno/
 
 ---
 
 ## 6. Deposito geologico
 
-**Titolo YouTube:** Il primo cimitero di scorie nucleari del mondo apre in Finlandia
+**Titolo YouTube:** Il primo deposito definitivo di scorie nucleari al mondo: la Finlandia ha detto sì
 
 **Testo:**
 Deposito geologico. Dove mettere le scorie più pericolose, per sempre.
 La risposta della scienza è: sotto terra, in una roccia stabile da milioni di anni.
 La Finlandia lo ha fatto davvero. Si chiama Onkalo, che in finlandese vuol dire "cavità". È scavato nel granito a circa 450 metri di profondità.
 Il combustibile usato viene chiuso in contenitori di rame, circondati da argilla, e sigillato nelle gallerie.
-Il 22 ottobre 2026 il governo finlandese gli ha dato la licenza di esercizio: è il primo al mondo.
-Per arrivarci ci sono voluti più di quarant'anni, dal 1983. Senza mai cambiare strada tra un governo e l'altro.
+Il 22 ottobre 2026 il governo finlandese gli ha dato la licenza di esercizio: è il primo al mondo. Il primo contenitore scenderà dopo l'ultima ispezione.
+Per arrivarci ci sono voluti più di quarant'anni: la ricerca del sito è cominciata nel 1983. Senza mai cambiare strada tra un governo e l'altro.
 Forse la lezione più importante, anche per l'Italia.
 
 **Immagini:** foto della galleria di Onkalo (Il Punto del 26 ottobre); schema roccia-argilla-rame; scritta "1983 → 2026".
