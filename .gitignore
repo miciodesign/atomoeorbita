@@ -1,0 +1,4 @@
+# File generati localmente che non servono nel repo
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<article class="wrap article">
+  <header class="article-head">
+    <nav class="crumbs" aria-label="Percorso"><a href="/">Home</a> › <a href="/numeri/">Numeri</a></nav>
+    <p class="eyebrow">Scheda dati</p>
+    <h1>{{ n.title }}</h1>
+    {% if n.description %}<p class="lead">{{ n.description }}</p>{% endif %}
+    <p class="meta">Fonte: {{ n.source }} · Aggiornata il {{ n.updated_human }}</p>
+  </header>
+  <div class="article-body narrow">
+    {{ n.body|safe }}
+  </div>
+  <footer class="article-foot">
+    <p class="small muted">Questa scheda viene aggiornata quando la fonte pubblica nuovi dati. Trovi un numero vecchio? Scrivici a {{ site.email }}.</p>
+  </footer>
+</article>
+{% endblock %}

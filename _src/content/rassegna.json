@@ -1,0 +1,78 @@
+{
+  "updated": "2026-11-02T05:30:44.561306+00:00",
+  "window_hours": 48,
+  "sources": [
+    {
+      "name": "World Nuclear News",
+      "url": "https://www.world-nuclear-news.org/rss",
+      "section": "atomo"
+    },
+    {
+      "name": "POWER Magazine",
+      "url": "https://www.powermag.com/category/nuclear/feed/",
+      "section": "atomo"
+    },
+    {
+      "name": "IAEA",
+      "url": "https://www.iaea.org/feeds/topnews",
+      "section": "atomo"
+    },
+    {
+      "name": "NucNet",
+      "url": "https://www.nucnet.org/feed",
+      "section": "atomo"
+    },
+    {
+      "name": "Qualenergia",
+      "url": "https://www.qualenergia.it/feed/",
+      "section": "atomo"
+    },
+    {
+      "name": "SpaceNews",
+      "url": "https://spacenews.com/feed/",
+      "section": "orbita"
+    },
+    {
+      "name": "ESA",
+      "url": "https://www.esa.int/rssfeed/TopNews",
+      "section": "orbita"
+    },
+    {
+      "name": "ASI",
+      "url": "https://www.asi.it/feed/",
+      "section": "orbita"
+    },
+    {
+      "name": "AstronautiNEWS",
+      "url": "https://www.astronautinews.it/feed/",
+      "section": "orbita"
+    },
+    {
+      "name": "European Spaceflight",
+      "url": "https://europeanspaceflight.com/feed/",
+      "section": "orbita"
+    }
+  ],
+  "errors": [],
+  "atomo": [],
+  "orbita": [
+    {
+      "section": "orbita",
+      "source": "AstronautiNEWS",
+      "lang": "it",
+      "title": "CRISTAL dispiega le sue ali",
+      "url": "https://www.astronautinews.it/2026/11/cristal-dispiega-le-sue-ali/",
+      "summary": "Il satellite dell'Agenzia spaziale europea (ESA) per il monitoraggio dei ghiacci CRISTAL-A (Copernicus Polar Ice and Snow Topography Altimeter), verrà prossimamente sottoposto a un'impegnativa fase di test. Il collaudo c",
+      "time": "2026-11-01T17:00:00+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "European Spaceflight",
+      "lang": "en",
+      "title": "Canadian MDA Space Secures €64 Million IRIS2 Antenna Agreement",
+      "url": "https://europeanspaceflight.com/canadian-mda-space-secures-e64-million-iris2-antenna-agreement/",
+      "summary": "Canadian space technology company MDA Space has signed an agreement with Thales Alenia Space to begin work on digital antennas for the first 66 satellites of the European Union&#8217;s IRIS2 secure connectivity constella",
+      "time": "2026-11-01T08:16:51+00:00"
+    }
+  ]
+}

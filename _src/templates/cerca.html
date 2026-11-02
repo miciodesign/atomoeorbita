@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block head %}<meta name="robots" content="noindex, follow">{% endblock %}
+{% block content %}
+<section class="wrap section">
+  <nav class="crumbs" aria-label="Percorso"><a href="/">Home</a> › <span>Cerca</span></nav>
+  <h1>Cerca nel sito</h1>
+  <form class="search-form" role="search" action="/cerca/" method="get" onsubmit="return false">
+    <label for="q" class="sr-only">Cosa cerchi</label>
+    <input id="q" name="q" type="search" placeholder="Es. SMR, scorie, Vega, Flamanville" autocomplete="off" autofocus>
+  </form>
+  <p id="search-status" class="small muted" aria-live="polite">Cerca negli articoli, nel glossario, nelle schede Numeri e tra le centrali e le basi della mappa.</p>
+  <ol id="search-results" class="search-results"></ol>
+</section>
+<script>
+(function () {
+  var input = document.getElementById("q"), out = document.getElementById("search-results"), st = document.getElementById("search-status"), data = null;
+  function norm(s) { return (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }
+  function esc(s) { var d = document.createElement("div"); d.textContent = s; return d.innerHTML; }
+  function run() {
+    var q = input.value.trim();
+    try { history.replaceState(null, "", q ? "?q=" + encodeURIComponent(q) : location.pathname); } catch (e) {}
+    if (!data) return;
+    var terms = norm(q).split(/\s+/).filter(function (t) { return t.length > 1; });
+    out.innerHTML = "";
+    if (!terms.length) { st.textContent = "Scrivi almeno due lettere."; return; }
+    var res = [];
+    data.forEach(function (it) {
+      var t = norm(it.t), d = norm(it.d), x = norm(it.x), score = 0;
+      for (var i = 0; i < terms.length; i++) {
+        var w = terms[i], s = 0;
+        if (t.indexOf(w) > -1) s += 10;
+        if (d.indexOf(w) > -1) s += 4;
+        if (x.indexOf(w) > -1) s += 1 + Math.min(4, x.split(w).length - 2);
+        if (!s) return;
+        score += s;
+      }
+      res.push([score * it.w, it]);
+    });
+    res.sort(function (a, b) { return b[0] - a[0]; });
+    st.textContent = res.length ? res.length + (res.length === 1 ? " risultato" : " risultati") : "Nessun risultato. Prova con un'altra parola.";
+    res.slice(0, 40).forEach(function (r) {
+      var it = r[1], li = document.createElement("li");
+      li.innerHTML = '<a href="' + esc(it.u) + '">' + esc(it.t) + '</a><span class="search-kind">' + esc(it.k) + '</span>' + (it.d ? '<p>' + esc(it.d) + '</p>' : '');
+      out.appendChild(li);
+    });
+  }
+  fetch("/assets/cerca.json?v={{ build_date }}").then(function (r) { return r.json(); }).then(function (j) { data = j; run(); })
+    .catch(function () { st.textContent = "La ricerca non si è caricata. Riprova tra poco."; });
+  var t; input.addEventListener("input", function () { clearTimeout(t); t = setTimeout(run, 120); });
+  var p = new URLSearchParams(location.search).get("q"); if (p) input.value = p;
+})();
+</script>
+{% endblock %}

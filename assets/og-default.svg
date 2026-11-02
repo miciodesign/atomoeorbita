@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#121417"/>
+<g transform="translate(600 250)">
+<g transform="rotate(-30)"><ellipse rx="130" ry="50" fill="none" stroke="#E8ECEF" stroke-width="7"/><circle cx="130" r="14" fill="#E8ECEF"/></g>
+<circle r="30" fill="#3DDCC8"/>
+</g>
+<text x="600" y="455" text-anchor="middle" font-family="Space Grotesk, Helvetica, Arial, sans-serif" font-weight="700" font-size="64" letter-spacing="9" fill="#E8ECEF">ATOMO <tspan fill="#3DDCC8" font-weight="500">&amp;</tspan> ORBITA</text>
+<text x="600" y="520" text-anchor="middle" font-family="Space Grotesk, Helvetica, Arial, sans-serif" font-weight="500" font-size="22" letter-spacing="6" fill="#9AA3AB">ENERGIA E SPAZIO, SENZA SEMPLIFICAZIONI</text>
+</svg>

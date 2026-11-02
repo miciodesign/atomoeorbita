@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="wrap section narrow">
+  <h1>Questa pagina è uscita dall'orbita</h1>
+  <p class="lead">L'indirizzo che hai aperto non esiste. Riparti da una di queste sezioni:</p>
+  <div class="chips">
+    {% for c in categories %}<a class="chip" href="{{ c.url }}">{{ c.name }}</a>{% endfor %}
+    <a class="chip" href="/dossier/">Dossier</a>
+    <a class="chip" href="/numeri/">Numeri</a>
+  </div>
+  <p><a href="/">Torna alla home</a></p>
+</section>
+{% endblock %}
