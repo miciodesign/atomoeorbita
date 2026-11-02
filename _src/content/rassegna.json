@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T05:20:46.220906+00:00",
+  "updated": "2026-11-02T05:30:44.561306+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -54,134 +54,25 @@
     }
   ],
   "errors": [],
-  "atomo": [
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Centrus ships first centrifuge for Piketon plant expansion",
-      "url": "https://www.world-nuclear-news.org/articles/centrus-ships-first-centrifuge-for-piketon-plant-expansion",
-      "summary": "Centrus Energy's manufacturing plant in Oak Ridge, Tennessee, has despatched the first new centrifuge as part of the company's multibillion-dollar expansion of its uranium enrichment capacity in Piketon, Ohio. &nbsp;",
-      "time": "2026-10-30T16:13:18+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Framatome inaugurates chromium-coating facility",
-      "url": "https://www.world-nuclear-news.org/articles/framatome-inaugurates-chromium-coating-facility",
-      "summary": "Framatome has inaugurated a chromium-coating industrial pilot facility dedicated to the industrialisation of its PROtect Enhanced Accident Tolerant Fuel technology at its manufacturing plant in Paimboeuf in western Franc",
-      "time": "2026-10-30T15:01:33+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "NucNet",
-      "lang": "en",
-      "title": "IAEA Urges Kenya To Finalise Policies On Radioactive Waste Management",
-      "url": "https://www.nucnet.org/news/iaea-urges-kenya-to-finalise-policies-on-radioactive-waste-management-10-5-2026",
-      "summary": "Kenya should finalise national policies on radioactive waste management and strengthen regulatory independence as it prepares to introduce nuclear power, an International Atomic Energy Agency (IAEA) review mission has sa",
-      "time": "2026-10-30T13:53:33+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Floating nuclear power plant 'has boosted air quality'",
-      "url": "https://www.world-nuclear-news.org/articles/floating-nuclear-power-plant-has-boosted-air-quality",
-      "summary": "An environmental monitoring report for Russia's floating nuclear power plant suggests that emissions have fallen almost 80% since it started supplying heating in the area in 2022. &nbsp;",
-      "time": "2026-10-30T11:42:10+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Cernavoda units remain shut down due to Danube water levels",
-      "url": "https://www.world-nuclear-news.org/articles/cernavoda-units-remain-offline-due-to-danube-water-levels",
-      "summary": "Romania's Nuclearelectrica says that although there has been a recent rise in the local water level in the River Danube, current forecasts do not yet support a decision to restart the units. &nbsp;",
-      "time": "2026-10-30T11:12:39+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "NucNet",
-      "lang": "en",
-      "title": "South Korea’s KHNP Breaks Off Construction Contract Talks On Dukovany Reactor Project",
-      "url": "https://www.nucnet.org/news/south-korea-s-khnp-breaks-off-construction-contract-talks-on-dukovany-reactor-project-10-5-2026",
-      "summary": "Korea Hydro & Nuclear Power (KHNP) has broken off construction contract talks with a Daewoo Engineering & Construction-led consortium for a $18.6bn (€16.5bn) project to build two new nuclear plants at the Dukovany site i",
-      "time": "2026-10-30T11:06:29+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Doosan to manufacture upper reactor vessel for NuScale SMR",
-      "url": "https://www.world-nuclear-news.org/articles/doosan-to-manufacture-upper-reactor-vessel-for-nuscale-smr",
-      "summary": "US small modular reactor developer NuScale Power has signed a contract with South Korea's Doosan Enerbility to manufacture an upper reactor coolant system for the NuScale Power Module. &nbsp;",
-      "time": "2026-10-30T10:16:02+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Game of Thrones actor aims to highlight Chernobyl's need for international support",
-      "url": "https://www.world-nuclear-news.org/articles/game-of-thrones-actor-aims-to-highlight-chernobyls-need-for-international-support",
-      "summary": "Danish actor and United Nations Goodwill Ambassador Nikolaj Coster-Waldau has visited the Chernobyl nuclear power plant site, for a project which &quot;aims to draw international attention to the need for support in rest",
-      "time": "2026-10-30T10:10:34+00:00"
-    }
-  ],
+  "atomo": [],
   "orbita": [
     {
       "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "ESI supplying solar array components to missile defense programs",
-      "url": "https://spacenews.com/esi-supplying-solar-array-components-to-missile-defense-programs/",
-      "summary": "Oct. 30, 2026 – ESI Motion Inc. is proud to announce that it is supplying the Solar Array Drive Electronics (SADE) to Lockheed Martin for its work on the Space [&#8230;] The post ESI supplying solar array components to m",
-      "time": "2026-10-30T18:54:34+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ESA",
-      "lang": "en",
-      "title": "What happened this month at the European Space Agency? (October 2026)",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/What_happened_this_month_at_the_European_Space_Agency_October_2026",
-      "summary": "Video: 00:04:30 October was a month of discoveries and milestones. ESA’s Rosalind Franklin rover team trained in Spain’s desert, preparing for Mars. Our Smile mission captured the full ring of northern lights around Eart",
-      "time": "2026-10-30T15:00:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ESA",
-      "lang": "en",
-      "title": "Week in images: 26-30 October 2026",
-      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_26-30_October_2026",
-      "summary": "Week in images: 26-30 October 2026 Discover our week through the lens",
-      "time": "2026-10-30T14:15:00+00:00"
+      "source": "AstronautiNEWS",
+      "lang": "it",
+      "title": "CRISTAL dispiega le sue ali",
+      "url": "https://www.astronautinews.it/2026/11/cristal-dispiega-le-sue-ali/",
+      "summary": "Il satellite dell'Agenzia spaziale europea (ESA) per il monitoraggio dei ghiacci CRISTAL-A (Copernicus Polar Ice and Snow Topography Altimeter), verrà prossimamente sottoposto a un'impegnativa fase di test. Il collaudo c",
+      "time": "2026-11-01T17:00:00+00:00"
     },
     {
       "section": "orbita",
       "source": "European Spaceflight",
       "lang": "en",
-      "title": "Ground Qualification Testing Begins for Callisto Reusable Rocket Demonstrator",
-      "url": "https://europeanspaceflight.com/ground-qualification-testing-begins-for-callisto-reusable-rocket-demonstrator/",
-      "summary": "The French space agency CNES has announced the start of ground qualification testing for the Callisto reusable rocket demonstrator at the Guiana Space Centre. A full-scale mockup of the vehicle has been erected at the sp",
-      "time": "2026-10-30T11:02:56+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ASI",
-      "lang": "it",
-      "title": "Rover ETNA, superata la Final Review del programma ULS",
-      "url": "https://www.asi.it/2026/10/rover-etna-superata-la-final-review-del-programma-uls/",
-      "summary": "Dalla Sicilia allo spazio: completata la piattaforma robotica italiana per la mobilità planetaria [&#8230;]",
-      "time": "2026-10-30T09:18:39+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ESA",
-      "lang": "en",
-      "title": "Earth from Space: Champi’s eerie eye",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Earth_from_Space_Champi_s_eerie_eye",
-      "summary": "Image: This image of Super Typhoon Champi from Copernicus Sentinel-3 was captured on 21 October 2026 off the coasts of Taiwan and the Philippines.",
-      "time": "2026-10-30T09:00:00+00:00"
+      "title": "Canadian MDA Space Secures €64 Million IRIS2 Antenna Agreement",
+      "url": "https://europeanspaceflight.com/canadian-mda-space-secures-e64-million-iris2-antenna-agreement/",
+      "summary": "Canadian space technology company MDA Space has signed an agreement with Thales Alenia Space to begin work on digital antennas for the first 66 satellites of the European Union&#8217;s IRIS2 secure connectivity constella",
+      "time": "2026-11-01T08:16:51+00:00"
     }
   ]
 }
