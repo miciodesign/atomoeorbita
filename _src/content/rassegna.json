@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T05:30:44.561306+00:00",
+  "updated": "2026-11-03T05:27:02.025935+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -54,8 +54,81 @@
     }
   ],
   "errors": [],
-  "atomo": [],
+  "atomo": [
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "PEJ applies for early works permit for nuclear power plant",
+      "url": "https://www.world-nuclear-news.org/articles/pej-applies-for-early-works-permit-for-nuclear-power-plant",
+      "summary": "Polskie Elektrownie Jądrowe has applied to the head of the Pomeranian Voivodeship for a permit to start early works required for the construction of Poland's first nuclear power plant at the Lubiatowo-Kopalino site in th",
+      "time": "2026-11-02T15:37:01+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "First concrete poured for unit 5 at Haiyang plant",
+      "url": "https://www.world-nuclear-news.org/articles/first-concrete-poured-unit-5-haiyang-plant",
+      "summary": "The first safety-related concrete has been poured for the reactor building of unit 5 at the Haiyang nuclear power plant. It is the fifth of six large pressurised water reactors planned for the site in China's Shandong pr",
+      "time": "2026-11-02T14:37:39+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Texas SMR plant moves to final permitting stage",
+      "url": "https://www.world-nuclear-news.org/articles/texas-smr-plant-moves-to-final-permitting-stage",
+      "summary": "The US Nuclear Regulatory Commission says there will soon be a construction permit announcement after it finished its safety review for the Xe-100 reactor, which is proposed for deployment at the Long Mott Generating Sta",
+      "time": "2026-11-02T14:18:54+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Next-generation fuel projects get US federal funding",
+      "url": "https://www.world-nuclear-news.org/articles/next-generation-fuel-projects-get-us-federal-funding",
+      "summary": "Eight nuclear fuel technology projects have been selected to receive a share of up to USD50 million of federal funding under a US Department of Energy programme to support R&amp;D to deliver TRU fuel technologies. &nbsp;",
+      "time": "2026-11-02T13:11:04+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Uganda and Russia look to move ahead with nuclear project",
+      "url": "https://www.world-nuclear-news.org/articles/russia-and-uganda-look-to-move-head-with-nuclear-project",
+      "summary": "A roadmap setting out cooperation in the peaceful uses of nuclear energy, as part of work towards a nuclear power plant, has been signed by Russia and Uganda. &nbsp;",
+      "time": "2026-11-02T13:03:13+00:00"
+    }
+  ],
   "orbita": [
+    {
+      "section": "orbita",
+      "source": "European Spaceflight",
+      "lang": "en",
+      "title": "ESA to Support Industry-Led Reusable Booster Flight Demonstrations",
+      "url": "https://europeanspaceflight.com/esa-to-support-industry-led-reusable-booster-flight-demonstrations/",
+      "summary": "The European Space Agency has announced plans to support industry-led flight demonstrations of reusable rocket first stages and boosters as part of a new phase of its Boosters for European Space Transportation (BEST!) in",
+      "time": "2026-11-02T14:13:02+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "How to Expand Reliable, Flexible Access to Space",
+      "url": "https://spacenews.com/how-to-expand-reliable-flexible-access-to-space/",
+      "summary": "The space industry launched more rockets into orbit last year than ever before, yet satellite operators are confronting an unexpected problem: There still aren’t enough rides to go around. And [&#8230;] The post How to E",
+      "time": "2026-11-02T14:00:00+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ESA",
+      "lang": "en",
+      "title": "CubeSat achieves challenging laser link to ground",
+      "url": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications/CubeSat_achieves_challenging_laser_link_to_ground",
+      "summary": "Despite it being a complex operation, ERMIS-3, an 8U CubeSat developed by the National and Kapodistrian University of Athens, has established a link with an optical ground station marking an important step in validating ",
+      "time": "2026-11-02T08:55:00+00:00"
+    },
     {
       "section": "orbita",
       "source": "AstronautiNEWS",
