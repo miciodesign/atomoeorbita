@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T05:29:55.384400+00:00",
+  "updated": "2026-11-05T05:30:42.675676+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -57,6 +57,87 @@
   "atomo": [
     {
       "section": "atomo",
+      "source": "NucNet",
+      "lang": "en",
+      "title": "Canada’s Bruce-5 Nuclear Plant Taken Offline For Major Component Replacement Outage",
+      "url": "https://www.nucnet.org/news/canada-s-bruce-5-nuclear-plant-taken-offline-for-major-component-replacement-outage-11-3-2026",
+      "summary": "The Bruce-5 nuclear power plant has been taken offline for its major component replacement (MCR) outage – the fourth unit to be refurbished under Bruce Power’s plan to renew six of the eight units at the Ontario site. Th",
+      "time": "2026-11-04T13:57:12+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Initial fuel loading completed at second San'ao unit",
+      "url": "https://www.world-nuclear-news.org/articles/initial-fuel-loading-completed-at-second-sanao-unit",
+      "summary": "The loading of fuel assemblies into the core of unit 2 at the San'ao nuclear power plant in China's Zhejiang province has been completed ahead of its start up. The unit is the second of six HPR1000s (Hualong Ones) planne",
+      "time": "2026-11-04T13:24:03+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "NucNet",
+      "lang": "en",
+      "title": "Amentum And Kyoto Fusioneering Sign MOU On Fusion In UK, Japan And US",
+      "url": "https://www.nucnet.org/news/amentum-and-kyoto-fusioneering-sign-mou-on-fusion-in-uk-japan-and-us-11-3-2026",
+      "summary": "US engineering and energy technology company Amentum has entered into a memorandum of understanding with Kyoto Fusioneering to cooperate on nuclear fusion in the UK, Japan and the US. Amentum said the agreement with Kyot",
+      "time": "2026-11-04T13:13:21+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Kazakhstan aims for 100-year uranium reserve",
+      "url": "https://www.world-nuclear-news.org/articles/kazakhstan-aims-for-100-year-uranium-reserve",
+      "summary": "Kazakhstan is aiming to develop its strategic uranium reserve to meet the needs of its planned nuclear power plants for more than 100 years, President&nbsp;Kassym-Jomart Tokayev has said. &nbsp;",
+      "time": "2026-11-04T11:45:59+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "FANCO expands cooperation with Hyundai E&C on EAGL-1",
+      "url": "https://www.world-nuclear-news.org/articles/fanco-expands-cooperation-with-hyundai-ec-on-eagl-1",
+      "summary": "US small modular reactor developer First American Nuclear Co has signed a comprehensive master service agreement with South Korea's Hyundai Engineering &amp; Construction. &nbsp;",
+      "time": "2026-11-04T11:41:40+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Heat raised for UK's MAST Upgrade fusion machine",
+      "url": "https://www.world-nuclear-news.org/articles/twelve-tonne-component-raises-uk-fusion-machines-heat",
+      "summary": "A 12-tonne double beam box, which is set to double the UK's flagship fusion machine's plasma conditions to 60 million degrees Celsius, has been moved into position. &nbsp;",
+      "time": "2026-11-04T10:56:34+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Amentum, Kyoto Fusioneering agree fusion collaboration",
+      "url": "https://www.world-nuclear-news.org/articles/amentum-kyoto-fusioneering-target-fusion-commercialisation",
+      "summary": "Kyoto Fusioneering and Amentum have signed a memorandum of understanding covering international cooperation across the UK, Japan and the USA in advancing fusion energy commercialisation. &nbsp;",
+      "time": "2026-11-04T09:13:01+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "IAEA",
+      "lang": "en",
+      "title": "IAEA Report Confirms Japanese Monitoring Data of ALPS-Treated Water Prior to Discharge under Additional Measures",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-report-confirms-japanese-monitoring-data-of-alps-treated-water-prior-to-discharge-under-additional-measures",
+      "summary": "",
+      "time": "2026-11-04T00:00:00+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "IAEA",
+      "lang": "en",
+      "title": "The Lise Meitner Programme Explores the Nuclear Fuel Cycle in France and IAEA HQ",
+      "url": "http://www.iaea.org/newscenter/news/the-lise-meitner-programme-explores-the-nuclear-fuel-cycle-in-france-and-iaea-hq",
+      "summary": "",
+      "time": "2026-11-04T00:00:00+00:00"
+    },
+    {
+      "section": "atomo",
       "source": "World Nuclear News",
       "lang": "en",
       "title": "Bruce unit 5 refurbishment begins",
@@ -81,90 +162,18 @@
       "url": "https://www.world-nuclear-news.org/articles/saltfoss-targets-us-licensing-for-floating-power-plant",
       "summary": "Molten Salt Power Barge developer Saltfoss has notified the US Nuclear Regulatory Commission of its intent to begin pre-application engagement. &nbsp;",
       "time": "2026-11-03T14:01:18+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Turkey and South Korea explore nuclear financing cooperation",
-      "url": "https://www.world-nuclear-news.org/articles/turkey-and-south-korea-agree-on-nuclear-financing-cooperation",
-      "summary": "A framework to evaluate potential cooperation on the financing of nuclear power projects was one of a number of energy-related initiatives agreed between Turkey and South Korea. &nbsp;",
-      "time": "2026-11-03T12:10:39+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Singapore enlists Finnish help in bolstering nuclear expertise",
-      "url": "https://www.world-nuclear-news.org/articles/singapore-enlists-finnish-help-in-bolstering-nuclear-expertise",
-      "summary": "The VTT Technical Research Centre of Finland and the Singapore Nuclear Research and Safety Institute have signed a five-year memorandum of understanding to deepen cooperation in nuclear safety and strengthen the capabili",
-      "time": "2026-11-03T10:23:42+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Rosatom planning new uranium processing plant",
-      "url": "https://www.world-nuclear-news.org/articles/rosatom-planning-new-uranium-processing-plant",
-      "summary": "A site has been selected, and design work is under way on a processing plant with a capacity of 11,000 tonnes of uranium oxide per year, according to Russia's state nuclear corporation Rosatom. &nbsp;",
-      "time": "2026-11-03T09:25:23+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "IAEA",
-      "lang": "en",
-      "title": "IAEA Launches Global Network to Help Countries Monitor and Protect the World’s Lakes",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-launches-global-network-to-help-countries-monitor-and-protect-the-worlds-lakes",
-      "summary": "",
-      "time": "2026-11-03T00:00:00+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "PEJ applies for early works permit for nuclear power plant",
-      "url": "https://www.world-nuclear-news.org/articles/pej-applies-for-early-works-permit-for-nuclear-power-plant",
-      "summary": "Polskie Elektrownie Jądrowe has applied to the head of the Pomeranian Voivodeship for a permit to start early works required for the construction of Poland's first nuclear power plant at the Lubiatowo-Kopalino site in th",
-      "time": "2026-11-02T15:37:01+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "First concrete poured for unit 5 at Haiyang plant",
-      "url": "https://www.world-nuclear-news.org/articles/first-concrete-poured-unit-5-haiyang-plant",
-      "summary": "The first safety-related concrete has been poured for the reactor building of unit 5 at the Haiyang nuclear power plant. It is the fifth of six large pressurised water reactors planned for the site in China's Shandong pr",
-      "time": "2026-11-02T14:37:39+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Texas SMR plant moves to final permitting stage",
-      "url": "https://www.world-nuclear-news.org/articles/texas-smr-plant-moves-to-final-permitting-stage",
-      "summary": "The US Nuclear Regulatory Commission says there will soon be a construction permit announcement after it finished its safety review for the Xe-100 reactor, which is proposed for deployment at the Long Mott Generating Sta",
-      "time": "2026-11-02T14:18:54+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Next-generation fuel projects get US federal funding",
-      "url": "https://www.world-nuclear-news.org/articles/next-generation-fuel-projects-get-us-federal-funding",
-      "summary": "Eight nuclear fuel technology projects have been selected to receive a share of up to USD50 million of federal funding under a US Department of Energy programme to support R&amp;D to deliver TRU fuel technologies. &nbsp;",
-      "time": "2026-11-02T13:11:04+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Uganda and Russia look to move ahead with nuclear project",
-      "url": "https://www.world-nuclear-news.org/articles/russia-and-uganda-look-to-move-head-with-nuclear-project",
-      "summary": "A roadmap setting out cooperation in the peaceful uses of nuclear energy, as part of work towards a nuclear power plant, has been signed by Russia and Uganda. &nbsp;",
-      "time": "2026-11-02T13:03:13+00:00"
     }
   ],
   "orbita": [
+    {
+      "section": "orbita",
+      "source": "European Spaceflight",
+      "lang": "en",
+      "title": "PLD Space Completes MIURA 5 Flight Termination System Test",
+      "url": "https://europeanspaceflight.com/pld-space-completes-miura-5-flight-termination-system-test/",
+      "summary": "Spanish launch services provider PLD Space has completed an explosive test of the flight termination system for its MIURA 5 rocket ahead of the vehicle’s inaugural flight, which is now expected in the first half of 2027.",
+      "time": "2026-11-04T10:04:11+00:00"
+    },
     {
       "section": "orbita",
       "source": "SpaceNews",
@@ -173,6 +182,15 @@
       "url": "https://spacenews.com/simera-sense-and-spacemanic-to-collaborate-on-a-new-complete-dual-use-mission-solution/",
       "summary": "Czech company Spacemanic and Belgian optical leader Simera Sense are teaming up to deliver a new dual-use satellite solution that can compete with bigger and heavier satellites. Simera Sense xScape200 [&#8230;] The post ",
       "time": "2026-11-03T16:59:43+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ESA",
+      "lang": "en",
+      "title": "ESA’s Euclid captures the Milky Way’s crowded heart",
+      "url": "https://new.esa.int/articles/about-us/directorates/science/euclid/esa-s-euclid-captures-the-milky-way-s-crowded-heart",
+      "summary": "For just one day, our dark Universe detective, Euclid, turned its gaze towards the light: the extremely bright inner region of our Milky Way galaxy, known as the galactic bulge. ...",
+      "time": "2026-11-03T16:08:54+00:00"
     },
     {
       "section": "orbita",
@@ -200,42 +218,6 @@
       "url": "https://spacenews.com/detumbler-airbus-passive-spin-stabilization-solution/",
       "summary": "The tumbling crisis: why dead satellites threaten orbit Every year, hundreds of satellites reach end-of-life, most are deorbited, but some fail abruptly. Yet, even when properly decommissioned, some dead satellites [&#82",
       "time": "2026-11-03T13:30:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ESA",
-      "lang": "en",
-      "title": "10 asteroid mysteries that Hera will explore",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/10_asteroid_mysteries_that_Hera_will_explore",
-      "summary": "Video: 00:07:25 Hera, the European Space Agency’s first mission for planetary defence, arrives at its target body during November, with the goal of gathering precious data on the kinetic impact method of asteroid deflect",
-      "time": "2026-11-03T09:30:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "European Spaceflight",
-      "lang": "en",
-      "title": "ESA to Support Industry-Led Reusable Booster Flight Demonstrations",
-      "url": "https://europeanspaceflight.com/esa-to-support-industry-led-reusable-booster-flight-demonstrations/",
-      "summary": "The European Space Agency has announced plans to support industry-led flight demonstrations of reusable rocket first stages and boosters as part of a new phase of its Boosters for European Space Transportation (BEST!) in",
-      "time": "2026-11-02T14:13:02+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "How to Expand Reliable, Flexible Access to Space",
-      "url": "https://spacenews.com/how-to-expand-reliable-flexible-access-to-space/",
-      "summary": "The space industry launched more rockets into orbit last year than ever before, yet satellite operators are confronting an unexpected problem: There still aren’t enough rides to go around. And [&#8230;] The post How to E",
-      "time": "2026-11-02T14:00:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ESA",
-      "lang": "en",
-      "title": "CubeSat achieves challenging laser link to ground",
-      "url": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications/CubeSat_achieves_challenging_laser_link_to_ground",
-      "summary": "Despite it being a complex operation, ERMIS-3, an 8U CubeSat developed by the National and Kapodistrian University of Athens, has established a link with an optical ground station marking an important step in validating ",
-      "time": "2026-11-02T08:55:00+00:00"
     }
   ]
 }
