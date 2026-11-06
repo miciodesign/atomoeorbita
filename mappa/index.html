@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Centrali nucleari nel mondo e basi spaziali: la mappa · Atomo e Orbita</title>
-<meta name="description" content="Mappa interattiva di tutte le centrali e i reattori nucleari in funzione nel mondo, degli spazioporti e dei siti spaziali italiani, con fonti e limiti dei dati.">
+<title>Mappa delle centrali nucleari nel mondo e delle basi spaziali · Atomo e Orbita</title>
+<meta name="description" content="Mappa interattiva gratuita delle centrali nucleari nel mondo, paese per paese, e delle basi spaziali: spazioporti, siti di lancio e centri italiani. Con foto, fonti e dati scaricabili.">
 <link rel="canonical" href="https://atomoeorbita.it/mappa/">
 <meta property="og:site_name" content="Atomo e Orbita">
-<meta property="og:title" content="Centrali nucleari nel mondo e basi spaziali: la mappa · Atomo e Orbita">
-<meta property="og:description" content="Mappa interattiva di tutte le centrali e i reattori nucleari in funzione nel mondo, degli spazioporti e dei siti spaziali italiani, con fonti e limiti dei dati.">
+<meta property="og:title" content="Mappa delle centrali nucleari nel mondo e delle basi spaziali · Atomo e Orbita">
+<meta property="og:description" content="Mappa interattiva gratuita delle centrali nucleari nel mondo, paese per paese, e delle basi spaziali: spazioporti, siti di lancio e centri italiani. Con foto, fonti e dati scaricabili.">
 <meta property="og:url" content="https://atomoeorbita.it/mappa/">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://atomoeorbita.it/assets/og-default.png"><meta property="og:locale" content="it_IT">
@@ -49,8 +49,13 @@
 <main id="main">
 <section class="wrap section">
   <nav class="crumbs" aria-label="Percorso"><a href="/">Home</a> › <a href="/numeri/">Numeri</a> › <span>Mappa</span></nav>
-  <h1>Centrali nucleari nel mondo e basi spaziali: la mappa</h1>
+  <h1>Mappa delle centrali nucleari nel mondo e delle basi spaziali</h1>
   <p class="lead">Le 189 centrali nucleari operabili nel mondo, con 436 reattori, e i principali spazioporti, più i siti spaziali italiani. Clicca su un punto per i dettagli; usa il riquadro in alto a destra per mostrare o nascondere i livelli.</p>
+  <div class="map-paths" role="group" aria-label="Scegli cosa vedere">
+    <a class="btn-path" href="#nucleare" data-v="nucleare">☢️ Centrali nucleari nel mondo</a>
+    <a class="btn-path" href="#spazio" data-v="spazio">🚀 Basi e centri spaziali nel mondo</a>
+    <a class="btn-path" href="#tutto" data-v="tutto">Tutto</a>
+  </div>
 </section>
 
 <section class="wrap">
@@ -218,6 +223,15 @@
     m.addTo(s.k === "lancio" ? launch : s.k === "sviluppo" ? dev : ita);
   });
   nuc.addTo(map); launch.addTo(map); dev.addTo(map); ita.addTo(map);
+  function vista(v){
+    var sp=[launch,dev,ita];
+    if(v==='nucleare'){ sp.forEach(function(l){map.removeLayer(l)}); nuc.addTo(map); }
+    else if(v==='spazio'){ map.removeLayer(nuc); sp.forEach(function(l){l.addTo(map)}); }
+    else { nuc.addTo(map); sp.forEach(function(l){l.addTo(map)}); }
+    document.querySelectorAll('.btn-path').forEach(function(b){b.classList.toggle('on',b.dataset.v===v)});
+  }
+  function daHash(){ var h=location.hash.replace('#',''); vista(h==='nucleare'||h==='spazio'?h:'tutto'); }
+  window.addEventListener('hashchange',daHash); daHash();
   L.control.layers(null, {
     "Centrali nucleari": nuc, "Basi di lancio": launch, "Spazioporti in sviluppo": dev, "Siti spaziali italiani": ita
   }, { collapsed: window.innerWidth < 700 }).addTo(map);
@@ -228,9 +242,9 @@
 <section class="nl-band">
   <div class="wrap nl-inner">
     <div>
-      <p class="eyebrow">Il Punto, ogni settimana</p>
-      <h2>Energia e spazio nella tua casella, senza semplificazioni.</h2>
-      <p class="muted">Un'analisi a settimana, gratis. Niente pubblicità, disiscrizione in un clic.</p>
+      <p class="eyebrow">Il Punto, ogni lunedì</p>
+      <h2>Ogni lunedì, in 5 minuti, quello che vale la pena sapere su nucleare e spazio.</h2>
+      <p class="muted">Senza hype e senza semplificazioni. Gratis, niente pubblicità, disiscrizione in un clic.</p>
     </div>
     <form class="nl-form" action="https://bbe7c28e.sibforms.com/serve/MUIFANbSu_IuqpCgMETrSGKJec3_1kT_IAkrlDzO1KrVynTMfzhK2SZ-wCyLRJKZKorvyx2nMe6k2albVeEMbLsD6F0gLcRYnWOELy51ZPs3gFSStpKL4k7JusTwEkwwy_cNKEemz-s_Z4IW4jf_Hto57SBbpX7J5g88ZSG-nuDlHgsEDEy0G0LSEMyHSHuYXkHftcW9h2v6Zu_YHA==" method="post">
       <label for="nl-email-foot" class="sr-only">La tua email</label>

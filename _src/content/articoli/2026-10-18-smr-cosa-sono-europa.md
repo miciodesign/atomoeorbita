@@ -1,10 +1,10 @@
 ---
-title: "Cosa significa SMR: i piccoli reattori modulari e perché l'Europa ci scommette"
+title: "SMR: cosa sono i piccoli reattori modulari e perché se ne parla tanto"
 slug: smr-cosa-sono-europa
 foto: en:Akademik Lomonosov
 category: atomo
 date: 2026-10-18
-description: "SMR significa Small Modular Reactor, in italiano piccolo reattore modulare: un reattore nucleare più piccolo delle grandi centrali, pensato per la costruzione in serie. Cosa sono, chi li costruisce in Europa, cosa fa l'Italia."
+description: "Cosa significa SMR, come funzionano, quanto costano e quando potrebbero arrivare in Italia: la guida ai piccoli reattori modulari, con i progetti europei e i numeri veri."
 updated: 2026-10-30
 format: spiegato
 serie: smr

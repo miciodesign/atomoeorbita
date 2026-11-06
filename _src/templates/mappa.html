@@ -7,8 +7,13 @@
 {% block content %}
 <section class="wrap section">
   <nav class="crumbs" aria-label="Percorso"><a href="/">Home</a> › <a href="/numeri/">Numeri</a> › <span>Mappa</span></nav>
-  <h1>Centrali nucleari nel mondo e basi spaziali: la mappa</h1>
+  <h1>Mappa delle centrali nucleari nel mondo e delle basi spaziali</h1>
   <p class="lead">Le {{ c_sites }} centrali nucleari operabili nel mondo, con {{ c_reactors }} reattori, e i principali spazioporti, più i siti spaziali italiani. Clicca su un punto per i dettagli; usa il riquadro in alto a destra per mostrare o nascondere i livelli.</p>
+  <div class="map-paths" role="group" aria-label="Scegli cosa vedere">
+    <a class="btn-path" href="#nucleare" data-v="nucleare">☢️ Centrali nucleari nel mondo</a>
+    <a class="btn-path" href="#spazio" data-v="spazio">🚀 Basi e centri spaziali nel mondo</a>
+    <a class="btn-path" href="#tutto" data-v="tutto">Tutto</a>
+  </div>
 </section>
 
 <section class="wrap">
@@ -101,6 +106,15 @@
     m.addTo(s.k === "lancio" ? launch : s.k === "sviluppo" ? dev : ita);
   });
   nuc.addTo(map); launch.addTo(map); dev.addTo(map); ita.addTo(map);
+  function vista(v){
+    var sp=[launch,dev,ita];
+    if(v==='nucleare'){ sp.forEach(function(l){map.removeLayer(l)}); nuc.addTo(map); }
+    else if(v==='spazio'){ map.removeLayer(nuc); sp.forEach(function(l){l.addTo(map)}); }
+    else { nuc.addTo(map); sp.forEach(function(l){l.addTo(map)}); }
+    document.querySelectorAll('.btn-path').forEach(function(b){b.classList.toggle('on',b.dataset.v===v)});
+  }
+  function daHash(){ var h=location.hash.replace('#',''); vista(h==='nucleare'||h==='spazio'?h:'tutto'); }
+  window.addEventListener('hashchange',daHash); daHash();
   L.control.layers(null, {
     "Centrali nucleari": nuc, "Basi di lancio": launch, "Spazioporti in sviluppo": dev, "Siti spaziali italiani": ita
   }, { collapsed: window.innerWidth < 700 }).addTo(map);
