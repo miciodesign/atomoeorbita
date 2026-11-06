@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T05:30:42.675676+00:00",
+  "updated": "2026-11-06T05:30:17.618352+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -57,6 +57,78 @@
   "atomo": [
     {
       "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "IHI to supply components for first Polish AP1000",
+      "url": "https://www.world-nuclear-news.org/articles/ihi-to-supply-components-for-first-polish-ap1000",
+      "summary": "Japanese engineering firm IHI Corporation has received an order from Westinghouse covering engineering and procurement activities for long-lead items for one containment vessel and an associated large steel module for th",
+      "time": "2026-11-05T15:02:51+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Copenhagen Atomics to build deconversion facility",
+      "url": "https://www.world-nuclear-news.org/articles/copenhagen-atomics-to-build-deconversion-facility",
+      "summary": "Danish molten salt reactor developer Copenhagen Atomics has signed a memorandum of understanding with uranium enrichment services provider Urenco to construct a uranium deconversion facility in Copenhagen. &nbsp;",
+      "time": "2026-11-05T14:39:56+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "NucNet",
+      "lang": "en",
+      "title": "First Fuel Loading Complete At China’s Sanao-2, Says CGN",
+      "url": "https://www.nucnet.org/news/first-fuel-loading-complete-at-china-s-sanao-2-says-cgn-11-4-2026",
+      "summary": "The loading of fuel assemblies into the core of the Sanao-2 nuclear power plant in the eastern Chinese province of Zhejiang has been completed, owner China General Nuclear (CGN) said. According to CGN, fuel loading was c",
+      "time": "2026-11-05T13:20:26+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "POWER Magazine",
+      "lang": "en",
+      "title": "A Syzygy in Nuclear Energy",
+      "url": "https://www.powermag.com/a-syzygy-in-nuclear-energy/",
+      "summary": "How do you know when you’re in a technological renaissance? When science, technology, and economics have lined up to produce something new. COMMENTARY In Europe it took artists, scientists, and craftspeople until 1550 to",
+      "time": "2026-11-05T12:42:48+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Belgian nuclear power plant negotiations extended",
+      "url": "https://www.world-nuclear-news.org/articles/belgian-nuclear-power-plant-negotiations-extended",
+      "summary": "The Belgian state, Engie and Electrabel have agreed to postpone to 12 December the target date for the conclusion of the heads of terms for the potential acquisition of Belgium's seven nuclear power reactors by the state",
+      "time": "2026-11-05T12:24:40+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Helen to assess environmental impacts of SMR in Helsinki",
+      "url": "https://www.world-nuclear-news.org/articles/helen-to-assess-environmental-impacts-of-smr-in-helsinki",
+      "summary": "Finland's Helen Ydinvoima Oy has launched an environmental impact assessment on the construction of a small nuclear power plant at one of three potential sites in Helsinki. &nbsp;",
+      "time": "2026-11-05T10:40:19+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Algae early-warning system aims to offer safety, operational benefits",
+      "url": "https://www.world-nuclear-news.org/articles/algae-early-warning-system-aims-to-offer-safety-operational-benefits",
+      "summary": "An AI-based system has been developed to anticipate the arrival of floating vegetation masses at the cooling system of the Asc&oacute; Nuclear Power Plant in Spain, and is a significant advance on traditional visual insp",
+      "time": "2026-11-05T06:17:45+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "IAEA",
+      "lang": "en",
+      "title": "Impact of Heatwaves on Nuclear Power Plants",
+      "url": "http://www.iaea.org/newscenter/news/impact-of-heatwaves-on-nuclear-power-plants",
+      "summary": "",
+      "time": "2026-11-05T00:00:00+00:00"
+    },
+    {
+      "section": "atomo",
       "source": "NucNet",
       "lang": "en",
       "title": "Canada’s Bruce-5 Nuclear Plant Taken Offline For Major Component Replacement Outage",
@@ -90,81 +162,81 @@
       "url": "https://www.world-nuclear-news.org/articles/kazakhstan-aims-for-100-year-uranium-reserve",
       "summary": "Kazakhstan is aiming to develop its strategic uranium reserve to meet the needs of its planned nuclear power plants for more than 100 years, President&nbsp;Kassym-Jomart Tokayev has said. &nbsp;",
       "time": "2026-11-04T11:45:59+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "FANCO expands cooperation with Hyundai E&C on EAGL-1",
-      "url": "https://www.world-nuclear-news.org/articles/fanco-expands-cooperation-with-hyundai-ec-on-eagl-1",
-      "summary": "US small modular reactor developer First American Nuclear Co has signed a comprehensive master service agreement with South Korea's Hyundai Engineering &amp; Construction. &nbsp;",
-      "time": "2026-11-04T11:41:40+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Heat raised for UK's MAST Upgrade fusion machine",
-      "url": "https://www.world-nuclear-news.org/articles/twelve-tonne-component-raises-uk-fusion-machines-heat",
-      "summary": "A 12-tonne double beam box, which is set to double the UK's flagship fusion machine's plasma conditions to 60 million degrees Celsius, has been moved into position. &nbsp;",
-      "time": "2026-11-04T10:56:34+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Amentum, Kyoto Fusioneering agree fusion collaboration",
-      "url": "https://www.world-nuclear-news.org/articles/amentum-kyoto-fusioneering-target-fusion-commercialisation",
-      "summary": "Kyoto Fusioneering and Amentum have signed a memorandum of understanding covering international cooperation across the UK, Japan and the USA in advancing fusion energy commercialisation. &nbsp;",
-      "time": "2026-11-04T09:13:01+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "IAEA",
-      "lang": "en",
-      "title": "IAEA Report Confirms Japanese Monitoring Data of ALPS-Treated Water Prior to Discharge under Additional Measures",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-report-confirms-japanese-monitoring-data-of-alps-treated-water-prior-to-discharge-under-additional-measures",
-      "summary": "",
-      "time": "2026-11-04T00:00:00+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "IAEA",
-      "lang": "en",
-      "title": "The Lise Meitner Programme Explores the Nuclear Fuel Cycle in France and IAEA HQ",
-      "url": "http://www.iaea.org/newscenter/news/the-lise-meitner-programme-explores-the-nuclear-fuel-cycle-in-france-and-iaea-hq",
-      "summary": "",
-      "time": "2026-11-04T00:00:00+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Bruce unit 5 refurbishment begins",
-      "url": "https://www.world-nuclear-news.org/articles/bruce-unit-5-refurbishment-begins",
-      "summary": "Bruce 5 was taken off-line to begin its Major Component Replacement outage on 1 November, the fourth unit to be refurbished under Bruce Power's plan to renew six of the eight units at the Ontario site. &nbsp;",
-      "time": "2026-11-03T15:44:35+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Urenco USA marks first commercial LEU+ production",
-      "url": "https://www.world-nuclear-news.org/articles/urenco-usa-marks-first-commercial-leu-production",
-      "summary": "Urenco USA's first cylinder of LEU+ is also the first commercial production of the material in the Western world and ushers in a new era of fuel options, the company says. &nbsp;",
-      "time": "2026-11-03T14:21:44+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Saltfoss targets US licensing for floating power plant",
-      "url": "https://www.world-nuclear-news.org/articles/saltfoss-targets-us-licensing-for-floating-power-plant",
-      "summary": "Molten Salt Power Barge developer Saltfoss has notified the US Nuclear Regulatory Commission of its intent to begin pre-application engagement. &nbsp;",
-      "time": "2026-11-03T14:01:18+00:00"
     }
   ],
   "orbita": [
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "CesiumAstro Secures $730 Million in Janus Henderson-Led Series D at a Valuation Above $4.5 Billion; Unveils Synchronicity Satellite Constellation Following Fully Successful Element-1 Mission",
+      "url": "https://spacenews.com/cesiumastro-secures-730-million-in-janus-henderson-led-series-d-at-a-valuation-above-4-5-billion-unveils-synchronicity-satellite-constellation-following-fully-successful-element-1-mission/",
+      "summary": "CesiumAstro Inc., a global leader in space and defense communications systems and satellites, today announced the closing of $730 million in Series D financing, valuing the company at more than [&#8230;] The post CesiumA",
+      "time": "2026-11-05T21:45:00+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ASI",
+      "lang": "it",
+      "title": "Spazio: Urso, “Ministeriale Esa di Roma strategica per autonomia Europa”",
+      "url": "https://www.asi.it/2026/11/spazio-urso-ministeriale-esa-di-roma-strategica-per-autonomia-europa/",
+      "summary": "La riunione in programma nella capitale il 15 dicembre [&#8230;]",
+      "time": "2026-11-05T17:38:40+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "Cork Takes the Heat So DRACO’s Data Can Survive",
+      "url": "https://spacenews.com/cork-takes-the-heat-so-dracos-data-can-survive/",
+      "summary": "Mozelos, Portugal, September 2, 2026 &#8211; Amorim Cork Solutions is contributing its P50 cork-based thermal protection material to DRACO, a European Space Agency (ESA) mission designed to capture rare in-flight [&#8230",
+      "time": "2026-11-05T17:05:59+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ASI",
+      "lang": "it",
+      "title": "Hera osserva Didymos a distanza ravvicinata",
+      "url": "https://www.asi.it/2026/11/hera-osserva-didymos-a-distanza-ravvicinata/",
+      "summary": "Le immagini dettagliate di entrambi gli asteroidi saranno svelate il 25 novembre [&#8230;]",
+      "time": "2026-11-05T15:09:00+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "Building a ‘highway to the moon and back’ with Winnie Lai",
+      "url": "https://spacenews.com/building-a-highway-to-the-moon-and-back-with-winnie-lai/",
+      "summary": "In this episode, SpaceNews’ Mike Gruss speaks with Winnie Lai, CEO of Auriga Space. They talk about how electromagnetic launch technology that “catapults” small launch vehicles could cut down on [&#8230;] The post Buildi",
+      "time": "2026-11-05T14:15:38+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "European Spaceflight",
+      "lang": "en",
+      "title": "OHB Awarded €554 Million Contract for Next-Gen Sentinel-3 Satellite",
+      "url": "https://europeanspaceflight.com/ohb-awarded-e554-million-contract-for-next-gen-sentinel-3-satellite/",
+      "summary": "German satellite manufacturer OHB has secured a €554 million contract from the European Space Agency (ESA) to develop the first Sentinel-3 Next Generation Topography (NGT) satellite for the European Union&#8217;s Coperni",
+      "time": "2026-11-05T13:52:57+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ESA",
+      "lang": "en",
+      "title": "European orbiter detects hints of volcanic activity on Mars",
+      "url": "https://www.esa.int/articles/news-media/news/european-orbiter-detects-hints-of-volcanic-activity-on-mars",
+      "summary": "New evidence from gas seeping above volcanic rifts suggests Mars is not geologically dead deep inside, but merely sleeping.",
+      "time": "2026-11-05T13:32:59+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ASI",
+      "lang": "it",
+      "title": "Avviso di consultazione pubblica per l’aggiornamento della Sezione “Prevenzione della corruzione – rischi corruttivi e trasparenza” del Piano Integrato di Attività e Organizzazione (PIAO) 2027 – 2029 dell’ASI",
+      "url": "https://www.asi.it/2026/11/avviso-di-consultazione-pubblica-per-laggiornamento-della-sezione-prevenzione-della-corruzione-rischi-corruttivi-e-trasparenza-del-piano-integrato-di-attivita-e-organizzaz-5/",
+      "summary": "Proposte entro il 20 novembre 2026 [&#8230;]",
+      "time": "2026-11-05T10:40:38+00:00"
+    },
     {
       "section": "orbita",
       "source": "European Spaceflight",
@@ -173,51 +245,6 @@
       "url": "https://europeanspaceflight.com/pld-space-completes-miura-5-flight-termination-system-test/",
       "summary": "Spanish launch services provider PLD Space has completed an explosive test of the flight termination system for its MIURA 5 rocket ahead of the vehicle’s inaugural flight, which is now expected in the first half of 2027.",
       "time": "2026-11-04T10:04:11+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "Simera Sense and Spacemanic to Collaborate on a New Complete Dual-Use Mission Solution",
-      "url": "https://spacenews.com/simera-sense-and-spacemanic-to-collaborate-on-a-new-complete-dual-use-mission-solution/",
-      "summary": "Czech company Spacemanic and Belgian optical leader Simera Sense are teaming up to deliver a new dual-use satellite solution that can compete with bigger and heavier satellites. Simera Sense xScape200 [&#8230;] The post ",
-      "time": "2026-11-03T16:59:43+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ESA",
-      "lang": "en",
-      "title": "ESA’s Euclid captures the Milky Way’s crowded heart",
-      "url": "https://new.esa.int/articles/about-us/directorates/science/euclid/esa-s-euclid-captures-the-milky-way-s-crowded-heart",
-      "summary": "For just one day, our dark Universe detective, Euclid, turned its gaze towards the light: the extremely bright inner region of our Milky Way galaxy, known as the galactic bulge. ...",
-      "time": "2026-11-03T16:08:54+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "European Spaceflight",
-      "lang": "en",
-      "title": "Swiss Startup Plans Lunar Lander Powered by Rotating Detonation Engine",
-      "url": "https://europeanspaceflight.com/swiss-startup-plans-lunar-lander-powered-by-rotating-detonation-engine/",
-      "summary": "Swiss space startup Stellar Alpina has unveiled plans to develop a lunar lander powered by the company’s rotating detonation rocket engine. In a 2 November announcement, the company unveiled its planned Morpho lunar land",
-      "time": "2026-11-03T15:26:46+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ASI",
-      "lang": "it",
-      "title": "Diplomazia spaziale e crescita delle imprese: l’ASI agli Stati Generali della Space Economy",
-      "url": "https://www.asi.it/2026/11/diplomazia-spaziale-e-crescita-delle-imprese-lasi-agli-stati-generali-della-space-economy/",
-      "summary": "Il Commissario ASI, amb. Mario Cospito, è intervenuto alla Farnesina nel confronto sul ruolo della cooperazione internazionale a sostegno della filiera spaziale italiana [&#8230;]",
-      "time": "2026-11-03T14:16:13+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "DETUMBLER: Airbus’ Passive Spin Stabilization Solution",
-      "url": "https://spacenews.com/detumbler-airbus-passive-spin-stabilization-solution/",
-      "summary": "The tumbling crisis: why dead satellites threaten orbit Every year, hundreds of satellites reach end-of-life, most are deorbited, but some fail abruptly. Yet, even when properly decommissioned, some dead satellites [&#82",
-      "time": "2026-11-03T13:30:00+00:00"
     }
   ]
 }
