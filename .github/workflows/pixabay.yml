@@ -1,0 +1,43 @@
+name: pixabay
+on:
+  push:
+    branches: [trascrizione]
+    paths: ['pixabay.txt']
+permissions:
+  contents: write
+concurrency: pixabay
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - env:
+          PIXABAY_KEY: ${{ secrets.PIXABAY_KEY }}
+        run: |
+          python3 - <<'PY'
+          import os,json,re,urllib.request,urllib.parse
+          K=os.environ["PIXABAY_KEY"]
+          def get(u): return urllib.request.urlopen(urllib.request.Request(u,headers={"User-Agent":"atomoeorbita-bot"}),timeout=60).read()
+          for line in open("pixabay.txt"):
+              line=line.strip()
+              if not line or line.startswith("#"): continue
+              tipo,q,n=[x.strip() for x in line.split("|")]
+              slug=re.sub(r"[^a-z0-9]+","-",q.lower()).strip("-"); d=f"pixabay/{slug}"; os.makedirs(d,exist_ok=True)
+              base="https://pixabay.com/api/videos/" if tipo=="video" else "https://pixabay.com/api/"
+              p={"key":K,"q":q,"per_page":max(3,int(n)),"safesearch":"true"}
+              if tipo!="video": p.update(image_type="photo")
+              r=json.loads(get(base+"?"+urllib.parse.urlencode(p)))
+              meta=[]
+              for h in r.get("hits",[])[:int(n)]:
+                  if tipo=="video":
+                      v=h["videos"].get("medium") or h["videos"]["small"]; url=v["url"]; ext="mp4"
+                  else:
+                      url=h.get("largeImageURL") or h["webformatURL"]; ext="jpg"
+                  fn=f"{d}/{h['id']}.{ext}"; open(fn,"wb").write(get(url))
+                  meta.append({"file":fn,"id":h["id"],"pagina":h["pageURL"],"autore":h["user"],"tags":h.get("tags","")})
+              json.dump(meta,open(f"{d}/info.json","w"),ensure_ascii=False,indent=1)
+              print(q,len(meta))
+          PY
+      - run: |
+          git config user.name "Atomo e Orbita"; git config user.email "redazione@atomoeorbita.it"
+          git add pixabay; git commit -m "Pixabay: materiali scaricati [skip ci]" || exit 0; git push
