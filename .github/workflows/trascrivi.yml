@@ -18,10 +18,12 @@ jobs:
           import json
           from faster_whisper import WhisperModel
           m=WhisperModel("small",compute_type="int8")
-          segs,_=m.transcribe("voce.mp3",language="it",word_timestamps=True)
-          out=[{"w":w.word,"s":round(w.start,2),"e":round(w.end,2)} for s in segs for w in s.words]
-          json.dump(out,open("parole.json","w"),ensure_ascii=False,indent=0)
+          import glob
+          for f in glob.glob("*.mp3"):
+              segs,_=m.transcribe(f,language="it",word_timestamps=True)
+              out=[{"w":w.word,"s":round(w.start,2),"e":round(w.end,2)} for s in segs for w in s.words]
+              json.dump(out,open("parole_"+f[:-4]+".json","w"),ensure_ascii=False,indent=0)
           PY
       - run: |
           git config user.name "Atomo e Orbita"; git config user.email "redazione@atomoeorbita.it"
-          git add parole.json; git commit -m "Trascrizione [skip ci]"; git push
+          git add parole_*.json; git commit -m "Trascrizione [skip ci]"; git push
