@@ -1,0 +1,27 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: S,Inter,58,&H00EFECE8,&H00FFFFFF,&H00171412,&H96171412,1,0,0,0,100,100,0,0,3,18,0,2,70,70,330,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.35,S,,0,0,0,,Uranio arricchito.\NSembra una cosa da film.
+Dialogue: 0,0:00:03.40,0:00:04.65,S,,0,0,0,,È più semplice.
+Dialogue: 0,0:00:04.70,0:00:09.37,S,,0,0,0,,L'uranio che si estrae dalle miniere\Ncontiene pochissimo uranio-235,
+Dialogue: 0,0:00:09.42,0:00:13.21,S,,0,0,0,,quello che si spezza facilmente:\Nlo 0,7 per cento.
+Dialogue: 0,0:00:13.26,0:00:16.13,S,,0,0,0,,Per far funzionare una centrale\Nne serve di più,
+Dialogue: 0,0:00:16.18,0:00:18.07,S,,0,0,0,,tra il 3 e il 5 per cento.
+Dialogue: 0,0:00:18.12,0:00:20.67,S,,0,0,0,,Arricchire vuol dire proprio questo:
+Dialogue: 0,0:00:20.72,0:00:22.53,S,,0,0,0,,aumentare quella percentuale,
+Dialogue: 0,0:00:22.58,0:00:26.13,S,,0,0,0,,facendo girare il gas di uranio\Nin migliaia di centrifughe.
+Dialogue: 0,0:00:26.18,0:00:30.29,S,,0,0,0,,Le armi richiedono livelli molto più alti,\Noltre il 90 per cento.
+Dialogue: 0,0:00:30.34,0:00:34.97,S,,0,0,0,,Per questo si controlla con attenzione\Nchi arricchisce e quanto.
+Dialogue: 0,0:00:35.02,0:00:36.79,S,,0,0,0,,I grandi impianti sono pochi:
+Dialogue: 0,0:00:36.84,0:00:40.47,S,,0,0,0,,in Russia, in Europa,\Nin Cina e negli Stati Uniti.
+Dialogue: 0,0:00:40.52,0:00:44.75,S,,0,0,0,,E alcuni reattori di nuova generazione\Nchiedono uranio fino al 20 per cento,
+Dialogue: 0,0:00:44.80,0:00:47.45,S,,0,0,0,,che finora vendeva quasi solo la Russia.
+Dialogue: 0,0:00:47.50,0:00:49.60,S,,0,0,0,,Un problema strategico per l'Europa.

@@ -1,0 +1,27 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: S,Inter,58,&H00EFECE8,&H00FFFFFF,&H00171412,&H96171412,1,0,0,0,100,100,0,0,3,18,0,2,70,70,330,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.85,S,,0,0,0,,Deposito geologico.
+Dialogue: 0,0:00:01.90,0:00:05.57,S,,0,0,0,,Dove mettere le scorie più pericolose,\Nper sempre.
+Dialogue: 0,0:00:05.62,0:00:08.37,S,,0,0,0,,La risposta della scienza è: sotto terra,
+Dialogue: 0,0:00:08.42,0:00:11.13,S,,0,0,0,,in una roccia stabile da milioni di anni.
+Dialogue: 0,0:00:11.18,0:00:13.21,S,,0,0,0,,La Finlandia lo ha fatto davvero.
+Dialogue: 0,0:00:13.26,0:00:16.85,S,,0,0,0,,Si chiama Onkalo, che in finlandese\Nvuol dire "cavità".
+Dialogue: 0,0:00:16.90,0:00:21.23,S,,0,0,0,,È scavato nel granito\Na circa 450 metri di profondità.
+Dialogue: 0,0:00:21.28,0:00:24.29,S,,0,0,0,,Il combustibile usato viene chiuso\Nin contenitori di rame,
+Dialogue: 0,0:00:24.34,0:00:27.49,S,,0,0,0,,circondati da argilla,\Ne sigillato nelle gallerie.
+Dialogue: 0,0:00:27.54,0:00:33.67,S,,0,0,0,,Il 22 ottobre 2026 il governo finlandese\Ngli ha dato la licenza di esercizio:
+Dialogue: 0,0:00:33.72,0:00:35.31,S,,0,0,0,,è il primo al mondo.
+Dialogue: 0,0:00:35.36,0:00:38.79,S,,0,0,0,,Il primo contenitore scenderà\Ndopo l'ultima ispezione.
+Dialogue: 0,0:00:38.84,0:00:41.75,S,,0,0,0,,Per arrivarci ci sono voluti\Npiù di quarant'anni:
+Dialogue: 0,0:00:41.80,0:00:45.43,S,,0,0,0,,la ricerca del sito è cominciata nel 1983.
+Dialogue: 0,0:00:45.48,0:00:48.73,S,,0,0,0,,Senza mai cambiare strada\Ntra un governo e l'altro.
+Dialogue: 0,0:00:48.78,0:00:52.10,S,,0,0,0,,Forse la lezione più importante,\Nanche per l'Italia.

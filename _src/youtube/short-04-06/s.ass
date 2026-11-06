@@ -1,0 +1,26 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: S,Inter,58,&H00EFECE8,&H00FFFFFF,&H00171412,&H96171412,1,0,0,0,100,100,0,0,3,18,0,2,70,70,330,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.45,S,,0,0,0,,Scorie nucleari.
+Dialogue: 0,0:00:01.50,0:00:03.07,S,,0,0,0,,In Italia ce ne sono già,
+Dialogue: 0,0:00:03.12,0:00:06.27,S,,0,0,0,,anche se le centrali sono chiuse\Nda quasi quarant'anni.
+Dialogue: 0,0:00:06.32,0:00:09.07,S,,0,0,0,,Sono quasi 34.000 metri cubi.
+Dialogue: 0,0:00:09.12,0:00:13.47,S,,0,0,0,,Per avere un'idea: riempirebbero\Npiù o meno 13 piscine olimpiche.
+Dialogue: 0,0:00:13.52,0:00:17.49,S,,0,0,0,,Ma il 99 per cento è\Na bassa o bassissima attività:
+Dialogue: 0,0:00:17.54,0:00:20.97,S,,0,0,0,,tute, guanti, filtri,\Nmetalli delle vecchie centrali
+Dialogue: 0,0:00:21.02,0:00:23.43,S,,0,0,0,,e rifiuti di ospedali e industria.
+Dialogue: 0,0:00:23.48,0:00:27.25,S,,0,0,0,,La parte pericolosa, ad alta attività,\Nè piccola in volume.
+Dialogue: 0,0:00:27.30,0:00:28.91,S,,0,0,0,,Una parte è all'estero:
+Dialogue: 0,0:00:28.96,0:00:32.99,S,,0,0,0,,il vecchio combustibile, mandato a trattare\Nin Francia e nel Regno Unito.
+Dialogue: 0,0:00:33.04,0:00:35.47,S,,0,0,0,,Per contratto, dovrà tornare in Italia.
+Dialogue: 0,0:00:35.52,0:00:39.03,S,,0,0,0,,Oggi tutto è sparso\Nin decine di depositi temporanei.
+Dialogue: 0,0:00:39.08,0:00:43.23,S,,0,0,0,,Il Deposito nazionale, che dovrebbe\Nraccoglierli, non ha ancora un sito.
+Dialogue: 0,0:00:43.28,0:00:47.50,S,,0,0,0,,Dove sono, e dove andranno:\Nlo spieghiamo su Atomo e Orbita.
