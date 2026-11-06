@@ -1,2 +1,1 @@
-foto|nuclear power plant|3
-video|uranium|2
+foto|sun|1
