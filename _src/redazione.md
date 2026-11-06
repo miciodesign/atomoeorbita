@@ -110,3 +110,17 @@ Leggere questo file, poi `_src/config.json` e gli ultimi articoli in `_src/conte
 
 ## Pixabay (dal 6 novembre 2026)
 Chiave API nel secret GitHub `PIXABAY_KEY` (mai nei file). Strumento sul ramo `trascrizione`: scrivere righe `foto|query inglese|n` o `video|query|n` in `pixabay.txt`, push → il workflow `pixabay` scarica in `pixabay/<query>/` con `info.json` (autore, pagina). Licenza Pixabay: uso libero senza attribuzione obbligatoria, niente hotlink. Uso previsto: immagini e clip negli Short; per il sito restano prima scelta le foto Wikimedia con credito.
+
+## Linea per i prossimi 60 giorni (dal 6 novembre 2026)
+Non aumentare la quantità, ottimizzare ciò che mostra segnali di crescita.
+- Ritmo invariato: lunedì Il Punto + newsletter, mercoledì nucleare, venerdì spazio, 1 dossier al mese.
+- SMR: presidio forte, i satelliti del cluster entrano nello slot del mercoledì (non in più).
+- Titoli e description: rivedere le pagine con molte impressioni e pochi clic; evitare titoli che Google soddisfa da solo.
+- Non toccare ciò che già porta clic (lanciatori riutilizzabili): sviluppare collegati e link interni.
+- Mappa = asset distintivo: titolo esplicito, viste #nucleare e #spazio, linkata da ogni articolo (box "Continua a esplorare").
+- Link interni sistematici: articolo → glossario → mappa → dossier.
+- Short "Una parola, un minuto" con rimando all'approfondimento sul sito.
+- Search Console ogni settimana: query con molte impressioni e CTR basso, pagine in posizione 5-15, nuove query, ingressi stabili in top 10.
+Bussola: Google può dare la risposta semplice; Atomo e Orbita deve dare al lettore un motivo per voler capire di più.
+
+Modifiche del 6/11: titolo SMR → "SMR: cosa sono i piccoli reattori modulari e perché se ne parla tanto" (+ description); mappa → "Mappa delle centrali nucleari nel mondo e delle basi spaziali" con pulsanti ☢️/🚀; box percorso in tutti gli articoli; newsletter "Ogni lunedì, in 5 minuti…". Verificare effetto su CTR dal 13/11.
