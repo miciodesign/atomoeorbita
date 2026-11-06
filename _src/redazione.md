@@ -107,3 +107,6 @@ Le pagine fisse stanno in `_src/content/pagine/`, le schede Numeri in `_src/cont
 ## Per Claude, in una conversazione nuova
 
 Leggere questo file, poi `_src/config.json` e gli ultimi articoli in `_src/content/articoli/` per il tono. Prima di scrivere, cercare le fonti. Prima di pubblicare, dire al direttore cosa si sta per pubblicare in una riga; se ha detto "procedi", pubblicare e riassumere. Rispondere sempre in italiano.
+
+## Pixabay (dal 6 novembre 2026)
+Chiave API nel secret GitHub `PIXABAY_KEY` (mai nei file). Strumento sul ramo `trascrizione`: scrivere righe `foto|query inglese|n` o `video|query|n` in `pixabay.txt`, push → il workflow `pixabay` scarica in `pixabay/<query>/` con `info.json` (autore, pagina). Licenza Pixabay: uso libero senza attribuzione obbligatoria, niente hotlink. Uso previsto: immagini e clip negli Short; per il sito restano prima scelta le foto Wikimedia con credito.
