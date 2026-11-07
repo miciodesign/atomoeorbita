@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T05:30:17.618352+00:00",
+  "updated": "2026-11-07T05:22:29.710753+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -59,6 +59,78 @@
       "section": "atomo",
       "source": "World Nuclear News",
       "lang": "en",
+      "title": "The mothballed nuclear power plant",
+      "url": "https://www.world-nuclear-news.org/articles/the-mothballed-nuclear-power-plant",
+      "summary": "The Philippines is considering refurbishing and commissioning the Bataan Nuclear Power Plant, which was completed in 1986 but was never started up. Warwick Pipe visited it to see how it is looking, 40 years on. &nbsp;",
+      "time": "2026-11-06T16:27:01+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Construction of Chinese HTGR begins",
+      "url": "https://www.world-nuclear-news.org/articles/construction-of-chinese-htgr-begins",
+      "summary": "The first batch of concrete has been poured for the nuclear island of the high-temperature gas-cooled reactor that forms part of the initial phase of the Jiangsu Xuwei Nuclear Heating and Power Plant, China National Nucl",
+      "time": "2026-11-06T12:47:01+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Calogena awarded EU funding for SMR deployment",
+      "url": "https://www.world-nuclear-news.org/articles/calogena-awarded-eu-funding-for-smr-deployment",
+      "summary": "French small modular reactor developer Calogena has been awarded EUR40 million (USD44.6 million) through the European Commission's Innovation Fund to support the potential construction of its first commercial nuclear rea",
+      "time": "2026-11-06T12:31:41+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "NAC to supply used fuel storage solution for Norway",
+      "url": "https://www.world-nuclear-news.org/articles/nac-to-supply-used-fuel-storage-solution-for-norway",
+      "summary": "NAC International of the USA has been contracted to deliver casks for the dry storage of Norway's used nuclear fuel from the former research reactors at Halden and Kjeller. &nbsp;",
+      "time": "2026-11-06T12:00:05+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "X-energy selects Fluor for second Xe-100 project",
+      "url": "https://www.world-nuclear-news.org/articles/x-energy-selects-fluor-for-second-xe-100-project",
+      "summary": "Fluor Corporation is to provide design and engineering services to support the second-of-a-kind US project featuring X-energy's Xe-100, at Energy Northwest's proposed Cascade Advanced Energy Facility near Richland, Washi",
+      "time": "2026-11-06T11:49:50+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Reactor components completed for El Dabaa 1",
+      "url": "https://www.world-nuclear-news.org/articles/reactor-components-completed-for-el-dabaa-1",
+      "summary": "All the key components have now been manufactured for the first unit&rsquo;s reactor at Egypt's El Dabaa Nuclear Power Plant. &nbsp;",
+      "time": "2026-11-06T11:35:39+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "IAEA",
+      "lang": "en",
+      "title": "Update 374 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-374-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "time": "2026-11-06T00:00:00+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "IAEA",
+      "lang": "en",
+      "title": "IAEA Mission Reviews the Russian Federation’s Regulatory Framework for Nuclear and Radiation Safety",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-mission-reviews-the-russian-federations-regulatory-framework-for-nuclear-and-radiation-safety",
+      "summary": "",
+      "time": "2026-11-06T00:00:00+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
       "title": "IHI to supply components for first Polish AP1000",
       "url": "https://www.world-nuclear-news.org/articles/ihi-to-supply-components-for-first-polish-ap1000",
       "summary": "Japanese engineering firm IHI Corporation has received an order from Westinghouse covering engineering and procurement activities for long-lead items for one containment vessel and an associated large steel module for th",
@@ -90,81 +162,72 @@
       "url": "https://www.powermag.com/a-syzygy-in-nuclear-energy/",
       "summary": "How do you know when you’re in a technological renaissance? When science, technology, and economics have lined up to produce something new. COMMENTARY In Europe it took artists, scientists, and craftspeople until 1550 to",
       "time": "2026-11-05T12:42:48+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Belgian nuclear power plant negotiations extended",
-      "url": "https://www.world-nuclear-news.org/articles/belgian-nuclear-power-plant-negotiations-extended",
-      "summary": "The Belgian state, Engie and Electrabel have agreed to postpone to 12 December the target date for the conclusion of the heads of terms for the potential acquisition of Belgium's seven nuclear power reactors by the state",
-      "time": "2026-11-05T12:24:40+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Helen to assess environmental impacts of SMR in Helsinki",
-      "url": "https://www.world-nuclear-news.org/articles/helen-to-assess-environmental-impacts-of-smr-in-helsinki",
-      "summary": "Finland's Helen Ydinvoima Oy has launched an environmental impact assessment on the construction of a small nuclear power plant at one of three potential sites in Helsinki. &nbsp;",
-      "time": "2026-11-05T10:40:19+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Algae early-warning system aims to offer safety, operational benefits",
-      "url": "https://www.world-nuclear-news.org/articles/algae-early-warning-system-aims-to-offer-safety-operational-benefits",
-      "summary": "An AI-based system has been developed to anticipate the arrival of floating vegetation masses at the cooling system of the Asc&oacute; Nuclear Power Plant in Spain, and is a significant advance on traditional visual insp",
-      "time": "2026-11-05T06:17:45+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "IAEA",
-      "lang": "en",
-      "title": "Impact of Heatwaves on Nuclear Power Plants",
-      "url": "http://www.iaea.org/newscenter/news/impact-of-heatwaves-on-nuclear-power-plants",
-      "summary": "",
-      "time": "2026-11-05T00:00:00+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "NucNet",
-      "lang": "en",
-      "title": "Canada’s Bruce-5 Nuclear Plant Taken Offline For Major Component Replacement Outage",
-      "url": "https://www.nucnet.org/news/canada-s-bruce-5-nuclear-plant-taken-offline-for-major-component-replacement-outage-11-3-2026",
-      "summary": "The Bruce-5 nuclear power plant has been taken offline for its major component replacement (MCR) outage – the fourth unit to be refurbished under Bruce Power’s plan to renew six of the eight units at the Ontario site. Th",
-      "time": "2026-11-04T13:57:12+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Initial fuel loading completed at second San'ao unit",
-      "url": "https://www.world-nuclear-news.org/articles/initial-fuel-loading-completed-at-second-sanao-unit",
-      "summary": "The loading of fuel assemblies into the core of unit 2 at the San'ao nuclear power plant in China's Zhejiang province has been completed ahead of its start up. The unit is the second of six HPR1000s (Hualong Ones) planne",
-      "time": "2026-11-04T13:24:03+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "NucNet",
-      "lang": "en",
-      "title": "Amentum And Kyoto Fusioneering Sign MOU On Fusion In UK, Japan And US",
-      "url": "https://www.nucnet.org/news/amentum-and-kyoto-fusioneering-sign-mou-on-fusion-in-uk-japan-and-us-11-3-2026",
-      "summary": "US engineering and energy technology company Amentum has entered into a memorandum of understanding with Kyoto Fusioneering to cooperate on nuclear fusion in the UK, Japan and the US. Amentum said the agreement with Kyot",
-      "time": "2026-11-04T13:13:21+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Kazakhstan aims for 100-year uranium reserve",
-      "url": "https://www.world-nuclear-news.org/articles/kazakhstan-aims-for-100-year-uranium-reserve",
-      "summary": "Kazakhstan is aiming to develop its strategic uranium reserve to meet the needs of its planned nuclear power plants for more than 100 years, President&nbsp;Kassym-Jomart Tokayev has said. &nbsp;",
-      "time": "2026-11-04T11:45:59+00:00"
     }
   ],
   "orbita": [
+    {
+      "section": "orbita",
+      "source": "ASI",
+      "lang": "it",
+      "title": "L’ASI alla Conferenza degli Addetti scientifici e Spaziale e degli Esperti Agricoli",
+      "url": "https://www.asi.it/2026/11/lasi-alla-conferenza-degli-addetti-scientifici-e-spaziale-e-degli-esperti-agricoli/",
+      "summary": "La conferenza si è tenuta a Reggio Calabria [&#8230;]",
+      "time": "2026-11-06T15:24:27+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "AstronautiNEWS",
+      "lang": "it",
+      "title": "Il rover ETNA ha superato la Final Review",
+      "url": "https://www.astronautinews.it/2026/11/il-rover-etna-ha-superato-la-final-review/",
+      "summary": "Lo scorso 30 ottobre l'Agenzia Spaziale Italiana (ASI) ha annunciato che il dimostratore di rover lunare ETNA (Exploration Technology for Navigation &amp; Autonomy) ha superato con successo la final review. Si tratta di ",
+      "time": "2026-11-06T11:30:00+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ESA",
+      "lang": "en",
+      "title": "ESA’s Euclid captures the Milky Way’s crowded heart",
+      "url": "https://www.esa.int/articles/about-us/directorates/science/euclid/esa-s-euclid-captures-the-milky-way-s-crowded-heart",
+      "summary": "For just one day, our dark Universe detective, Euclid, turned its gaze towards the light: the extremely bright inner region of our Milky Way galaxy, known as the galactic bulge. ...",
+      "time": "2026-11-06T11:01:03+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ASI",
+      "lang": "it",
+      "title": "Utilizzando protocolli di informazione quantistica sarà possibile ridurre significativamente la probabilità di errore nella ricerca di esopianeti",
+      "url": "https://www.asi.it/2026/11/utilizzando-protocolli-di-informazione-quantistica-sara-possibile-ridurre-significativamente-la-probabilita-di-errore-nella-ricerca-di-esopianeti/",
+      "summary": "Lo studio pubblicato sulla rivista Physical Review Letters [&#8230;]",
+      "time": "2026-11-06T10:16:18+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ESA",
+      "lang": "en",
+      "title": "European orbiter detects hints of volcanic activity on Mars",
+      "url": "https://www.esa.int/articles/news-media/news/european-orbiter-detects-hints-of-volcanic-activity-on-mars",
+      "summary": "New evidence from gas seeping above volcanic rifts suggests Mars is not geologically dead deep inside, but merely sleeping.",
+      "time": "2026-11-06T10:05:36+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ESA",
+      "lang": "en",
+      "title": "Euclid discovers new comet",
+      "url": "https://www.esa.int/articles/about-us/directorates/science/euclid/euclid-discovers-new-comet",
+      "summary": "The European Space Agency’s Euclid space telescope has discovered its first previously unknown comet, in images taken between 16 and 24 September 2026.",
+      "time": "2026-11-06T08:24:42+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "European Spaceflight",
+      "lang": "en",
+      "title": "Avio Scales Back Demonstrator Programme Amid Technical Challenges",
+      "url": "https://europeanspaceflight.com/avio-scales-back-demonstrator-programme-amid-technical-challenges/",
+      "summary": "Italian rocket manufacturer Avio has scaled back plans to develop two liquid-fuelled rocket demonstrators intended to validate technologies for a future reusable launch vehicle. In its half-year financial report publishe",
+      "time": "2026-11-06T07:39:17+00:00"
+    },
     {
       "section": "orbita",
       "source": "SpaceNews",
@@ -194,15 +257,6 @@
     },
     {
       "section": "orbita",
-      "source": "ASI",
-      "lang": "it",
-      "title": "Hera osserva Didymos a distanza ravvicinata",
-      "url": "https://www.asi.it/2026/11/hera-osserva-didymos-a-distanza-ravvicinata/",
-      "summary": "Le immagini dettagliate di entrambi gli asteroidi saranno svelate il 25 novembre [&#8230;]",
-      "time": "2026-11-05T15:09:00+00:00"
-    },
-    {
-      "section": "orbita",
       "source": "SpaceNews",
       "lang": "en",
       "title": "Building a ‘highway to the moon and back’ with Winnie Lai",
@@ -218,33 +272,6 @@
       "url": "https://europeanspaceflight.com/ohb-awarded-e554-million-contract-for-next-gen-sentinel-3-satellite/",
       "summary": "German satellite manufacturer OHB has secured a €554 million contract from the European Space Agency (ESA) to develop the first Sentinel-3 Next Generation Topography (NGT) satellite for the European Union&#8217;s Coperni",
       "time": "2026-11-05T13:52:57+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ESA",
-      "lang": "en",
-      "title": "European orbiter detects hints of volcanic activity on Mars",
-      "url": "https://www.esa.int/articles/news-media/news/european-orbiter-detects-hints-of-volcanic-activity-on-mars",
-      "summary": "New evidence from gas seeping above volcanic rifts suggests Mars is not geologically dead deep inside, but merely sleeping.",
-      "time": "2026-11-05T13:32:59+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ASI",
-      "lang": "it",
-      "title": "Avviso di consultazione pubblica per l’aggiornamento della Sezione “Prevenzione della corruzione – rischi corruttivi e trasparenza” del Piano Integrato di Attività e Organizzazione (PIAO) 2027 – 2029 dell’ASI",
-      "url": "https://www.asi.it/2026/11/avviso-di-consultazione-pubblica-per-laggiornamento-della-sezione-prevenzione-della-corruzione-rischi-corruttivi-e-trasparenza-del-piano-integrato-di-attivita-e-organizzaz-5/",
-      "summary": "Proposte entro il 20 novembre 2026 [&#8230;]",
-      "time": "2026-11-05T10:40:38+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "European Spaceflight",
-      "lang": "en",
-      "title": "PLD Space Completes MIURA 5 Flight Termination System Test",
-      "url": "https://europeanspaceflight.com/pld-space-completes-miura-5-flight-termination-system-test/",
-      "summary": "Spanish launch services provider PLD Space has completed an explosive test of the flight termination system for its MIURA 5 rocket ahead of the vehicle’s inaugural flight, which is now expected in the first half of 2027.",
-      "time": "2026-11-04T10:04:11+00:00"
     }
   ]
 }
