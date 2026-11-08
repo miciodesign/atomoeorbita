@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T05:22:29.710753+00:00",
+  "updated": "2026-11-08T05:24:20.230517+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -108,60 +108,6 @@
       "url": "https://www.world-nuclear-news.org/articles/reactor-components-completed-for-el-dabaa-1",
       "summary": "All the key components have now been manufactured for the first unit&rsquo;s reactor at Egypt's El Dabaa Nuclear Power Plant. &nbsp;",
       "time": "2026-11-06T11:35:39+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "IAEA",
-      "lang": "en",
-      "title": "Update 374 – IAEA Director General Statement on Situation in Ukraine",
-      "url": "http://www.iaea.org/newscenter/pressreleases/update-374-iaea-director-general-statement-on-situation-in-ukraine",
-      "summary": "",
-      "time": "2026-11-06T00:00:00+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "IAEA",
-      "lang": "en",
-      "title": "IAEA Mission Reviews the Russian Federation’s Regulatory Framework for Nuclear and Radiation Safety",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-mission-reviews-the-russian-federations-regulatory-framework-for-nuclear-and-radiation-safety",
-      "summary": "",
-      "time": "2026-11-06T00:00:00+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "IHI to supply components for first Polish AP1000",
-      "url": "https://www.world-nuclear-news.org/articles/ihi-to-supply-components-for-first-polish-ap1000",
-      "summary": "Japanese engineering firm IHI Corporation has received an order from Westinghouse covering engineering and procurement activities for long-lead items for one containment vessel and an associated large steel module for th",
-      "time": "2026-11-05T15:02:51+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Copenhagen Atomics to build deconversion facility",
-      "url": "https://www.world-nuclear-news.org/articles/copenhagen-atomics-to-build-deconversion-facility",
-      "summary": "Danish molten salt reactor developer Copenhagen Atomics has signed a memorandum of understanding with uranium enrichment services provider Urenco to construct a uranium deconversion facility in Copenhagen. &nbsp;",
-      "time": "2026-11-05T14:39:56+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "NucNet",
-      "lang": "en",
-      "title": "First Fuel Loading Complete At China’s Sanao-2, Says CGN",
-      "url": "https://www.nucnet.org/news/first-fuel-loading-complete-at-china-s-sanao-2-says-cgn-11-4-2026",
-      "summary": "The loading of fuel assemblies into the core of the Sanao-2 nuclear power plant in the eastern Chinese province of Zhejiang has been completed, owner China General Nuclear (CGN) said. According to CGN, fuel loading was c",
-      "time": "2026-11-05T13:20:26+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "POWER Magazine",
-      "lang": "en",
-      "title": "A Syzygy in Nuclear Energy",
-      "url": "https://www.powermag.com/a-syzygy-in-nuclear-energy/",
-      "summary": "How do you know when you’re in a technological renaissance? When science, technology, and economics have lined up to produce something new. COMMENTARY In Europe it took artists, scientists, and craftspeople until 1550 to",
-      "time": "2026-11-05T12:42:48+00:00"
     }
   ],
   "orbita": [
@@ -227,51 +173,6 @@
       "url": "https://europeanspaceflight.com/avio-scales-back-demonstrator-programme-amid-technical-challenges/",
       "summary": "Italian rocket manufacturer Avio has scaled back plans to develop two liquid-fuelled rocket demonstrators intended to validate technologies for a future reusable launch vehicle. In its half-year financial report publishe",
       "time": "2026-11-06T07:39:17+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "CesiumAstro Secures $730 Million in Janus Henderson-Led Series D at a Valuation Above $4.5 Billion; Unveils Synchronicity Satellite Constellation Following Fully Successful Element-1 Mission",
-      "url": "https://spacenews.com/cesiumastro-secures-730-million-in-janus-henderson-led-series-d-at-a-valuation-above-4-5-billion-unveils-synchronicity-satellite-constellation-following-fully-successful-element-1-mission/",
-      "summary": "CesiumAstro Inc., a global leader in space and defense communications systems and satellites, today announced the closing of $730 million in Series D financing, valuing the company at more than [&#8230;] The post CesiumA",
-      "time": "2026-11-05T21:45:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ASI",
-      "lang": "it",
-      "title": "Spazio: Urso, “Ministeriale Esa di Roma strategica per autonomia Europa”",
-      "url": "https://www.asi.it/2026/11/spazio-urso-ministeriale-esa-di-roma-strategica-per-autonomia-europa/",
-      "summary": "La riunione in programma nella capitale il 15 dicembre [&#8230;]",
-      "time": "2026-11-05T17:38:40+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "Cork Takes the Heat So DRACO’s Data Can Survive",
-      "url": "https://spacenews.com/cork-takes-the-heat-so-dracos-data-can-survive/",
-      "summary": "Mozelos, Portugal, September 2, 2026 &#8211; Amorim Cork Solutions is contributing its P50 cork-based thermal protection material to DRACO, a European Space Agency (ESA) mission designed to capture rare in-flight [&#8230",
-      "time": "2026-11-05T17:05:59+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "Building a ‘highway to the moon and back’ with Winnie Lai",
-      "url": "https://spacenews.com/building-a-highway-to-the-moon-and-back-with-winnie-lai/",
-      "summary": "In this episode, SpaceNews’ Mike Gruss speaks with Winnie Lai, CEO of Auriga Space. They talk about how electromagnetic launch technology that “catapults” small launch vehicles could cut down on [&#8230;] The post Buildi",
-      "time": "2026-11-05T14:15:38+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "European Spaceflight",
-      "lang": "en",
-      "title": "OHB Awarded €554 Million Contract for Next-Gen Sentinel-3 Satellite",
-      "url": "https://europeanspaceflight.com/ohb-awarded-e554-million-contract-for-next-gen-sentinel-3-satellite/",
-      "summary": "German satellite manufacturer OHB has secured a €554 million contract from the European Space Agency (ESA) to develop the first Sentinel-3 Next Generation Topography (NGT) satellite for the European Union&#8217;s Coperni",
-      "time": "2026-11-05T13:52:57+00:00"
     }
   ]
 }
