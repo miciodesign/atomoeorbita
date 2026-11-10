@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T05:34:45.499255+00:00",
+  "updated": "2026-11-10T05:27:22.300272+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -54,6 +54,152 @@
     }
   ],
   "errors": [],
-  "atomo": [],
-  "orbita": []
+  "atomo": [
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Estonia narrows search for nuclear power plant location",
+      "url": "https://www.world-nuclear-news.org/articles/estonia-narrows-search-for-nuclear-power-plant-location",
+      "summary": "The search for a site for Estonia's first nuclear power plant will now focus on three locations, all in the municipality of Viru-Nigula, about 120 kilometres east of Tallin, after three locations in L&uuml;ganuse municip",
+      "time": "2026-11-09T15:27:23+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Cernavodă units returning to operation after three months",
+      "url": "https://www.world-nuclear-news.org/articles/cernavoda-units-return-to-operation-after-three-months",
+      "summary": "Nuclearelectrica and the Romanian government are working on long-term solutions to avoid a repeat of the Cernavodă units being shut down because of drought causing abnormally low water levels in the Danube. &nbsp;",
+      "time": "2026-11-09T14:13:35+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "NucNet",
+      "lang": "en",
+      "title": "China Pours First Concrete For HTGR At ‘World’s First’ Hybrid Nuclear Power Station",
+      "url": "https://www.nucnet.org/news/china-pours-first-concrete-for-htgr-at-world-s-first-hybrid-nuclear-power-station-11-1-2026",
+      "summary": "The first batch of concrete has been poured for the nuclear island of the high-temperature gas-cooled reactor (HTGR) that forms part the first phase of a hybrid nuclear power station in Jiangsu province, eastern China. T",
+      "time": "2026-11-09T13:56:36+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Canadian budget sets out nuclear investments",
+      "url": "https://www.world-nuclear-news.org/articles/canadian-budget-sets-out-nuclear-investments",
+      "summary": "The budget released by the Canadian government provides funding for a strategy to double grid capacity by 2050, as well as investments in nuclear energy and critical minerals. &nbsp;",
+      "time": "2026-11-09T12:34:13+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "ASNR opens passive safety system testing facility",
+      "url": "https://www.world-nuclear-news.org/articles/asnr-opens-passive-safety-system-testing-facility",
+      "summary": "France's nuclear safety regulator has inaugurated new research infrastructure and facilities at its Cadarache site for studying the reliability of passive safety systems. It aims to generate the scientific knowledge nece",
+      "time": "2026-11-09T11:54:36+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Concrete work completed for Akkuyu 4's turbine unit",
+      "url": "https://www.world-nuclear-news.org/articles/concrete-work-completed-for-akkuyu-4s-turbine-unit",
+      "summary": "More than 2,240 cubic metres of concrete was used to complete the turbine building foundation for Turkey's Akkuyu Nuclear Power Plant's fourth unit. &nbsp;",
+      "time": "2026-11-09T10:32:29+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "Qualenergia",
+      "lang": "it",
+      "title": "Delfanti: più eolico per il 100% rinnovabili, troppo ottimismo su tempi e costi del nucleare",
+      "url": "https://www.qualenergia.it/articoli/delfanti-piu-eolico-100-percento-rinnovabili-ottimismo-su-tempi-costi-nucleare/",
+      "summary": "Per arrivare a un sistema elettrico interamente rinnovabile l’Italia deve soprattutto accelerare sull’eolico. Il fotovoltaico, da solo, non basta e per affrontare i periodi di scarsa produzione da sole e vento serviranno",
+      "time": "2026-11-09T10:00:02+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "IAEA",
+      "lang": "en",
+      "title": "Nuclear Safeguards in a Changing World – 15th Symposium on International Safeguards Opens in Vienna",
+      "url": "http://www.iaea.org/newscenter/news/nuclear-safeguards-in-a-changing-world-15th-symposium-on-international-safeguards-opens-in-vienna",
+      "summary": "",
+      "time": "2026-11-09T00:00:00+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "IAEA",
+      "lang": "en",
+      "title": "Safeguards: Our Shared Responsibility",
+      "url": "http://www.iaea.org/newscenter/multimedia/videos/safeguards-our-shared-responsibility",
+      "summary": "",
+      "time": "2026-11-09T00:00:00+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "IAEA",
+      "lang": "en",
+      "title": "IAEA Mission says Slovakia is Committed to Strengthening Nuclear and Radiation Safety Regulatory Framework",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-mission-says-slovakia-is-committed-to-strengthening-nuclear-and-radiation-safety-regulatory-framework",
+      "summary": "",
+      "time": "2026-11-09T00:00:00+00:00"
+    }
+  ],
+  "orbita": [
+    {
+      "section": "orbita",
+      "source": "AstronautiNEWS",
+      "lang": "it",
+      "title": "L’ESA prosegue lo sviluppo del propulsore Prometheus",
+      "url": "https://www.astronautinews.it/2026/11/lesa-prosegue-lo-sviluppo-del-propulsore-prometheus/",
+      "summary": "Si è conclusa lo scorso 29 ottobre 2026 la campagna di collaudi del nuovo propulsore Prometheus che l'Agenzia spaziale europea ha tenuto presso il banco prova P5 di Lampoldshausen, Germania. Prometheus, la cui costruzion",
+      "time": "2026-11-09T17:00:00+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "European Spaceflight",
+      "lang": "en",
+      "title": "UK Government Investment Secures More Than 25% Stake in SaxaVord",
+      "url": "https://europeanspaceflight.com/uk-government-investment-secures-more-than-25-stake-in-saxavord/",
+      "summary": "The UK Government has secured a stake of more than 25% in SaxaVord Spaceport following the completion of a £60 million public-private investment agreement in late October. According to a filing submitted to Companies Hou",
+      "time": "2026-11-09T14:29:42+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "CCIA Report Highlights Satellite Connectivity’s Potential to Expand Internet Access and Drive Economic Growth",
+      "url": "https://spacenews.com/ccia-report-highlights-satellite-connectivitys-potential-to-expand-internet-access-and-drive-economic-growth/",
+      "summary": "Washington — The Computer &#38; Communications Industry Association today released Connecting the World: Unlocking the Potential of Satellite Connectivity, a new report examining how satellite technology can expand inter",
+      "time": "2026-11-09T14:00:00+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ASI",
+      "lang": "it",
+      "title": "IOD/IOV: nuova procedura competitiva ASI per la dimostrazione e validazione in orbita di tecnologie innovative",
+      "url": "https://www.asi.it/2026/11/iod-iov-nuova-procedura-competitiva-asi-per-la-dimostrazione-e-validazione-in-orbita-di-tecnologie-innovative/",
+      "summary": "Bando rivolto a start-up, grandi e piccole imprese, organismi di ricerca e università, in forma singola o associata [&#8230;]",
+      "time": "2026-11-09T11:45:35+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ASI",
+      "lang": "it",
+      "title": "L’ASI presenta il modello di MPH al MAX POWER",
+      "url": "https://www.asi.it/2026/11/lasi-presenta-il-modello-di-mph-al-max-power/",
+      "summary": "Il nuovo airshow americano si è svolto presso il Kennedy Space Center della Nasa [&#8230;]",
+      "time": "2026-11-09T08:00:17+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "European Spaceflight",
+      "lang": "en",
+      "title": "RFA Confirms Inaugural RFA ONE Launch Has Slipped to 2027",
+      "url": "https://europeanspaceflight.com/rfa-confirms-inaugural-rfa-one-launch-has-slipped-to-2027/",
+      "summary": "German launch company Rocket Factory Augsburg (RFA) has confirmed that it is now targeting 2027 for the inaugural flight of its RFA ONE rocket from a Scottish launch facility. The revised target for the rocket’s inaugura",
+      "time": "2026-11-09T07:00:49+00:00"
+    }
+  ]
 }
