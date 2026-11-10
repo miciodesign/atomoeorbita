@@ -341,7 +341,7 @@ def build() -> None:
             s["f"] = {"u": f["locale"]["480"], "p": f["file"], "a": f["autore"], "l": f["licenza"]}
     write(ROOT / "mappa" / "index.html", env.get_template("mappa.html").render(
         **base_ctx, centrali=centrali, spazio=spazio, n_foto=sum(1 for s in centrali + spazio if 'f' in s), c_sites=len(centrali),
-        c_reactors=sum(c["r"] for c in centrali), page_url="/mappa/",
+        c_reactors=sum(c["r"] for c in centrali), c_paesi=len({c["c"] for c in centrali}), c_gw=round(sum(c["mw"] for c in centrali)/1000), page_url="/mappa/",
         title=f"Mappa delle centrali nucleari nel mondo e delle basi spaziali · {CONFIG['name']}",
         description="Mappa interattiva gratuita delle centrali nucleari nel mondo, paese per paese, e delle basi spaziali: spazioporti, siti di lancio e centri italiani. Con foto, fonti e dati scaricabili."))
 
