@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T05:27:22.300272+00:00",
+  "updated": "2026-11-11T05:30:02.639058+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -57,96 +57,159 @@
   "atomo": [
     {
       "section": "atomo",
-      "source": "World Nuclear News",
+      "source": "POWER Magazine",
       "lang": "en",
-      "title": "Estonia narrows search for nuclear power plant location",
-      "url": "https://www.world-nuclear-news.org/articles/estonia-narrows-search-for-nuclear-power-plant-location",
-      "summary": "The search for a site for Estonia's first nuclear power plant will now focus on three locations, all in the municipality of Viru-Nigula, about 120 kilometres east of Tallin, after three locations in L&uuml;ganuse municip",
-      "time": "2026-11-09T15:27:23+00:00"
+      "title": "The Rise of SMRs: Making the Case for Industrial AI Across the Nuclear Lifecycle",
+      "url": "https://www.powermag.com/the-rise-of-smrs-making-the-case-for-industrial-ai-across-the-nuclear-lifecycle/",
+      "summary": "Small modular reactors (SMRs) are emerging as a potentially critical part of the future power mix. Only a year ago, SMRs were still framed as a promising but distant technology. But that’s all changed as electricity dema",
+      "time": "2026-11-10T17:39:23+00:00"
     },
     {
       "section": "atomo",
       "source": "World Nuclear News",
       "lang": "en",
-      "title": "Cernavodă units returning to operation after three months",
-      "url": "https://www.world-nuclear-news.org/articles/cernavoda-units-return-to-operation-after-three-months",
-      "summary": "Nuclearelectrica and the Romanian government are working on long-term solutions to avoid a repeat of the Cernavodă units being shut down because of drought causing abnormally low water levels in the Danube. &nbsp;",
-      "time": "2026-11-09T14:13:35+00:00"
+      "title": "US issues landmark construction permit for Texas SMR plant",
+      "url": "https://www.world-nuclear-news.org/articles/us-issues-landmark-construction-permit-for-texas-smr-plant",
+      "summary": "The US Nuclear Regulatory Commission has issued a construction permit for the proposed plant featuring four Xe-100 small modular reactor units at Dow's Seadrift site - the first construction permit for a high-temperature",
+      "time": "2026-11-10T15:56:26+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "POWER Magazine",
+      "lang": "en",
+      "title": "The Midterm Elections Opened a Bipartisan Path on Nuclear Waste",
+      "url": "https://www.powermag.com/the-midterm-elections-opened-a-bipartisan-path-on-nuclear-waste/",
+      "summary": "The 2026 midterms delivered a clear warning to anyone who thinks communities will accept major energy projects simply because Washington or Wall Street says they are strategic. Voters are worried about costs, local contr",
+      "time": "2026-11-10T14:55:13+00:00"
     },
     {
       "section": "atomo",
       "source": "NucNet",
       "lang": "en",
-      "title": "China Pours First Concrete For HTGR At ‘World’s First’ Hybrid Nuclear Power Station",
-      "url": "https://www.nucnet.org/news/china-pours-first-concrete-for-htgr-at-world-s-first-hybrid-nuclear-power-station-11-1-2026",
-      "summary": "The first batch of concrete has been poured for the nuclear island of the high-temperature gas-cooled reactor (HTGR) that forms part the first phase of a hybrid nuclear power station in Jiangsu province, eastern China. T",
-      "time": "2026-11-09T13:56:36+00:00"
+      "title": "UK Nuclear Professionals Confident, But Warn Of Uncertainties And Challenges",
+      "url": "https://www.nucnet.org/news/uk-nuclear-professionals-confident-but-warn-of-uncertainties-and-challenges-11-2-2026",
+      "summary": "Nuclear professionals are confident about the future of the UK industry, but warn that funding uncertainty, skills shortages and challenges delivering major projects could hamper its growth, according to new research fro",
+      "time": "2026-11-10T14:34:27+00:00"
     },
     {
       "section": "atomo",
       "source": "World Nuclear News",
       "lang": "en",
-      "title": "Canadian budget sets out nuclear investments",
-      "url": "https://www.world-nuclear-news.org/articles/canadian-budget-sets-out-nuclear-investments",
-      "summary": "The budget released by the Canadian government provides funding for a strategy to double grid capacity by 2050, as well as investments in nuclear energy and critical minerals. &nbsp;",
-      "time": "2026-11-09T12:34:13+00:00"
+      "title": "Fourth Hualong One under construction at San'ao site",
+      "url": "https://www.world-nuclear-news.org/articles/fourth-hualong-one-under-construction-at-sanao-site",
+      "summary": "The first concrete has been poured for the nuclear island of unit 4 of the San'ao nuclear power plant in China's Zhejiang province, China General Nuclear has announced. &nbsp;",
+      "time": "2026-11-10T12:37:10+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "NucNet",
+      "lang": "en",
+      "title": "Estonia Shortlists Three Locations For First BWRX-300 Nuclear Power Plant",
+      "url": "https://www.nucnet.org/news/estonia-shortlists-three-locations-for-first-bwrx-300-nuclear-power-plant-11-2-2026",
+      "summary": "Estonia said it will now focus on three potential locations in the Viru-Nigula region in the north of the country for the development of its first nuclear power plants having discarded three sites for what it called “nat",
+      "time": "2026-11-10T11:48:03+00:00"
     },
     {
       "section": "atomo",
       "source": "World Nuclear News",
       "lang": "en",
-      "title": "ASNR opens passive safety system testing facility",
-      "url": "https://www.world-nuclear-news.org/articles/asnr-opens-passive-safety-system-testing-facility",
-      "summary": "France's nuclear safety regulator has inaugurated new research infrastructure and facilities at its Cadarache site for studying the reliability of passive safety systems. It aims to generate the scientific knowledge nece",
-      "time": "2026-11-09T11:54:36+00:00"
+      "title": "Uzbekistan plans to double uranium production",
+      "url": "https://www.world-nuclear-news.org/articles/uzbekistan-plans-to-double-uranium-production",
+      "summary": "Uzbekistan is planning to double its uranium production by 2030 - and the country's president has said state mining company Navoiyuran must make the most of alternative production technologies to help do this. &nbsp;",
+      "time": "2026-11-10T11:36:02+00:00"
     },
     {
       "section": "atomo",
       "source": "World Nuclear News",
       "lang": "en",
-      "title": "Concrete work completed for Akkuyu 4's turbine unit",
-      "url": "https://www.world-nuclear-news.org/articles/concrete-work-completed-for-akkuyu-4s-turbine-unit",
-      "summary": "More than 2,240 cubic metres of concrete was used to complete the turbine building foundation for Turkey's Akkuyu Nuclear Power Plant's fourth unit. &nbsp;",
-      "time": "2026-11-09T10:32:29+00:00"
+      "title": "Largest remediation project at UK's Harwell site completed",
+      "url": "https://www.world-nuclear-news.org/articles/largest-remediation-project-at-uks-harwell-site-completed",
+      "summary": "Nuclear Restoration Services has announced the completion of remediation works of former liquid effluent treatment facilities at the UK's Harwell nuclear research site, restoring 4.2 hectares of land at the Oxfordshire s",
+      "time": "2026-11-10T09:13:54+00:00"
     },
     {
       "section": "atomo",
       "source": "Qualenergia",
       "lang": "it",
-      "title": "Delfanti: più eolico per il 100% rinnovabili, troppo ottimismo su tempi e costi del nucleare",
-      "url": "https://www.qualenergia.it/articoli/delfanti-piu-eolico-100-percento-rinnovabili-ottimismo-su-tempi-costi-nucleare/",
-      "summary": "Per arrivare a un sistema elettrico interamente rinnovabile l’Italia deve soprattutto accelerare sull’eolico. Il fotovoltaico, da solo, non basta e per affrontare i periodi di scarsa produzione da sole e vento serviranno",
-      "time": "2026-11-09T10:00:02+00:00"
+      "title": "Veicoli pesanti elettrici in Italia: cosa dicono i dati di mercato del 2026",
+      "url": "https://www.qualenergia.it/articoli/veicoli-pesanti-elettrici-italia-cosa-dicono-dati-mercato-2026/",
+      "summary": "Sulle strade italiane la diffusione dei veicoli pesanti a zero emissioni, elettrici a batteria o a celle a combustibile, procede con ritmi diversi a seconda della tipologia di mezzo. Gli autobus mostrano una penetrazione",
+      "time": "2026-11-10T09:00:06+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "Qualenergia",
+      "lang": "it",
+      "title": "Market spotlight race to zero – novembre 2026",
+      "url": "https://www.qualenergia.it/pro/documenti/market-spotlight-race-to-zero-novembre-2026/",
+      "summary": "Andamento delle immatricolazioni di autobus, camion e furgoni nell&#8217;Ue, confrontando i primi nove mesi del 2026 con lo stesso periodo del 2025. In Italia la diffusione dei veicoli pesanti a zero emissioni, elettrici",
+      "time": "2026-11-10T06:00:52+00:00"
     },
     {
       "section": "atomo",
       "source": "IAEA",
       "lang": "en",
-      "title": "Nuclear Safeguards in a Changing World – 15th Symposium on International Safeguards Opens in Vienna",
-      "url": "http://www.iaea.org/newscenter/news/nuclear-safeguards-in-a-changing-world-15th-symposium-on-international-safeguards-opens-in-vienna",
+      "title": "IAEA at COP31: Nuclear for Energy Security",
+      "url": "http://www.iaea.org/newscenter/news/iaea-at-cop31-nuclear-for-energy-security",
       "summary": "",
-      "time": "2026-11-09T00:00:00+00:00"
+      "time": "2026-11-10T00:00:00+00:00"
     },
     {
       "section": "atomo",
       "source": "IAEA",
       "lang": "en",
-      "title": "Safeguards: Our Shared Responsibility",
-      "url": "http://www.iaea.org/newscenter/multimedia/videos/safeguards-our-shared-responsibility",
+      "title": "IAEA Mission says Jordan is Committed to Strengthening Radiation and Nuclear Safety Oversight",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-mission-says-jordan-is-committed-to-strengthening-radiation-and-nuclear-safety-oversight",
       "summary": "",
-      "time": "2026-11-09T00:00:00+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "IAEA",
-      "lang": "en",
-      "title": "IAEA Mission says Slovakia is Committed to Strengthening Nuclear and Radiation Safety Regulatory Framework",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-mission-says-slovakia-is-committed-to-strengthening-nuclear-and-radiation-safety-regulatory-framework",
-      "summary": "",
-      "time": "2026-11-09T00:00:00+00:00"
+      "time": "2026-11-10T00:00:00+00:00"
     }
   ],
   "orbita": [
+    {
+      "section": "orbita",
+      "source": "European Spaceflight",
+      "lang": "en",
+      "title": "DLR to Purchase 80 Red Kite Sounding Rocket Motors",
+      "url": "https://europeanspaceflight.com/dlr-to-purchase-80-red-kite-sounding-rocket-motors/",
+      "summary": "The German Aerospace Center (DLR) is preparing to purchase 80 Red Kite solid rocket motors from German defence company Bayern-Chemie to support future sounding rocket missions. According to a procurement notice published",
+      "time": "2026-11-10T15:44:40+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "Kratos and Seagate Space Partner to Advance Mobile Offshore Launch Capabilities for National Security Missions",
+      "url": "https://spacenews.com/kratos-and-seagate-space-partner-to-advance-mobile-offshore-launch-capabilities-for-national-security-missions/",
+      "summary": "SAN DIEGO, CA, November 10, 2026 &#8211; Kratos Defense &#38; Security Solutions, Inc., a technology company in defense, national security, and global markets, today announced a long-term agreement with Seagate [&#8230;]",
+      "time": "2026-11-10T14:00:00+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ESA",
+      "lang": "en",
+      "title": "European orbiter detects hints of volcanic activity on Mars",
+      "url": "https://www.esa.int/articles/news-media/news/european-orbiter-detects-hints-of-volcanic-activity-on-mars",
+      "summary": "New evidence from gas seeping above volcanic rifts suggests Mars is not geologically dead deep inside, but merely sleeping.",
+      "time": "2026-11-10T12:02:37+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "ESCAPADE on its way to Mars after Earth flybys",
+      "url": "https://spacenews.com/escapade-on-its-way-to-mars-after-earth-flybys/",
+      "summary": "Two NASA smallsats are headed toward Mars after completing flybys of Earth nearly a year after their launch. The post ESCAPADE on its way to Mars after Earth flybys appeared first on SpaceNews.",
+      "time": "2026-11-10T08:01:39+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "European Spaceflight",
+      "lang": "en",
+      "title": "Isar Aerospace Could Launch Third Spectrum Rocket as Early as 26 November",
+      "url": "https://europeanspaceflight.com/isar-aerospace-could-launch-third-spectrum-rocket-as-early-as-26-november/",
+      "summary": "German launch company Isar Aerospace could attempt the third flight of its Spectrum rocket from Andøya Spaceport in Norway as early as 26 November, according to an aviation notice published on 28 October. The notice, pub",
+      "time": "2026-11-10T07:04:22+00:00"
+    },
     {
       "section": "orbita",
       "source": "AstronautiNEWS",
