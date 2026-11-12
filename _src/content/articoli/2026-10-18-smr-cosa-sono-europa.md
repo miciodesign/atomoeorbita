@@ -1,11 +1,11 @@
 ---
-title: "SMR: cosa sono i piccoli reattori modulari e perché se ne parla tanto"
+title: "SMR: significato, cosa sono e come funzionano i piccoli reattori nucleari"
 slug: smr-cosa-sono-europa
 foto: en:Akademik Lomonosov
 category: atomo
 date: 2026-10-18
 description: "Cosa significa SMR, come funzionano, quanto costano e quando potrebbero arrivare in Italia: la guida ai piccoli reattori modulari, con i progetti europei e i numeri veri."
-updated: 2026-10-30
+updated: 2026-11-12
 format: spiegato
 serie: smr
 ordine: 0
@@ -15,7 +15,7 @@ serie_label: Cosa significa SMR (la guida)
 
 Nelle dichiarazioni sul ritorno del nucleare in Italia la sigla ricorre sempre. Il Governo li indica come la tecnologia di riferimento, Enel e Ansaldo stanno selezionando quale modello adottare, Edison ed EDF ne hanno presentato uno a Milano. Vale la pena capire cosa sono, perché l'Europa ci sta investendo e, soprattutto, cosa separa oggi la promessa dalla realtà.
 
-## Cosa significa SMR: "piccolo e modulare"
+## Cosa significa SMR?
 
 SMR sta per *Small Modular Reactor*, in italiano piccolo reattore modulare. Le due parole contano entrambe.
 
@@ -23,9 +23,11 @@ SMR sta per *Small Modular Reactor*, in italiano piccolo reattore modulare. Le d
 
 **Modular** è l'idea industriale: costruire i componenti principali in fabbrica, in serie, e assemblarli in cantiere, invece di costruire ogni centrale come un'opera unica. È la stessa logica che ha abbattuto i costi di pannelli solari e turbine eoliche. Nel nucleare non è mai stata applicata su scala commerciale.
 
+## Come funziona un SMR?
+
 La fisica non cambia. La grande maggioranza degli SMR in sviluppo in Occidente sono reattori ad acqua leggera pressurizzata o bollente, cioè la stessa tecnologia delle centrali attuali, ridisegnata in piccolo con più sistemi di sicurezza passivi: raffreddamento per circolazione naturale, nessuna pompa da alimentare in emergenza, contenimento semplificato. Per capire nel dettaglio il funzionamento, leggi [Come funziona un SMR](/atomo/come-funziona-smr/). Una minoranza, i cosiddetti reattori avanzati o AMR, usa refrigeranti diversi (piombo, sodio, sali fusi, elio) e in alcuni casi combustibile riciclato; sono più lontani dal mercato.
 
-## Perché l'Europa ci scommette
+## Vantaggi e caratteristiche: perché l'Europa ci scommette
 
 Tre ragioni, in ordine di peso.
 
@@ -35,7 +37,7 @@ Tre ragioni, in ordine di peso.
 
 **La politica industriale.** L'Unione europea ha creato nel 2024 un'Alleanza industriale per gli SMR con l'obiettivo dichiarato di avere i primi impianti europei in esercizio nei primi anni del prossimo decennio. Per Francia, Regno Unito e Italia il tema non è solo energetico: è non lasciare a Stati Uniti, Russia, Cina e Corea un mercato che si stima in centinaia di unità nel mondo.
 
-## Chi sta facendo cosa in Europa
+## SMR in Europa: chi sta facendo cosa
 
 Lo stato dei progetti a ottobre 2026, dai più avanzati:
 
@@ -51,7 +53,7 @@ Il dato che accomuna tutta la tabella: **nessun SMR occidentale produce elettric
 
 Fonti: [Nuclear News Network](https://www.nuclearnewsnetwork.com/news/top-smr-developers-2026), [Nuclearelectrica](https://nuclearelectrica.ro/snn/en/2026/02/12/the-doicesti-small-modular-reactors-smr-project-obtains-the-final-investment-decision-and-enters-the-third-stage-of-development/), [World Nuclear News](https://world-nuclear-news.org/articles/final-investment-decision-taken-for-romanias-smrs).
 
-## E l'Italia
+## SMR in Italia
 
 In Italia si muovono tre soggetti, con ruoli diversi che spesso vengono confusi.
 

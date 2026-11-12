@@ -1,11 +1,27 @@
 ---
-title: Reattori nucleari nel mondo
+title: "Centrali nucleari nel mondo: quante sono e dove si trovano"
 slug: reattori-nel-mondo
 updated: 2026-10-16
 source: World Nuclear Association su dati IAEA PRIS
 headline: 443
-description: Quanti reattori producono elettricità nel mondo, dove sono, quanti se ne stanno costruendo e quanto pesa il nucleare nel mix elettrico di ogni paese. Dati aggiornati al 16 ottobre 2026.
+description: "Quante centrali e quanti reattori nucleari ci sono nel mondo, in quali paesi, quanti se ne stanno costruendo e quanto pesa il nucleare nel mix elettrico di ogni paese. Con la mappa interattiva. Dati al 16 ottobre 2026."
 ---
+## Quante centrali nucleari ci sono nel mondo?
+
+Nel mondo ci sono **443 reattori nucleari in esercizio** in **31 paesi**, raggruppati in circa **190 centrali**: una centrale spesso ha più reattori, fino agli otto di Bruce, in Canada. Altri **79 reattori sono in costruzione**.
+
+I cinque paesi con più reattori in esercizio:
+
+1. **Stati Uniti**: 94
+2. **Cina**: 65, e altri 38 in costruzione
+3. **Francia**: 57
+4. **Russia**: 34
+5. **Giappone**: 33
+
+**Dove si trovano?** Sulla [mappa interattiva delle centrali nucleari nel mondo](/mappa/#nucleare) ogni centrale ha la sua scheda, con foto, reattori e potenza. Puoi andare direttamente su [Europa](/mappa/#europa), [Cina](/mappa/#cina), [Stati Uniti](/mappa/#usa) o [Italia e dintorni](/mappa/#italia).
+
+## In sintesi
+
 Nel mondo ci sono **443 reattori nucleari in esercizio**, per una potenza netta di circa **406 GW**, e **79 in costruzione** per altri 87 GW circa. Il nucleare copre intorno al **9% dell'elettricità mondiale**.
 
 Tre cose che la tabella dice da sola:
