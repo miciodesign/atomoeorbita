@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T05:30:02.639058+00:00",
+  "updated": "2026-11-12T05:32:17.200236+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -57,6 +57,60 @@
   "atomo": [
     {
       "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Dome installed at Pakistan's Chashma unit 5",
+      "url": "https://www.world-nuclear-news.org/articles/dome-installed-at-pakistans-chashma-unit-5",
+      "summary": "The inner safety dome has been installed on the containment building of unit 5 at the Chashma nuclear power plant site in Pakistan. &nbsp;",
+      "time": "2026-11-16T14:38:25+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "OPG set to revise timeline and cost of first SMR unit",
+      "url": "https://www.world-nuclear-news.org/articles/opg-to-revise-timeline-and-cost-of-first-smr-unit",
+      "summary": "The first of four BWRX-300 small modular reactors under construction at the Darlington New Nuclear Project will not be completed within the previously planned timeline or cost, Ontario Power Generation has said. &nbsp;",
+      "time": "2026-11-11T16:03:55+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Russia proposes carbon credits framework for SMRs",
+      "url": "https://www.world-nuclear-news.org/articles/russia-proposes-carbon-credits-framework-for-smrs",
+      "summary": "An international methodology to allow small modular reactors to qualify for carbon credits under the terms of the Paris Agreement has been proposed to the UN's climate/COP secretariat by Russia's state nuclear corporatio",
+      "time": "2026-11-11T12:54:41+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Study analyses economic impact of Greek nuclear power plant",
+      "url": "https://www.world-nuclear-news.org/articles/study-analyses-economic-impact-of-greek-nuclear-power-plant",
+      "summary": "The construction of a 1,600 MW nuclear power plant could contribute about EUR4.5 billion (USD5 billion) to Greece's gross domestic product over the full construction period, according to a new study. &nbsp;",
+      "time": "2026-11-11T11:17:00+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "NucNet",
+      "lang": "en",
+      "title": "Pouring Of First Concrete Begins For Nuclear Island At China’s Sanao-4",
+      "url": "https://www.nucnet.org/news/pouring-of-first-concrete-begins-for-nuclear-island-at-china-s-sanao-4-11-3-2026",
+      "summary": "First concrete pouring has begun for the nuclear island of Unit 4 at the Sanao nuclear power station in eastern Chinese province of Zhejiang, project owner China General Nuclear (CGN) announced on Tuesday (10 November). ",
+      "time": "2026-11-11T10:16:11+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "IAEA reviews Jordan's nuclear regulatory framework",
+      "url": "https://www.world-nuclear-news.org/articles/iaea-reviews-jordans-nuclear-regulatory-framework",
+      "summary": "Jordan has a &quot;well-established regulatory framework for nuclear and radiation safety&quot;, an International Atomic Energy Agency mission has said, while also suggesting further enhancements in line with internation",
+      "time": "2026-11-11T08:49:55+00:00"
+    },
+    {
+      "section": "atomo",
       "source": "POWER Magazine",
       "lang": "en",
       "title": "The Rise of SMRs: Making the Case for Industrial AI Across the Nuclear Lifecycle",
@@ -108,63 +162,63 @@
       "url": "https://www.nucnet.org/news/estonia-shortlists-three-locations-for-first-bwrx-300-nuclear-power-plant-11-2-2026",
       "summary": "Estonia said it will now focus on three potential locations in the Viru-Nigula region in the north of the country for the development of its first nuclear power plants having discarded three sites for what it called “nat",
       "time": "2026-11-10T11:48:03+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Uzbekistan plans to double uranium production",
-      "url": "https://www.world-nuclear-news.org/articles/uzbekistan-plans-to-double-uranium-production",
-      "summary": "Uzbekistan is planning to double its uranium production by 2030 - and the country's president has said state mining company Navoiyuran must make the most of alternative production technologies to help do this. &nbsp;",
-      "time": "2026-11-10T11:36:02+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Largest remediation project at UK's Harwell site completed",
-      "url": "https://www.world-nuclear-news.org/articles/largest-remediation-project-at-uks-harwell-site-completed",
-      "summary": "Nuclear Restoration Services has announced the completion of remediation works of former liquid effluent treatment facilities at the UK's Harwell nuclear research site, restoring 4.2 hectares of land at the Oxfordshire s",
-      "time": "2026-11-10T09:13:54+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "Qualenergia",
-      "lang": "it",
-      "title": "Veicoli pesanti elettrici in Italia: cosa dicono i dati di mercato del 2026",
-      "url": "https://www.qualenergia.it/articoli/veicoli-pesanti-elettrici-italia-cosa-dicono-dati-mercato-2026/",
-      "summary": "Sulle strade italiane la diffusione dei veicoli pesanti a zero emissioni, elettrici a batteria o a celle a combustibile, procede con ritmi diversi a seconda della tipologia di mezzo. Gli autobus mostrano una penetrazione",
-      "time": "2026-11-10T09:00:06+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "Qualenergia",
-      "lang": "it",
-      "title": "Market spotlight race to zero – novembre 2026",
-      "url": "https://www.qualenergia.it/pro/documenti/market-spotlight-race-to-zero-novembre-2026/",
-      "summary": "Andamento delle immatricolazioni di autobus, camion e furgoni nell&#8217;Ue, confrontando i primi nove mesi del 2026 con lo stesso periodo del 2025. In Italia la diffusione dei veicoli pesanti a zero emissioni, elettrici",
-      "time": "2026-11-10T06:00:52+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "IAEA",
-      "lang": "en",
-      "title": "IAEA at COP31: Nuclear for Energy Security",
-      "url": "http://www.iaea.org/newscenter/news/iaea-at-cop31-nuclear-for-energy-security",
-      "summary": "",
-      "time": "2026-11-10T00:00:00+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "IAEA",
-      "lang": "en",
-      "title": "IAEA Mission says Jordan is Committed to Strengthening Radiation and Nuclear Safety Oversight",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-mission-says-jordan-is-committed-to-strengthening-radiation-and-nuclear-safety-oversight",
-      "summary": "",
-      "time": "2026-11-10T00:00:00+00:00"
     }
   ],
   "orbita": [
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "Senate committee takes up nominees for NASA chief financial officer and inspector general",
+      "url": "https://spacenews.com/senate-committee-takes-up-nominees-for-nasa-chief-financial-officer-and-inspector-general/",
+      "summary": "A Senate committee is set to advance nominations for NASA’s chief financial officer and inspector general. The post Senate committee takes up nominees for NASA chief financial officer and inspector general appeared first",
+      "time": "2026-11-12T00:00:18+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ASI",
+      "lang": "it",
+      "title": "Aperte le iscrizioni 2027 a “UNO SPAZIO DI CLASSE",
+      "url": "https://www.asi.it/2026/11/aperte-le-iscrizioni-2027-a-uno-spazio-di-classe/",
+      "summary": "A lezione di Spazio con l’Agenzia Spaziale Italiana” il progetto didattico-divulgativo che ti fa incontrare gli/le esperti/e di missioni spaziali. [&#8230;]",
+      "time": "2026-11-11T16:03:10+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "Moog Marks 25 Years Since ESPA Design Milestone: Innovating Space Rideshare",
+      "url": "https://spacenews.com/moog-marks-25-years-since-espa-design-milestone-innovating-space-rideshare/",
+      "summary": "East Aurora, N.Y. &#8212; Moog Inc. (NYSE: MOG.A and MOG.B) marks 25 years since the Evolved Secondary Payload Adapter (ESPA) ring completed its Critical Design Review in 2001. The pioneering [&#8230;] The post Moog Mark",
+      "time": "2026-11-11T15:53:57+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "Horizon Microtechnologies Targets Constellation-Scale Production As Esa Phi-Lab Selection Strengthens Industrialisation Push",
+      "url": "https://spacenews.com/horizon-microtechnologies-targets-constellation-scale-production-as-esa-phi-lab-selection-strengthens-industrialisation-push/",
+      "summary": "(Karlsruhe, Germany, September 29th 2026) Horizon Microtechnologies is accelerating industrialisation of its metallised polymer micro-additive manufacturing platform through IP-MASS, a two-year scale-up project supported",
+      "time": "2026-11-11T13:00:00+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ASI",
+      "lang": "it",
+      "title": "Diritto spaziale: a Malindi il corso di formazione ASI-UNOOSA",
+      "url": "https://www.asi.it/2026/11/diritto-spaziale-a-malindi-il-corso-di-formazione-asi-unoosa/",
+      "summary": "L&#8217;iniziativa si inserisce tra le attività della Presidenza italiana del COPUOS in linea con gli obiettivi del Piano Mattei per l&#8217;Africa [&#8230;]",
+      "time": "2026-11-11T08:52:25+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "European Spaceflight",
+      "lang": "en",
+      "title": "Fire Damage Delays Installation of Simulated Lunar Greenhouse in Germany",
+      "url": "https://europeanspaceflight.com/fire-damage-delays-installation-of-simulated-lunar-greenhouse-in-germany/",
+      "summary": "A fire at an external contractor&#8217;s facility has delayed the installation of a containerised greenhouse designed to simulate growing crops on the Moon. According to a response to a parliamentary inquiry published by",
+      "time": "2026-11-11T07:00:36+00:00"
+    },
     {
       "section": "orbita",
       "source": "European Spaceflight",
@@ -209,60 +263,6 @@
       "url": "https://europeanspaceflight.com/isar-aerospace-could-launch-third-spectrum-rocket-as-early-as-26-november/",
       "summary": "German launch company Isar Aerospace could attempt the third flight of its Spectrum rocket from Andøya Spaceport in Norway as early as 26 November, according to an aviation notice published on 28 October. The notice, pub",
       "time": "2026-11-10T07:04:22+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "AstronautiNEWS",
-      "lang": "it",
-      "title": "L’ESA prosegue lo sviluppo del propulsore Prometheus",
-      "url": "https://www.astronautinews.it/2026/11/lesa-prosegue-lo-sviluppo-del-propulsore-prometheus/",
-      "summary": "Si è conclusa lo scorso 29 ottobre 2026 la campagna di collaudi del nuovo propulsore Prometheus che l'Agenzia spaziale europea ha tenuto presso il banco prova P5 di Lampoldshausen, Germania. Prometheus, la cui costruzion",
-      "time": "2026-11-09T17:00:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "European Spaceflight",
-      "lang": "en",
-      "title": "UK Government Investment Secures More Than 25% Stake in SaxaVord",
-      "url": "https://europeanspaceflight.com/uk-government-investment-secures-more-than-25-stake-in-saxavord/",
-      "summary": "The UK Government has secured a stake of more than 25% in SaxaVord Spaceport following the completion of a £60 million public-private investment agreement in late October. According to a filing submitted to Companies Hou",
-      "time": "2026-11-09T14:29:42+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "CCIA Report Highlights Satellite Connectivity’s Potential to Expand Internet Access and Drive Economic Growth",
-      "url": "https://spacenews.com/ccia-report-highlights-satellite-connectivitys-potential-to-expand-internet-access-and-drive-economic-growth/",
-      "summary": "Washington — The Computer &#38; Communications Industry Association today released Connecting the World: Unlocking the Potential of Satellite Connectivity, a new report examining how satellite technology can expand inter",
-      "time": "2026-11-09T14:00:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ASI",
-      "lang": "it",
-      "title": "IOD/IOV: nuova procedura competitiva ASI per la dimostrazione e validazione in orbita di tecnologie innovative",
-      "url": "https://www.asi.it/2026/11/iod-iov-nuova-procedura-competitiva-asi-per-la-dimostrazione-e-validazione-in-orbita-di-tecnologie-innovative/",
-      "summary": "Bando rivolto a start-up, grandi e piccole imprese, organismi di ricerca e università, in forma singola o associata [&#8230;]",
-      "time": "2026-11-09T11:45:35+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ASI",
-      "lang": "it",
-      "title": "L’ASI presenta il modello di MPH al MAX POWER",
-      "url": "https://www.asi.it/2026/11/lasi-presenta-il-modello-di-mph-al-max-power/",
-      "summary": "Il nuovo airshow americano si è svolto presso il Kennedy Space Center della Nasa [&#8230;]",
-      "time": "2026-11-09T08:00:17+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "European Spaceflight",
-      "lang": "en",
-      "title": "RFA Confirms Inaugural RFA ONE Launch Has Slipped to 2027",
-      "url": "https://europeanspaceflight.com/rfa-confirms-inaugural-rfa-one-launch-has-slipped-to-2027/",
-      "summary": "German launch company Rocket Factory Augsburg (RFA) has confirmed that it is now targeting 2027 for the inaugural flight of its RFA ONE rocket from a Scottish launch facility. The revised target for the rocket’s inaugura",
-      "time": "2026-11-09T07:00:49+00:00"
     }
   ]
 }
