@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T05:32:17.200236+00:00",
+  "updated": "2026-11-13T05:30:39.031430+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -59,10 +59,91 @@
       "section": "atomo",
       "source": "World Nuclear News",
       "lang": "en",
+      "title": "AtkinsRéalis producing study for six-unit Candu plant in Turkey",
+      "url": "https://www.world-nuclear-news.org/articles/atkinsrealis-producing-study-for-six-unit-candu-plant-in-turkey",
+      "summary": "AtkinsR&eacute;alis's Candu Energy Inc and state-owned T&uuml;rkiye N&uuml;kleer Enerji Anonim Şirketi have signed a memorandum of agreement which includes a feasibility study for a potential 4.5 GW plant featuring up to",
+      "time": "2026-11-12T14:05:57+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "First steam generator installed at Lufeng unit 1",
+      "url": "https://www.world-nuclear-news.org/articles/first-steam-generator-installed-at-lufeng-unit-1",
+      "summary": "The first of two steam generators has been installed at unit 1 of the Lufeng nuclear power plant in China's Guangdong province, China Nuclear Industry 23 Construction Company Limited has announced. &nbsp;",
+      "time": "2026-11-12T12:03:39+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Mochovce 4's power increased to 35%",
+      "url": "https://www.world-nuclear-news.org/articles/mochovce-4s-power-increased-to-35",
+      "summary": "The power output of the fourth unit at Slovakia's Mochovce Nuclear Power Plant has been increased to 35% as the new reactor continues its commissioning process. &nbsp;",
+      "time": "2026-11-12T11:55:18+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "US test reactor cleared for operations",
+      "url": "https://www.world-nuclear-news.org/articles/us-test-reactor-cleared-for-operations",
+      "summary": "Oklo's Groves Isotope Test Reactor has been cleared for unrestricted operations by the US Department of Energy. &nbsp;",
+      "time": "2026-11-12T11:30:09+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "NucNet",
+      "lang": "en",
+      "title": "OPG Begins ‘Comprehensive Assessment’ As Canada SMR Project Faces Delays And Budget Overruns",
+      "url": "https://www.nucnet.org/news/opg-begins-comprehensive-assessment-as-canada-smr-project-faces-delays-and-budget-overruns-11-4-2026",
+      "summary": "The first of four BWRX-300 small modular reactors (SMRs) under construction at the Darlington nuclear site in Canada will not be on schedule or to budget, Ontario Power Generation (OPG) has said. OPG said in its 2026 thi",
+      "time": "2026-11-12T09:09:41+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Bids invited for construction of UK prototype fusion plant",
+      "url": "https://www.world-nuclear-news.org/articles/bids-invited-for-construction-of-uk-prototype-fusion-plant",
+      "summary": "UK Fusion Energy is seeking tenders for five engineering contracts worth up to GBP115 million (USD152 million) covering the design, integration, testing and control of key systems needed to operate the planned STEP fusio",
+      "time": "2026-11-12T08:28:42+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "Qualenergia",
+      "lang": "it",
+      "title": "Energy Storage Deployment in the EU",
+      "url": "https://www.qualenergia.it/pro/documenti/energy-storage-deployment-in-the-eu/",
+      "summary": "Titolo completo: Energy Storage Deployment in the EU: Drivers, Barriers and Policy Pathways Un&#8217;analisi della diffusione dei sistemi di accumulo nell’Ue e delle prospettive di crescita al 2030 e al 2040. Quali sono ",
+      "time": "2026-11-12T06:00:58+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "IAEA",
+      "lang": "en",
+      "title": "IAEA Sees Commitment to Operational Safety at Unit 2 of Kori Nuclear Power Plant in Republic of Korea",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-sees-commitment-to-operational-safety-at-unit-2-of-kori-nuclear-power-plant-in-republic-of-korea",
+      "summary": "",
+      "time": "2026-11-12T00:00:00+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "IAEA",
+      "lang": "en",
+      "title": "World Fusion Outlook 2026: AI, the US $80 Billion Financing Challenge and Future Deployment Scenarios",
+      "url": "http://www.iaea.org/newscenter/news/world-fusion-outlook-2026-ai-the-us-80-billion-financing-challenge-and-future-deployment-scenarios",
+      "summary": "",
+      "time": "2026-11-12T00:00:00+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
       "title": "Dome installed at Pakistan's Chashma unit 5",
       "url": "https://www.world-nuclear-news.org/articles/dome-installed-at-pakistans-chashma-unit-5",
       "summary": "The inner safety dome has been installed on the containment building of unit 5 at the Chashma nuclear power plant site in Pakistan. &nbsp;",
-      "time": "2026-11-16T14:38:25+00:00"
+      "time": "2026-11-11T16:38:25+00:00"
     },
     {
       "section": "atomo",
@@ -81,90 +162,72 @@
       "url": "https://www.world-nuclear-news.org/articles/russia-proposes-carbon-credits-framework-for-smrs",
       "summary": "An international methodology to allow small modular reactors to qualify for carbon credits under the terms of the Paris Agreement has been proposed to the UN's climate/COP secretariat by Russia's state nuclear corporatio",
       "time": "2026-11-11T12:54:41+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Study analyses economic impact of Greek nuclear power plant",
-      "url": "https://www.world-nuclear-news.org/articles/study-analyses-economic-impact-of-greek-nuclear-power-plant",
-      "summary": "The construction of a 1,600 MW nuclear power plant could contribute about EUR4.5 billion (USD5 billion) to Greece's gross domestic product over the full construction period, according to a new study. &nbsp;",
-      "time": "2026-11-11T11:17:00+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "NucNet",
-      "lang": "en",
-      "title": "Pouring Of First Concrete Begins For Nuclear Island At China’s Sanao-4",
-      "url": "https://www.nucnet.org/news/pouring-of-first-concrete-begins-for-nuclear-island-at-china-s-sanao-4-11-3-2026",
-      "summary": "First concrete pouring has begun for the nuclear island of Unit 4 at the Sanao nuclear power station in eastern Chinese province of Zhejiang, project owner China General Nuclear (CGN) announced on Tuesday (10 November). ",
-      "time": "2026-11-11T10:16:11+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "IAEA reviews Jordan's nuclear regulatory framework",
-      "url": "https://www.world-nuclear-news.org/articles/iaea-reviews-jordans-nuclear-regulatory-framework",
-      "summary": "Jordan has a &quot;well-established regulatory framework for nuclear and radiation safety&quot;, an International Atomic Energy Agency mission has said, while also suggesting further enhancements in line with internation",
-      "time": "2026-11-11T08:49:55+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "POWER Magazine",
-      "lang": "en",
-      "title": "The Rise of SMRs: Making the Case for Industrial AI Across the Nuclear Lifecycle",
-      "url": "https://www.powermag.com/the-rise-of-smrs-making-the-case-for-industrial-ai-across-the-nuclear-lifecycle/",
-      "summary": "Small modular reactors (SMRs) are emerging as a potentially critical part of the future power mix. Only a year ago, SMRs were still framed as a promising but distant technology. But that’s all changed as electricity dema",
-      "time": "2026-11-10T17:39:23+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "US issues landmark construction permit for Texas SMR plant",
-      "url": "https://www.world-nuclear-news.org/articles/us-issues-landmark-construction-permit-for-texas-smr-plant",
-      "summary": "The US Nuclear Regulatory Commission has issued a construction permit for the proposed plant featuring four Xe-100 small modular reactor units at Dow's Seadrift site - the first construction permit for a high-temperature",
-      "time": "2026-11-10T15:56:26+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "POWER Magazine",
-      "lang": "en",
-      "title": "The Midterm Elections Opened a Bipartisan Path on Nuclear Waste",
-      "url": "https://www.powermag.com/the-midterm-elections-opened-a-bipartisan-path-on-nuclear-waste/",
-      "summary": "The 2026 midterms delivered a clear warning to anyone who thinks communities will accept major energy projects simply because Washington or Wall Street says they are strategic. Voters are worried about costs, local contr",
-      "time": "2026-11-10T14:55:13+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "NucNet",
-      "lang": "en",
-      "title": "UK Nuclear Professionals Confident, But Warn Of Uncertainties And Challenges",
-      "url": "https://www.nucnet.org/news/uk-nuclear-professionals-confident-but-warn-of-uncertainties-and-challenges-11-2-2026",
-      "summary": "Nuclear professionals are confident about the future of the UK industry, but warn that funding uncertainty, skills shortages and challenges delivering major projects could hamper its growth, according to new research fro",
-      "time": "2026-11-10T14:34:27+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Fourth Hualong One under construction at San'ao site",
-      "url": "https://www.world-nuclear-news.org/articles/fourth-hualong-one-under-construction-at-sanao-site",
-      "summary": "The first concrete has been poured for the nuclear island of unit 4 of the San'ao nuclear power plant in China's Zhejiang province, China General Nuclear has announced. &nbsp;",
-      "time": "2026-11-10T12:37:10+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "NucNet",
-      "lang": "en",
-      "title": "Estonia Shortlists Three Locations For First BWRX-300 Nuclear Power Plant",
-      "url": "https://www.nucnet.org/news/estonia-shortlists-three-locations-for-first-bwrx-300-nuclear-power-plant-11-2-2026",
-      "summary": "Estonia said it will now focus on three potential locations in the Viru-Nigula region in the north of the country for the development of its first nuclear power plants having discarded three sites for what it called “nat",
-      "time": "2026-11-10T11:48:03+00:00"
     }
   ],
   "orbita": [
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "AST SpaceMobile presses case for developing own launch vehicle",
+      "url": "https://spacenews.com/ast-spacemobile-presses-case-for-developing-own-launch-vehicle/",
+      "summary": "AST SpaceMobile executives expressed confidence in the company’s ability to field a new reusable launch vehicle in just two years despite widespread industry skepticism. The post AST SpaceMobile presses case for developi",
+      "time": "2026-11-13T01:15:21+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "UARX Space Marks a Milestone for Spain’s Space Industry with the Maiden Flight of OSSIE-D, Featuring a Complete Power Subsystem Supplied by DHV Technology",
+      "url": "https://spacenews.com/uarx-space-marks-a-milestone-for-spains-space-industry-with-the-maiden-flight-of-ossie-d-featuring-a-complete-power-subsystem-supplied-by-dhv-technology/",
+      "summary": "Nigrán, Spain &#124; November 12 2026 – UARX Space has achieved a major milestone for Spain’s space industry with the deployment of OSSIE-D, an Orbital Transfer Vehicle (OTV) designed and [&#8230;] The post UARX Space Ma",
+      "time": "2026-11-12T20:00:00+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "What role does industry play in Europe’s space sovereignty push?",
+      "url": "https://spacenews.com/what-role-does-industry-play-in-europes-space-sovereignty-push/",
+      "summary": "In this episode, SpaceNews’ Jason Rainbow interviews Atle Woello, the CEO and senior vice president of the space systems and surveillance business unit at Kongsberg NanoAvionics. They discuss the role [&#8230;] The post ",
+      "time": "2026-11-12T19:40:35+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ASI",
+      "lang": "it",
+      "title": "Incontro bilaterale tra il ministro Urso e il commissario europeo Kubilius",
+      "url": "https://www.asi.it/2026/11/incontro-bilaterale-tra-il-ministro-urso-e-il-commissario-europeo-kubilius/",
+      "summary": "Il ministro Adolfo Urso, delegato alle politiche spaziali e aerospaziali e il commissario UE per la Difesa e lo Spazio Andrius Kubilius si sono incontrati al MIMIT [&#8230;]",
+      "time": "2026-11-12T16:08:26+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ESA",
+      "lang": "en",
+      "title": "Hera spies a half-hidden asteroid moonlet",
+      "url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/hera-spies-a-half-hidden-asteroid-moonlet",
+      "summary": "Another early preview of the Didymos binary asteroid system from ESA’s Hera mission for planetary defence. Acquired from 56 km away, this image shows one face of the main 780-m-diameter Didymos asteroid. A small part of ",
+      "time": "2026-11-12T14:04:57+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ASI",
+      "lang": "it",
+      "title": "Euclid inizia a costruire la più grande mappa del cosmo",
+      "url": "https://www.asi.it/2026/11/euclid-inizia-a-costruire-la-piu-grande-mappa-del-cosmo/",
+      "summary": "Il satellite ha pubblicato il suo primo grande catalogo astronomico, con quasi un miliardo di galassie [&#8230;]",
+      "time": "2026-11-12T11:25:42+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "European Spaceflight",
+      "lang": "en",
+      "title": "ESA Explains Delay in Signing MaiaSpace Launcher Challenge Contract",
+      "url": "https://europeanspaceflight.com/esa-explains-delay-in-signing-maiaspace-launcher-challenge-contract/",
+      "summary": "The European Space Agency (ESA) has revealed that MaiaSpace&#8217;s decision to pursue a different funding arrangement from its competitors has complicated negotiations over its European Launcher Challenge contract. Spea",
+      "time": "2026-11-12T10:36:32+00:00"
+    },
     {
       "section": "orbita",
       "source": "SpaceNews",
@@ -209,60 +272,6 @@
       "url": "https://www.asi.it/2026/11/diritto-spaziale-a-malindi-il-corso-di-formazione-asi-unoosa/",
       "summary": "L&#8217;iniziativa si inserisce tra le attività della Presidenza italiana del COPUOS in linea con gli obiettivi del Piano Mattei per l&#8217;Africa [&#8230;]",
       "time": "2026-11-11T08:52:25+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "European Spaceflight",
-      "lang": "en",
-      "title": "Fire Damage Delays Installation of Simulated Lunar Greenhouse in Germany",
-      "url": "https://europeanspaceflight.com/fire-damage-delays-installation-of-simulated-lunar-greenhouse-in-germany/",
-      "summary": "A fire at an external contractor&#8217;s facility has delayed the installation of a containerised greenhouse designed to simulate growing crops on the Moon. According to a response to a parliamentary inquiry published by",
-      "time": "2026-11-11T07:00:36+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "European Spaceflight",
-      "lang": "en",
-      "title": "DLR to Purchase 80 Red Kite Sounding Rocket Motors",
-      "url": "https://europeanspaceflight.com/dlr-to-purchase-80-red-kite-sounding-rocket-motors/",
-      "summary": "The German Aerospace Center (DLR) is preparing to purchase 80 Red Kite solid rocket motors from German defence company Bayern-Chemie to support future sounding rocket missions. According to a procurement notice published",
-      "time": "2026-11-10T15:44:40+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "Kratos and Seagate Space Partner to Advance Mobile Offshore Launch Capabilities for National Security Missions",
-      "url": "https://spacenews.com/kratos-and-seagate-space-partner-to-advance-mobile-offshore-launch-capabilities-for-national-security-missions/",
-      "summary": "SAN DIEGO, CA, November 10, 2026 &#8211; Kratos Defense &#38; Security Solutions, Inc., a technology company in defense, national security, and global markets, today announced a long-term agreement with Seagate [&#8230;]",
-      "time": "2026-11-10T14:00:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ESA",
-      "lang": "en",
-      "title": "European orbiter detects hints of volcanic activity on Mars",
-      "url": "https://www.esa.int/articles/news-media/news/european-orbiter-detects-hints-of-volcanic-activity-on-mars",
-      "summary": "New evidence from gas seeping above volcanic rifts suggests Mars is not geologically dead deep inside, but merely sleeping.",
-      "time": "2026-11-10T12:02:37+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "ESCAPADE on its way to Mars after Earth flybys",
-      "url": "https://spacenews.com/escapade-on-its-way-to-mars-after-earth-flybys/",
-      "summary": "Two NASA smallsats are headed toward Mars after completing flybys of Earth nearly a year after their launch. The post ESCAPADE on its way to Mars after Earth flybys appeared first on SpaceNews.",
-      "time": "2026-11-10T08:01:39+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "European Spaceflight",
-      "lang": "en",
-      "title": "Isar Aerospace Could Launch Third Spectrum Rocket as Early as 26 November",
-      "url": "https://europeanspaceflight.com/isar-aerospace-could-launch-third-spectrum-rocket-as-early-as-26-november/",
-      "summary": "German launch company Isar Aerospace could attempt the third flight of its Spectrum rocket from Andøya Spaceport in Norway as early as 26 November, according to an aviation notice published on 28 October. The notice, pub",
-      "time": "2026-11-10T07:04:22+00:00"
     }
   ]
 }
