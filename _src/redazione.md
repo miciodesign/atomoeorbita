@@ -126,3 +126,11 @@ Bussola: Google può dare la risposta semplice; Atomo e Orbita deve dare al lett
 Modifiche del 6/11: titolo SMR → "SMR: cosa sono i piccoli reattori modulari e perché se ne parla tanto" (+ description); mappa → "Mappa delle centrali nucleari nel mondo e delle basi spaziali" con pulsanti ☢️/🚀; box percorso in tutti gli articoli; newsletter "Ogni lunedì, in 5 minuti…". Verificare effetto su CTR dal 13/11.
 
 Checklist SEO del 12/11 (dal consulente di Roberto): applicata. Titolo SMR → "SMR: significato, cosa sono e come funzionano i piccoli reattori nucleari" con H2 Cosa significa / Come funziona / Vantaggi / Europa / Italia; scheda Numeri → "Centrali nucleari nel mondo: quante sono e dove si trovano" con sezione "Quante centrali…", top 5 paesi e link alle zone della mappa; mappa con nota 443/79 e link alla scheda. SMR Italia esiste già (3/11). **Da qui: non toccare titoli e testi di queste pagine fino al 7 dicembre**; si guarda solo Search Console (query, impressioni, clic, CTR, posizione).
+
+## Nuova identità visiva: "Archivio tecnico" (decisa il 14 novembre 2026)
+Motivo: il vecchio stile (fondo scuro, turchese #3DDCC8, Space Grotesk) è molto diffuso tra i siti tech. Scelta di Roberto: fondo chiaro, più autorevole.
+- Colori: carta avorio #F3EFE6, carta chiara #FBF8F2, inchiostro #1C1B18, grigio #6B655A, linee #DDD5C5, accento rosso mattone #B4321C (hover #8E2614), verde secondario #2F5D50.
+- Caratteri: titoli Fraunces (600), testo Newsreader, etichette/menu/date IBM Plex Mono 500. Self-hosted.
+- Bozza CSS di prova: `_src/tema-nuovo/archivio-tecnico.css`.
+- Da adattare: mappa in versione chiara (carta geografica), logo/favicon/og-image, newsletter Brevo, avatar e banner YouTube, profilo e copertina Facebook, LinkedIn, card degli Short (restano su fondo scuro ma con rosso mattone e caratteri nuovi).
+- **Data del cambio: 8 dicembre 2026**, dopo la "fotografia" Search Console a 30 giorni del 7 dicembre, così i numeri restano confrontabili. La grafica social si prepara prima, e il cambio si fa tutto insieme.

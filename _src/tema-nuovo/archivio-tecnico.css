@@ -1,0 +1,18 @@
+@font-face{font-family:Fraunces;src:url(/_pf/fraunces-latin-opsz-normal.woff2);font-weight:100 900}
+@font-face{font-family:Newsreader;src:url(/_pf/newsreader-latin-opsz-normal.woff2);font-weight:200 800}
+@font-face{font-family:Newsreader;font-style:italic;src:url(/_pf/newsreader-latin-opsz-italic.woff2);font-weight:200 800}
+@font-face{font-family:"IBM Plex Mono";src:url(/_pf/ibm-plex-mono-latin-500-normal.woff2);font-weight:400 600}
+@font-face{font-family:"IBM Plex Sans Condensed";src:url(/_pf/ibm-plex-sans-condensed-latin-500-normal.woff2);font-weight:500}
+@font-face{font-family:"IBM Plex Sans Condensed";src:url(/_pf/ibm-plex-sans-condensed-latin-600-normal.woff2);font-weight:600}
+@font-face{font-family:"IBM Plex Sans Condensed";src:url(/_pf/ibm-plex-sans-condensed-latin-700-normal.woff2);font-weight:700}
+@font-face{font-family:Literata;src:url(/_pf/literata-latin-opsz-normal.woff2);font-weight:200 900}
+@font-face{font-family:Literata;font-style:italic;src:url(/_pf/literata-latin-opsz-italic.woff2);font-weight:200 900}
+:root{--bg:#F3EFE6;--paper:#FBF8F2;--ink:#1C1B18;--muted:#6B655A;--line:#DDD5C5;--accent:#B4321C;--accent-ink:#FBF8F2;--accent-soft:rgba(180,50,28,.08);
+--light-bg:#1C1B18;--light-ink:#F3EFE6;--light-muted:#C9C1B2;--light-accent:#E07A5F;--display:'Fraunces',Georgia,serif;--body:'Newsreader',Georgia,serif}
+a:hover{color:#8E2614}.lead,.pillar-card p,.article-body blockquote,.rassegna-band-text,.dossier-card:first-child p{color:#4A453C}
+.btn:hover,.nav .nav-cta:hover{background:#8E2614;color:#FBF8F2}.nl-form input{border-color:#CFC7B6}
+.eyebrow,.kicker,.post-cat,.nav a,.btn,.more,.crumbs,.meta{font-family:'IBM Plex Mono',monospace!important;letter-spacing:.08em}
+h1,h2,h3,h4{font-weight:600;letter-spacing:-.015em}
+.dossier-card{background:#2A2824;border-color:#3A372F;color:#F3EFE6}.dossier-card .post-cat{color:#C9C1B2}
+.hero-img figcaption{color:var(--muted)}
+.map.leaflet-container,.map{background:#E6E0D2}
