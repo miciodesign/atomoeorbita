@@ -5,6 +5,7 @@ foto: cerca:Onkalo repository tunnel | cerca:Onkalo Olkiluoto
 category: atomo
 date: 2026-10-18
 description: L'Italia ha 33.766 metri cubi di rifiuti radioattivi sparsi in decine di depositi temporanei, un Deposito nazionale che aspetta un sito dal 2021 e combustibile esaurito all'estero che prima o poi tornerà. I numeri, senza allarmismi e senza minimizzare.
+updated: 2026-11-14
 format: analisi
 ---
 Chi discute di nuovo nucleare in Italia arriva sempre allo stesso punto: "e le scorie?". È la domanda giusta, ma la risposta non comincia dal futuro. Comincia da un fatto che pochi hanno presente: **l'Italia ha già rifiuti radioattivi, ne ha da sessant'anni, e non ha ancora un posto dove metterli in via definitiva**. Vale la pena guardare i numeri prima di discutere di reattori che non esistono.
@@ -15,7 +16,7 @@ L'inventario tenuto dall'ISIN, l'Ispettorato nazionale per la sicurezza nucleare
 
 La composizione conta più del totale. Secondo i dati ISIN, il **99% in volume è a bassa o molto bassa attività**: guanti, tute, filtri, rottami metallici, materiali da smantellamento. Sono rifiuti la cui radioattività decade a livelli trascurabili in circa 300 anni, e che si gestiscono in depositi di superficie ingegnerizzati, come fanno Francia, Spagna, Regno Unito e decine di altri paesi.
 
-La frazione a media e alta attività è piccola in volume ma è quella che pesa: concentra quasi tutta la radioattività e, per la parte ad alta attività, richiede un isolamento per decine di migliaia di anni. Qui la soluzione è un deposito geologico profondo, che oggi nessun paese al mondo ha in esercizio, con la Finlandia prossima a essere la prima.
+La frazione a media e alta attività è piccola in volume ma è quella che pesa: concentra quasi tutta la radioattività e, per la parte ad alta attività, richiede un isolamento per decine di migliaia di anni. Qui la soluzione è un deposito geologico profondo. Il primo al mondo è finlandese: il 22 ottobre 2026 il governo di Helsinki ha dato la licenza di esercizio a [Onkalo](/confine/onkalo-themis-infrastrutture-lunghe/), scavato nel granito a circa 450 metri di profondità.
 
 Da dove vengono questi rifiuti, se le centrali sono chiuse dal 1987? Da tre fonti: lo smantellamento delle quattro centrali (Trino, Caorso, Latina, Garigliano) e degli impianti del ciclo del combustibile (Saluggia, Rotondella, Bosco Marengo, Casaccia); la ricerca; e, ogni giorno, **medicina, industria e laboratori**, che producono rifiuti radioattivi a prescindere da qualunque scelta energetica. È il motivo per cui il ministro Pichetto Fratin ha potuto dire, nel 2025, che le scorie "esistono e sono già tra noi".
 
