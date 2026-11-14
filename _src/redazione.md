@@ -141,3 +141,6 @@ Seconda analisi SEO (14/11, 1.420 impressioni / 20 clic in 3 mesi): quasi tutto 
 - **GoatCounter** (atomoeorbita.goatcounter.com, account di Roberto su redazione@): visite reali di tutte le provenienze, senza cookie. Script in base.html, privacy aggiornata.
 - **Bing Webmaster Tools**: sito aggiunto, sitemap inviata il 14/11 (38 URL). Alimenta anche Copilot/ChatGPT/DuckDuckGo.
 - Idee in coda per attirare visite: LinkedIn (anche rete del corso CIM Nuclear Academy dal 26/11), proporre la mappa ad associazioni di settore (backlink), Dossier PDF come regalo per l'iscrizione alla newsletter. Niente pubblicità a pagamento per ora.
+
+## eBook per studenti (deciso il 14/11)
+"Nucleare e spazio, spiegati bene. Guida per studenti": PDF gratuito + pagina web, con invito a iscriversi a Il Punto. Indice in `_src/ebook/indice.md`. Uscita metà dicembre, impaginato con la nuova identità.
