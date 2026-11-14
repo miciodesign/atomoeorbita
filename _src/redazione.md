@@ -136,3 +136,8 @@ Motivo: il vecchio stile (fondo scuro, turchese #3DDCC8, Space Grotesk) è molto
 - **Data del cambio: 8 dicembre 2026**, dopo la "fotografia" Search Console a 30 giorni del 7 dicembre, così i numeri restano confrontabili. La grafica social si prepara prima, e il cambio si fa tutto insieme.
 
 Seconda analisi SEO (14/11, 1.420 impressioni / 20 clic in 3 mesi): quasi tutto già applicato il 6 e il 12/11. Unico punto in sospeso, **da fare il 7 dicembre se la pagina SMR è ancora a zero clic**: far iniziare la meta description con la definizione ("SMR significa Small Modular Reactor, cioè piccolo reattore modulare: …"). Corretto il 14/11 l'articolo sulle scorie (Onkalo ha la licenza dal 22/10, ora linkato).
+
+## Misurazione (dal 14 novembre 2026)
+- **GoatCounter** (atomoeorbita.goatcounter.com, account di Roberto su redazione@): visite reali di tutte le provenienze, senza cookie. Script in base.html, privacy aggiornata.
+- **Bing Webmaster Tools**: sito aggiunto, sitemap inviata il 14/11 (38 URL). Alimenta anche Copilot/ChatGPT/DuckDuckGo.
+- Idee in coda per attirare visite: LinkedIn (anche rete del corso CIM Nuclear Academy dal 26/11), proporre la mappa ad associazioni di settore (backlink), Dossier PDF come regalo per l'iscrizione alla newsletter. Niente pubblicità a pagamento per ora.
