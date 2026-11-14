@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T05:30:39.031430+00:00",
+  "updated": "2026-11-14T05:24:51.214814+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -59,10 +59,73 @@
       "section": "atomo",
       "source": "World Nuclear News",
       "lang": "en",
+      "title": "BWXT manufacturing facility expansion complete",
+      "url": "https://www.world-nuclear-news.org/articles/bwxt-manufacturing-facility-expansion-complete",
+      "summary": "The CAD80 million (USD56 million) investment in the Cambridge, Ontario facility significantly expands BWX Technologies' capacity to manufacture large-scale nuclear components for both conventional and advanced reactors o",
+      "time": "2026-11-13T15:23:46+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Industry urges nuclear recognition in COP31's 35-by-35 pledge",
+      "url": "https://www.world-nuclear-news.org/articles/industry-urges-nuclear-recognition-in-cop31s-35-by-35-pledge",
+      "summary": "The role that nuclear can play in achieving the COP31 summit's pledge to increase electricity to 35% of energy demand by 2035 should be acknowledged, industry leaders have said, with nuclear construction at a 40-year hig",
+      "time": "2026-11-13T12:51:20+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Centrus, Oklo deal secures fuel for Ohio reactor deployment",
+      "url": "https://www.world-nuclear-news.org/articles/centrus-oklo-deal-secures-fuel-for-ohio-reactor-deployment",
+      "summary": "Centrus and&nbsp;Oklo&nbsp;have finalised agreements securing&nbsp;fuel to power up to five Aurora powerhouses for multiple years&nbsp;at a 1.2 GW Ohio campus for tech giant Meta, an agreement which helps Centrus's capac",
+      "time": "2026-11-13T10:41:28+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Strength and leak tests completed for Akkuyu 1 containment",
+      "url": "https://www.world-nuclear-news.org/articles/strength-and-leak-tests-completed-for-akkuyu-1-containment",
+      "summary": "The air pressure was increased during pre-launch tests, which lasted eight days, to check the strength and leak tightness of the internal containment building for Akkuyu nuclear power plant's first unit. &nbsp;",
+      "time": "2026-11-13T10:33:57+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "Qualenergia",
+      "lang": "it",
+      "title": "Accumuli in Europa, cosa spinge il mercato e quali ostacoli frenano gli investimenti",
+      "url": "https://www.qualenergia.it/pro/articoli-pro/accumuli-europa-cosa-spinge-mercato-ostacoli-frenano-investimenti/",
+      "summary": "La diffusione dei sistemi di accumulo nell&#8217;Unione europea sta accelerando, sostenuta dalla crescente penetrazione delle rinnovabili, dalla riduzione dei costi delle batterie e dalle nuove opportunità di remunerazio",
+      "time": "2026-11-13T08:00:17+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "IAEA",
+      "lang": "en",
+      "title": "IAEA Concludes Long Term Operation Safety Review at Japan’s Mihama Nuclear Power Plant",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-concludes-long-term-operation-safety-review-at-japans-mihama-nuclear-power-plant",
+      "summary": "",
+      "time": "2026-11-13T00:00:00+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
       "title": "AtkinsRéalis producing study for six-unit Candu plant in Turkey",
       "url": "https://www.world-nuclear-news.org/articles/atkinsrealis-producing-study-for-six-unit-candu-plant-in-turkey",
       "summary": "AtkinsR&eacute;alis's Candu Energy Inc and state-owned T&uuml;rkiye N&uuml;kleer Enerji Anonim Şirketi have signed a memorandum of agreement which includes a feasibility study for a potential 4.5 GW plant featuring up to",
       "time": "2026-11-12T14:05:57+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "POWER Magazine",
+      "lang": "en",
+      "title": "What It Takes to Succeed: Commercial Nuclear Delivered at Scale",
+      "url": "https://www.powermag.com/partner-content/what-it-takes-to-succeed-commercial-nuclear-delivered-at-scale/",
+      "summary": "A new generation of nuclear projects is advancing toward construction, as the industry works to develop the engineering, commercial, and industrial capabilities needed to deliver power plants predictably and at scale. Fr",
+      "time": "2026-11-12T13:50:37+00:00"
     },
     {
       "section": "atomo",
@@ -84,15 +147,6 @@
     },
     {
       "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "US test reactor cleared for operations",
-      "url": "https://www.world-nuclear-news.org/articles/us-test-reactor-cleared-for-operations",
-      "summary": "Oklo's Groves Isotope Test Reactor has been cleared for unrestricted operations by the US Department of Energy. &nbsp;",
-      "time": "2026-11-12T11:30:09+00:00"
-    },
-    {
-      "section": "atomo",
       "source": "NucNet",
       "lang": "en",
       "title": "OPG Begins ‘Comprehensive Assessment’ As Canada SMR Project Faces Delays And Budget Overruns",
@@ -108,63 +162,36 @@
       "url": "https://www.world-nuclear-news.org/articles/bids-invited-for-construction-of-uk-prototype-fusion-plant",
       "summary": "UK Fusion Energy is seeking tenders for five engineering contracts worth up to GBP115 million (USD152 million) covering the design, integration, testing and control of key systems needed to operate the planned STEP fusio",
       "time": "2026-11-12T08:28:42+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "Qualenergia",
-      "lang": "it",
-      "title": "Energy Storage Deployment in the EU",
-      "url": "https://www.qualenergia.it/pro/documenti/energy-storage-deployment-in-the-eu/",
-      "summary": "Titolo completo: Energy Storage Deployment in the EU: Drivers, Barriers and Policy Pathways Un&#8217;analisi della diffusione dei sistemi di accumulo nell’Ue e delle prospettive di crescita al 2030 e al 2040. Quali sono ",
-      "time": "2026-11-12T06:00:58+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "IAEA",
-      "lang": "en",
-      "title": "IAEA Sees Commitment to Operational Safety at Unit 2 of Kori Nuclear Power Plant in Republic of Korea",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-sees-commitment-to-operational-safety-at-unit-2-of-kori-nuclear-power-plant-in-republic-of-korea",
-      "summary": "",
-      "time": "2026-11-12T00:00:00+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "IAEA",
-      "lang": "en",
-      "title": "World Fusion Outlook 2026: AI, the US $80 Billion Financing Challenge and Future Deployment Scenarios",
-      "url": "http://www.iaea.org/newscenter/news/world-fusion-outlook-2026-ai-the-us-80-billion-financing-challenge-and-future-deployment-scenarios",
-      "summary": "",
-      "time": "2026-11-12T00:00:00+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Dome installed at Pakistan's Chashma unit 5",
-      "url": "https://www.world-nuclear-news.org/articles/dome-installed-at-pakistans-chashma-unit-5",
-      "summary": "The inner safety dome has been installed on the containment building of unit 5 at the Chashma nuclear power plant site in Pakistan. &nbsp;",
-      "time": "2026-11-11T16:38:25+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "OPG set to revise timeline and cost of first SMR unit",
-      "url": "https://www.world-nuclear-news.org/articles/opg-to-revise-timeline-and-cost-of-first-smr-unit",
-      "summary": "The first of four BWRX-300 small modular reactors under construction at the Darlington New Nuclear Project will not be completed within the previously planned timeline or cost, Ontario Power Generation has said. &nbsp;",
-      "time": "2026-11-11T16:03:55+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Russia proposes carbon credits framework for SMRs",
-      "url": "https://www.world-nuclear-news.org/articles/russia-proposes-carbon-credits-framework-for-smrs",
-      "summary": "An international methodology to allow small modular reactors to qualify for carbon credits under the terms of the Paris Agreement has been proposed to the UN's climate/COP secretariat by Russia's state nuclear corporatio",
-      "time": "2026-11-11T12:54:41+00:00"
     }
   ],
   "orbita": [
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "Commercial Space Federation Welcomes CesiumAstro as a New Associate Member",
+      "url": "https://spacenews.com/commercial-space-federation-welcomes-cesiumastro-as-a-new-associate-member/",
+      "summary": "November 13, 2026— Washington, D.C.—The Commercial Space Federation (CSF) is pleased to welcome CesiumAstro as its newest Associate Member. A global leader in advanced connectivity solutions for the space and [&#8230;] T",
+      "time": "2026-11-13T18:00:00+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ASI",
+      "lang": "it",
+      "title": "Navigazione lunare: siglato il contratto per la missione COLLINS",
+      "url": "https://www.asi.it/2026/11/navigazione-lunare-siglato-contratto-per-collins/",
+      "summary": "L&#8217;Agenzia Spaziale Italiana e Qascom firmano un contratto per una nuova missione sulla navigazione lunare [&#8230;]",
+      "time": "2026-11-13T08:00:36+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "European Spaceflight",
+      "lang": "en",
+      "title": "ESA Confirms Latest Prometheus Tests Not Connected to Themis Hop Preparations",
+      "url": "https://europeanspaceflight.com/esa-confirms-latest-prometheus-tests-not-connected-to-themis-hop-preparations/",
+      "summary": "The European Space Agency (ESA) and ArianeGroup have confirmed that Prometheus engine tests conducted in Lampoldshausen in October were carried out independently of preparations for the long-delayed inaugural flight of t",
+      "time": "2026-11-13T07:57:07+00:00"
+    },
     {
       "section": "orbita",
       "source": "SpaceNews",
@@ -208,7 +235,7 @@
       "title": "Hera spies a half-hidden asteroid moonlet",
       "url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/hera-spies-a-half-hidden-asteroid-moonlet",
       "summary": "Another early preview of the Didymos binary asteroid system from ESA’s Hera mission for planetary defence. Acquired from 56 km away, this image shows one face of the main 780-m-diameter Didymos asteroid. A small part of ",
-      "time": "2026-11-12T14:04:57+00:00"
+      "time": "2026-11-12T14:04:40+00:00"
     },
     {
       "section": "orbita",
@@ -227,51 +254,6 @@
       "url": "https://europeanspaceflight.com/esa-explains-delay-in-signing-maiaspace-launcher-challenge-contract/",
       "summary": "The European Space Agency (ESA) has revealed that MaiaSpace&#8217;s decision to pursue a different funding arrangement from its competitors has complicated negotiations over its European Launcher Challenge contract. Spea",
       "time": "2026-11-12T10:36:32+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "Senate committee takes up nominees for NASA chief financial officer and inspector general",
-      "url": "https://spacenews.com/senate-committee-takes-up-nominees-for-nasa-chief-financial-officer-and-inspector-general/",
-      "summary": "A Senate committee is set to advance nominations for NASA’s chief financial officer and inspector general. The post Senate committee takes up nominees for NASA chief financial officer and inspector general appeared first",
-      "time": "2026-11-12T00:00:18+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ASI",
-      "lang": "it",
-      "title": "Aperte le iscrizioni 2027 a “UNO SPAZIO DI CLASSE",
-      "url": "https://www.asi.it/2026/11/aperte-le-iscrizioni-2027-a-uno-spazio-di-classe/",
-      "summary": "A lezione di Spazio con l’Agenzia Spaziale Italiana” il progetto didattico-divulgativo che ti fa incontrare gli/le esperti/e di missioni spaziali. [&#8230;]",
-      "time": "2026-11-11T16:03:10+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "Moog Marks 25 Years Since ESPA Design Milestone: Innovating Space Rideshare",
-      "url": "https://spacenews.com/moog-marks-25-years-since-espa-design-milestone-innovating-space-rideshare/",
-      "summary": "East Aurora, N.Y. &#8212; Moog Inc. (NYSE: MOG.A and MOG.B) marks 25 years since the Evolved Secondary Payload Adapter (ESPA) ring completed its Critical Design Review in 2001. The pioneering [&#8230;] The post Moog Mark",
-      "time": "2026-11-11T15:53:57+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "Horizon Microtechnologies Targets Constellation-Scale Production As Esa Phi-Lab Selection Strengthens Industrialisation Push",
-      "url": "https://spacenews.com/horizon-microtechnologies-targets-constellation-scale-production-as-esa-phi-lab-selection-strengthens-industrialisation-push/",
-      "summary": "(Karlsruhe, Germany, September 29th 2026) Horizon Microtechnologies is accelerating industrialisation of its metallised polymer micro-additive manufacturing platform through IP-MASS, a two-year scale-up project supported",
-      "time": "2026-11-11T13:00:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ASI",
-      "lang": "it",
-      "title": "Diritto spaziale: a Malindi il corso di formazione ASI-UNOOSA",
-      "url": "https://www.asi.it/2026/11/diritto-spaziale-a-malindi-il-corso-di-formazione-asi-unoosa/",
-      "summary": "L&#8217;iniziativa si inserisce tra le attività della Presidenza italiana del COPUOS in linea con gli obiettivi del Piano Mattei per l&#8217;Africa [&#8230;]",
-      "time": "2026-11-11T08:52:25+00:00"
     }
   ]
 }
