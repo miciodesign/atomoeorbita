@@ -17,7 +17,7 @@ Il titolare del trattamento è la redazione di Atomo e Orbita, contattabile a re
 
 **Email.** Se ci scrivi, conserviamo il tuo messaggio e il tuo indirizzo per il tempo necessario a risponderti e, se è una segnalazione, a correggere l'articolo. Non li cediamo a nessuno.
 
-**Statistiche.** Al momento il sito non usa strumenti di analisi del traffico che installino cookie sul tuo dispositivo. Se in futuro li introdurremo, aggiorneremo questa pagina e, dove richiesto, chiederemo il consenso prima di attivarli.
+**Statistiche.** Per sapere quante persone leggono ogni pagina usiamo [GoatCounter](https://www.goatcounter.com/), un servizio di statistiche che **non usa cookie**, non raccoglie dati personali e non ti segue su altri siti. Registra in forma aggregata la pagina visitata, il sito di provenienza (per esempio un motore di ricerca o un social), il tipo di browser e di dispositivo e il paese, ricavato dall'indirizzo IP senza conservarlo. Non serve il tuo consenso e non vediamo chi sei. Se usi un blocco della pubblicità, il conteggio può essere disattivato: va benissimo così.
 
 ## Cookie
 
