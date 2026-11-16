@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T05:26:17.815016+00:00",
+  "updated": "2026-11-16T05:51:40.654347+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -54,62 +54,7 @@
     }
   ],
   "errors": [],
-  "atomo": [
-    {
-      "section": "atomo",
-      "source": "IAEA",
-      "lang": "en",
-      "title": "Update 375 – IAEA Director General Statement on Situation in Ukraine",
-      "url": "http://www.iaea.org/newscenter/pressreleases/update-375-iaea-director-general-statement-on-situation-in-ukraine",
-      "summary": "",
-      "time": "2026-11-14T00:00:00+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "BWXT manufacturing facility expansion complete",
-      "url": "https://www.world-nuclear-news.org/articles/bwxt-manufacturing-facility-expansion-complete",
-      "summary": "The CAD80 million (USD56 million) investment in the Cambridge, Ontario facility significantly expands BWX Technologies' capacity to manufacture large-scale nuclear components for both conventional and advanced reactors o",
-      "time": "2026-11-13T15:23:46+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Industry urges nuclear recognition in COP31's 35-by-35 pledge",
-      "url": "https://www.world-nuclear-news.org/articles/industry-urges-nuclear-recognition-in-cop31s-35-by-35-pledge",
-      "summary": "The role that nuclear can play in achieving the COP31 summit's pledge to increase electricity to 35% of energy demand by 2035 should be acknowledged, industry leaders have said, with nuclear construction at a 40-year hig",
-      "time": "2026-11-13T12:51:20+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Centrus, Oklo deal secures fuel for Ohio reactor deployment",
-      "url": "https://www.world-nuclear-news.org/articles/centrus-oklo-deal-secures-fuel-for-ohio-reactor-deployment",
-      "summary": "Centrus and&nbsp;Oklo&nbsp;have finalised agreements securing&nbsp;fuel to power up to five Aurora powerhouses for multiple years&nbsp;at a 1.2 GW Ohio campus for tech giant Meta, an agreement which helps Centrus's capac",
-      "time": "2026-11-13T10:41:28+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Strength and leak tests completed for Akkuyu 1 containment",
-      "url": "https://www.world-nuclear-news.org/articles/strength-and-leak-tests-completed-for-akkuyu-1-containment",
-      "summary": "The air pressure was increased during pre-launch tests, which lasted eight days, to check the strength and leak tightness of the internal containment building for Akkuyu nuclear power plant's first unit. &nbsp;",
-      "time": "2026-11-13T10:33:57+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "Qualenergia",
-      "lang": "it",
-      "title": "Accumuli in Europa, cosa spinge il mercato e quali ostacoli frenano gli investimenti",
-      "url": "https://www.qualenergia.it/pro/articoli-pro/accumuli-europa-cosa-spinge-mercato-ostacoli-frenano-investimenti/",
-      "summary": "La diffusione dei sistemi di accumulo nell&#8217;Unione europea sta accelerando, sostenuta dalla crescente penetrazione delle rinnovabili, dalla riduzione dei costi delle batterie e dalle nuove opportunità di remunerazio",
-      "time": "2026-11-13T08:00:17+00:00"
-    }
-  ],
+  "atomo": [],
   "orbita": [
     {
       "section": "orbita",
@@ -128,33 +73,6 @@
       "url": "https://europeanspaceflight.com/next-vega-c-launch-edges-closer-to-christmas-day-as-satellites-arrive-late/",
       "summary": "Italian rocket manufacturer Avio has revealed that delays in the delivery of customer satellites have pushed the third Vega C launch of 2026 back toward Christmas, several weeks later than previously planned. Speaking du",
       "time": "2026-11-14T06:00:41+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "Commercial Space Federation Welcomes CesiumAstro as a New Associate Member",
-      "url": "https://spacenews.com/commercial-space-federation-welcomes-cesiumastro-as-a-new-associate-member/",
-      "summary": "November 13, 2026— Washington, D.C.—The Commercial Space Federation (CSF) is pleased to welcome CesiumAstro as its newest Associate Member. A global leader in advanced connectivity solutions for the space and [&#8230;] T",
-      "time": "2026-11-13T18:00:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ASI",
-      "lang": "it",
-      "title": "Navigazione lunare: siglato il contratto per la missione COLLINS",
-      "url": "https://www.asi.it/2026/11/navigazione-lunare-siglato-contratto-per-collins/",
-      "summary": "L&#8217;Agenzia Spaziale Italiana e Qascom firmano un contratto per una nuova missione sulla navigazione lunare [&#8230;]",
-      "time": "2026-11-13T08:00:36+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "European Spaceflight",
-      "lang": "en",
-      "title": "ESA Confirms Latest Prometheus Tests Not Connected to Themis Hop Preparations",
-      "url": "https://europeanspaceflight.com/esa-confirms-latest-prometheus-tests-not-connected-to-themis-hop-preparations/",
-      "summary": "The European Space Agency (ESA) and ArianeGroup have confirmed that Prometheus engine tests conducted in Lampoldshausen in October were carried out independently of preparations for the long-delayed inaugural flight of t",
-      "time": "2026-11-13T07:57:07+00:00"
     }
   ]
 }
