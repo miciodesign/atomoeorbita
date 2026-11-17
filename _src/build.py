@@ -139,18 +139,18 @@ def thumb(url: str, width: int) -> str:
 
 def anteprima_mappa(centrali: list, spazio: list) -> str:
     """Anteprima SVG della mappa: i punti veri in proiezione equirettangolare (lat 75..-50)."""
-    col = {"lancio": "#F2A33A", "sviluppo": "#E8653A", "italia": "#4FB3E8"}
+    col = {"lancio": "#2F5D50", "sviluppo": "#C98A2B", "italia": "#2B5C8A"}
     out = ['<svg class="map-preview" viewBox="0 0 360 125" role="img" aria-label="Anteprima della mappa: centrali nucleari e basi spaziali nel mondo">',
-           '<rect width="360" height="125" fill="#0D0F12"/>']
+           '<rect width="360" height="125" fill="#E9E2D3"/>']
     for lon in range(-150, 181, 30):
-        out.append(f'<line x1="{lon+180}" y1="0" x2="{lon+180}" y2="125" stroke="#1E2329" stroke-width=".3"/>')
+        out.append(f'<line x1="{lon+180}" y1="0" x2="{lon+180}" y2="125" stroke="#D6CDBB" stroke-width=".3"/>')
     for lat in (60, 30, 0, -30):
-        out.append(f'<line x1="0" y1="{75-lat}" x2="360" y2="{75-lat}" stroke="#1E2329" stroke-width=".3"/>')
+        out.append(f'<line x1="0" y1="{75-lat}" x2="360" y2="{75-lat}" stroke="#D6CDBB" stroke-width=".3"/>')
     for c in sorted(centrali, key=lambda c: -c["mw"]):
         r = max(0.9, min(3.2, (c["mw"] ** 0.5) / 28))
-        out.append(f'<circle cx="{c["lon"]+180:.1f}" cy="{75-c["lat"]:.1f}" r="{r:.1f}" fill="#3DDCC8" fill-opacity=".55"/>')
+        out.append(f'<circle cx="{c["lon"]+180:.1f}" cy="{75-c["lat"]:.1f}" r="{r:.1f}" fill="#B4321C" fill-opacity=".55"/>')
     for p in spazio:
-        out.append(f'<circle cx="{p["lon"]+180:.1f}" cy="{75-p["lat"]:.1f}" r="1.5" fill="{col[p["k"]]}" stroke="#0D0F12" stroke-width=".4"/>')
+        out.append(f'<circle cx="{p["lon"]+180:.1f}" cy="{75-p["lat"]:.1f}" r="1.5" fill="{col[p["k"]]}" stroke="#F3EFE6" stroke-width=".4"/>')
     out.append("</svg>")
     return "".join(out)
 

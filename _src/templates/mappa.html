@@ -93,7 +93,7 @@
     });
     L.geoJSON(geo, {
       pane: "terre", interactive: false,
-      style: { color: "#3A424B", weight: 0.6, fillColor: "#20252B", fillOpacity: 1 }
+      style: { color: "#B9AE98", weight: 0.6, fillColor: "#F7F3EA", fillOpacity: 1 }
     }).addTo(map);
   }).catch(function () {});
   map.on("focus", function () { map.scrollWheelZoom.enable(); });
@@ -109,13 +109,13 @@
   C.forEach(function (s) {
     var off = s.s === s.r;
     var r = Math.max(4, Math.min(15, Math.sqrt(s.mw) / 6));
-    var m = L.circleMarker([s.lat, s.lon], { radius: r, weight: 1, color: off ? "#5E7C78" : "#3DDCC8", fillColor: off ? "#5E7C78" : "#3DDCC8", fillOpacity: off ? 0.35 : 0.6 });
+    var m = L.circleMarker([s.lat, s.lon], { radius: r, weight: 1, color: off ? "#A39A89" : "#B4321C", fillColor: off ? "#A39A89" : "#B4321C", fillOpacity: off ? 0.35 : 0.55 });
     m.bindPopup(foto(s) + "<strong>" + esc(s.n) + "</strong><br>" + esc(s.c) + "<br>" + s.r + (s.r === 1 ? " reattore" : " reattori") + (s.s ? " (" + s.s + " fermi nei dati 2024)" : "") + "<br>" + fmt(s.mw) + " MWe · " + esc(s.t), { maxWidth: 260 });
     m.addTo(nuc);
   });
-  var col = { lancio: "#F2A33A", sviluppo: "#E8653A", italia: "#4FB3E8" };
+  var col = { lancio: "#2F5D50", sviluppo: "#C98A2B", italia: "#2B5C8A" };
   S.forEach(function (s) {
-    var m = L.circleMarker([s.lat, s.lon], { radius: 7, weight: 2, color: "#121417", fillColor: col[s.k], fillOpacity: 0.95 });
+    var m = L.circleMarker([s.lat, s.lon], { radius: 7, weight: 2, color: "#FBF8F2", fillColor: col[s.k], fillOpacity: 0.95 });
     m.bindPopup(foto(s) + "<strong>" + esc(s.n) + "</strong><br>" + esc(s.c) + "<br>" + esc(s.d), { maxWidth: 260 });
     m.addTo(s.k === "lancio" ? launch : s.k === "sviluppo" ? dev : ita);
   });
