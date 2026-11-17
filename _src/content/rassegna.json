@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T05:51:40.654347+00:00",
+  "updated": "2026-11-17T05:31:21.173244+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -54,25 +54,98 @@
     }
   ],
   "errors": [],
-  "atomo": [],
+  "atomo": [
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Low electricity prices could impact EPR2 programme funding, auditor warns",
+      "url": "https://www.world-nuclear-news.org/articles/low-electricity-prices-could-impact-epr2-programme-funding-auditor-warns",
+      "summary": "EDF could face difficulties funding its planned construction of six EPR2 reactors, France's state audit office, the Cour des Comptes (Court of Auditors) has said. &nbsp;",
+      "time": "2026-11-16T16:05:34+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Newcleo, Curio team up for recycled nuclear fuel supply",
+      "url": "https://www.world-nuclear-news.org/articles/newcleo-curio-team-up-for-recycled-nuclear-fuel-supply",
+      "summary": "France-headquartered innovative nuclear energy company Newcleo is to collaborate with US advanced nuclear recycling technologies firm Curio on the supply of recycled used nuclear fuel and transuranic materials for the pr",
+      "time": "2026-11-16T14:35:51+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "NRC extends Project Ike review timetable",
+      "url": "https://www.world-nuclear-news.org/articles/nrc-extends-project-ike-review-timetable",
+      "summary": "The US regulator has pushed the expected completion date for its review of Orano's application for a licence for its proposed centrifuge enrichment facility back to June 2027 after the company asked for more time to resp",
+      "time": "2026-11-16T14:08:05+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "NucNet",
+      "lang": "en",
+      "title": "Newcleo And Curio Announce Collaboration To Advance Recycled Nuclear Fuel Supply",
+      "url": "https://www.nucnet.org/news/newcleo-and-curio-announce-collaboration-to-advance-recycled-nuclear-fuel-supply-11-1-2026",
+      "summary": "France-based advanced nuclear technology company Newcleo and Curio Legacy Ventures, a Washington-based company developing its patented NuCycle used nuclear fuel recycling process, announced an agreement to collaborate on",
+      "time": "2026-11-16T14:05:42+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Work programme being planned for next year, as Paks II audit continues",
+      "url": "https://www.world-nuclear-news.org/articles/work-programme-being-planned-for-next-year-as-paks-ii-audit-continues",
+      "summary": "Construction is continuing and a programme for next year is being prepared, Rosatom said, as Hungary's government continues its review of the Paks II nuclear power project. &nbsp;",
+      "time": "2026-11-16T13:48:42+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Akkuyu 1 fuel loading 'could start next month'",
+      "url": "https://www.world-nuclear-news.org/articles/akkuyu-1-fuel-loading-could-start-next-month",
+      "summary": "Turkey's first nuclear power unit is preparing for hot tests - with Rosatom hoping that successful completion will allow the start of nuclear fuel loading in December. &nbsp;",
+      "time": "2026-11-16T13:18:42+00:00"
+    }
+  ],
   "orbita": [
     {
       "section": "orbita",
-      "source": "AstronautiNEWS",
-      "lang": "it",
-      "title": "Aggiornamenti dal sistema solare: ottobre 2026",
-      "url": "https://www.astronautinews.it/2026/11/aggiornamenti-dal-sistema-solare-ottobre-2026/",
-      "summary": "Mese piuttosto pieno, quello di ottobre 2026, per l'esplorazione del sistema solare. Intanto è stata lanciata una nuova missione giapponese, MMX, che tenterà di raccogliere dei campioni dalle lune marziane. Hera è ormai ",
-      "time": "2026-11-14T11:13:00+00:00"
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "SpaceNukes Opens Los Alamos Manufacture and Materials Facility to Build Its Next-Generation Space Reactor",
+      "url": "https://spacenews.com/spacenukes-opens-los-alamos-manufacture-and-materials-facility-to-build-its-next-generation-space-reactor/",
+      "summary": "LOS ALAMOS, N.M., Nov. 16, 2026 — Space Nuclear Power Corp. (SpaceNukes) opened its Manufacture and Materials Development Facility at 150 Central Park Square in Los Alamos on Nov. 13. [&#8230;] The post SpaceNukes Opens ",
+      "time": "2026-11-16T20:00:00+00:00"
     },
     {
       "section": "orbita",
       "source": "European Spaceflight",
       "lang": "en",
-      "title": "Next Vega C Launch Edges Closer to Christmas Day as Satellites Arrive Late",
-      "url": "https://europeanspaceflight.com/next-vega-c-launch-edges-closer-to-christmas-day-as-satellites-arrive-late/",
-      "summary": "Italian rocket manufacturer Avio has revealed that delays in the delivery of customer satellites have pushed the third Vega C launch of 2026 back toward Christmas, several weeks later than previously planned. Speaking du",
-      "time": "2026-11-14T06:00:41+00:00"
+      "title": "UK MOD Defends Satcom Resilience Amid SpaceX Starshield Concerns",
+      "url": "https://europeanspaceflight.com/uk-mod-defends-satcom-resilience-amid-spacex-starshield-concerns/",
+      "summary": "The UK government has defended the resilience of its satellite-based military communications, saying that while it uses SpaceX’s Starshield service, it does not depend on any single commercial provider for critical commu",
+      "time": "2026-11-16T17:50:24+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ASI",
+      "lang": "it",
+      "title": "L’ASI al Cagliari Festival Scienza 2026",
+      "url": "https://www.asi.it/2026/11/lasi-al-cagliari-festival-scienza-2026/",
+      "summary": "L&#8217;evento si è svolto a Cagliari il 6 e 7 novembre [&#8230;]",
+      "time": "2026-11-16T13:59:46+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ASI",
+      "lang": "it",
+      "title": "ASI, KSA e UNOOSA rafforzano la cooperazione regionale a Malindi",
+      "url": "https://www.asi.it/2026/11/asi-ksa-e-unoosa-rafforzano-la-cooperazione-regionale-a-malindi/",
+      "summary": "Lo scopo è promuovere il diritto e la governance dello spazio in Africa [&#8230;]",
+      "time": "2026-11-16T09:56:28+00:00"
     }
   ]
 }
