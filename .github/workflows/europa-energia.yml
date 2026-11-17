@@ -1,0 +1,109 @@
+name: Dati energia Europa (nucleare adesso)
+
+# Ogni ora scarica da Energy-Charts (Fraunhofer ISE, licenza CC BY 4.0) la produzione elettrica
+# per fonte dei principali paesi europei, poi ricostruisce il sito per /nucleare-europa/.
+# L'API pubblica permette circa 2 richieste al minuto: una richiesta per paese, con pausa.
+on:
+  schedule:
+    - cron: "25 * * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/europa-energia.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: europa
+
+jobs:
+  dati:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Scarica
+        run: |
+          python3 - <<'PY'
+          import json, urllib.request, datetime, time, os
+          UA = {"User-Agent": "atomoeorbita.it nucleare in Europa (redazione@atomoeorbita.it)"}
+          PAESI = ["fr", "es", "be", "ch", "cz", "sk", "hu", "fi", "se", "si", "ro", "bg", "nl", "uk", "de", "it"]
+          oggi = datetime.datetime.now(datetime.timezone.utc).date()
+          ieri = oggi - datetime.timedelta(days=1)
+          def get(u):
+              for i in range(4):
+                  try:
+                      return json.loads(urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=60).read().decode())
+                  except urllib.error.HTTPError as e:
+                      wait = int(e.headers.get("Retry-After") or 40)
+                      print("HTTP", e.code, u, "attendo", wait); time.sleep(min(wait, 90))
+                  except Exception as e:
+                      print("ritento", u, e); time.sleep(20)
+              return None
+          def serie(r):
+              """Restituisce (timestamps unix, {nome: [valori]}) per il formato v1."""
+              if not r or "unix_seconds" not in r:
+                  return None, None
+              return r["unix_seconds"], {p["name"]: p["data"] for p in r.get("production_types", [])}
+          vecchio = {}
+          if os.path.exists("_src/data/europa.json"):
+              try:
+                  vecchio = {p["c"]: p for p in json.load(open("_src/data/europa.json"))["paesi"]}
+              except Exception:
+                  pass
+          out = []
+          for i, c in enumerate(PAESI):
+              if i:
+                  time.sleep(32)
+              r = get(f"https://api.energy-charts.info/public_power?country={c}&start={ieri}&end={oggi}")
+              if i == 0:
+                  print(json.dumps(r)[:800] if r else "nessuna risposta")
+              ts, S = serie(r)
+              if not ts:
+                  print("niente dati per", c)
+                  if c in vecchio:
+                      out.append(vecchio[c])
+                  continue
+              escludi = ("Load", "Residual load", "Renewable share of generation", "Renewable share of load",
+                         "Cross border electricity trading", "Hydro pumped storage consumption")
+              fonti = {k: v for k, v in S.items() if k not in escludi}
+              # ultimo istante con almeno metà delle fonti valorizzate
+              idx = None
+              for j in range(len(ts) - 1, -1, -1):
+                  n = sum(1 for v in fonti.values() if j < len(v) and v[j] is not None)
+                  if n >= max(1, len(fonti) // 2):
+                      idx = j; break
+              if idx is None:
+                  continue
+              ora = {k: round(v[idx]) for k, v in fonti.items() if idx < len(v) and v[idx] is not None and v[idx] > 0}
+              nuc = S.get("Nuclear", [])
+              # nucleare delle ultime 24 ore, un valore all'ora
+              passo = max(1, round(3600 / max(1, (ts[1] - ts[0]) if len(ts) > 1 else 3600)))
+              da = max(0, idx - 24 * passo)
+              s24 = [None if (j >= len(nuc) or nuc[j] is None) else round(nuc[j]) for j in range(da, idx + 1, passo)]
+              out.append({"c": c, "t": ts[idx], "fonti": ora, "nuc24": s24})
+              print(c, datetime.datetime.utcfromtimestamp(ts[idx]).isoformat(), ora.get("Nuclear"), sum(ora.values()))
+          now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
+          if out:
+              json.dump({"aggiornato": now, "fonte": "Energy-Charts (Fraunhofer ISE), CC BY 4.0", "paesi": out},
+                        open("_src/data/europa.json", "w"), ensure_ascii=False, separators=(",", ":"))
+          print("paesi", len(out))
+          PY
+      - name: Ricostruisci e pubblica
+        run: |
+          pip install markdown jinja2 >/dev/null
+          cd _src && python3 build.py && cd ..
+          git config user.name "Atomo e Orbita"
+          git config user.email "redazione@atomoeorbita.it"
+          git add -A
+          git commit -m "Dati energia Europa aggiornati" || exit 0
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main || git pull --rebase -X theirs origin main
+            (cd _src && python3 build.py) && git add -A && git commit -m "Ricostruzione dopo dati energia" || true
+            git push && break
+            sleep 5
+          done
