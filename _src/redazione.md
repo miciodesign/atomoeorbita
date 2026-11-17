@@ -152,3 +152,4 @@ Seconda analisi SEO (14/11, 1.420 impressioni / 20 clic in 3 mesi): quasi tutto 
 - Dati aggiornati ogni mattina dal workflow spazio-dati.yml (CelesTrak + The Space Devs), che ricostruisce il sito.
 - Nel menu "Strumenti" ha preso il posto di "Mappa"; /mappa/ resta allo stesso indirizzo.
 - Dal 17/11 anche /nucleare-europa/ (Energy-Charts, workflow europa-energia.yml ogni ora; Regno Unito escluso per dati incompleti) e /radiazioni/ (calcolatore: radon regionale ISPRA-ISS × 0,025 mSv per Bq/m³, UNSCEAR, RadiologyInfo). Hub /strumenti/ diviso in Nucleare e Spazio.
+- Dal 17/11 sezione /scuola/: fumetti "Tomo e Orbi" per le medie (Tomo = atomo, Orbi = satellite), PDF gratuiti CC BY-NC in _src/static/scuola/, sorgenti disegni in personaggi.py (cartella di lavoro /home/claude/fumetti). Accessi: fascia in fondo alla homepage, gruppo "Per le scuole" in /strumenti/, piè di pagina. Non nel menu in alto. Sui social: un post di lancio, poi al massimo un annuncio al mese.

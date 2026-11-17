@@ -519,6 +519,10 @@ def build() -> None:
         title=f"Prossimi lanci spaziali: calendario con orari italiani · {CONFIG['name']}",
         description="Il calendario dei prossimi lanci spaziali nel mondo con data e ora italiana, razzo, base e missione. In evidenza i lanci europei e italiani. Aggiornato ogni giorno."))
 
+    write(ROOT / "scuola" / "index.html", env.get_template("scuola.html").render(
+        **base_ctx, page_url="/scuola/",
+        title=f"Tomo e Orbi: fumetti gratis su nucleare e spazio per la scuola media · {CONFIG['name']}",
+        description="Fumetti gratuiti per la scuola media su atomi, energia nucleare e satelliti, con giochi per i ragazzi e una scheda per l'insegnante. PDF da stampare, senza registrazione."))
     regioni = [{"n": n, "bq": b, "c": re.sub(r"[^a-z]", "", n.lower())[:6]} for n, b in RADON_REGIONI]
     write(ROOT / "radiazioni" / "index.html", env.get_template("radiazioni.html").render(
         **base_ctx, regioni=regioni, esami=[{"n": n, "d": d} for n, d in ESAMI], page_url="/radiazioni/",
@@ -545,6 +549,8 @@ def build() -> None:
                             "d": plain(m.group(2), 220), "x": "", "w": 2})
     idx.append({"t": "Satelliti in diretta: dove si trova ora la ISS", "u": "/satelliti/", "k": "Strumenti",
                 "d": "Posizione in tempo reale di ISS, Tiangong, Hubble e dei satelliti italiani COSMO-SkyMed e PRISMA.", "x": "satellite iss stazione spaziale tracker tempo reale", "w": 3})
+    idx.append({"t": "Tomo e Orbi: fumetti per la scuola", "u": "/scuola/", "k": "Scuola",
+                "d": "Fumetti gratuiti per la scuola media su atomi e satelliti, con giochi e scheda per l'insegnante.", "x": "fumetto scuola media insegnanti didattica atomo", "w": 3})
     idx.append({"t": "Nucleare in Europa adesso", "u": "/nucleare-europa/", "k": "Strumenti",
                 "d": "Quanta elettricità producono in questo momento le centrali nucleari europee, paese per paese, e il mix elettrico italiano.", "x": "produzione elettrica francia mix energetico tempo reale", "w": 3})
     idx.append({"t": "Calcolatore di radiazioni: quante ne prendi in un anno", "u": "/radiazioni/", "k": "Strumenti",
@@ -595,7 +601,7 @@ def build() -> None:
         description=""))
 
     # sitemap, robots, feed
-    urls = (["/", "/dossier/", "/il-punto/", "/numeri/", "/rassegna/", "/mappa/", "/strumenti/", "/satelliti/", "/lanci/", "/radiazioni/", "/nucleare-europa/"] + [c["url"] for c in categories]
+    urls = (["/", "/dossier/", "/il-punto/", "/numeri/", "/rassegna/", "/mappa/", "/strumenti/", "/satelliti/", "/lanci/", "/radiazioni/", "/nucleare-europa/", "/scuola/"] + [c["url"] for c in categories]
             + [a["url"] for a in articles] + [n["url"] for n in numeri] + [p["url"] for p in pages])
     sitemap = ['<?xml version="1.0" encoding="UTF-8"?>',
                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']

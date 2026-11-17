@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block ogimage %}<meta property="og:image" content="{{ site_url }}/assets/scuola/og.png">{% endblock %}
+{% block content %}
+<section class="wrap section school-hero">
+  <div>
+    <nav class="crumbs" aria-label="Percorso"><a href="/">Home</a> › <span>Scuola</span></nav>
+    <p class="eyebrow">Per la scuola · gratis</p>
+    <h1>Tomo e Orbi: nucleare e spazio a fumetti</h1>
+    <p class="lead">Brevi fumetti per la scuola media, con giochi per i ragazzi e una scheda per l'insegnante. Si scaricano gratis, senza registrazione, e si possono stampare e condividere liberamente.</p>
+  </div>
+  <img class="school-chars" src="/assets/scuola/tomo-e-orbi.svg?v={{ build_date }}" alt="Tomo, un atomo con il ciuffo, e Orbi, un satellite con i pannelli solari, che salutano" width="600" height="300">
+</section>
+
+<section class="wrap">
+  <div class="school-ep">
+    <a class="school-thumb" href="/assets/scuola/Tomo-e-Orbi-Episodio-1-Che-cos-e-un-atomo.pdf" data-goatcounter-click="scuola-episodio-1-anteprima">
+      <img src="/assets/scuola/episodio-1-anteprima.jpg?v={{ build_date }}" alt="La prima pagina dell'episodio 1: quattro vignette con Tomo e Orbi" width="637" height="900" loading="lazy">
+    </a>
+    <div>
+      <p class="eyebrow">Episodio 1 · Atomo</p>
+      <h2>Che cos'è un atomo?</h2>
+      <p>Tomo si presenta: è così piccolo che in un granello di sale ce ne sono più di un miliardo di miliardi. Racconta com'è fatto dentro e quanto è minuscolo il suo nucleo, finché Orbi scopre di essere fatto anche lui di atomi.</p>
+      <ul class="school-list">
+        <li><strong>Pagina 1</strong> · il fumetto, quattro vignette</li>
+        <li><strong>Pagina 2</strong> · giochi: vero o falso, frase da completare, disegno da colorare</li>
+        <li><strong>Pagina 3</strong> · per l'insegnante: obiettivi, tre attività in classe, i numeri giusti e le soluzioni</li>
+      </ul>
+      <p class="school-meta">Seconda e terza media · 20-30 minuti · Scienze, la struttura della materia</p>
+      <a class="btn" href="/assets/scuola/Tomo-e-Orbi-Episodio-1-Che-cos-e-un-atomo.pdf" download data-goatcounter-click="scuola-episodio-1">Scarica il PDF gratis</a>
+      <p class="school-note">PDF, 3 pagine A4, circa 450 KB</p>
+    </div>
+  </div>
+</section>
+
+<section class="wrap section">
+  <h2>I prossimi episodi</h2>
+  <div class="school-next">
+    <div><p class="eyebrow">Atomo · con Tomo</p><ol start="2"><li>Che cosa succede se un nucleo si spezza?</li><li>Come funziona una centrale</li><li>Le radiazioni intorno a noi</li></ol></div>
+    <div><p class="eyebrow" style="color:#2B5C8A">Orbita · con Orbi</p><ol start="5"><li>Perché un satellite non cade?</li><li>Come funziona un razzo</li><li>Galileo: chi ti dice dove sei</li></ol></div>
+  </div>
+
+  <div class="tool-help">
+    <h2>Per gli insegnanti</h2>
+    <p>Usate i fumetti come preferite: in classe, come compito a casa o per l'orientamento verso le superiori. Sono pubblicati con licenza <strong>Creative Commons BY-NC 4.0</strong>: potete stamparli, fotocopiarli e condividerli, citando Atomo e Orbita, purché non a scopo commerciale.</p>
+    <p>Volete sapere quando esce il prossimo episodio? Iscrivetevi a <a href="/newsletter/">Il Punto</a>, la nostra newsletter gratuita del lunedì: lo annunciamo lì. Avete un'idea, una domanda dei vostri studenti o avete trovato un errore? <a href="/contatti/">Scriveteci</a>: ogni suggerimento migliora il prossimo episodio.</p>
+    <p>Per le superiori stiamo preparando una guida gratuita, "Nucleare e spazio, spiegati bene", con percorsi per la tesina e la maturità. Intanto ci sono il <a href="/glossario/">glossario</a> e gli <a href="/strumenti/">strumenti interattivi</a>, come la mappa delle centrali e i satelliti in diretta.</p>
+    <p class="tool-note">Questa pagina è pensata per insegnanti e genitori. Non raccogliamo dati degli studenti: per scaricare i fumetti non serve nessun indirizzo email.</p>
+  </div>
+</section>
+{% endblock %}
