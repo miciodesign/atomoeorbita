@@ -31,7 +31,7 @@ jobs:
           python3 - <<'PY'
           import json, urllib.request, datetime, time, os
           UA = {"User-Agent": "atomoeorbita.it nucleare in Europa (redazione@atomoeorbita.it)"}
-          PAESI = ["fr", "es", "be", "ch", "cz", "sk", "hu", "fi", "se", "si", "ro", "bg", "nl", "uk", "de", "it"]
+          PAESI = ["fr", "es", "be", "ch", "cz", "sk", "hu", "fi", "se", "si", "ro", "bg", "nl", "de", "it"]
           oggi = datetime.datetime.now(datetime.timezone.utc).date()
           ieri = oggi - datetime.timedelta(days=1)
           def get(u):

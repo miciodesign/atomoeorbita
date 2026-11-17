@@ -151,3 +151,4 @@ Seconda analisi SEO (14/11, 1.420 impressioni / 20 clic in 3 mesi): quasi tutto 
 - /strumenti/ (hub), /satelliti/ (ISS, Tiangong, Hubble, COSMO-SkyMed, CSG, PRISMA in diretta con satellite.js), /lanci/ (calendario LL2 con ora italiana).
 - Dati aggiornati ogni mattina dal workflow spazio-dati.yml (CelesTrak + The Space Devs), che ricostruisce il sito.
 - Nel menu "Strumenti" ha preso il posto di "Mappa"; /mappa/ resta allo stesso indirizzo.
+- Dal 17/11 anche /nucleare-europa/ (Energy-Charts, workflow europa-energia.yml ogni ora; Regno Unito escluso per dati incompleti) e /radiazioni/ (calcolatore: radon regionale ISPRA-ISS × 0,025 mSv per Bq/m³, UNSCEAR, RadiologyInfo). Hub /strumenti/ diviso in Nucleare e Spazio.

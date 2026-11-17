@@ -3,10 +3,12 @@
 <section class="wrap section">
   <nav class="crumbs" aria-label="Percorso"><a href="/">Home</a> › <span>Strumenti</span></nav>
   <h1>Strumenti</h1>
-  <p class="lead">Mappe e dati che si aggiornano da soli: dove sono le centrali nucleari, dove passa adesso la Stazione spaziale, quando parte il prossimo razzo. Gratuiti, senza registrazione.</p>
+  <p class="lead">Mappe, dati e calcolatori che si aggiornano da soli: quanta energia nucleare produce l'Europa in questo momento, quante radiazioni prendi in un anno, dove passa adesso la Stazione spaziale, quando parte il prossimo razzo. Gratuiti, senza registrazione.</p>
 </section>
 
-<section class="wrap tool-grid">
+<section class="wrap">
+<h2 class="tool-group"><span>Atomo</span> Nucleare</h2>
+<div class="tool-grid">
   <a class="tool-card" href="/mappa/">
     <div class="tool-visual">{{ anteprima|safe }}</div>
     <div class="tool-text">
@@ -17,6 +19,39 @@
     </div>
   </a>
 
+  <a class="tool-card" href="/nucleare-europa/">
+    <div class="tool-visual tool-next">
+      {% if eu.ok %}
+      <p class="tool-next-label">Adesso in Europa</p>
+      <p class="tool-next-name">{{ eu.tot_nuc_gw }} GW di nucleare</p>
+      <p class="tool-next-meta">{% if eu.fr %}Francia {{ eu.fr.quota }}% · {% endif %}Italia 0%</p>
+      {% else %}<p class="tool-next-label">Adesso in Europa</p>{% endif %}
+    </div>
+    <div class="tool-text">
+      <p class="eyebrow"><span class="live-dot"></span>Ogni ora</p>
+      <h2>Il nucleare in Europa, adesso</h2>
+      <p>Quanta elettricità producono in questo momento le centrali di Francia, Spagna, Svizzera e degli altri paesi, e com'è fatto il mix italiano.</p>
+      <span class="btn">Vedi i dati</span>
+    </div>
+  </a>
+
+  <a class="tool-card" href="/radiazioni/">
+    <div class="tool-visual tool-next tool-rad">
+      <p class="tool-next-label">Calcolatore</p>
+      <p class="tool-next-name">2,9 mSv</p>
+      <p class="tool-next-meta">la dose naturale media di un italiano in un anno</p>
+    </div>
+    <div class="tool-text">
+      <p class="eyebrow">Calcolatore</p>
+      <h2>Quante radiazioni prendi in un anno?</h2>
+      <p>Cinque domande su dove vivi, quanto voli e che esami hai fatto: la tua dose, confrontata con chi lavora in una centrale.</p>
+      <span class="btn">Fai il calcolo</span>
+    </div>
+  </a>
+</div>
+
+<h2 class="tool-group"><span>Orbita</span> Spazio</h2>
+<div class="tool-grid">
   <a class="tool-card" href="/satelliti/">
     <div class="tool-visual tool-orbit" aria-hidden="true">
       <svg viewBox="0 0 360 125"><rect width="360" height="125" fill="#E9E2D3"/>
@@ -48,8 +83,9 @@
       <span class="btn">Vedi il calendario</span>
     </div>
   </a>
+</div>
 </section>
 <section class="wrap section">
-  <p class="tool-note">I dati arrivano da fonti pubbliche e si aggiornano ogni mattina: CelesTrak per le orbite dei satelliti, The Space Devs per i lanci, IAEA PRIS per le centrali.</p>
+  <p class="tool-note">I dati arrivano da fonti pubbliche e si aggiornano da soli, ogni ora o ogni mattina: IAEA PRIS per le centrali, Energy-Charts (Fraunhofer ISE) per la produzione elettrica, ISPRA e UNSCEAR per le radiazioni, CelesTrak per le orbite dei satelliti, The Space Devs per i lanci.</p>
 </section>
 {% endblock %}

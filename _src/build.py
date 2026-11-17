@@ -186,6 +186,81 @@ def prepara_lanci(raw: dict) -> dict:
             "aggiornato": f"{agg.day} {MESI[agg.month-1]} {agg.year}, ore {agg:%H:%M}"}
 
 
+RADON_REGIONI = [("Media italiana", 70), ("Abruzzo", 60), ("Alto Adige", 70), ("Basilicata", 30), ("Calabria", 25),
+    ("Campania", 95), ("Emilia-Romagna", 44), ("Friuli Venezia Giulia", 99), ("Lazio", 119), ("Liguria", 38),
+    ("Lombardia", 111), ("Marche", 29), ("Molise", 43), ("Piemonte", 69), ("Puglia", 52), ("Sardegna", 64),
+    ("Sicilia", 35), ("Toscana", 48), ("Trentino", 49), ("Umbria", 58), ("Valle d'Aosta", 44), ("Veneto", 58)]
+ESAMI = [("Radiografia ai denti", 0.005), ("Radiografia al torace", 0.1), ("Mammografia", 0.21),
+         ("TAC alla testa", 2), ("TAC al torace", 6.1), ("TAC ad addome e bacino", 7.7)]
+
+
+PAESI_EU = {"fr": "Francia", "es": "Spagna", "be": "Belgio", "ch": "Svizzera", "cz": "Repubblica Ceca", "sk": "Slovacchia",
+            "hu": "Ungheria", "fi": "Finlandia", "se": "Svezia", "si": "Slovenia", "ro": "Romania", "bg": "Bulgaria",
+            "nl": "Paesi Bassi", "uk": "Regno Unito", "de": "Germania", "it": "Italia"}
+BANDIERE = {"fr": "🇫🇷", "es": "🇪🇸", "be": "🇧🇪", "ch": "🇨🇭", "cz": "🇨🇿", "sk": "🇸🇰", "hu": "🇭🇺", "fi": "🇫🇮", "se": "🇸🇪",
+            "si": "🇸🇮", "ro": "🇷🇴", "bg": "🇧🇬", "nl": "🇳🇱", "uk": "🇬🇧", "de": "🇩🇪", "it": "🇮🇹"}
+GRUPPI = [("nucleare", "Nucleare", "#B4321C"), ("gas", "Gas", "#C98A2B"), ("carbone", "Carbone e petrolio", "#5A544A"),
+          ("idro", "Idroelettrico", "#2B5C8A"), ("eolico", "Eolico", "#7FA6C9"), ("solare", "Solare", "#E2B33C"),
+          ("altro", "Biomasse e altro", "#2F5D50")]
+
+
+def gruppo_fonte(nome: str) -> str:
+    n = nome.lower()
+    if "nuclear" in n: return "nucleare"
+    if "gas" in n: return "gas"
+    if "coal" in n or "lignite" in n or "oil" in n or "peat" in n: return "carbone"
+    if "hydro" in n: return "idro"
+    if "wind" in n: return "eolico"
+    if "solar" in n: return "solare"
+    return "altro"
+
+
+def sparkline(vals: list, w: int = 120, h: int = 28) -> str:
+    v = [x for x in vals if x is not None]
+    if len(v) < 2 or max(v) <= 0:
+        return ""
+    lo, hi = 0, max(v) * 1.05
+    rng = (hi - lo) or 1
+    pts, n = [], len(vals) - 1
+    for i, x in enumerate(vals):
+        if x is None: continue
+        pts.append(f"{i / n * w:.1f},{h - (x - lo) / rng * h:.1f}")
+    return (f'<svg class="spark" viewBox="0 0 {w} {h}" width="{w}" height="{h}" aria-hidden="true">'
+            f'<polyline points="{" ".join(pts)}" fill="none" stroke="#B4321C" stroke-width="1.6"/></svg>')
+
+
+def prepara_europa(raw: dict) -> dict:
+    from datetime import datetime, timezone
+    from zoneinfo import ZoneInfo
+    roma = ZoneInfo("Europe/Rome")
+    paesi = []
+    for p in raw.get("paesi", []):
+        g = {k: 0 for k, _, _ in GRUPPI}
+        for nome, mw in p.get("fonti", {}).items():
+            g[gruppo_fonte(nome)] += mw
+        tot = sum(g.values())
+        if tot < 1000 or p["c"] not in PAESI_EU:  # dati incompleti (es. Regno Unito)
+            continue
+        t = datetime.fromtimestamp(p["t"], timezone.utc).astimezone(roma)
+        paesi.append({"c": p["c"], "n": PAESI_EU.get(p["c"], p["c"].upper()), "f": BANDIERE.get(p["c"], ""),
+                      "nuc": g["nucleare"], "tot": tot, "quota": round(g["nucleare"] / tot * 100),
+                      "mix": [{"k": k, "n": n, "col": col, "mw": g[k], "pc": g[k] / tot * 100} for k, n, col in GRUPPI if g[k] > 0],
+                      "ora": f"{t:%H:%M}", "spark": sparkline(p.get("nuc24", []))})
+    paesi.sort(key=lambda x: -x["nuc"])
+    con = [p for p in paesi if p["nuc"] > 0]
+    senza = [p for p in paesi if p["nuc"] == 0]
+    agg = datetime.fromisoformat(raw.get("aggiornato", "2026-01-01T00:00Z").replace("Z", "+00:00")).astimezone(roma)
+    def gw(x): return f"{x / 1000:.1f}".replace(".", ",")
+    for p in paesi:
+        p["nuc_gw"], p["tot_gw"] = gw(p["nuc"]), gw(p["tot"])
+    tot_nuc = sum(p["nuc"] for p in con)
+    it = next((p for p in paesi if p["c"] == "it"), None)
+    fr = next((p for p in paesi if p["c"] == "fr"), None)
+    return {"con": con, "senza": senza, "tot_nuc_gw": gw(tot_nuc), "reattori_eq": round(tot_nuc / 1000),
+            "it": it, "fr": fr, "gruppi": [{"n": n, "col": c} for _, n, c in GRUPPI],
+            "aggiornato": f"{agg.day} {MESI[agg.month-1]} {agg.year}, ore {agg:%H:%M}", "ok": bool(paesi)}
+
+
 def prepara_satelliti(raw: dict) -> dict:
     sat = []
     for x in raw.get("sat", []):
@@ -423,11 +498,17 @@ def build() -> None:
         description="Mappa interattiva gratuita delle centrali nucleari nel mondo, paese per paese, e delle basi spaziali: spazioporti, siti di lancio e centri italiani. Con foto, fonti e dati scaricabili."))
 
     # strumenti: hub, satelliti in diretta, prossimi lanci
+    eu_file = data_dir / "europa.json"
+    europa = prepara_europa(json.loads(eu_file.read_text(encoding="utf-8")) if eu_file.exists() else {})
+    write(ROOT / "nucleare-europa" / "index.html", env.get_template("europa.html").render(
+        **base_ctx, eu=europa, page_url="/nucleare-europa/",
+        title=f"Nucleare in Europa adesso: quanta elettricità producono le centrali · {CONFIG['name']}",
+        description="Quanta elettricità producono in questo momento le centrali nucleari di Francia, Spagna, Svizzera e degli altri paesi europei, e com'è fatto il mix elettrico italiano. Dati aggiornati ogni ora."))
     sat = prepara_satelliti(json.loads((data_dir / "satelliti.json").read_text(encoding="utf-8")))
     lanci = prepara_lanci(json.loads((data_dir / "lanci.json").read_text(encoding="utf-8")))
     write(ROOT / "strumenti" / "index.html", env.get_template("strumenti.html").render(
-        **base_ctx, anteprima=anteprima_mappa(centrali, spazio), lanci=lanci, sat=sat, page_url="/strumenti/",
-        title=f"Strumenti: mappa, satelliti in diretta e prossimi lanci · {CONFIG['name']}",
+        **base_ctx, anteprima=anteprima_mappa(centrali, spazio), lanci=lanci, sat=sat, eu=europa, page_url="/strumenti/",
+        title=f"Strumenti: mappa nucleare, radiazioni, satelliti in diretta e lanci · {CONFIG['name']}",
         description="Strumenti gratuiti di Atomo e Orbita: la mappa delle centrali nucleari, dove si trovano ora la ISS e i satelliti italiani, il calendario dei prossimi lanci spaziali."))
     write(ROOT / "satelliti" / "index.html", env.get_template("satelliti.html").render(
         **base_ctx, sat=sat, page_url="/satelliti/",
@@ -437,6 +518,12 @@ def build() -> None:
         **base_ctx, lanci=lanci, page_url="/lanci/",
         title=f"Prossimi lanci spaziali: calendario con orari italiani · {CONFIG['name']}",
         description="Il calendario dei prossimi lanci spaziali nel mondo con data e ora italiana, razzo, base e missione. In evidenza i lanci europei e italiani. Aggiornato ogni giorno."))
+
+    regioni = [{"n": n, "bq": b, "c": re.sub(r"[^a-z]", "", n.lower())[:6]} for n, b in RADON_REGIONI]
+    write(ROOT / "radiazioni" / "index.html", env.get_template("radiazioni.html").render(
+        **base_ctx, regioni=regioni, esami=[{"n": n, "d": d} for n, d in ESAMI], page_url="/radiazioni/",
+        title=f"Calcolatore di radiazioni: quante ne prendi in un anno? · {CONFIG['name']}",
+        description="Calcola la tua dose annua di radiazioni in base a regione, radon, altitudine, voli ed esami medici. Confrontala con chi lavora in una centrale nucleare. Gratuito, con fonti ISPRA, UNSCEAR e RSNA."))
 
     # ricerca interna: indice JSON letto da /cerca/ nel browser, nessun servizio esterno
     def plain(h: str, n: int = 4000) -> str:
@@ -458,6 +545,10 @@ def build() -> None:
                             "d": plain(m.group(2), 220), "x": "", "w": 2})
     idx.append({"t": "Satelliti in diretta: dove si trova ora la ISS", "u": "/satelliti/", "k": "Strumenti",
                 "d": "Posizione in tempo reale di ISS, Tiangong, Hubble e dei satelliti italiani COSMO-SkyMed e PRISMA.", "x": "satellite iss stazione spaziale tracker tempo reale", "w": 3})
+    idx.append({"t": "Nucleare in Europa adesso", "u": "/nucleare-europa/", "k": "Strumenti",
+                "d": "Quanta elettricità producono in questo momento le centrali nucleari europee, paese per paese, e il mix elettrico italiano.", "x": "produzione elettrica francia mix energetico tempo reale", "w": 3})
+    idx.append({"t": "Calcolatore di radiazioni: quante ne prendi in un anno", "u": "/radiazioni/", "k": "Strumenti",
+                "d": "Dose annua stimata da radon, raggi cosmici, voli ed esami medici, confrontata con chi lavora in una centrale.", "x": "radiazioni dose millisievert radon tac radiografia", "w": 3})
     idx.append({"t": "Prossimi lanci spaziali", "u": "/lanci/", "k": "Strumenti",
                 "d": "Calendario dei prossimi lanci con orario italiano, in evidenza quelli europei e italiani.", "x": "lanci razzi calendario falcon ariane vega", "w": 3})
     idx.append({"t": "Mappa delle centrali nucleari e delle basi spaziali", "u": "/mappa/", "k": "Mappa",
@@ -504,7 +595,7 @@ def build() -> None:
         description=""))
 
     # sitemap, robots, feed
-    urls = (["/", "/dossier/", "/il-punto/", "/numeri/", "/rassegna/", "/mappa/", "/strumenti/", "/satelliti/", "/lanci/"] + [c["url"] for c in categories]
+    urls = (["/", "/dossier/", "/il-punto/", "/numeri/", "/rassegna/", "/mappa/", "/strumenti/", "/satelliti/", "/lanci/", "/radiazioni/", "/nucleare-europa/"] + [c["url"] for c in categories]
             + [a["url"] for a in articles] + [n["url"] for n in numeri] + [p["url"] for p in pages])
     sitemap = ['<?xml version="1.0" encoding="UTF-8"?>',
                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']

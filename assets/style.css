@@ -347,3 +347,73 @@ a:hover{color:var(--accent-hover)}
 .sat-card h3{font-size:20px;margin:0 0 6px}.sat-card p:last-child{font-size:15px;color:#4A453C;margin:0}
 @media (max-width:900px){.tool-grid,.sat-cards{grid-template-columns:1fr}.sat-panel{grid-template-columns:1fr}.sat-stats{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:640px){.launch-row{grid-template-columns:1fr;gap:6px}.launch-status{justify-self:start}.launch-next{flex-direction:column;align-items:flex-start}.launch-count{text-align:left}}
+/* calcolatore radiazioni */
+.rad{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:32px;align-items:start}
+.rad-form fieldset{border:0;border-top:1px solid var(--line);margin:0;padding:22px 0}
+.rad-form legend{font:600 21px/1.3 var(--display);padding:0;margin-bottom:12px;display:flex;align-items:center;gap:12px}
+.rad-form legend span{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--ink);color:var(--bg);font:700 13px var(--label)}
+.rad-form select{font:500 17px var(--body);padding:10px 12px;border:1px solid var(--line);border-radius:4px;background:var(--paper);color:var(--ink);min-width:280px;max-width:100%}
+.rad-opts{display:flex;flex-wrap:wrap;gap:10px}
+.rad-opts label{display:flex;align-items:center;gap:8px;padding:10px 14px;border:1px solid var(--line);border-radius:999px;background:var(--paper);cursor:pointer;font-size:16px}
+.rad-opts label:has(input:checked){border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.rad-opts input,.rad-range input{accent-color:var(--accent)}
+.rad-range{display:flex;align-items:center;gap:16px}.rad-range input{flex:1}
+.rad-range output{font:600 16px var(--label);min-width:70px}
+.rad-hint{font-size:15px;color:var(--muted);margin:10px 0 0}
+.rad-exams{display:grid;grid-template-columns:repeat(2,1fr);gap:10px 20px}
+.rad-exams label{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:16px;padding:6px 0;border-bottom:1px dotted var(--line)}
+.rad-exams input{width:64px;font:600 16px var(--label);padding:6px 8px;border:1px solid var(--line);border-radius:4px;background:var(--paper);color:var(--ink);text-align:center}
+.rad-result{position:sticky;top:20px;background:#2A2824;color:#F3EFE6;border-radius:var(--radius);padding:26px 28px}
+.rad-result .tool-next-label{color:#E07A5F}
+.rad-total{font:500 18px var(--label);color:#C9C1B1;margin:4px 0 6px}
+.rad-total strong{font:600 64px/1 var(--display);color:#F3EFE6;margin-right:6px}
+.rad-vs{font-size:16px;color:#E5DED0;margin:0 0 18px}
+.rad-bar{display:flex;height:16px;border-radius:3px;overflow:hidden;background:#3a3732;margin-bottom:14px}
+.rad-bar span{display:block;height:100%}
+.rad-legend{list-style:none;margin:0 0 20px;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:6px 14px;font-size:14px;color:#C9C1B1}
+.rad-legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:7px}
+.rad-legend b{color:#F3EFE6;font-family:var(--label);margin-left:4px}
+.rad-share{width:100%}
+.rad-copied{font-size:14px;color:#C9C1B1;margin:8px 0 0}
+.rad-scale{list-style:none;margin:16px 0 0;padding:0;max-width:900px}
+.rad-scale li{display:grid;grid-template-columns:minmax(0,2.2fr) minmax(0,2fr) 90px;gap:14px;align-items:center;padding:9px 0;border-bottom:1px solid var(--line);font-size:16px}
+.rad-scale li b{font:600 14px var(--label);text-align:right}
+.rad-sb{height:10px;background:var(--paper);border:1px solid var(--line);border-radius:2px;overflow:hidden}
+.rad-sb i{display:block;height:100%;background:#B9AE98}
+.rad-scale li.me{font-weight:700}.rad-scale li.me .rad-sb i{background:var(--accent)}.rad-scale li.me b{color:var(--accent)}
+@media (max-width:900px){.rad{grid-template-columns:1fr}.rad-result{position:static}.rad-exams{grid-template-columns:1fr}.rad-scale li{grid-template-columns:1fr 70px;}.rad-sb{grid-column:1/-1;grid-row:2}}
+/* nucleare in Europa */
+.eu-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px;margin:24px 0 14px}
+.eu-big{background:#2A2824;color:#F3EFE6;border-radius:var(--radius);padding:26px 28px}
+.eu-big .tool-next-label{color:#E07A5F}
+.eu-num{font:500 18px var(--label);color:#C9C1B1;margin:6px 0}
+.eu-num strong{font:600 60px/1 var(--display);color:#F3EFE6;margin-right:6px}
+.eu-sub{color:#E5DED0;margin:0}
+.eu-duel{display:grid;gap:14px;background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:22px 24px}
+.eu-duel-name{font:600 18px var(--display);margin:0}
+.eu-duel-num{font-size:15px;color:var(--muted);margin:0 0 6px}
+.eu-duel-num strong{font:600 30px var(--display);color:var(--accent);margin-right:4px}
+.eu-mix{display:flex;height:14px;border-radius:3px;overflow:hidden;background:var(--line);width:100%}
+.eu-mix span{display:block;height:100%}
+.eu-legend{list-style:none;display:flex;flex-wrap:wrap;gap:8px 18px;margin:8px 0 0;padding:0;font-size:14px;color:var(--muted)}
+.eu-legend i{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.eu-table{border-top:2px solid var(--ink);margin-bottom:10px}
+.eu-row{display:grid;grid-template-columns:190px 120px 80px minmax(0,1fr) 130px;gap:18px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line)}
+.eu-row-no{grid-template-columns:190px 200px minmax(0,1fr) 260px}
+.eu-head{font:600 12px var(--label);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);padding:10px 0}
+.eu-name{font:600 17px var(--display)}
+.eu-gw{font:500 14px var(--label);color:var(--muted)}.eu-gw strong{font:600 20px var(--display);color:var(--ink)}
+.eu-pc{font:700 16px var(--label);color:var(--accent)}
+.eu-note{font-size:14px;color:var(--muted)}
+.eu-h2{margin-top:36px}
+.spark{display:block}
+@media (max-width:900px){.eu-hero{grid-template-columns:1fr}.eu-head{display:none}
+ .eu-row,.eu-row-no{grid-template-columns:1fr auto;gap:6px 12px}
+ .eu-row>span:nth-child(4),.eu-row-no>span:nth-child(3){grid-column:1/-1}
+ .eu-spark{display:none}.eu-pc{text-align:right}.eu-note{grid-column:1/-1}}
+.tool-group{font-size:26px;margin:10px 0 16px;display:flex;align-items:center;gap:12px}
+.tool-group span{font:700 12px var(--label);letter-spacing:.2em;text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);padding:4px 8px;border-radius:3px}
+.tool-grid+.tool-group{margin-top:44px}
+.eu-name small{display:block;font:500 12px var(--label);color:var(--muted)}
+.rad-pill{display:none}
+@media (max-width:900px){.rad-pill{display:block;position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:50;background:#2A2824;color:#F3EFE6;text-decoration:none;font:600 15px var(--label);padding:12px 20px;border-radius:999px;box-shadow:0 6px 20px rgba(0,0,0,.25);white-space:nowrap;transition:opacity .2s}.rad-pill b{color:#E07A5F;font-size:18px}.rad-pill.hide{opacity:0;pointer-events:none}}

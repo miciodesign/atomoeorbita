@@ -1,0 +1,152 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="wrap section">
+  <nav class="crumbs" aria-label="Percorso"><a href="/">Home</a> › <a href="/strumenti/">Strumenti</a> › <span>Calcolatore di radiazioni</span></nav>
+  <h1>Quante radiazioni prendi in un anno?</h1>
+  <p class="lead">Viviamo tutti immersi in una radioattività naturale che viene dal suolo, dall'aria, dal cibo e dallo spazio. Rispondi a cinque domande e scopri la tua dose stimata, confrontata con chi lavora in una centrale nucleare.</p>
+</section>
+
+<section class="wrap rad">
+  <form class="rad-form" id="rad" onsubmit="return false">
+    <fieldset>
+      <legend><span>1</span> In che regione vivi?</legend>
+      <select id="reg" aria-label="Regione">
+        {% for r in regioni %}<option value="{{ r.c }}"{% if r.n == 'Media italiana' %} selected{% endif %}>{{ r.n }}</option>{% endfor %}
+      </select>
+      <p class="rad-hint">Conta soprattutto per il radon, un gas che sale dal terreno e cambia molto da zona a zona.</p>
+    </fieldset>
+    <fieldset>
+      <legend><span>2</span> A che piano vivi?</legend>
+      <div class="rad-opts">
+        <label><input type="radio" name="piano" value="1.3"> Piano terra o seminterrato</label>
+        <label><input type="radio" name="piano" value="1" checked> Primo o secondo piano</label>
+        <label><input type="radio" name="piano" value="0.7"> Terzo piano o più su</label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend><span>3</span> A che altitudine?</legend>
+      <div class="rad-opts">
+        <label><input type="radio" name="alt" value="0.30" checked> Pianura o mare (fino a 500 m)</label>
+        <label><input type="radio" name="alt" value="0.40"> Collina (500–1.000 m)</label>
+        <label><input type="radio" name="alt" value="0.50"> Montagna (1.000–1.500 m)</label>
+        <label><input type="radio" name="alt" value="0.70"> Alta montagna (oltre 1.500 m)</label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend><span>4</span> Quante ore voli in un anno?</legend>
+      <div class="rad-range"><input type="range" id="volo" min="0" max="100" step="1" value="6" aria-label="Ore di volo all'anno"><output id="volo-o">6 ore</output></div>
+      <p class="rad-hint">Per fare un'idea: Roma–Londra è circa 2 ore e mezza, Milano–New York circa 9 ore. Conta andata e ritorno.</p>
+    </fieldset>
+    <fieldset>
+      <legend><span>5</span> Esami medici nell'ultimo anno</legend>
+      <div class="rad-exams">
+        {% for e in esami %}
+        <label><span>{{ e.n }}</span><input type="number" min="0" max="20" value="0" data-d="{{ e.d }}" aria-label="Numero di {{ e.n }}"></label>
+        {% endfor %}
+      </div>
+      <p class="rad-hint">Risonanza magnetica ed ecografia non contano: non usano radiazioni ionizzanti.</p>
+    </fieldset>
+  </form>
+
+  <a class="rad-pill" href="#risultato" aria-hidden="true">La tua dose: <b id="tot2">—</b> mSv ↓</a>
+  <aside class="rad-result" id="risultato" aria-live="polite">
+    <p class="tool-next-label">La tua dose stimata</p>
+    <p class="rad-total"><strong id="tot">—</strong> mSv all'anno</p>
+    <p class="rad-vs" id="vs"></p>
+    <div class="rad-bar" id="bar" aria-hidden="true"></div>
+    <ul class="rad-legend" id="leg"></ul>
+    <button type="button" class="btn rad-share" id="share">Condividi il risultato</button>
+    <p class="rad-copied" id="copied" hidden>Link copiato.</p>
+  </aside>
+</section>
+
+<section class="wrap section">
+  <h2>Per confronto</h2>
+  <ol class="rad-scale" id="scale"></ol>
+  <div class="tool-help">
+    <h2>Che cos'è un millisievert</h2>
+    <p>Il sievert misura l'effetto delle radiazioni sul corpo umano; un millisievert (mSv) è un millesimo di sievert. Per la popolazione la legge italiana fissa un limite di 1 mSv all'anno per le attività umane, come una centrale o un ospedale: è una dose in più rispetto a quella naturale e agli esami medici, che non rientrano nel limite. Per i lavoratori esposti il limite è di 20 mSv all'anno.</p>
+    <p>La parte più grande della dose di quasi tutti è il <strong>radon</strong>. Se vivi in una zona a radon alto, l'unico modo per saperlo davvero è misurarlo in casa con un dosimetro passivo: costa poche decine di euro e informazioni utili si trovano sul sito dell'<a href="https://www.isinucleare.it/" rel="noopener" target="_blank">ISIN</a> e della tua ARPA regionale.</p>
+    <p>Vuoi capire da dove viene la radioattività? Parti dal nostro <a href="/glossario/">glossario</a> o dall'articolo sulle <a href="/atomo/scorie-dove-sono-dove-andranno/">scorie nucleari in Italia</a>.</p>
+    <h2>Come calcoliamo</h2>
+    <p>È una stima, non una misura: serve a capire gli ordini di grandezza. Usiamo le medie regionali di radon dell'indagine nazionale ISPRA-ISS (70 Bq/m³ la media italiana), convertite in dose con il metodo UNSCEAR (circa 0,025 mSv all'anno per ogni Bq/m³); le dosi medie mondiali UNSCEAR per cibo e suolo; circa 5 microsievert per ora di volo; le dosi tipiche degli esami indicate da ACR e RSNA (RadiologyInfo). Piano e altitudine sono correzioni approssimative.</p>
+    <p class="tool-note">Questo calcolatore non sostituisce il parere di un medico o di un esperto di radioprotezione. Gli esami prescritti hanno un beneficio che supera di gran lunga il rischio della dose.</p>
+  </div>
+</section>
+
+<script>
+(function () {
+  var REG = {{ regioni|tojson }};
+  var COL = { radon: "#B4321C", cosmo: "#2B5C8A", suolo: "#C98A2B", cibo: "#2F5D50", volo: "#7FA6C9", medico: "#2A2824" };
+  var NOMI = { radon: "Radon in casa", cosmo: "Raggi cosmici", suolo: "Suolo e muri", cibo: "Cibo e acqua", volo: "Voli", medico: "Esami medici" };
+  var CONF = [
+    ["Mangiare una banana", 0.0001],
+    ["Una radiografia ai denti", 0.005],
+    ["Vivere un anno vicino a una centrale nucleare (dose in più, stima alta)", 0.03],
+    ["Un volo Milano–New York andata e ritorno", 0.09],
+    ["Una radiografia al torace", 0.1],
+    ["Limite di legge per la popolazione dalle attività umane", 1],
+    ["Lavoratore di una centrale nucleare (media annua)", 1],
+    ["Personale di volo (media annua)", 2.5],
+    ["Una TAC al torace", 6.1],
+    ["Limite di legge per i lavoratori esposti", 20]
+  ];
+  var f = document.getElementById("rad");
+  function raw(n) { var x = f.querySelector('input[name="' + n + '"]:checked'); return x ? x.value : "1"; }
+  function val(n) { var x = f.querySelector('input[name="' + n + '"]:checked'); return parseFloat(x ? x.value : 1); }
+  function it(n, d) { return n.toFixed(d).replace(".", ","); }
+  function calcola() {
+    var r = REG.filter(function (x) { return x.c === document.getElementById("reg").value; })[0] || REG[0];
+    var ore = parseInt(document.getElementById("volo").value, 10);
+    document.getElementById("volo-o").textContent = ore + (ore === 1 ? " ora" : " ore");
+    var med = 0;
+    f.querySelectorAll(".rad-exams input").forEach(function (i) { med += (parseInt(i.value, 10) || 0) * parseFloat(i.dataset.d); });
+    var p = { radon: r.bq * 0.025 * val("piano"), cosmo: val("alt"), suolo: 0.4, cibo: 0.5, volo: ore * 0.005, medico: med };
+    var tot = 0; for (var k in p) tot += p[k];
+    document.getElementById("tot").textContent = it(tot, tot < 100 ? 1 : 0);
+    document.getElementById("tot2").textContent = it(tot, tot < 100 ? 1 : 0);
+    var media = 70 * 0.025 + 0.3 + 0.4 + 0.5;
+    var d = tot / media;
+    document.getElementById("vs").textContent = d > 1.15 ? "Circa " + it(d, 1) + " volte la dose naturale media di un italiano (" + it(media, 1) + " mSv)." :
+      d < 0.85 ? "Meno della dose naturale media di un italiano (" + it(media, 1) + " mSv)." : "In linea con la dose naturale media di un italiano (" + it(media, 1) + " mSv).";
+    var bar = "", leg = "";
+    for (k in p) {
+      if (p[k] <= 0) continue;
+      var pc = p[k] / tot * 100;
+      bar += '<span style="width:' + pc + '%;background:' + COL[k] + '"></span>';
+      leg += '<li><i style="background:' + COL[k] + '"></i>' + NOMI[k] + ' <b>' + it(p[k], p[k] < 0.1 ? 2 : 1) + '</b></li>';
+    }
+    document.getElementById("bar").innerHTML = bar;
+    document.getElementById("leg").innerHTML = leg;
+    var righe = CONF.concat([["La tua dose stimata", tot, true]]).sort(function (a, b) { return a[1] - b[1]; });
+    var max = Math.log10(20 / 0.0001);
+    document.getElementById("scale").innerHTML = righe.map(function (c) {
+      var w = Math.max(2, (Math.log10(c[1] / 0.0001)) / max * 100);
+      var v = c[1] < 0.01 ? it(c[1] * 1000, c[1] < 0.001 ? 1 : 0) + " µSv" : it(c[1], c[1] < 1 ? 2 : 1) + " mSv";
+      return '<li' + (c[2] ? ' class="me"' : '') + '><span class="rad-sl">' + c[0] + '</span><span class="rad-sb"><i style="width:' + w + '%"></i></span><b>' + v + '</b></li>';
+    }).join("");
+    try { history.replaceState(null, "", "#" + [r.c, raw("piano"), raw("alt"), ore, Array.prototype.map.call(f.querySelectorAll(".rad-exams input"), function (i) { return i.value || 0; }).join(".")].join("_")); } catch (e) {}
+    window._tot = tot;
+  }
+  // risultato condiviso: ricostruisce le risposte dall'indirizzo
+  var h = location.hash.slice(1).split("_");
+  if (h.length === 5) {
+    document.getElementById("reg").value = h[0];
+    [["piano", h[1]], ["alt", h[2]]].forEach(function (x) { var i = f.querySelector('input[name="' + x[0] + '"][value="' + x[1] + '"]'); if (i) i.checked = true; });
+    document.getElementById("volo").value = parseInt(h[3], 10) || 0;
+    var ex = h[4].split("."); f.querySelectorAll(".rad-exams input").forEach(function (i, n) { i.value = parseInt(ex[n], 10) || 0; });
+  }
+  f.addEventListener("input", calcola); f.addEventListener("change", calcola);
+  document.getElementById("share").addEventListener("click", function () {
+    var t = "Ho calcolato la mia dose di radiazioni: " + it(window._tot, 1) + " mSv all'anno. E la tua?";
+    if (navigator.share) { navigator.share({ title: "Quante radiazioni prendi in un anno?", text: t, url: location.href }).catch(function () {}); return; }
+    try { navigator.clipboard.writeText(t + " " + location.href).then(function () { document.getElementById("copied").hidden = false; }); } catch (e) {}
+  });
+  calcola();
+  // su telefono la pillola resta in basso finché il risultato non è visibile
+  var pill = document.querySelector(".rad-pill");
+  if ("IntersectionObserver" in window) new IntersectionObserver(function (e) { pill.classList.toggle("hide", e[0].isIntersecting); }).observe(document.getElementById("risultato"));
+  pill.addEventListener("click", function (ev) { ev.preventDefault(); document.getElementById("risultato").scrollIntoView({ behavior: "smooth" }); });
+})();
+</script>
+{% endblock %}
