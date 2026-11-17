@@ -37,7 +37,7 @@
       {% endfor %}
       <a href="/dossier/"{% if page_url.startswith('/dossier/') %} aria-current="page"{% endif %}>Dossier</a>
       <a href="/numeri/"{% if page_url.startswith('/numeri/') %} aria-current="page"{% endif %}>Numeri</a>
-      <a href="/mappa/"{% if page_url.startswith('/mappa/') %} aria-current="page"{% endif %}>Mappa</a>
+      <a href="/strumenti/"{% if page_url.startswith(('/strumenti/','/mappa/','/satelliti/','/lanci/')) %} aria-current="page"{% endif %}>Strumenti</a>
       <a class="nav-search" href="/cerca/"{% if page_url.startswith('/cerca/') %} aria-current="page"{% endif %} aria-label="Cerca nel sito"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M20 20l-4.8-4.8"/></svg><span class="nav-search-label">Cerca</span></a>
       <a class="nav-cta" href="/newsletter/">Newsletter</a>
     </nav>
@@ -79,7 +79,10 @@
         <li><a href="/il-punto/">Il Punto</a></li>
         <li><a href="/dossier/">Dossier</a></li>
         <li><a href="/numeri/">Numeri</a></li>
+        <li><a href="/strumenti/">Strumenti</a></li>
         <li><a href="/mappa/">Mappa</a></li>
+        <li><a href="/satelliti/">Satelliti in diretta</a></li>
+        <li><a href="/lanci/">Prossimi lanci</a></li>
         <li><a href="/rassegna/">Rassegna</a></li>
       </ul>
     </div>

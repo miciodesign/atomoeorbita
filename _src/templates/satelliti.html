@@ -1,0 +1,174 @@
+{% extends "base.html" %}
+{% block head %}
+<link rel="stylesheet" href="/assets/leaflet/leaflet.css?v={{ build_date }}">
+<script src="/assets/leaflet/leaflet.js?v={{ build_date }}"></script>
+<script src="/assets/geo/topojson-client.min.js?v={{ build_date }}"></script>
+<script src="/assets/geo/satellite.min.js?v={{ build_date }}"></script>
+{% endblock %}
+{% block content %}
+<section class="wrap section">
+  <nav class="crumbs" aria-label="Percorso"><a href="/">Home</a> › <a href="/strumenti/">Strumenti</a> › <span>Satelliti in diretta</span></nav>
+  <h1>Dove si trova ora la ISS? Satelliti in diretta</h1>
+  <p class="lead">La posizione di adesso della Stazione spaziale internazionale, della stazione cinese Tiangong, del telescopio Hubble e dei satelliti italiani. Il punto si muove in tempo reale; la linea tratteggiata è il percorso dei prossimi 45 minuti.</p>
+
+  <div class="map-paths sat-pick" role="group" aria-label="Scegli il satellite">
+    {% for s in sat.sat if s.k != 'italia' %}
+    <button type="button" class="btn-path{% if loop.first %} on{% endif %}" data-id="{{ s.id }}">{{ s.b }}</button>
+    {% endfor %}
+    <button type="button" class="btn-path" data-id="italia">🇮🇹 Satelliti italiani</button>
+  </div>
+</section>
+
+<section class="wrap">
+  <div id="map" class="map sat-map" role="region" aria-label="Mappa dei satelliti in tempo reale"></div>
+  <div class="sat-panel" aria-live="polite">
+    <div class="sat-now">
+      <p class="tool-next-label"><span class="live-dot"></span>Adesso</p>
+      <p class="sat-now-name" id="sn-name">—</p>
+      <p class="sat-now-where" id="sn-where"></p>
+    </div>
+    <dl class="map-stats sat-stats">
+      <div><dt>Quota</dt><dd><strong id="sn-alt">—</strong> km</dd></div>
+      <div><dt>Velocità</dt><dd><strong id="sn-vel">—</strong> km/h</dd></div>
+      <div><dt>Un giro della Terra</dt><dd><strong id="sn-per">—</strong> min</dd></div>
+      <div><dt>Giri al giorno</dt><dd><strong id="sn-giri">—</strong></dd></div>
+    </dl>
+    <label class="sat-follow"><input type="checkbox" id="follow" checked> Segui il satellite sulla mappa</label>
+  </div>
+</section>
+
+<section class="wrap section">
+  <h2>I satelliti sulla mappa</h2>
+  <div class="sat-cards">
+    <article class="sat-card"><p class="eyebrow">Stazione spaziale</p><h3>ISS</h3><p>Il laboratorio costruito da Stati Uniti, Russia, Europa, Giappone e Canada. A bordo ci sono di solito sei o sette persone, e ci hanno lavorato anche diversi astronauti italiani, da Nespoli a Cristoforetti e Parmitano.</p></article>
+    <article class="sat-card"><p class="eyebrow">Stazione spaziale</p><h3>Tiangong</h3><p>La stazione cinese, completata nel 2022. Più piccola della ISS, ospita tre astronauti alla volta e vola a una quota simile, intorno ai 400 km.</p></article>
+    <article class="sat-card"><p class="eyebrow">Scienza</p><h3>Hubble</h3><p>Il telescopio spaziale di NASA ed ESA, in orbita dal 1990. Gira intorno alla Terra a circa 500 km di quota, scendendo lentamente ogni anno.</p></article>
+    <article class="sat-card"><p class="eyebrow">Italia</p><h3>COSMO-SkyMed e PRISMA</h3><p>I satelliti radar di ASI e Ministero della Difesa vedono il suolo anche di notte e con le nuvole. PRISMA è il satellite iperspettrale dell'ASI: riconosce i materiali dalla luce che riflettono, scomposta in centinaia di colori. Volano in orbita polare, quindi passano su tutta la Terra.</p></article>
+  </div>
+  <div class="tool-help">
+    <h2>Come funziona</h2>
+    <p>Ogni mattina scarichiamo da <a href="https://celestrak.org/" rel="noopener" target="_blank">CelesTrak</a> gli elementi orbitali dei satelliti, cioè i numeri che descrivono la loro orbita. Il tuo browser calcola da lì la posizione di ogni secondo, con lo stesso modello (SGP4) usato dalle agenzie. L'errore è di pochi chilometri: per la mappa è invisibile.</p>
+    <p>Intorno alla Terra ci sono oggi circa {{ "{:,}".format(sat.starlink).replace(",", ".") }} satelliti della sola costellazione Starlink. Quanto costano queste reti e chi le paga lo spieghiamo in <a href="/orbita/costellazioni-satellitari-quanto-costano/">costellazioni satellitari: quanto costano</a>.</p>
+    <p class="tool-note">Dati orbitali aggiornati il <span id="agg" data-t="{{ sat.aggiornato }}">{{ sat.aggiornato }}</span>. Calcolo con <a href="https://github.com/shashwatak/satellite-js" rel="noopener" target="_blank">satellite.js</a> (licenza MIT).</p>
+  </div>
+</section>
+
+<script>
+(function () {
+  var D = {{ sat.sat|tojson }};
+  var el = function (id) { return document.getElementById(id); };
+  if (typeof L === "undefined" || typeof satellite === "undefined") { el("map").textContent = "La mappa non si è caricata. Ricarica la pagina."; return; }
+  var COL = { stazione: "#B4321C", scienza: "#2F5D50", italia: "#2B5C8A" };
+  var map = L.map("map", { scrollWheelZoom: false, minZoom: 2, maxZoom: 6, worldCopyJump: true }).setView([30, 10], 2);
+  map.attributionControl.addAttribution('Confini: <a href="https://www.naturalearthdata.com/" rel="noopener" target="_blank">Natural Earth</a> · Orbite: <a href="https://celestrak.org/" rel="noopener" target="_blank">CelesTrak</a>');
+  map.createPane("terre"); map.getPane("terre").style.zIndex = 250;
+  fetch("/assets/geo/countries-50m.json?v={{ build_date }}").then(function (r) { return r.json(); }).then(function (topo) {
+    if (typeof topojson === "undefined") return;
+    function unwrap(ring) { for (var i = 1; i < ring.length; i++) { var d = ring[i][0] - ring[i - 1][0]; if (d > 180) ring[i][0] -= 360; else if (d < -180) ring[i][0] += 360; } }
+    var geo = topojson.feature(topo, topo.objects.countries);
+    geo.features.forEach(function (f) { var g = f.geometry; if (!g) return; (g.type === "Polygon" ? [g.coordinates] : g.type === "MultiPolygon" ? g.coordinates : []).forEach(function (p) { p.forEach(unwrap); }); });
+    L.geoJSON(geo, { pane: "terre", interactive: false, style: { color: "#B9AE98", weight: 0.6, fillColor: "#F7F3EA", fillOpacity: 1 } }).addTo(map);
+  }).catch(function () {});
+  map.on("focus", function () { map.scrollWheelZoom.enable(); });
+  map.on("blur", function () { map.scrollWheelZoom.disable(); });
+
+  var notte = L.polygon([], { color: "#1C1B18", weight: 0, fillOpacity: 0.10, interactive: false }).addTo(map);
+  function terminatore(d) {
+    // ombra della notte: punto sub-solare approssimato, sufficiente per la mappa
+    var g = (d - Date.UTC(d.getUTCFullYear(), 0, 0)) / 864e5, rad = Math.PI / 180;
+    var decl = -23.44 * Math.cos(2 * Math.PI / 365 * (g + 10));
+    var lonSun = -((d.getUTCHours() + d.getUTCMinutes() / 60 + d.getUTCSeconds() / 3600) - 12) * 15;
+    var pts = [], latS = decl * rad;
+    for (var lon = -180; lon <= 180; lon += 2) {
+      var lat = Math.atan(-Math.cos((lon - lonSun) * rad) / Math.tan(latS)) / rad;
+      pts.push([lat, lon]);
+    }
+    var polo = decl > 0 ? -90 : 90;
+    pts.push([polo, 180]); pts.push([polo, -180]);
+    notte.setLatLngs(pts);
+  }
+
+  var S = D.map(function (s) {
+    var rec = satellite.twoline2satrec(s.l1, s.l2);
+    var big = s.k !== "italia";
+    var m = L.circleMarker([0, 0], { radius: big ? 7 : 5, color: "#fff", weight: 2, fillColor: COL[s.k], fillOpacity: 1 }).addTo(map);
+    var corto = s.n.replace("Stazione spaziale internazionale (ISS)", "ISS").replace("Stazione spaziale cinese ", "").replace("Telescopio spaziale ", "").replace("COSMO-SkyMed Seconda Generazione ", "CSG-").replace(" (ASI)", "");
+    m.bindTooltip(corto, { permanent: big, direction: "right", offset: [8, 0], className: "sat-label" + (big ? "" : " small") });
+    m.on("click", function () { scegli(s.k === "italia" ? String(s.id) : String(s.id)); });
+    return { d: s, rec: rec, m: m, corto: corto };
+  });
+  var traccia = L.layerGroup().addTo(map);
+  var sel = String(D[0].id), seguito = true;
+
+  function pos(rec, t) {
+    var pv = satellite.propagate(rec, t);
+    if (!pv || !pv.position) return null;
+    var g = satellite.eciToGeodetic(pv.position, satellite.gstime(t));
+    var v = pv.velocity;
+    return { lat: satellite.degreesLat(g.latitude), lon: satellite.degreesLong(g.longitude), alt: g.height,
+             vel: v ? Math.sqrt(v.x * v.x + v.y * v.y + v.z * v.z) * 3600 : 0 };
+  }
+  function segmenti(rec, t0, da, a, passo) {
+    var out = [], cur = [], prev = null;
+    for (var m = da; m <= a; m += passo) {
+      var p = pos(rec, new Date(t0.getTime() + m * 60000)); if (!p) continue;
+      if (prev !== null && Math.abs(p.lon - prev) > 180) { out.push(cur); cur = []; }
+      cur.push([p.lat, p.lon]); prev = p.lon;
+    }
+    if (cur.length) out.push(cur);
+    return out;
+  }
+  function disegnaTraccia() {
+    traccia.clearLayers();
+    var now = new Date();
+    var lista = sel === "italia" ? S.filter(function (x) { return x.d.k === "italia"; }) : S.filter(function (x) { return String(x.d.id) === sel; });
+    lista.forEach(function (x) {
+      var c = COL[x.d.k];
+      segmenti(x.rec, now, -45, 0, 1).forEach(function (s) { L.polyline(s, { color: c, weight: 2, opacity: 0.35, interactive: false }).addTo(traccia); });
+      segmenti(x.rec, now, 0, 45, 1).forEach(function (s) { L.polyline(s, { color: c, weight: 2, dashArray: "6 5", interactive: false }).addTo(traccia); });
+    });
+  }
+  function fmt(n) { return Math.round(n).toString().replace(/\B(?=(\d{3})+(?!\d))/g, "."); }
+  function dove(lat, lon) {
+    var ns = lat >= 0 ? "N" : "S", eo = lon >= 0 ? "E" : "O";
+    return Math.abs(lat).toFixed(1).replace(".", ",") + "° " + ns + ", " + Math.abs(lon).toFixed(1).replace(".", ",") + "° " + eo;
+  }
+  function aggiorna() {
+    var now = new Date();
+    terminatore(now);
+    S.forEach(function (x) {
+      var p = pos(x.rec, now); if (!p) return;
+      x.p = p; x.m.setLatLng([p.lat, p.lon]);
+    });
+    var x = sel === "italia" ? S.filter(function (y) { return y.d.k === "italia"; })[0] : S.filter(function (y) { return String(y.d.id) === sel; })[0];
+    if (!x || !x.p) return;
+    el("sn-name").textContent = sel === "italia" ? "Satelliti italiani (" + S.filter(function (y) { return y.d.k === "italia"; }).length + ")" : x.d.n;
+    el("sn-where").textContent = sel === "italia" ? "In evidenza: " + x.corto + " · " + dove(x.p.lat, x.p.lon) : dove(x.p.lat, x.p.lon);
+    el("sn-alt").textContent = fmt(x.p.alt);
+    el("sn-vel").textContent = fmt(x.p.vel);
+    var per = 2 * Math.PI / x.rec.no;  // minuti per orbita
+    el("sn-per").textContent = Math.round(per);
+    el("sn-giri").textContent = (1440 / per).toFixed(1).replace(".", ",");
+    if (seguito && sel !== "italia") map.panTo([x.p.lat, x.p.lon], { animate: true, duration: 0.8 });
+  }
+  function scegli(id) {
+    sel = id;
+    document.querySelectorAll(".sat-pick .btn-path").forEach(function (b) {
+      b.classList.toggle("on", b.dataset.id === id || (id !== "italia" && b.dataset.id === "italia" && S.some(function (x) { return String(x.d.id) === id && x.d.k === "italia"; })));
+    });
+    disegnaTraccia(); aggiorna();
+    if (id === "italia") map.setView([30, 10], 2);
+  }
+  document.querySelectorAll(".sat-pick .btn-path").forEach(function (b) { b.addEventListener("click", function () { scegli(b.dataset.id); }); });
+  el("follow").addEventListener("change", function () { seguito = this.checked; if (seguito) aggiorna(); });
+  map.on("dragstart", function () { if (seguito) { seguito = false; el("follow").checked = false; } });
+
+  var a = el("agg"), t = new Date(a.dataset.t.replace("Z", ":00Z"));
+  if (!isNaN(t)) a.textContent = t.toLocaleString("it-IT", { day: "numeric", month: "long", year: "numeric", hour: "2-digit", minute: "2-digit", timeZone: "Europe/Rome" });
+  scegli(sel);
+  map.setView([S[0].p ? S[0].p.lat : 30, S[0].p ? S[0].p.lon : 10], 3);
+  setInterval(aggiorna, 1000);
+  setInterval(disegnaTraccia, 60000);
+})();
+</script>
+{% endblock %}

@@ -126,6 +126,83 @@ def clean_output() -> None:
 
 
 # ---------------------------------------------------------------- content
+MESI = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio",
+        "agosto", "settembre", "ottobre", "novembre", "dicembre"]
+GIORNI = ["lunedì", "martedì", "mercoledì", "giovedì", "venerdì", "sabato", "domenica"]
+EUROPA_OP = {"Arianespace", "Avio S.p.A", "Isar Aerospace", "European Space Agency", "Rocket Factory Augsburg", "Orbex", "Skyrora", "PLD Space"}
+EUROPA_BASE = ("Guiana", "Andøya", "Esrange", "SaxaVord", "Sutherland")
+ORBITE = {"LEO": "orbita bassa", "SSO": "orbita eliosincrona", "PO": "orbita polare", "GTO": "verso l'orbita geostazionaria",
+          "GEO": "orbita geostazionaria", "MEO": "orbita media", "Sub": "volo suborbitale", "ISS": "verso la ISS",
+          "Lunar": "verso la Luna", "TLI": "verso la Luna", "Heliocentric N/A": "orbita attorno al Sole", "Mars": "verso Marte"}
+STATI = {"Go": ("confermato", "go"), "TBC": ("da confermare", "tbc"), "TBD": ("data indicativa", "tbd"),
+         "Hold": ("sospeso", "tbd"), "In Flight": ("in volo", "go"), "Success": ("riuscito", "go")}
+PAESI = {"People's Republic of China": "Cina", "Republic of Kazakhstan": "Kazakistan", "French Guiana": "Guyana francese",
+         "New Zealand": "Nuova Zelanda", "India": "India", "Japan": "Giappone", "Russian Federation": "Russia", "USA": "USA"}
+SAT_NOMI = {25544: "Stazione spaziale internazionale (ISS)", 48274: "Stazione spaziale cinese Tiangong",
+            20580: "Telescopio spaziale Hubble", 44072: "PRISMA (ASI)"}
+
+
+def prepara_lanci(raw: dict) -> dict:
+    """Lanci di LL2 in italiano, raggruppati per mese, con date indicative riconosciute."""
+    from datetime import datetime, timezone, timedelta
+    from zoneinfo import ZoneInfo
+    roma = ZoneInfo("Europe/Rome")
+    adesso = datetime.now(timezone.utc) - timedelta(hours=3)
+    mesi, prossimo = [], None
+    for l in raw.get("lanci", []):
+        d = datetime.fromisoformat(l["data"].replace("Z", "+00:00"))
+        if d < adesso:
+            continue
+        stato, cls = STATI.get(l["stato"], (l["stato"], "tbd"))
+        indicativa = l["stato"] == "TBD" or (d.hour == 0 and d.minute == 0 and l["stato"] != "Go")
+        r = d.astimezone(roma)
+        senza_data = indicativa and d.month == 12 and d.day == 31
+        if senza_data:
+            quando = "data da definire"
+        elif indicativa:
+            fine_mese = (d + timedelta(days=1)).day == 1
+            quando = f"nel corso di {MESI[d.month-1]}" if fine_mese else f"non prima del {d.day} {MESI[d.month-1]}"
+        else:
+            quando = f"{GIORNI[r.weekday()]} {r.day} {MESI[r.month-1]}, ore {r:%H:%M}"
+        base = l.get("base") or ""
+        luogo = base.split(",")[0]
+        paese = PAESI.get(base.split(", ")[-1].strip(), "") if "," in base else ""
+        eu = l.get("operatore") in EUROPA_OP or any(b in base for b in EUROPA_BASE)
+        ita = l.get("operatore") == "Avio S.p.A" or any(k in (l.get("missione") or "") for k in ("IRIDE", "COSMO", "PLATiNO", "ASI"))
+        missione = (l.get("missione") or "").replace("Unknown Payload", "Missione non dichiarata").replace("TBD?", "").strip()
+        item = {"missione": missione, "razzo": l.get("razzo") or "", "operatore": l.get("operatore") or "",
+                "luogo": luogo + (f" ({paese})" if paese and paese not in luogo else ""), "quando": quando,
+                "iso": l["data"], "esatta": not indicativa, "stato": stato, "cls": cls,
+                "orbita": ORBITE.get(l.get("orbita") or "", ""), "eu": eu, "ita": ita}
+        chiave = "Data ancora da definire" if senza_data else f"{MESI[d.month-1].capitalize()} {d.year}"
+        if not mesi or mesi[-1]["nome"] != chiave:
+            mesi.append({"nome": chiave, "lanci": []})
+        mesi[-1]["lanci"].append(item)
+        if prossimo is None and not indicativa and "non dichiarat" not in missione:
+            prossimo = item
+    agg = datetime.fromisoformat(raw.get("aggiornato", "2026-01-01T00:00Z").replace("Z", "+00:00")).astimezone(roma)
+    n_eu = sum(1 for m in mesi for x in m["lanci"] if x["eu"])
+    return {"mesi": mesi, "prossimo": prossimo, "n": sum(len(m["lanci"]) for m in mesi), "n_eu": n_eu,
+            "aggiornato": f"{agg.day} {MESI[agg.month-1]} {agg.year}, ore {agg:%H:%M}"}
+
+
+def prepara_satelliti(raw: dict) -> dict:
+    sat = []
+    for x in raw.get("sat", []):
+        nome = SAT_NOMI.get(x["id"])
+        if not nome:
+            n = x["nome"].upper()
+            if n.startswith("CSG"):
+                nome = "COSMO-SkyMed Seconda Generazione " + n.split("-")[-1].strip()
+            elif n.startswith("COSMO"):
+                nome = "COSMO-SkyMed " + n.split()[-1]
+            else:
+                nome = x["n"]
+        breve = {25544: "ISS", 48274: "Tiangong", 20580: "Hubble"}.get(x["id"], nome)
+        sat.append({**x, "n": nome, "b": breve})
+    return {**raw, "sat": sat}
+
+
 def load_foto() -> dict:
     p = SRC / "data" / "foto.json"
     return json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
@@ -345,6 +422,22 @@ def build() -> None:
         title=f"Mappa delle centrali nucleari nel mondo e delle basi spaziali · {CONFIG['name']}",
         description="Mappa interattiva gratuita delle centrali nucleari nel mondo, paese per paese, e delle basi spaziali: spazioporti, siti di lancio e centri italiani. Con foto, fonti e dati scaricabili."))
 
+    # strumenti: hub, satelliti in diretta, prossimi lanci
+    sat = prepara_satelliti(json.loads((data_dir / "satelliti.json").read_text(encoding="utf-8")))
+    lanci = prepara_lanci(json.loads((data_dir / "lanci.json").read_text(encoding="utf-8")))
+    write(ROOT / "strumenti" / "index.html", env.get_template("strumenti.html").render(
+        **base_ctx, anteprima=anteprima_mappa(centrali, spazio), lanci=lanci, sat=sat, page_url="/strumenti/",
+        title=f"Strumenti: mappa, satelliti in diretta e prossimi lanci · {CONFIG['name']}",
+        description="Strumenti gratuiti di Atomo e Orbita: la mappa delle centrali nucleari, dove si trovano ora la ISS e i satelliti italiani, il calendario dei prossimi lanci spaziali."))
+    write(ROOT / "satelliti" / "index.html", env.get_template("satelliti.html").render(
+        **base_ctx, sat=sat, page_url="/satelliti/",
+        title=f"Dove si trova ora la ISS? Satelliti in diretta sulla mappa · {CONFIG['name']}",
+        description="La posizione in tempo reale della Stazione spaziale internazionale, di Tiangong, di Hubble e dei satelliti italiani COSMO-SkyMed e PRISMA, calcolata dai dati orbitali aggiornati ogni giorno."))
+    write(ROOT / "lanci" / "index.html", env.get_template("lanci.html").render(
+        **base_ctx, lanci=lanci, page_url="/lanci/",
+        title=f"Prossimi lanci spaziali: calendario con orari italiani · {CONFIG['name']}",
+        description="Il calendario dei prossimi lanci spaziali nel mondo con data e ora italiana, razzo, base e missione. In evidenza i lanci europei e italiani. Aggiornato ogni giorno."))
+
     # ricerca interna: indice JSON letto da /cerca/ nel browser, nessun servizio esterno
     def plain(h: str, n: int = 4000) -> str:
         t = re.sub(r"<[^>]+>", " ", h)
@@ -363,6 +456,10 @@ def build() -> None:
             for m in re.finditer(r"<strong>([^<]+)</strong>\s*[–-]\s*(.+?)</p>", p["body"]):
                 idx.append({"t": html.unescape(m.group(1)), "u": "/glossario/", "k": "Glossario",
                             "d": plain(m.group(2), 220), "x": "", "w": 2})
+    idx.append({"t": "Satelliti in diretta: dove si trova ora la ISS", "u": "/satelliti/", "k": "Strumenti",
+                "d": "Posizione in tempo reale di ISS, Tiangong, Hubble e dei satelliti italiani COSMO-SkyMed e PRISMA.", "x": "satellite iss stazione spaziale tracker tempo reale", "w": 3})
+    idx.append({"t": "Prossimi lanci spaziali", "u": "/lanci/", "k": "Strumenti",
+                "d": "Calendario dei prossimi lanci con orario italiano, in evidenza quelli europei e italiani.", "x": "lanci razzi calendario falcon ariane vega", "w": 3})
     idx.append({"t": "Mappa delle centrali nucleari e delle basi spaziali", "u": "/mappa/", "k": "Mappa",
                 "d": "Le centrali nucleari in funzione nel mondo, le basi di lancio e i siti spaziali italiani.", "x": "", "w": 3})
     for c in centrali:
@@ -407,7 +504,7 @@ def build() -> None:
         description=""))
 
     # sitemap, robots, feed
-    urls = (["/", "/dossier/", "/il-punto/", "/numeri/", "/rassegna/", "/mappa/"] + [c["url"] for c in categories]
+    urls = (["/", "/dossier/", "/il-punto/", "/numeri/", "/rassegna/", "/mappa/", "/strumenti/", "/satelliti/", "/lanci/"] + [c["url"] for c in categories]
             + [a["url"] for a in articles] + [n["url"] for n in numeri] + [p["url"] for p in pages])
     sitemap = ['<?xml version="1.0" encoding="UTF-8"?>',
                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']

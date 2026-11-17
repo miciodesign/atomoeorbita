@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="wrap section">
+  <nav class="crumbs" aria-label="Percorso"><a href="/">Home</a> › <a href="/strumenti/">Strumenti</a> › <span>Prossimi lanci</span></nav>
+  <h1>Prossimi lanci spaziali</h1>
+  <p class="lead">Il calendario dei lanci in programma nel mondo, con l'orario italiano. Le date dei razzi cambiano spesso: quelle segnate come indicative sono stime, non appuntamenti.</p>
+
+  {% if lanci.prossimo %}
+  <div class="launch-next">
+    <div>
+      <p class="tool-next-label">Prossimo lancio con data fissata</p>
+      <p class="launch-next-name">{{ lanci.prossimo.missione }}</p>
+      <p class="launch-next-meta">{{ lanci.prossimo.razzo }} · {{ lanci.prossimo.operatore }} · {{ lanci.prossimo.luogo }}</p>
+      <p class="launch-next-meta">{{ lanci.prossimo.quando }} (ora italiana)</p>
+    </div>
+    <p class="launch-count" data-t="{{ lanci.prossimo.iso }}" aria-live="off"></p>
+  </div>
+  {% endif %}
+
+  <div class="map-paths launch-filter" role="group" aria-label="Filtra i lanci">
+    <button type="button" class="btn-path on" data-f="tutti">Tutti ({{ lanci.n }})</button>
+    <button type="button" class="btn-path" data-f="eu">Europa e Italia ({{ lanci.n_eu }})</button>
+  </div>
+</section>
+
+<section class="wrap launch-list">
+  {% for m in lanci.mesi %}
+  <h2 class="launch-month">{{ m.nome }}</h2>
+  <ol class="launch-rows">
+    {% for l in m.lanci %}
+    <li class="launch-row{% if l.eu %} is-eu{% endif %}{% if l.ita %} is-ita{% endif %}">
+      <p class="launch-when">{{ l.quando }}{% if not l.esatta %}<br><span class="launch-tag tbd">data indicativa</span>{% endif %}</p>
+      <div>
+        <p class="launch-name">{{ l.missione }}{% if l.ita %} <span class="launch-tag ita">Italia</span>{% elif l.eu %} <span class="launch-tag eu">Europa</span>{% endif %}</p>
+        <p class="launch-meta">{{ l.razzo }} · {{ l.operatore }}</p>
+        <p class="launch-meta">{{ l.luogo }}{% if l.orbita %} · {{ l.orbita }}{% endif %}</p>
+      </div>
+      <p class="launch-status {{ l.cls }}">{{ l.stato }}</p>
+    </li>
+    {% endfor %}
+  </ol>
+  {% else %}
+  <div class="notice"><p>Il calendario si sta aggiornando. Riprova tra qualche ora.</p></div>
+  {% endfor %}
+</section>
+
+<section class="wrap section">
+  <div class="tool-help">
+    <h2>Come leggere il calendario</h2>
+    <p><strong>Confermato</strong>: il lanciatore e la base hanno fissato giorno e ora. <strong>Da confermare</strong>: c'è una data ma può slittare. <strong>Data indicativa</strong>: si sa solo il mese, o il giorno prima del quale non partirà. Nel gruppo «Data ancora da definire» ci sono le missioni previste ma senza ancora un mese preciso.</p>
+    <p>Gli orari sono quelli dell'apertura della finestra di lancio, convertiti nell'ora italiana. Per capire perché un razzo europeo parte dalla Guyana francese, leggi la nostra <a href="/mappa/#spazio">mappa delle basi spaziali</a>; per seguire la ISS, c'è <a href="/satelliti/">la mappa dei satelliti in diretta</a>.</p>
+    <p class="tool-note">Fonte: <a href="https://thespacedevs.com/llapi" rel="noopener" target="_blank">The Space Devs, Launch Library 2</a>. Aggiornato il {{ lanci.aggiornato }}.</p>
+  </div>
+</section>
+
+<script>
+(function () {
+  var c = document.querySelector(".launch-count");
+  if (c) {
+    var t = Date.parse(c.getAttribute("data-t"));
+    var tick = function () {
+      var s = Math.round((t - Date.now()) / 1000);
+      if (s <= 0) { c.textContent = "Finestra aperta"; return; }
+      var g = Math.floor(s / 86400), h = Math.floor(s % 86400 / 3600), m = Math.floor(s % 3600 / 60);
+      c.innerHTML = "<span>Mancano</span>" + (g ? "<strong>" + g + "</strong> g " : "") + "<strong>" + h + "</strong> h <strong>" + m + "</strong> min";
+    };
+    tick(); setInterval(tick, 30000);
+  }
+  var bs = document.querySelectorAll(".launch-filter button");
+  bs.forEach(function (b) {
+    b.addEventListener("click", function () {
+      bs.forEach(function (x) { x.classList.toggle("on", x === b); });
+      document.querySelector(".launch-list").classList.toggle("only-eu", b.getAttribute("data-f") === "eu");
+    });
+  });
+})();
+</script>
+{% endblock %}

@@ -146,3 +146,8 @@ Seconda analisi SEO (14/11, 1.420 impressioni / 20 clic in 3 mesi): quasi tutto 
 "Nucleare e spazio, spiegati bene. Guida per studenti": PDF gratuito + pagina web, con invito a iscriversi a Il Punto. Indice in `_src/ebook/indice.md`. Uscita metà dicembre, impaginato con la nuova identità.
 
 **Aggiornamento 17/11:** su richiesta di Roberto il cambio di identità è stato anticipato al 17 novembre (invece dell'8 dicembre). Nella fotografia del 7/12 tenerne conto: il nuovo stile è online dal 17/11. Caratteri ora ospitati sul sito (niente più Google Fonts).
+
+## Strumenti (online dal 17/11/2026)
+- /strumenti/ (hub), /satelliti/ (ISS, Tiangong, Hubble, COSMO-SkyMed, CSG, PRISMA in diretta con satellite.js), /lanci/ (calendario LL2 con ora italiana).
+- Dati aggiornati ogni mattina dal workflow spazio-dati.yml (CelesTrak + The Space Devs), che ricostruisce il sito.
+- Nel menu "Strumenti" ha preso il posto di "Mappa"; /mappa/ resta allo stesso indirizzo.

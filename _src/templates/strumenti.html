@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="wrap section">
+  <nav class="crumbs" aria-label="Percorso"><a href="/">Home</a> › <span>Strumenti</span></nav>
+  <h1>Strumenti</h1>
+  <p class="lead">Mappe e dati che si aggiornano da soli: dove sono le centrali nucleari, dove passa adesso la Stazione spaziale, quando parte il prossimo razzo. Gratuiti, senza registrazione.</p>
+</section>
+
+<section class="wrap tool-grid">
+  <a class="tool-card" href="/mappa/">
+    <div class="tool-visual">{{ anteprima|safe }}</div>
+    <div class="tool-text">
+      <p class="eyebrow">Mappa interattiva</p>
+      <h2>Centrali nucleari e basi spaziali nel mondo</h2>
+      <p>Tutte le centrali operabili, gli spazioporti e i siti spaziali italiani, con foto, dati e fonti per ogni punto.</p>
+      <span class="btn">Apri la mappa</span>
+    </div>
+  </a>
+
+  <a class="tool-card" href="/satelliti/">
+    <div class="tool-visual tool-orbit" aria-hidden="true">
+      <svg viewBox="0 0 360 125"><rect width="360" height="125" fill="#E9E2D3"/>
+        <path d="M0 78 C 60 20, 120 20, 180 62 S 300 110, 360 50" fill="none" stroke="#B4321C" stroke-width="1.6" stroke-dasharray="5 4"/>
+        <path d="M0 40 C 70 100, 140 105, 200 70 S 310 15, 360 70" fill="none" stroke="#2B5C8A" stroke-width="1.2" stroke-dasharray="3 4" opacity=".7"/>
+        <circle cx="180" cy="62" r="6" fill="#B4321C"/><circle cx="180" cy="62" r="12" fill="none" stroke="#B4321C" opacity=".35"/>
+        <circle cx="262" cy="34" r="4.5" fill="#2B5C8A"/></svg>
+    </div>
+    <div class="tool-text">
+      <p class="eyebrow"><span class="live-dot"></span>In diretta</p>
+      <h2>Dove si trova ora la ISS</h2>
+      <p>La Stazione spaziale internazionale, Tiangong, Hubble e i satelliti italiani COSMO-SkyMed e PRISMA, in movimento sulla mappa.</p>
+      <span class="btn">Segui i satelliti</span>
+    </div>
+  </a>
+
+  <a class="tool-card" href="/lanci/">
+    <div class="tool-visual tool-next">
+      {% if lanci.prossimo %}
+      <p class="tool-next-label">Prossimo lancio</p>
+      <p class="tool-next-name">{{ lanci.prossimo.missione }}</p>
+      <p class="tool-next-meta">{{ lanci.prossimo.razzo }} · {{ lanci.prossimo.quando }}</p>
+      {% endif %}
+    </div>
+    <div class="tool-text">
+      <p class="eyebrow">Calendario</p>
+      <h2>Prossimi lanci spaziali</h2>
+      <p>{{ lanci.n }} lanci in programma con orario italiano, razzo e base. In evidenza i lanci europei e italiani, come Vega-C.</p>
+      <span class="btn">Vedi il calendario</span>
+    </div>
+  </a>
+</section>
+<section class="wrap section">
+  <p class="tool-note">I dati arrivano da fonti pubbliche e si aggiornano ogni mattina: CelesTrak per le orbite dei satelliti, The Space Devs per i lanci, IAEA PRIS per le centrali.</p>
+</section>
+{% endblock %}

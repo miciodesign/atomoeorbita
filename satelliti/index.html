@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dove si trova ora la ISS? Satelliti in diretta sulla mappa · Atomo e Orbita</title>
+<meta name="description" content="La posizione in tempo reale della Stazione spaziale internazionale, di Tiangong, di Hubble e dei satelliti italiani COSMO-SkyMed e PRISMA, calcolata dai dati orbitali aggiornati ogni giorno.">
+<link rel="canonical" href="https://atomoeorbita.it/satelliti/">
+<meta property="og:site_name" content="Atomo e Orbita">
+<meta property="og:title" content="Dove si trova ora la ISS? Satelliti in diretta sulla mappa · Atomo e Orbita">
+<meta property="og:description" content="La posizione in tempo reale della Stazione spaziale internazionale, di Tiangong, di Hubble e dei satelliti italiani COSMO-SkyMed e PRISMA, calcolata dai dati orbitali aggiornati ogni giorno.">
+<meta property="og:url" content="https://atomoeorbita.it/satelliti/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://atomoeorbita.it/assets/og-default.png"><meta property="og:locale" content="it_IT">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#F3EFE6">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="Atomo e Orbita" href="/feed.xml">
+<link rel="preload" href="/assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/newsreader.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/style.css?v=2026-11-17">
+<link rel="stylesheet" href="/assets/leaflet/leaflet.css?v=2026-11-17">
+<script src="/assets/leaflet/leaflet.js?v=2026-11-17"></script>
+<script src="/assets/geo/topojson-client.min.js?v=2026-11-17"></script>
+<script src="/assets/geo/satellite.min.js?v=2026-11-17"></script>
+</head>
+<body>
+<a class="skip" href="#main">Vai al contenuto</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="/" aria-label="Atomo e Orbita, home">
+      <svg width="36" height="36" viewBox="0 0 120 120" aria-hidden="true"><g transform="rotate(-30 60 60)"><ellipse cx="60" cy="60" rx="52" ry="20" fill="none" stroke="currentColor" stroke-width="5"/><circle cx="112" cy="60" r="7" fill="currentColor"/></g><circle cx="60" cy="60" r="14" fill="var(--accent)"/></svg>
+      <span>Atomo <em>&amp;</em> Orbita</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav" onclick="var n=document.getElementById('nav');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">Menu</button>
+    <nav id="nav" class="nav" aria-label="Sezioni">
+      <a href="/atomo/">Atomo</a>
+      <a href="/orbita/">Orbita</a>
+      <a href="/confine/">Confine</a>
+      <a href="/dossier/">Dossier</a>
+      <a href="/numeri/">Numeri</a>
+      <a href="/strumenti/" aria-current="page">Strumenti</a>
+      <a class="nav-search" href="/cerca/" aria-label="Cerca nel sito"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M20 20l-4.8-4.8"/></svg><span class="nav-search-label">Cerca</span></a>
+      <a class="nav-cta" href="/newsletter/">Newsletter</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="wrap section">
+  <nav class="crumbs" aria-label="Percorso"><a href="/">Home</a> › <a href="/strumenti/">Strumenti</a> › <span>Satelliti in diretta</span></nav>
+  <h1>Dove si trova ora la ISS? Satelliti in diretta</h1>
+  <p class="lead">La posizione di adesso della Stazione spaziale internazionale, della stazione cinese Tiangong, del telescopio Hubble e dei satelliti italiani. Il punto si muove in tempo reale; la linea tratteggiata è il percorso dei prossimi 45 minuti.</p>
+
+  <div class="map-paths sat-pick" role="group" aria-label="Scegli il satellite">
+    <button type="button" class="btn-path on" data-id="25544">ISS</button>
+    <button type="button" class="btn-path" data-id="48274">Tiangong</button>
+    <button type="button" class="btn-path" data-id="20580">Hubble</button>
+    <button type="button" class="btn-path" data-id="italia">🇮🇹 Satelliti italiani</button>
+  </div>
+</section>
+
+<section class="wrap">
+  <div id="map" class="map sat-map" role="region" aria-label="Mappa dei satelliti in tempo reale"></div>
+  <div class="sat-panel" aria-live="polite">
+    <div class="sat-now">
+      <p class="tool-next-label"><span class="live-dot"></span>Adesso</p>
+      <p class="sat-now-name" id="sn-name">—</p>
+      <p class="sat-now-where" id="sn-where"></p>
+    </div>
+    <dl class="map-stats sat-stats">
+      <div><dt>Quota</dt><dd><strong id="sn-alt">—</strong> km</dd></div>
+      <div><dt>Velocità</dt><dd><strong id="sn-vel">—</strong> km/h</dd></div>
+      <div><dt>Un giro della Terra</dt><dd><strong id="sn-per">—</strong> min</dd></div>
+      <div><dt>Giri al giorno</dt><dd><strong id="sn-giri">—</strong></dd></div>
+    </dl>
+    <label class="sat-follow"><input type="checkbox" id="follow" checked> Segui il satellite sulla mappa</label>
+  </div>
+</section>
+
+<section class="wrap section">
+  <h2>I satelliti sulla mappa</h2>
+  <div class="sat-cards">
+    <article class="sat-card"><p class="eyebrow">Stazione spaziale</p><h3>ISS</h3><p>Il laboratorio costruito da Stati Uniti, Russia, Europa, Giappone e Canada. A bordo ci sono di solito sei o sette persone, e ci hanno lavorato anche diversi astronauti italiani, da Nespoli a Cristoforetti e Parmitano.</p></article>
+    <article class="sat-card"><p class="eyebrow">Stazione spaziale</p><h3>Tiangong</h3><p>La stazione cinese, completata nel 2022. Più piccola della ISS, ospita tre astronauti alla volta e vola a una quota simile, intorno ai 400 km.</p></article>
+    <article class="sat-card"><p class="eyebrow">Scienza</p><h3>Hubble</h3><p>Il telescopio spaziale di NASA ed ESA, in orbita dal 1990. Gira intorno alla Terra a circa 500 km di quota, scendendo lentamente ogni anno.</p></article>
+    <article class="sat-card"><p class="eyebrow">Italia</p><h3>COSMO-SkyMed e PRISMA</h3><p>I satelliti radar di ASI e Ministero della Difesa vedono il suolo anche di notte e con le nuvole. PRISMA è il satellite iperspettrale dell'ASI: riconosce i materiali dalla luce che riflettono, scomposta in centinaia di colori. Volano in orbita polare, quindi passano su tutta la Terra.</p></article>
+  </div>
+  <div class="tool-help">
+    <h2>Come funziona</h2>
+    <p>Ogni mattina scarichiamo da <a href="https://celestrak.org/" rel="noopener" target="_blank">CelesTrak</a> gli elementi orbitali dei satelliti, cioè i numeri che descrivono la loro orbita. Il tuo browser calcola da lì la posizione di ogni secondo, con lo stesso modello (SGP4) usato dalle agenzie. L'errore è di pochi chilometri: per la mappa è invisibile.</p>
+    <p>Intorno alla Terra ci sono oggi circa 11.185 satelliti della sola costellazione Starlink. Quanto costano queste reti e chi le paga lo spieghiamo in <a href="/orbita/costellazioni-satellitari-quanto-costano/">costellazioni satellitari: quanto costano</a>.</p>
+    <p class="tool-note">Dati orbitali aggiornati il <span id="agg" data-t="2026-11-17T07:48Z">2026-11-17T07:48Z</span>. Calcolo con <a href="https://github.com/shashwatak/satellite-js" rel="noopener" target="_blank">satellite.js</a> (licenza MIT).</p>
+  </div>
+</section>
+
+<script>
+(function () {
+  var D = [{"b": "ISS", "id": 25544, "k": "stazione", "l1": "1 25544U 98067A   26320.88307550  .00009012  00000+0  16898-3 0  9995", "l2": "2 25544  51.6320 264.4586 0007388  33.7322 326.4135 15.49421361595425", "n": "Stazione spaziale internazionale (ISS)", "nome": "ISS (ZARYA)"}, {"b": "Tiangong", "id": 48274, "k": "stazione", "l1": "1 48274U 21035A   26320.86904758  .00016068  00000+0  19191-3 0  9990", "l2": "2 48274  41.4687 114.1380 0004839 248.5970 111.4352 15.60653495317017", "n": "Stazione spaziale cinese Tiangong", "nome": "CSS (TIANHE)"}, {"b": "Hubble", "id": 20580, "k": "scienza", "l1": "1 20580U 90037B   26320.81934187  .00005767  00000+0  17210-3 0  9996", "l2": "2 20580  28.4712 116.1596 0002443  53.5512 306.5309 15.32325265811992", "n": "Telescopio spaziale Hubble", "nome": "HST"}, {"b": "PRISMA (ASI)", "id": 44072, "k": "italia", "l1": "1 44072U 19015A   26320.96413600  .00000861  00000+0  11056-3 0  9995", "l2": "2 44072  97.8654  33.5254 0001240  92.3699 267.7657 14.83684771414700", "n": "PRISMA (ASI)", "nome": "PRISMA"}, {"b": "COSMO-SkyMed 1", "id": 31598, "k": "italia", "l1": "1 31598U 07023A   26320.96149521  .00003088  00000+0  26877-3 0  9999", "l2": "2 31598  97.8775 154.1484 0001964  91.9568 268.1878 14.97685701 52652", "n": "COSMO-SkyMed 1", "nome": "COSMO-SKYMED 1"}, {"b": "COSMO-SkyMed 2", "id": 32376, "k": "italia", "l1": "1 32376U 07059A   26320.93748808  .00000362  00000+0  52067-4 0  9996", "l2": "2 32376  97.8889 142.3750 0001438  85.3447 274.7930 14.82150342 24638", "n": "COSMO-SkyMed 2", "nome": "COSMO-SKYMED 2"}, {"b": "COSMO-SkyMed 3", "id": 33412, "k": "italia", "l1": "1 33412U 08054A   26320.95604589  .00005164  00000+0  34088-3 0  9990", "l2": "2 33412  97.8046 181.9657 0016833 105.9892 254.3191 15.07777971979956", "n": "COSMO-SkyMed 3", "nome": "COSMO-SKYMED 3"}, {"b": "COSMO-SkyMed 4", "id": 37216, "k": "italia", "l1": "1 37216U 10060A   26320.34255142  .00000719  00000+0  96820-4 0  9990", "l2": "2 37216  97.8887 141.7911 0001366  80.1253 280.0114 14.82159767867105", "n": "COSMO-SkyMed 4", "nome": "COSMO-SKYMED 4"}, {"b": "COSMO-SkyMed Seconda Generazione 1", "id": 44873, "k": "italia", "l1": "1 44873U 19092A   26320.96282142  .00000261  00000+0  39372-4 0  9990", "l2": "2 44873  97.8891 142.4084 0001366  89.5928 270.5442 14.82149528374103", "n": "COSMO-SkyMed Seconda Generazione 1", "nome": "CSG-1"}, {"b": "COSMO-SkyMed Seconda Generazione 2", "id": 51444, "k": "italia", "l1": "1 51444U 22008A   26320.99654491  .00000552  00000+0  75907-4 0  9993", "l2": "2 51444  97.8885 142.4317 0001365  83.9005 276.2364 14.82162057259223", "n": "COSMO-SkyMed Seconda Generazione 2", "nome": "CSG-2"}, {"b": "COSMO-SkyMed Seconda Generazione 3", "id": 67304, "k": "italia", "l1": "1 67304U 26001A   26320.77294834  .00000341  00000+0  49362-4 0  9991", "l2": "2 67304  97.8889 142.2197 0001603  82.2517 277.8878 14.82161997 47064", "n": "COSMO-SkyMed Seconda Generazione 3", "nome": "CSG-3"}];
+  var el = function (id) { return document.getElementById(id); };
+  if (typeof L === "undefined" || typeof satellite === "undefined") { el("map").textContent = "La mappa non si è caricata. Ricarica la pagina."; return; }
+  var COL = { stazione: "#B4321C", scienza: "#2F5D50", italia: "#2B5C8A" };
+  var map = L.map("map", { scrollWheelZoom: false, minZoom: 2, maxZoom: 6, worldCopyJump: true }).setView([30, 10], 2);
+  map.attributionControl.addAttribution('Confini: <a href="https://www.naturalearthdata.com/" rel="noopener" target="_blank">Natural Earth</a> · Orbite: <a href="https://celestrak.org/" rel="noopener" target="_blank">CelesTrak</a>');
+  map.createPane("terre"); map.getPane("terre").style.zIndex = 250;
+  fetch("/assets/geo/countries-50m.json?v=2026-11-17").then(function (r) { return r.json(); }).then(function (topo) {
+    if (typeof topojson === "undefined") return;
+    function unwrap(ring) { for (var i = 1; i < ring.length; i++) { var d = ring[i][0] - ring[i - 1][0]; if (d > 180) ring[i][0] -= 360; else if (d < -180) ring[i][0] += 360; } }
+    var geo = topojson.feature(topo, topo.objects.countries);
+    geo.features.forEach(function (f) { var g = f.geometry; if (!g) return; (g.type === "Polygon" ? [g.coordinates] : g.type === "MultiPolygon" ? g.coordinates : []).forEach(function (p) { p.forEach(unwrap); }); });
+    L.geoJSON(geo, { pane: "terre", interactive: false, style: { color: "#B9AE98", weight: 0.6, fillColor: "#F7F3EA", fillOpacity: 1 } }).addTo(map);
+  }).catch(function () {});
+  map.on("focus", function () { map.scrollWheelZoom.enable(); });
+  map.on("blur", function () { map.scrollWheelZoom.disable(); });
+
+  var notte = L.polygon([], { color: "#1C1B18", weight: 0, fillOpacity: 0.10, interactive: false }).addTo(map);
+  function terminatore(d) {
+    // ombra della notte: punto sub-solare approssimato, sufficiente per la mappa
+    var g = (d - Date.UTC(d.getUTCFullYear(), 0, 0)) / 864e5, rad = Math.PI / 180;
+    var decl = -23.44 * Math.cos(2 * Math.PI / 365 * (g + 10));
+    var lonSun = -((d.getUTCHours() + d.getUTCMinutes() / 60 + d.getUTCSeconds() / 3600) - 12) * 15;
+    var pts = [], latS = decl * rad;
+    for (var lon = -180; lon <= 180; lon += 2) {
+      var lat = Math.atan(-Math.cos((lon - lonSun) * rad) / Math.tan(latS)) / rad;
+      pts.push([lat, lon]);
+    }
+    var polo = decl > 0 ? -90 : 90;
+    pts.push([polo, 180]); pts.push([polo, -180]);
+    notte.setLatLngs(pts);
+  }
+
+  var S = D.map(function (s) {
+    var rec = satellite.twoline2satrec(s.l1, s.l2);
+    var big = s.k !== "italia";
+    var m = L.circleMarker([0, 0], { radius: big ? 7 : 5, color: "#fff", weight: 2, fillColor: COL[s.k], fillOpacity: 1 }).addTo(map);
+    var corto = s.n.replace("Stazione spaziale internazionale (ISS)", "ISS").replace("Stazione spaziale cinese ", "").replace("Telescopio spaziale ", "").replace("COSMO-SkyMed Seconda Generazione ", "CSG-").replace(" (ASI)", "");
+    m.bindTooltip(corto, { permanent: big, direction: "right", offset: [8, 0], className: "sat-label" + (big ? "" : " small") });
+    m.on("click", function () { scegli(s.k === "italia" ? String(s.id) : String(s.id)); });
+    return { d: s, rec: rec, m: m, corto: corto };
+  });
+  var traccia = L.layerGroup().addTo(map);
+  var sel = String(D[0].id), seguito = true;
+
+  function pos(rec, t) {
+    var pv = satellite.propagate(rec, t);
+    if (!pv || !pv.position) return null;
+    var g = satellite.eciToGeodetic(pv.position, satellite.gstime(t));
+    var v = pv.velocity;
+    return { lat: satellite.degreesLat(g.latitude), lon: satellite.degreesLong(g.longitude), alt: g.height,
+             vel: v ? Math.sqrt(v.x * v.x + v.y * v.y + v.z * v.z) * 3600 : 0 };
+  }
+  function segmenti(rec, t0, da, a, passo) {
+    var out = [], cur = [], prev = null;
+    for (var m = da; m <= a; m += passo) {
+      var p = pos(rec, new Date(t0.getTime() + m * 60000)); if (!p) continue;
+      if (prev !== null && Math.abs(p.lon - prev) > 180) { out.push(cur); cur = []; }
+      cur.push([p.lat, p.lon]); prev = p.lon;
+    }
+    if (cur.length) out.push(cur);
+    return out;
+  }
+  function disegnaTraccia() {
+    traccia.clearLayers();
+    var now = new Date();
+    var lista = sel === "italia" ? S.filter(function (x) { return x.d.k === "italia"; }) : S.filter(function (x) { return String(x.d.id) === sel; });
+    lista.forEach(function (x) {
+      var c = COL[x.d.k];
+      segmenti(x.rec, now, -45, 0, 1).forEach(function (s) { L.polyline(s, { color: c, weight: 2, opacity: 0.35, interactive: false }).addTo(traccia); });
+      segmenti(x.rec, now, 0, 45, 1).forEach(function (s) { L.polyline(s, { color: c, weight: 2, dashArray: "6 5", interactive: false }).addTo(traccia); });
+    });
+  }
+  function fmt(n) { return Math.round(n).toString().replace(/\B(?=(\d{3})+(?!\d))/g, "."); }
+  function dove(lat, lon) {
+    var ns = lat >= 0 ? "N" : "S", eo = lon >= 0 ? "E" : "O";
+    return Math.abs(lat).toFixed(1).replace(".", ",") + "° " + ns + ", " + Math.abs(lon).toFixed(1).replace(".", ",") + "° " + eo;
+  }
+  function aggiorna() {
+    var now = new Date();
+    terminatore(now);
+    S.forEach(function (x) {
+      var p = pos(x.rec, now); if (!p) return;
+      x.p = p; x.m.setLatLng([p.lat, p.lon]);
+    });
+    var x = sel === "italia" ? S.filter(function (y) { return y.d.k === "italia"; })[0] : S.filter(function (y) { return String(y.d.id) === sel; })[0];
+    if (!x || !x.p) return;
+    el("sn-name").textContent = sel === "italia" ? "Satelliti italiani (" + S.filter(function (y) { return y.d.k === "italia"; }).length + ")" : x.d.n;
+    el("sn-where").textContent = sel === "italia" ? "In evidenza: " + x.corto + " · " + dove(x.p.lat, x.p.lon) : dove(x.p.lat, x.p.lon);
+    el("sn-alt").textContent = fmt(x.p.alt);
+    el("sn-vel").textContent = fmt(x.p.vel);
+    var per = 2 * Math.PI / x.rec.no;  // minuti per orbita
+    el("sn-per").textContent = Math.round(per);
+    el("sn-giri").textContent = (1440 / per).toFixed(1).replace(".", ",");
+    if (seguito && sel !== "italia") map.panTo([x.p.lat, x.p.lon], { animate: true, duration: 0.8 });
+  }
+  function scegli(id) {
+    sel = id;
+    document.querySelectorAll(".sat-pick .btn-path").forEach(function (b) {
+      b.classList.toggle("on", b.dataset.id === id || (id !== "italia" && b.dataset.id === "italia" && S.some(function (x) { return String(x.d.id) === id && x.d.k === "italia"; })));
+    });
+    disegnaTraccia(); aggiorna();
+    if (id === "italia") map.setView([30, 10], 2);
+  }
+  document.querySelectorAll(".sat-pick .btn-path").forEach(function (b) { b.addEventListener("click", function () { scegli(b.dataset.id); }); });
+  el("follow").addEventListener("change", function () { seguito = this.checked; if (seguito) aggiorna(); });
+  map.on("dragstart", function () { if (seguito) { seguito = false; el("follow").checked = false; } });
+
+  var a = el("agg"), t = new Date(a.dataset.t.replace("Z", ":00Z"));
+  if (!isNaN(t)) a.textContent = t.toLocaleString("it-IT", { day: "numeric", month: "long", year: "numeric", hour: "2-digit", minute: "2-digit", timeZone: "Europe/Rome" });
+  scegli(sel);
+  map.setView([S[0].p ? S[0].p.lat : 30, S[0].p ? S[0].p.lon : 10], 3);
+  setInterval(aggiorna, 1000);
+  setInterval(disegnaTraccia, 60000);
+})();
+</script>
+</main>
+
+<section class="nl-band">
+  <div class="wrap nl-inner">
+    <div>
+      <p class="eyebrow">Il Punto, ogni lunedì</p>
+      <h2>Ogni lunedì, in 5 minuti, quello che vale la pena sapere su nucleare e spazio.</h2>
+      <p class="muted">Senza hype e senza semplificazioni. Gratis, niente pubblicità, disiscrizione in un clic.</p>
+    </div>
+    <form class="nl-form" action="https://bbe7c28e.sibforms.com/serve/MUIFANbSu_IuqpCgMETrSGKJec3_1kT_IAkrlDzO1KrVynTMfzhK2SZ-wCyLRJKZKorvyx2nMe6k2albVeEMbLsD6F0gLcRYnWOELy51ZPs3gFSStpKL4k7JusTwEkwwy_cNKEemz-s_Z4IW4jf_Hto57SBbpX7J5g88ZSG-nuDlHgsEDEy0G0LSEMyHSHuYXkHftcW9h2v6Zu_YHA==" method="post">
+      <label for="nl-email-foot" class="sr-only">La tua email</label>
+      <input id="nl-email-foot" type="email" name="EMAIL" placeholder="nome@esempio.it" required>
+      <input type="text" name="email_address_check" value="" class="sr-only" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input type="hidden" name="locale" value="it">
+      <button type="submit" class="btn">Iscriviti</button>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p class="footer-brand">Atomo <em>&amp;</em> Orbita</p>
+      <p class="muted">Energia e spazio, senza semplificazioni. Analisi su nucleare e spazio per chi lavora, investe o decide: fonti primarie, dati verificati, nessuna propaganda.</p>
+      <p class="muted small">Testata indipendente. Non riceviamo fondi da aziende o enti dei settori di cui scriviamo. <a href="/manifesto/">Il nostro manifesto</a>.</p>
+    </div>
+    <div>
+      <p class="footer-title">Sezioni</p>
+      <ul class="footer-list">
+<li><a href="/atomo/">Atomo</a></li><li><a href="/orbita/">Orbita</a></li><li><a href="/confine/">Confine</a></li>        <li><a href="/il-punto/">Il Punto</a></li>
+        <li><a href="/dossier/">Dossier</a></li>
+        <li><a href="/numeri/">Numeri</a></li>
+        <li><a href="/strumenti/">Strumenti</a></li>
+        <li><a href="/mappa/">Mappa</a></li>
+        <li><a href="/satelliti/">Satelliti in diretta</a></li>
+        <li><a href="/lanci/">Prossimi lanci</a></li>
+        <li><a href="/rassegna/">Rassegna</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-title">Atomo e Orbita</p>
+      <ul class="footer-list">
+        <li><a href="/manifesto/">Manifesto</a></li>
+        <li><a href="/risorse/">Risorse</a></li>
+        <li><a href="/organizzazioni/">Organizzazioni</a></li>
+        <li><a href="/glossario/">Glossario</a></li>
+        <li><a href="/contatti/">Contatti</a></li>
+        <li><a href="/privacy/">Privacy e cookie</a></li>
+        <li><a href="/feed.xml">Feed RSS</a></li>
+<li><a href="https://www.linkedin.com/company/atomoeorbita" rel="noopener" target="_blank">LinkedIn</a></li><li><a href="https://www.facebook.com/atomoeorbita" rel="noopener" target="_blank">Facebook</a></li>      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p class="small muted">© 2026 Atomo e Orbita · atomoeorbita.it · Alcuni link nella pagina Risorse sono di affiliazione e sono sempre dichiarati. <a href="/manifesto/">Come lavoriamo</a>.</p>
+  </div>
+</footer>
+<script data-goatcounter="https://atomoeorbita.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
