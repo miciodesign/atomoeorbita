@@ -1,0 +1,95 @@
+name: Dati spazio (satelliti e lanci)
+
+# Ogni giorno scarica i parametri orbitali pubblici (CelesTrak) dei satelliti mostrati in /satelliti/
+# e il calendario dei prossimi lanci (The Space Devs, Launch Library 2), poi ricostruisce il sito.
+on:
+  schedule:
+    - cron: "10 5 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/spazio-dati.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: foto
+
+jobs:
+  dati:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Scarica
+        run: |
+          python3 - <<'PY'
+          import json, urllib.request, datetime, time
+          UA = {"User-Agent": "atomoeorbita.it dati spazio"}
+          def get(u):
+              for i in range(3):
+                  try:
+                      return urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=60).read().decode()
+                  except Exception as e:
+                      print("ritento", u, e); time.sleep(5)
+              raise SystemExit("fallito " + u)
+          def tle(q):
+              t = get("https://celestrak.org/NORAD/elements/gp.php?" + q + "&FORMAT=tle").strip().splitlines()
+              out = []
+              for i in range(0, len(t) - 2, 3):
+                  out.append((t[i].strip(), t[i+1].strip(), t[i+2].strip()))
+              return out
+          sat = []
+          def add(q, label, kind):
+              for n, l1, l2 in tle(q):
+                  sat.append({"n": label or n.title(), "nome": n, "id": int(l1[2:7]), "k": kind, "l1": l1, "l2": l2})
+          add("CATNR=25544", "Stazione spaziale internazionale (ISS)", "stazione")
+          add("CATNR=48274", "Stazione spaziale cinese Tiangong", "stazione")
+          add("CATNR=20580", "Telescopio spaziale Hubble", "scienza")
+          add("CATNR=44072", "PRISMA (ASI)", "italia")
+          add("NAME=COSMO-SKYMED", None, "italia")
+          add("NAME=CSG", None, "italia")
+          print(json.dumps([[s["nome"], s["id"]] for s in sat]))
+          starlink = len(json.loads(get("https://celestrak.org/NORAD/elements/gp.php?GROUP=starlink&FORMAT=json")))
+          now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
+          json.dump({"aggiornato": now, "starlink": starlink, "sat": sat}, open("_src/data/satelliti.json", "w"), ensure_ascii=False, indent=1)
+          print("starlink", starlink)
+          try:
+              r = json.loads(get("https://ll.thespacedevs.com/2.2.0/launch/upcoming/?limit=40&hide_recent_previous=true"))
+              L = []
+              for x in r.get("results", []):
+                  m = x.get("mission") or {}
+                  L.append({
+                      "nome": x.get("name"), "data": x.get("net"), "finestra": x.get("window_start"),
+                      "stato": (x.get("status") or {}).get("abbrev"),
+                      "razzo": ((x.get("rocket") or {}).get("configuration") or {}).get("full_name"),
+                      "operatore": (x.get("launch_service_provider") or {}).get("name"),
+                      "paese_op": (x.get("launch_service_provider") or {}).get("country_code"),
+                      "base": ((x.get("pad") or {}).get("location") or {}).get("name"),
+                      "rampa": (x.get("pad") or {}).get("name"),
+                      "missione": m.get("name"), "tipo": m.get("type"),
+                      "orbita": (m.get("orbit") or {}).get("abbrev"),
+                      "descrizione": m.get("description"),
+                  })
+              json.dump({"aggiornato": now, "lanci": L}, open("_src/data/lanci.json", "w"), ensure_ascii=False, indent=1)
+              print("lanci", len(L))
+          except SystemExit as e:
+              print("lanci non aggiornati:", e)
+          PY
+      - name: Ricostruisci e pubblica
+        run: |
+          pip install markdown jinja2 >/dev/null
+          cd _src && python3 build.py && cd ..
+          git config user.name "Atomo e Orbita"
+          git config user.email "redazione@atomoeorbita.it"
+          git add -A
+          git commit -m "Dati spazio: satelliti e lanci aggiornati" || exit 0
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main || git pull --rebase -X theirs origin main
+            (cd _src && python3 build.py) && git add -A && git commit -m "Ricostruzione dopo dati spazio" || true
+            git push && break
+            sleep 5
+          done
