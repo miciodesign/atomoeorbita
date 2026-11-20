@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T13:48:09.077937+00:00",
+  "updated": "2026-11-20T13:30:41.361530+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -59,112 +59,184 @@
       "section": "atomo",
       "source": "World Nuclear News",
       "lang": "en",
-      "title": "Energy crisis reinforces comeback of nuclear power, says IEA",
-      "url": "https://www.world-nuclear-news.org/articles/energy-crisis-reinforces-comeback-of-nuclear-power-says-iea",
-      "summary": "Unprecedented disruption in the energy world - primarily resulting from the war in the Middle East - is set to reinforce the comeback of nuclear power, according to the International Energy Agency's latest World Energy O",
-      "time": "2026-11-19T11:39:51+00:00"
+      "title": "South Africa moving ahead on new nuclear plans",
+      "url": "https://www.world-nuclear-news.org/articles/south-africa-moving-ahead-on-new-nuclear-plans",
+      "summary": "Energy Minister Kgosientsho Ramokgopa has said his department is preparing to put the case for an additional 5.2 GW of nuclear capacity in South Africa &quot;before the public and will consider submissions on their merit",
+      "time": "2026-11-20T13:04:09+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Nuclea Energy concludes Moltex acquisition",
+      "url": "https://www.world-nuclear-news.org/articles/nuclea-concludes-moltex-acquisition",
+      "summary": "Nuclea Energy has concluded its acquisition of Moltex Energy Limited's technology and intellectual property portfolio, adding the WATSS used nuclear fuel recycling technology and the SSR-W small modular reactor design to",
+      "time": "2026-11-20T10:18:43+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "NucNet",
+      "lang": "en",
+      "title": "Bechtel Says Poland Agreement ‘Opens New Chapter’ In Nuclear Cooperation",
+      "url": "https://www.nucnet.org/news/bechtel-says-poland-agreement-opens-new-chapter-in-nuclear-cooperation-11-5-2026",
+      "summary": "Bechtel, Gdańsk University of Technology and the University of South Carolina, have signed a memorandum of cooperation that “opens a new chapter” in nuclear energy cooperation between the academic communities of Poland a",
+      "time": "2026-11-20T08:56:12+00:00"
     },
     {
       "section": "atomo",
       "source": "POWER Magazine",
       "lang": "en",
-      "title": "Empowering Combined Cycle Plants",
-      "url": "https://www.powermag.com/white-papers/empowering-combined-cycle-plants/",
-      "summary": "Learn how leading combined cycle power plants are improving reliability, efficiency, and operational performance to meet the challenges of a rapidly evolving energy landscape. As electricity demand continues to rise due ",
-      "time": "2026-11-18T18:47:45+00:00"
+      "title": "Blykalla Secures World’s First HALEU Enrichment Contract for a Commercial Lead-Cooled Reactor",
+      "url": "https://www.powermag.com/blykalla-secures-worlds-first-haleu-enrichment-contract-for-a-commercial-lead-cooled-reactor/",
+      "summary": "Swedish advanced nuclear developer Blykalla has signed an agreement with Urenco that the companies describe as the world’s first high-assay low-enriched uranium (HALEU) enrichment contract for a commercial lead-cooled re",
+      "time": "2026-11-19T21:50:24+00:00"
     },
     {
       "section": "atomo",
       "source": "World Nuclear News",
       "lang": "en",
-      "title": "ENTRA1 teams up with Sargent & Lundy for SMR deployment",
-      "url": "https://www.world-nuclear-news.org/articles/entra1-teams-up-with-sargent-lundy-for-smr-deployment",
-      "summary": "Sargent &amp; Lundy is partnering with ENTRA1 Energy to provide engineering and design support for the development and execution of ENTRA1 Energy Plants based on NuScale Power's small modular reactor technology. &nbsp;",
-      "time": "2026-11-18T16:11:46+00:00"
+      "title": "Energy crisis reinforces comeback of nuclear power, says IEA",
+      "url": "https://www.world-nuclear-news.org/articles/energy-crisis-reinforces-comeback-of-nuclear-power-says-iea",
+      "summary": "Unprecedented disruption in the energy world - primarily resulting from the war in the Middle East - is set to reinforce the comeback of nuclear power, according to the International Energy Agency's latest World Energy O",
+      "time": "2026-11-19T16:39:51+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Samsung, Tesser to collaborate on nuclear-powered LNG carrier",
+      "url": "https://www.world-nuclear-news.org/articles/samsung-tesser-to-collaborate-on-nuclear-power-lng-carrier",
+      "summary": "South Korean shipbuilder Samsung Heavy Industries and US nuclear technology company Tesser Atomics have entered into an exclusive strategic collaboration on a demonstration project for a transatlantic nuclear-powered liq",
+      "time": "2026-11-19T15:31:29+00:00"
     },
     {
       "section": "atomo",
       "source": "NucNet",
       "lang": "en",
-      "title": "Sweden’s Skanska Completes Critical Demonstrator Project For Rolls-Royce SMR",
-      "url": "https://www.nucnet.org/news/sweden-s-skanska-completes-critical-demonstrator-project-for-rolls-royce-smr-11-3-2026",
-      "summary": "Swedish construction company Skanska has successfully completed an aseismic bearing pedestal demonstrator for Rolls-Royce SMR, marking an important milestone in the development of the British company’s factory-built smal",
-      "time": "2026-11-18T14:41:24+00:00"
+      "title": "Norway Consortium Gets €1.8 Million Towards Development Of Nuclear Power For Maritime Industry",
+      "url": "https://www.nucnet.org/news/norway-consortium-gets-eur1-8-million-towards-development-of-nuclear-power-for-maritime-industry-11-4-2026",
+      "summary": "Norway is moving a step closer to testing nuclear propulsion for commercial ships, with a consortium including shipbuilder Vard and offshore service vessel operator Island Offshore securing NOK20m (€1.8m, $2m) in governm",
+      "time": "2026-11-19T15:02:33+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "Qualenergia",
+      "lang": "it",
+      "title": "Storie di ordinaria (?) corruzione nucleare",
+      "url": "https://www.qualenergia.it/articoli/storie-di-ordinaria-corruzione-nucleare/",
+      "summary": "L’ispezione del Nucleo operativo ecologico dell’Arma dei Carabinieri alla centrale del Garigliano in fase di dismissione è iniziata a fine ottobre su una segnalazione fatta dall’Ispettorato sulla sicurezza nucleare (ISIN",
+      "time": "2026-11-19T14:00:44+00:00"
     },
     {
       "section": "atomo",
       "source": "World Nuclear News",
       "lang": "en",
-      "title": "Prototype aseismic bearing completed for Rolls-Royce SMR",
-      "url": "https://www.world-nuclear-news.org/articles/prototype-aseismic-bearing-completed-for-rolls-royce-smr",
-      "summary": "Construction company Skanska has completed an aseismic bearing pedestal demonstrator for Rolls-Royce SMR. These structural isolation devices are a key part of the factory-built nuclear power plant's design. &nbsp;",
-      "time": "2026-11-18T14:34:13+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "NucNet",
-      "lang": "en",
-      "title": "IAEA Team Welcomes Ageing Management Improvements At Japan’s Mihama-3",
-      "url": "https://www.nucnet.org/news/iaea-team-welcomes-ageing-management-improvements-at-japan-s-mihama-3-11-3-2026",
-      "summary": "An International Atomic Energy Agency (IAEA) team has welcomed improvements in ageing management at the Mihama-3 nuclear plant in Japan, but said the operator should ensure the adequate coordination and oversight of key ",
-      "time": "2026-11-18T13:07:51+00:00"
+      "title": "Hot and cold testing under way for Turkey's Akkuyu 1",
+      "url": "https://www.world-nuclear-news.org/articles/hot-cold-testing-under-way-for-turkeys-akkuyu-1",
+      "summary": "The first nuclear power reactor in Turkey has moved a step closer to start-up, with hot and cold commissioning tests taking place. &nbsp;",
+      "time": "2026-11-19T10:46:39+00:00"
     },
     {
       "section": "atomo",
       "source": "World Nuclear News",
       "lang": "en",
-      "title": "Maritime nuclear project awarded Norwegian public funds",
-      "url": "https://www.world-nuclear-news.org/articles/maritime-nuclear-project-awarded-norwegian-public-funds",
-      "summary": "The Research Council of Norway has awarded NOK20 million (USD2 million) in initial funding to the Marine Nuclear Propulsion System project as it prepares to move maritime nuclear propulsion from system development toward",
-      "time": "2026-11-18T12:55:18+00:00"
+      "title": "Bulgaria's NEK signs MoU for potential BWRX-300 projects",
+      "url": "https://www.world-nuclear-news.org/articles/bulgarias-nek-signs-mou-for-potential-bwrx-300-projects",
+      "summary": "State-owned electricity company Natsionalna Elektricheska Kompania has signed a memorandum of understanding with Poland's SGE and Blue Bird Energy to cooperate on the deployment of BWRX-300 small modular reactors in Bulg",
+      "time": "2026-11-19T10:42:59+00:00"
     },
     {
       "section": "atomo",
       "source": "World Nuclear News",
       "lang": "en",
-      "title": "IAEA mission sees commitment to safety at Shin Kori 2",
-      "url": "https://www.world-nuclear-news.org/articles/iaea-mission-sees-commitment-to-safety-at-shin-kori-2",
-      "summary": "There is a clear commitment to operational safety and continuous improvement at unit 2 of Korea Hydro and Nuclear Power's Shin Kori nuclear power plant, an International Atomic Energy Agency mission has found. &nbsp;",
-      "time": "2026-11-18T10:26:57+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Nuclear M&A deals total USD10.3 billion in first nine months of 2026",
-      "url": "https://www.world-nuclear-news.org/articles/nuclear-manda-deals-total-10.3-billion-in-first-nine-months-of-2026",
-      "summary": "Deals totalling USD10.3 billion were completed in the first nine months of 2026, with global nuclear mergers and acquisitions well placed to beat 2025's full year USD11.2 billion, research by law firm White &amp; Case LL",
-      "time": "2026-11-18T08:53:02+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Russian regulator considers licence for Zaporizhzhia unit 3",
-      "url": "https://www.world-nuclear-news.org/articles/russian-regulator-considers-licence-for-zaporizhzhia-unit-3",
-      "summary": "A Rostekhnadzor commission has begun work at the Zaporizhzhia Nuclear Power Plant to review material submitted in support of an operating licence application for unit 3. &nbsp;",
-      "time": "2026-11-18T04:39:36+00:00"
+      "title": "New nuclear projects offer economic advantages for Ontario",
+      "url": "https://www.world-nuclear-news.org/articles/new-nuclear-projects-offer-economic-advantages-for-ontario",
+      "summary": "Four major nuclear projects could bring billions of dollars of economic benefits to Ontario and to Canada - but government and industry need to act now to turn the nuclear buildout into a lasting industrial advantage, ac",
+      "time": "2026-11-19T08:35:50+00:00"
     },
     {
       "section": "atomo",
       "source": "IAEA",
       "lang": "en",
-      "title": "IAEA Reviews Bangladesh’s Nuclear and Radiological Emergency Preparedness and Response",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-reviews-bangladeshs-nuclear-and-radiological-emergency-preparedness-and-response",
+      "title": "Update 376 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-376-iaea-director-general-statement-on-situation-in-ukraine",
       "summary": "",
-      "time": "2026-11-18T00:00:00+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "IAEA",
-      "lang": "en",
-      "title": "IAEA Director General's Introductory Statement to the Board of Governors",
-      "url": "http://www.iaea.org/newscenter/statements/iaea-director-generals-introductory-statement-to-the-board-of-governors-18-november-2026",
-      "summary": "(As prepared for delivery) Just a few weeks ago, I was in New York presenting the IAEA’s annual report – your annual report – to the United Nations General Assembly.",
-      "time": "2026-11-18T00:00:00+00:00"
+      "time": "2026-11-19T00:00:00+00:00"
     }
   ],
   "orbita": [
+    {
+      "section": "orbita",
+      "source": "ASI",
+      "lang": "it",
+      "title": "A Roma l’ottava edizione dell’International Space Forum",
+      "url": "https://www.asi.it/2026/11/a-roma-lottava-edizione-dellinternational-space-forum/",
+      "summary": "Il 23 novembre presso il Palazzo della Cancelleria [&#8230;]",
+      "time": "2026-11-20T07:56:30+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "European Spaceflight",
+      "lang": "en",
+      "title": "Danish Soldiers Are Sneaking Starlink Terminals into Greenland",
+      "url": "https://europeanspaceflight.com/danish-soldiers-are-sneaking-starlink-terminals-into-greenland/",
+      "summary": "A parliamentary question from Greenlandic politician Pele Broberg has suggested that Danish soldiers are bringing privately owned Starlink terminals into Greenland despite restrictions. Broberg raised the allegations on ",
+      "time": "2026-11-20T07:09:49+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "AstronautiNEWS",
+      "lang": "it",
+      "title": "Realizzato con la stampa 3D il primo oggetto nel vuoto dello spazio",
+      "url": "https://www.astronautinews.it/2026/11/realizzato-con-la-stampa-3d-il-primo-oggetto-nel-vuoto-dello-spazio/",
+      "summary": "Orbital Matter, giovane azienda polacca con sedi a Varsavia e Berlino, e inizialmente supportata dai programmi BIC e PUSH dell'Agenzia spaziale europea (ESA), è riuscita nell'impresa di realizzare un'asta cava lunga 32,5",
+      "time": "2026-11-19T20:00:22+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "The sweet spot for constellation size",
+      "url": "https://spacenews.com/the-sweet-spot-for-constellation-size/",
+      "summary": "In this episode of Space Minds, SpaceNews’ Mike Gruss speaks with Jan Smolders, the chief commercial officer at Space Inventor. During a conversation at Space Tech Expo Europe, they discuss [&#8230;] The post The sweet s",
+      "time": "2026-11-19T17:25:17+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "Making the case for optical",
+      "url": "https://spacenews.com/making-the-case-for-optical/",
+      "summary": "In this episode of Space Minds, SpaceNews’ Mike Gruss speaks with Jean-François Morizur, the co-founder and CEO of Cailabs, at Space Tech Expo Europe. Morizur discusses the misconceptions with laser [&#8230;] The post Ma",
+      "time": "2026-11-19T15:38:18+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ASI",
+      "lang": "it",
+      "title": "Plasma Observatory: a guida italiana la nuova missione ESA con sette satelliti per studiare il plasma intorno alla Terra",
+      "url": "https://www.asi.it/2026/11/plasma-observatory-a-guida-italiana-la-nuova-missione-esa-con-sette-satelliti-per-studiare-il-plasma-intorno-alla-terra/",
+      "summary": "Selezionata dall’ESA la prossima missione scientifica di classe media. Proposta e guidata dall’INAF con il sostegno determinante dell’Agenzia Spaziale Italiana, porterà l’Italia in prima linea nello studio del plasma spa",
+      "time": "2026-11-19T15:33:12+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ESA",
+      "lang": "en",
+      "title": "Rain breaks up Earth’s natural sunshades",
+      "url": "https://www.esa.int/articles/about-us/directorates/earth-observation-programmes/futureeo/earthcare/rain-breaks-up-earth-s-natural-sunshades",
+      "summary": "EarthCARE sheds light on one of the processes that leads to the breakup of vast, bright clouds that help keep our planet cool – with rain emerging as a key driver.",
+      "time": "2026-11-19T12:00:00+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ESA",
+      "lang": "en",
+      "title": "Watch live: Hera’s first images of post-impact asteroid Dimorphos",
+      "url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/watch-live-hera-s-first-images-of-post-impact-asteroid-dimorphos",
+      "summary": "A little more than four years ago, humans moved an asteroid, as NASA’s DART spacecraft impacted a body called Dimorphos. Now the European Space Agency’s Hera spacecraft has arrived at that same asteroid to find out what ",
+      "time": "2026-11-19T10:10:00+00:00"
+    },
     {
       "section": "orbita",
       "source": "ASI",
@@ -194,84 +266,12 @@
     },
     {
       "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "Flexell Space and ALATYR Sign MoU to Explore Solar Power Solutions for Orbital Data Centers",
-      "url": "https://spacenews.com/flexell-space-and-alatyr-sign-mou-to-explore-solar-power-solutions-for-orbital-data-centers/",
-      "summary": "– Collaboration to assess next-generation ultralight solar cells for space-based computing infrastructure – Partnership brings together Korean space energy technology and French orbital infrastructure expertise Bremen, G",
-      "time": "2026-11-18T22:02:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "All Points Logistics Announces Partnership with Expeditors for Space Prep Logistics Center at Kennedy Space Center",
-      "url": "https://spacenews.com/all-points-logistics-announces-partnership-with-expeditors-for-space-prep-logistics-center-at-kennedy-space-center/",
-      "summary": "MERRITT ISLAND, FL, November 18, 2026 — All Points Logistics has announced a partnership with Expeditors International of Washington, Inc. (NYSE: EXPD) to serve as the exclusive logistics provider for [&#8230;] The post ",
-      "time": "2026-11-18T20:31:51+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "Origami and solar arrays",
-      "url": "https://spacenews.com/origami-and-solar-arrays/",
-      "summary": "In this episode of SpaceMinds, SpaceNews’ Mike Gruss talks with Thomas Sinn, the CEO of Dcubed, at Space Tech Expo Europe. They discuss the company&#8217;s new $30 million funding round, [&#8230;] The post Origami and so",
-      "time": "2026-11-18T16:56:05+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ASI",
-      "lang": "it",
-      "title": "Forum Space&Blue Underwater 2026",
-      "url": "https://www.asi.it/2026/11/forum-spaceblue-underwater-2026/",
-      "summary": "Presentati al MIMIT i risultati del bando dell’Agenzia Spaziale Italiana [&#8230;]",
-      "time": "2026-11-18T13:09:59+00:00"
-    },
-    {
-      "section": "orbita",
       "source": "ESA",
       "lang": "en",
-      "title": "First thermal images from Sentinel-3C radiometer",
-      "url": "https://www.esa.int/articles/about-us/directorates/earth-observation-programmes/copernicus/sentinel-3/first-thermal-images-from-sentinel-3c-radiometer",
-      "summary": "These are the first images showing land- and sea-surface temperatures from the third satellite of the Copernicus Sentinel-3 mission, Sentinel-3C.",
-      "time": "2026-11-18T11:00:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ESA",
-      "lang": "en",
-      "title": "In the shadow of volcanic giants",
-      "url": "https://www.esa.int/articles/about-us/directorates/science/mars-express/in-the-shadow-of-volcanic-giants",
-      "summary": "Even Mars’s more modest volcanoes demand attention. This month’s snapshot from ESA’s Mars Express spotlights Tharsis Tholus, a fascinating peak with an eventful past.",
-      "time": "2026-11-18T10:00:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ASI",
-      "lang": "it",
-      "title": "GAIA DATA RELEASE 4",
-      "url": "https://www.asi.it/2026/11/gaia-data-release-4/",
-      "summary": "Il 2 dicembre il satellite Gaia rilascerà i dati di oltre 5 anni di osservazione [&#8230;]",
-      "time": "2026-11-18T08:47:46+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "European Spaceflight",
-      "lang": "en",
-      "title": "PLD Space Investor Selects MIURA 5 to Launch Demo Mission",
-      "url": "https://europeanspaceflight.com/pld-space-investor-selects-miura-5-to-launch-demo-mission/",
-      "summary": "Japanese satellite manufacturer Mitsubishi Electric has signed a contract with Spanish rocket builder PLD Space to launch a small satellite aboard the company’s second MIURA 5 test flight. PLD Space announced that it had",
-      "time": "2026-11-18T07:25:17+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "How AI is pushing satellites to evolve",
-      "url": "https://spacenews.com/how-ai-is-pushing-satellites-to-evolve/",
-      "summary": "During the first day of Space Tech Expo Europe, SpaceNews’ Mike Gruss sits down with Pieter van Duijn, the chief technology officer of Loft Orbital. They discuss the growing level [&#8230;] The post How AI is pushing sat",
-      "time": "2026-11-17T17:02:33+00:00"
+      "title": "Seven-spacecraft observatory to study plasma universe",
+      "url": "https://www.esa.int/articles/about-us/directorates/science/seven-spacecraft-observatory-to-study-plasma-universe",
+      "summary": "ESA Member States have selected Plasma Observatory as the agency’s next medium-class mission. Its seven coordinated spacecraft will track how the Sun’s energy moves through Earth’s magnetic shield, across different scale",
+      "time": "2026-11-18T23:00:00+00:00"
     }
   ]
 }
