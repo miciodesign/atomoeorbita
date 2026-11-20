@@ -48,3 +48,7 @@ Il dettaglio italiano: all'inizio il bersaglio doveva essere un adattatore lasci
 ## Novità sul sito
 
 Abbiamo aperto la sezione [Strumenti](/strumenti/): quanta elettricità producono adesso le [centrali nucleari europee](/nucleare-europa/), un [calcolatore delle radiazioni](/radiazioni/) per scoprire quante ne prendi in un anno, i satelliti in diretta e il calendario dei prossimi lanci. E per le scuole medie è nata [Tomo e Orbi](/scuola/), una serie di fumetti gratuiti su atomi e satelliti, con giochi e scheda per l'insegnante.
+
+## Lunedì prossimo
+
+Esce **"Nucleare e spazio, spiegati bene"**, la nostra guida gratuita per gli studenti delle superiori: dodici capitoli, dall'atomo ai satelliti, con i percorsi per la tesina e la maturità. Arriva qui, con il prossimo Il Punto.
