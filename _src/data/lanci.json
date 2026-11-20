@@ -1,10 +1,10 @@
 {
- "aggiornato": "2026-11-19T14:22Z",
+ "aggiornato": "2026-11-20T17:21Z",
  "lanci": [
   {
    "nome": "Falcon 9 Block 5 | USSF-317",
-   "data": "2026-11-20T04:28:55Z",
-   "finestra": "2026-11-20T02:46:00Z",
+   "data": "2026-11-21T04:20:35Z",
+   "finestra": "2026-11-21T02:32:00Z",
    "stato": "Go",
    "razzo": "Falcon 9 Block 5",
    "operatore": "SpaceX",
@@ -17,39 +17,9 @@
    "descrizione": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX’s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches."
   },
   {
-   "nome": "Long March 8A | SatNet LEO Group TBD?",
-   "data": "2026-11-20T11:59:00Z",
-   "finestra": "2026-11-20T11:51:00Z",
-   "stato": "Go",
-   "razzo": "Long March 8A",
-   "operatore": "China Aerospace Science and Technology Corporation",
-   "paese_op": null,
-   "base": "Wenchang Space Launch Site, People's Republic of China",
-   "rampa": "Commercial LC-1",
-   "missione": "SatNet LEO Group TBD?",
-   "tipo": "Communications",
-   "orbita": "LEO",
-   "descrizione": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites."
-  },
-  {
-   "nome": "Long March 6C | Unknown Payload",
-   "data": "2026-11-21T03:50:00Z",
-   "finestra": "2026-11-21T03:46:00Z",
-   "stato": "Go",
-   "razzo": "Long March 6C",
-   "operatore": "China Aerospace Science and Technology Corporation",
-   "paese_op": null,
-   "base": "Taiyuan Satellite Launch Center, People's Republic of China",
-   "rampa": "Launch Complex 9A",
-   "missione": "Unknown Payload",
-   "tipo": "Unknown",
-   "orbita": "N/A",
-   "descrizione": "Details TBD."
-  },
-  {
    "nome": "Falcon 9 Block 5 | NROL-136",
-   "data": "2026-11-21T12:30:00Z",
-   "finestra": "2026-11-21T12:30:00Z",
+   "data": "2026-11-22T12:16:00Z",
+   "finestra": "2026-11-22T12:16:00Z",
    "stato": "Go",
    "razzo": "Falcon 9 Block 5",
    "operatore": "SpaceX",
@@ -107,25 +77,10 @@
    "descrizione": "Progress resupply mission to the International Space Station."
   },
   {
-   "nome": "Long March 12 | SatNet LEO Group TBD?",
-   "data": "2026-11-24T07:00:00Z",
-   "finestra": "2026-11-24T07:00:00Z",
-   "stato": "TBC",
-   "razzo": "Long March 12",
-   "operatore": "China Aerospace Science and Technology Corporation",
-   "paese_op": null,
-   "base": "Wenchang Space Launch Site, People's Republic of China",
-   "rampa": "Commercial LC-2",
-   "missione": "SatNet LEO Group TBD?",
-   "tipo": "Communications",
-   "orbita": "LEO",
-   "descrizione": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites."
-  },
-  {
    "nome": "Long March 2F/G | Shenzhou 24",
-   "data": "2026-11-25T00:00:00Z",
-   "finestra": "2026-11-25T00:00:00Z",
-   "stato": "TBD",
+   "data": "2026-11-25T00:18:00Z",
+   "finestra": "2026-11-25T00:08:00Z",
+   "stato": "Go",
    "razzo": "Long March 2F/G",
    "operatore": "China Aerospace Science and Technology Corporation",
    "paese_op": null,
@@ -135,6 +90,21 @@
    "tipo": "Human Exploration",
    "orbita": "LEO",
    "descrizione": "Shenzhou 24 will be the 24th flight of the Shenzhou program.\r\n\r\nThe first astronaut from Pakistan is expected to fly on this on a short duration mission, with another Chinese astronaut to undergo a year long expedition."
+  },
+  {
+   "nome": "Long March 2D | Unknown Payload",
+   "data": "2026-11-26T09:35:00Z",
+   "finestra": "2026-11-26T09:30:00Z",
+   "stato": "Go",
+   "razzo": "Long March 2D",
+   "operatore": "China Aerospace Science and Technology Corporation",
+   "paese_op": null,
+   "base": "Xichang Satellite Launch Center, People's Republic of China",
+   "rampa": "Launch Complex 3 (LC-3/LA-1)",
+   "missione": "Unknown Payload",
+   "tipo": "Unknown",
+   "orbita": "N/A",
+   "descrizione": "Details TBD."
   },
   {
    "nome": "Spectrum | AT-Astra and Others (Spectrum Flight 3)",
@@ -152,6 +122,36 @@
    "descrizione": "Third test flight of the Isar Spectrum launch vehicle. This launch will carry various satellites including R-Space’s AT-Astra/IOD-01, which will perform in-orbit demonstrations for ENPULSION, SUNBOOSTER GmbH, and Synopsis Planet."
   },
   {
+   "nome": "Electron | Night Owls Never Sleep (StriX Launch 14)",
+   "data": "2026-11-27T00:05:00Z",
+   "finestra": "2026-11-27T00:00:00Z",
+   "stato": "Go",
+   "razzo": "Electron",
+   "operatore": "Rocket Lab",
+   "paese_op": null,
+   "base": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+   "rampa": "Unknown Pad",
+   "missione": "Night Owls Never Sleep (StriX Launch 14)",
+   "tipo": "Earth Science",
+   "orbita": "LEO",
+   "descrizione": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective."
+  },
+  {
+   "nome": "Long March 6A | Unknown Payload",
+   "data": "2026-11-27T13:00:00Z",
+   "finestra": "2026-11-27T12:53:00Z",
+   "stato": "Go",
+   "razzo": "Long March 6A",
+   "operatore": "China Aerospace Science and Technology Corporation",
+   "paese_op": null,
+   "base": "Taiyuan Satellite Launch Center, People's Republic of China",
+   "rampa": "Launch Complex 9A",
+   "missione": "Unknown Payload",
+   "tipo": "Unknown",
+   "orbita": "N/A",
+   "descrizione": "Details TBD."
+  },
+  {
    "nome": "Falcon 9 Block 5 | USSF-380",
    "data": "2026-11-28T04:53:00Z",
    "finestra": "2026-11-28T04:53:00Z",
@@ -167,6 +167,36 @@
    "descrizione": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX’s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches."
   },
   {
+   "nome": "Kinetica 1 | Unknown Payload",
+   "data": "2026-11-29T01:00:00Z",
+   "finestra": "2026-11-29T01:00:00Z",
+   "stato": "TBC",
+   "razzo": "Kinetica 1",
+   "operatore": "CAS Space",
+   "paese_op": null,
+   "base": "Haiyang Oriental Spaceport",
+   "rampa": "South China Sea (launch location 3)",
+   "missione": "Unknown Payload",
+   "tipo": "Unknown",
+   "orbita": "N/A",
+   "descrizione": "Details TBD."
+  },
+  {
+   "nome": "Long March 6C | Unknown Payload",
+   "data": "2026-11-29T03:50:00Z",
+   "finestra": "2026-11-29T03:46:00Z",
+   "stato": "Go",
+   "razzo": "Long March 6C",
+   "operatore": "China Aerospace Science and Technology Corporation",
+   "paese_op": null,
+   "base": "Taiyuan Satellite Launch Center, People's Republic of China",
+   "rampa": "Launch Complex 9A",
+   "missione": "Unknown Payload",
+   "tipo": "Unknown",
+   "orbita": "N/A",
+   "descrizione": "Details TBD."
+  },
+  {
    "nome": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
    "data": "2026-11-29T15:47:00Z",
    "finestra": "2026-11-29T15:47:00Z",
@@ -180,21 +210,6 @@
    "tipo": "Resupply",
    "orbita": "LEO",
    "descrizione": "This is the 25th flight of the Orbital ATK's uncrewed resupply spacecraft Cygnus and its 24th flight to the International Space Station under the Commercial Resupply Services contract with NASA."
-  },
-  {
-   "nome": "Electron | StriX Launch 14",
-   "data": "2026-11-30T00:00:00Z",
-   "finestra": "2026-11-30T00:00:00Z",
-   "stato": "TBD",
-   "razzo": "Electron",
-   "operatore": "Rocket Lab",
-   "paese_op": null,
-   "base": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-   "rampa": "Unknown Pad",
-   "missione": "StriX Launch 14",
-   "tipo": "Earth Science",
-   "orbita": "SSO",
-   "descrizione": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective."
   },
   {
    "nome": "Falcon 9 Block 5 | NROL-195",
@@ -257,21 +272,6 @@
    "descrizione": "Details TBD."
   },
   {
-   "nome": "LVM-3 | Gaganyaan-1",
-   "data": "2026-11-30T00:00:00Z",
-   "finestra": "2026-11-30T00:00:00Z",
-   "stato": "TBD",
-   "razzo": "Launch Vehicle Mark-3 (GSLV Mk III)",
-   "operatore": "Indian Space Research Organization",
-   "paese_op": null,
-   "base": "Satish Dhawan Space Centre, India",
-   "rampa": "Satish Dhawan Space Centre Second Launch Pad",
-   "missione": "Gaganyaan-1",
-   "tipo": "Test Flight",
-   "orbita": "LEO",
-   "descrizione": "First uncrewed orbital test flight of the Gaganyaan capsule."
-  },
-  {
    "nome": "Mir | Demo Flight",
    "data": "2026-11-30T00:00:00Z",
    "finestra": "2026-11-30T00:00:00Z",
@@ -287,19 +287,19 @@
    "descrizione": "Note: Launch vehicle name is provisional.\r\n\r\nFirst orbital full version launch of the South Korean military small satellite launch vehicle, after 2 sub-orbital tests of individual stages on 30 March and 30 December 2022, and 1 orbital test flight without the 2nd stage on 4 December 2023. Details TBD."
   },
   {
-   "nome": "PSLV-XL | TDS-01",
-   "data": "2026-11-30T00:00:00Z",
-   "finestra": "2026-11-30T00:00:00Z",
-   "stato": "TBD",
-   "razzo": "PSLV XL",
-   "operatore": "Indian Space Research Organization",
+   "nome": "Long March 12 | SatNet LEO Group TBD?",
+   "data": "2026-12-10T07:00:00Z",
+   "finestra": "2026-12-10T07:00:00Z",
+   "stato": "TBC",
+   "razzo": "Long March 12",
+   "operatore": "China Aerospace Science and Technology Corporation",
    "paese_op": null,
-   "base": "Satish Dhawan Space Centre, India",
-   "rampa": "Satish Dhawan Space Centre First Launch Pad",
-   "missione": "TDS-01",
-   "tipo": "Technology",
-   "orbita": "GTO",
-   "descrizione": "TDS-01 (Technology Demonstration Satellite-01) is an Indian geostationary orbit technology demonstration satellite carrying payloads for the Indian Space Research Organisation (ISRO)’s Institute of Plasma Research, Gandhinagar and the CSIR-CEERI, Pilani. \r\n\r\nPayloads to be tested included an internally developed 300 mN electric powered thrusters, atomic clocks, travelling wave tube amplifiers (TWTA) & a quantum communication suite (QuTDS)."
+   "base": "Wenchang Space Launch Site, People's Republic of China",
+   "rampa": "Commercial LC-2",
+   "missione": "SatNet LEO Group TBD?",
+   "tipo": "Communications",
+   "orbita": "LEO",
+   "descrizione": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites."
   },
   {
    "nome": "Ariane 62 | Metop-SG B1",
@@ -377,7 +377,7 @@
    "descrizione": "Classified mission launched by the Space Development Agency (SDA) for Tranche 2 Transport Layer."
   },
   {
-   "nome": "LVM-3 | GSAT-32 (GSAT-N3)",
+   "nome": "LVM-3 | Gaganyaan-1",
    "data": "2026-12-31T00:00:00Z",
    "finestra": "2026-12-31T00:00:00Z",
    "stato": "TBD",
@@ -386,10 +386,10 @@
    "paese_op": null,
    "base": "Satish Dhawan Space Centre, India",
    "rampa": "Satish Dhawan Space Centre Second Launch Pad",
-   "missione": "GSAT-32 (GSAT-N3)",
-   "tipo": "Communications",
-   "orbita": "GTO",
-   "descrizione": "GSAT-32 is a geostationary communications satellite for the Indian Space Research Organization (ISRO). The spacecraft is a replacement for GSAT-6A that failed before reaching geostationary orbit after launch in 2018."
+   "missione": "Gaganyaan-1",
+   "tipo": "Test Flight",
+   "orbita": "LEO",
+   "descrizione": "First uncrewed orbital test flight of the Gaganyaan capsule."
   },
   {
    "nome": "Vega-C | IRIDE 1",
