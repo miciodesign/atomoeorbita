@@ -53,7 +53,15 @@ jobs:
           add("NAME=COSMO-SKYMED", None, "italia")
           add("NAME=CSG", None, "italia")
           print(json.dumps([[s["nome"], s["id"]] for s in sat]))
-          starlink = len(json.loads(get("https://celestrak.org/NORAD/elements/gp.php?GROUP=starlink&FORMAT=json")))
+          # il conteggio Starlink e' un dettaglio: se CelesTrak rifiuta (403/limite), si tiene il valore precedente
+          try:
+              starlink = len(json.loads(get("https://celestrak.org/NORAD/elements/gp.php?GROUP=starlink&FORMAT=json")))
+          except SystemExit as e:
+              print("starlink non aggiornato:", e)
+              try:
+                  starlink = json.load(open("_src/data/satelliti.json")).get("starlink")
+              except Exception:
+                  starlink = None
           now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
           json.dump({"aggiornato": now, "starlink": starlink, "sat": sat}, open("_src/data/satelliti.json", "w"), ensure_ascii=False, indent=1)
           print("starlink", starlink)
