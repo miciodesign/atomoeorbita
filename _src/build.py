@@ -503,7 +503,7 @@ def build() -> None:
     write(ROOT / "nucleare-europa" / "index.html", env.get_template("europa.html").render(
         **base_ctx, eu=europa, page_url="/nucleare-europa/",
         title=f"Nucleare in Europa adesso: quanta elettricità producono le centrali · {CONFIG['name']}",
-        description="Quanta elettricità producono in questo momento le centrali nucleari di Francia, Spagna, Svizzera e degli altri paesi europei, e com'è fatto il mix elettrico italiano. Dati aggiornati ogni ora."))
+        description="Quanta elettricità producono in questo momento le centrali nucleari di Francia, Spagna, Svizzera e degli altri paesi europei, e com'è fatto il mix elettrico italiano. Dati aggiornati più volte al giorno."))
     sat = prepara_satelliti(json.loads((data_dir / "satelliti.json").read_text(encoding="utf-8")))
     lanci = prepara_lanci(json.loads((data_dir / "lanci.json").read_text(encoding="utf-8")))
     write(ROOT / "strumenti" / "index.html", env.get_template("strumenti.html").render(
