@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T13:30:41.361530+00:00",
+  "updated": "2026-11-21T12:56:33.807896+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -57,12 +57,66 @@
   "atomo": [
     {
       "section": "atomo",
+      "source": "POWER Magazine",
+      "lang": "en",
+      "title": "AMPERA, Berto Will Combine in Multimillion-Dollar Deal",
+      "url": "https://www.powermag.com/ampera-berto-will-combine-in-multimillion-dollar-deal/",
+      "summary": "Nuclear power group AMPERA and Berto Acquisition Corp. jointly announced that the companies have entered into a definitive agreement for a business combination. The transaction implies an equity value for AMPERA of about",
+      "time": "2026-11-20T18:25:00+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "POWER Magazine",
+      "lang": "en",
+      "title": "New Mexico Agency Backs Pacific Fusion Radioactive Materials License",
+      "url": "https://www.powermag.com/new-mexico-agency-backs-pacific-fusion-radioactive-materials-license/",
+      "summary": "Pacific Fusion said the New Mexico Environment Department (NMED) has approved the company&#8217;s radioactive materials license. The move announced November 20 will enable Pacific Fusion to operate a fusion machine and s",
+      "time": "2026-11-20T17:50:16+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Lloyd's Register approves new rules for nuclear for maritime",
+      "url": "https://www.world-nuclear-news.org/articles/lloyds-register-approves-new-rules-for-nuclear-for-maritime",
+      "summary": "UK-based classification society and professional advisory service Lloyd's Register has approved Rules for the Classification of Ships and Offshore Units Integrated with Nuclear Power, providing a common classification fr",
+      "time": "2026-11-20T16:45:21+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Partners prepare to procure next batch of equipment for Polish plant",
+      "url": "https://www.world-nuclear-news.org/articles/partners-prepare-to-procure-next-batch-of-equipment-for-polish-plant",
+      "summary": "Polskie Elektrownie Jądrowe has signed a letter of intent with the Westinghouse-Bechtel consortium concerning the extension of the scope of the Engineering Development Agreement to cover activities related to the procure",
+      "time": "2026-11-20T16:00:58+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Pacific Fusion secures key licence for New Mexico campus",
+      "url": "https://www.world-nuclear-news.org/articles/pacific-fusion-secures-key-licence-for-new-mexico-campus",
+      "summary": "The New Mexico Environment Department has approved the radioactive materials licence for pulsed magnetic fusion system developer Pacific Fusion's Research and Manufacturing Campus in Albuquerque, enabling the company to ",
+      "time": "2026-11-20T15:22:03+00:00"
+    },
+    {
+      "section": "atomo",
       "source": "World Nuclear News",
       "lang": "en",
       "title": "South Africa moving ahead on new nuclear plans",
       "url": "https://www.world-nuclear-news.org/articles/south-africa-moving-ahead-on-new-nuclear-plans",
       "summary": "Energy Minister Kgosientsho Ramokgopa has said his department is preparing to put the case for an additional 5.2 GW of nuclear capacity in South Africa &quot;before the public and will consider submissions on their merit",
-      "time": "2026-11-20T13:04:09+00:00"
+      "time": "2026-11-20T14:11:09+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Radiant expands facilities to support microreactor deployment",
+      "url": "https://www.world-nuclear-news.org/articles/radiant-expands-facilities-to-support-microreactor-deployment",
+      "summary": "The multimillion-dollar expansion of Radiant's US manufacturing footprint includes a new headquarters and manufacturing facility in California, where its first commercial reactors will be assembled, as well as continued ",
+      "time": "2026-11-20T14:00:28+00:00"
     },
     {
       "section": "atomo",
@@ -108,63 +162,18 @@
       "url": "https://www.world-nuclear-news.org/articles/samsung-tesser-to-collaborate-on-nuclear-power-lng-carrier",
       "summary": "South Korean shipbuilder Samsung Heavy Industries and US nuclear technology company Tesser Atomics have entered into an exclusive strategic collaboration on a demonstration project for a transatlantic nuclear-powered liq",
       "time": "2026-11-19T15:31:29+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "NucNet",
-      "lang": "en",
-      "title": "Norway Consortium Gets €1.8 Million Towards Development Of Nuclear Power For Maritime Industry",
-      "url": "https://www.nucnet.org/news/norway-consortium-gets-eur1-8-million-towards-development-of-nuclear-power-for-maritime-industry-11-4-2026",
-      "summary": "Norway is moving a step closer to testing nuclear propulsion for commercial ships, with a consortium including shipbuilder Vard and offshore service vessel operator Island Offshore securing NOK20m (€1.8m, $2m) in governm",
-      "time": "2026-11-19T15:02:33+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "Qualenergia",
-      "lang": "it",
-      "title": "Storie di ordinaria (?) corruzione nucleare",
-      "url": "https://www.qualenergia.it/articoli/storie-di-ordinaria-corruzione-nucleare/",
-      "summary": "L’ispezione del Nucleo operativo ecologico dell’Arma dei Carabinieri alla centrale del Garigliano in fase di dismissione è iniziata a fine ottobre su una segnalazione fatta dall’Ispettorato sulla sicurezza nucleare (ISIN",
-      "time": "2026-11-19T14:00:44+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Hot and cold testing under way for Turkey's Akkuyu 1",
-      "url": "https://www.world-nuclear-news.org/articles/hot-cold-testing-under-way-for-turkeys-akkuyu-1",
-      "summary": "The first nuclear power reactor in Turkey has moved a step closer to start-up, with hot and cold commissioning tests taking place. &nbsp;",
-      "time": "2026-11-19T10:46:39+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Bulgaria's NEK signs MoU for potential BWRX-300 projects",
-      "url": "https://www.world-nuclear-news.org/articles/bulgarias-nek-signs-mou-for-potential-bwrx-300-projects",
-      "summary": "State-owned electricity company Natsionalna Elektricheska Kompania has signed a memorandum of understanding with Poland's SGE and Blue Bird Energy to cooperate on the deployment of BWRX-300 small modular reactors in Bulg",
-      "time": "2026-11-19T10:42:59+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "New nuclear projects offer economic advantages for Ontario",
-      "url": "https://www.world-nuclear-news.org/articles/new-nuclear-projects-offer-economic-advantages-for-ontario",
-      "summary": "Four major nuclear projects could bring billions of dollars of economic benefits to Ontario and to Canada - but government and industry need to act now to turn the nuclear buildout into a lasting industrial advantage, ac",
-      "time": "2026-11-19T08:35:50+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "IAEA",
-      "lang": "en",
-      "title": "Update 376 – IAEA Director General Statement on Situation in Ukraine",
-      "url": "http://www.iaea.org/newscenter/pressreleases/update-376-iaea-director-general-statement-on-situation-in-ukraine",
-      "summary": "",
-      "time": "2026-11-19T00:00:00+00:00"
     }
   ],
   "orbita": [
+    {
+      "section": "orbita",
+      "source": "European Spaceflight",
+      "lang": "en",
+      "title": "Denmark’s GomSpace Secures €8M Contract for Blue Origin Moon Mission",
+      "url": "https://europeanspaceflight.com/denmarks-gomspace-secures-e8m-contract-for-blue-origin-moon-mission/",
+      "summary": "Danish satellite manufacturer GomSpace has secured an €8 million contract to continue developing two spacecraft for Blue Origin&#8217;s lunar resource prospecting mission. In its 19 November announcement confirming the s",
+      "time": "2026-11-21T06:00:35+00:00"
+    },
     {
       "section": "orbita",
       "source": "ASI",
@@ -218,60 +227,6 @@
       "url": "https://www.asi.it/2026/11/plasma-observatory-a-guida-italiana-la-nuova-missione-esa-con-sette-satelliti-per-studiare-il-plasma-intorno-alla-terra/",
       "summary": "Selezionata dall’ESA la prossima missione scientifica di classe media. Proposta e guidata dall’INAF con il sostegno determinante dell’Agenzia Spaziale Italiana, porterà l’Italia in prima linea nello studio del plasma spa",
       "time": "2026-11-19T15:33:12+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ESA",
-      "lang": "en",
-      "title": "Rain breaks up Earth’s natural sunshades",
-      "url": "https://www.esa.int/articles/about-us/directorates/earth-observation-programmes/futureeo/earthcare/rain-breaks-up-earth-s-natural-sunshades",
-      "summary": "EarthCARE sheds light on one of the processes that leads to the breakup of vast, bright clouds that help keep our planet cool – with rain emerging as a key driver.",
-      "time": "2026-11-19T12:00:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ESA",
-      "lang": "en",
-      "title": "Watch live: Hera’s first images of post-impact asteroid Dimorphos",
-      "url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/watch-live-hera-s-first-images-of-post-impact-asteroid-dimorphos",
-      "summary": "A little more than four years ago, humans moved an asteroid, as NASA’s DART spacecraft impacted a body called Dimorphos. Now the European Space Agency’s Hera spacecraft has arrived at that same asteroid to find out what ",
-      "time": "2026-11-19T10:10:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ASI",
-      "lang": "it",
-      "title": "L’Agenzia Spaziale Italiana è protagonista dell’NSE Expoforum",
-      "url": "https://www.asi.it/2026/11/lagenzia-spaziale-italiana-e-protagonista-dellnse-expoforum/",
-      "summary": "Dal 25 al 27 novembre torna alla Fiera di Roma l’NSE – New Space Economy Expoforum [&#8230;]",
-      "time": "2026-11-19T08:00:04+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ASI",
-      "lang": "it",
-      "title": "Rischio idraulico, nuove prospettive applicative dal progetto RESCUE_SAT",
-      "url": "https://www.asi.it/2026/11/rischio-idraulico-nuove-prospettive-applicative-dal-progetto-rescue_sat/",
-      "summary": "Concluso il progetto I4DP_SCIENCE sull&#8217;uso dei dati satellitari ASI per la prevenzione delle alluvioni [&#8230;]",
-      "time": "2026-11-19T07:51:06+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "European Spaceflight",
-      "lang": "en",
-      "title": "ESA Awards OHB €102M Contract for ClearSpace-1 Debris Removal Mission",
-      "url": "https://europeanspaceflight.com/esa-awards-ohb-e102m-contract-for-clearspace-1-debris-removal-mission/",
-      "summary": "The European Space Agency has awarded German satellite builder OHB a €102 million contract to build ClearSpace-1, a spacecraft designed to capture and remove the agency&#8217;s Proba-1 satellite after it is retired from ",
-      "time": "2026-11-19T06:41:35+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ESA",
-      "lang": "en",
-      "title": "Seven-spacecraft observatory to study plasma universe",
-      "url": "https://www.esa.int/articles/about-us/directorates/science/seven-spacecraft-observatory-to-study-plasma-universe",
-      "summary": "ESA Member States have selected Plasma Observatory as the agency’s next medium-class mission. Its seven coordinated spacecraft will track how the Sun’s energy moves through Earth’s magnetic shield, across different scale",
-      "time": "2026-11-18T23:00:00+00:00"
     }
   ]
 }
