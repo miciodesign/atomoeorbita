@@ -5,7 +5,7 @@ foto: cerca:Onkalo repository tunnel | cerca:Onkalo Olkiluoto
 category: atomo
 date: 2026-10-18
 description: L'Italia ha 33.766 metri cubi di rifiuti radioattivi sparsi in decine di depositi temporanei, un Deposito nazionale che aspetta un sito dal 2021 e combustibile esaurito all'estero che prima o poi tornerà. I numeri, senza allarmismi e senza minimizzare.
-updated: 2026-11-14
+updated: 2026-11-21
 format: analisi
 ---
 Chi discute di nuovo nucleare in Italia arriva sempre allo stesso punto: "e le scorie?". È la domanda giusta, ma la risposta non comincia dal futuro. Comincia da un fatto che pochi hanno presente: **l'Italia ha già rifiuti radioattivi, ne ha da sessant'anni, e non ha ancora un posto dove metterli in via definitiva**. Vale la pena guardare i numeri prima di discutere di reattori che non esistono.
@@ -36,11 +36,11 @@ Gli accordi prevedono che quei residui **tornino in Italia**. Il volume netto è
 
 Il progetto esiste dal 2010 ed è affidato alla Sogin, la società pubblica incaricata dello smantellamento degli impianti nucleari. Prevede un'area di circa 150 ettari con:
 
-- un **deposito di superficie** per lo smaltimento definitivo di circa **84.000 metri cubi** di rifiuti a bassa e molto bassa attività
-- un **deposito di lungo periodo** per lo stoccaggio temporaneo (decenni, non per sempre) di circa **14.000 metri cubi** di rifiuti a media e alta attività, compresi quelli di ritorno dall'estero, in attesa di un deposito geologico
+- un **deposito di superficie** per lo smaltimento definitivo di circa **78.000 metri cubi** di rifiuti a bassa e molto bassa attività
+- un **deposito di lungo periodo** per lo stoccaggio temporaneo (decenni, non per sempre) di circa **17.000 metri cubi** di rifiuti a media e alta attività, compresi quelli di ritorno dall'estero, in attesa di un deposito geologico
 - un **Parco tecnologico** per ricerca e formazione
 
-I 98.000 metri cubi complessivi sono una stima che include i rifiuti futuri dello smantellamento, ed è il motivo per cui superano i 33.766 dell'inventario attuale. Il costo stimato è nell'ordine del miliardo di euro, finanziato attraverso una componente della bolletta elettrica che tutti paghiamo da anni per il decommissioning.
+I 95.000 metri cubi complessivi sono una stima che include i rifiuti futuri dello smantellamento, ed è il motivo per cui superano i 33.766 dell'inventario attuale. Il costo stimato è nell'ordine del miliardo di euro, finanziato attraverso una componente della bolletta elettrica che tutti paghiamo da anni per il decommissioning.
 
 L'iter di localizzazione è il nodo. Nel gennaio 2021 Sogin ha pubblicato la CNAPI, la carta delle aree potenzialmente idonee: 67 aree in 7 regioni. A dicembre 2023 il ministero ha ridotto l'elenco a 51 aree nella CNAI, la carta delle aree idonee, in Piemonte, Lazio, Puglia, Basilicata, Sicilia e Sardegna. Da allora, il meccanismo previsto, l'**autocandidatura** dei territori con misure compensative, [non ha prodotto nessuna candidatura](https://www.greenreport.it/news/inquinamenti-e-disinquinamenti/3421-a-che-punto-e-liter-per-il-deposito-nazionale-rifiuti-radioattivi-spiegato-da-sogin). Trino, in Piemonte, si era fatta avanti nel 2023 e si è ritirata.
 
