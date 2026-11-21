@@ -158,3 +158,10 @@ Seconda analisi SEO (14/11, 1.420 impressioni / 20 clic in 3 mesi): quasi tutto 
 - Pagina SMR (smr-cosa-sono-europa): da ~170 impressioni/settimana (ottobre-inizio novembre) a 49 negli ultimi 7 giorni, sempre 0 clic. Mappa stabile (~66/sett.), Centrali nel mondo in leggera crescita (38).
 - Causa probabile: cannibalizzazione con l'articolo /atomo/come-funziona-smr/ dopo il cambio titolo del 12/11 ("...e come funzionano") + assestamento.
 - Decisione: nessuna modifica fino al 7/12. Il 7/12, se non risale: titolo pagina principale = "SMR: significato e cosa sono i piccoli reattori nucleari" (via "come funzionano"), H2 "Come funziona" ridotto a sintesi con link a /atomo/come-funziona-smr/; poi meta description.
+
+## Calendario approvato il 21/11/2026
+- lun 23/11: Il Punto (IEA, Parigi, sondaggio SMR, ClearSpace-1) — campagna Brevo 8 programmata ore 9; possibile breve COP31 (nuova prova dom 22 sera, serve "programma").
+- mer 25/11: "Smantellare una centrale nucleare" (già nel repo, esce da solo).
+- lun 30/11: lancio guida per studenti con Il Punto dedicato (serve ok di Roberto sui capitoli 7-12).
+- mer 2/12: "Lavorare nella filiera nucleare: certificazioni per imprese e tecnici" (bozza ven 27/11).
+- mer 9/12: "Si può fare il nucleare in un paese sismico?" (bozza ven 4/12).
