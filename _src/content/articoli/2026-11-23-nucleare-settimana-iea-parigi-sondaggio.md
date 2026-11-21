@@ -5,7 +5,6 @@ category: atomo
 date: 2026-11-23
 description: "L'Agenzia internazionale dell'energia rivede al rialzo il nucleare, al forum di Parigi le imprese italiane guardano ai cantieri francesi, un sondaggio dà il 60% di favorevoli agli SMR. E l'Europa firma il contratto per togliere un satellite dall'orbita."
 format: punto
-draft: true
 ---
 Tre notizie della settimana raccontano lo stesso movimento da tre punti di vista diversi: quello globale dell'Agenzia internazionale dell'energia, quello dell'industria al forum Italia-Francia, quello dell'opinione pubblica italiana. Più una notizia dallo spazio che riguarda anche un pezzo di razzo italiano.
 
