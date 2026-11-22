@@ -18,7 +18,7 @@
 <link rel="alternate" type="application/rss+xml" title="Atomo e Orbita" href="/feed.xml">
 <link rel="preload" href="/assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/newsreader.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/style.css?v=2026-11-21">
+<link rel="stylesheet" href="/assets/style.css?v=2026-11-22">
 <meta name="robots" content="noindex, follow"></head>
 <body>
 <a class="skip" href="#main">Vai al contenuto</a>
@@ -86,7 +86,7 @@
       out.appendChild(li);
     });
   }
-  fetch("/assets/cerca.json?v=2026-11-21").then(function (r) { return r.json(); }).then(function (j) { data = j; run(); })
+  fetch("/assets/cerca.json?v=2026-11-22").then(function (r) { return r.json(); }).then(function (j) { data = j; run(); })
     .catch(function () { st.textContent = "La ricerca non si è caricata. Riprova tra poco."; });
   var t; input.addEventListener("input", function () { clearTimeout(t); t = setTimeout(run, 120); });
   var p = new URLSearchParams(location.search).get("q"); if (p) input.value = p;
