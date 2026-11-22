@@ -1,21 +1,6 @@
 {
- "aggiornato": "2026-11-21T13:26Z",
+ "aggiornato": "2026-11-22T13:17Z",
  "lanci": [
-  {
-   "nome": "Falcon 9 Block 5 | NROL-136",
-   "data": "2026-11-22T12:16:00Z",
-   "finestra": "2026-11-22T12:16:00Z",
-   "stato": "Go",
-   "razzo": "Falcon 9 Block 5",
-   "operatore": "SpaceX",
-   "paese_op": null,
-   "base": "Vandenberg SFB, CA, USA",
-   "rampa": "Space Launch Complex 4E",
-   "missione": "NROL-136",
-   "tipo": "Government/Top Secret",
-   "orbita": "LEO",
-   "descrizione": "Fifteenth batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities."
-  },
   {
    "nome": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
    "data": "2026-11-23T11:09:00Z",
@@ -90,21 +75,6 @@
    "tipo": "Unknown",
    "orbita": "N/A",
    "descrizione": "Details TBD."
-  },
-  {
-   "nome": "Spectrum | AT-Astra and Others (Spectrum Flight 3)",
-   "data": "2026-11-26T20:00:00Z",
-   "finestra": "2026-11-26T20:00:00Z",
-   "stato": "TBC",
-   "razzo": "Spectrum",
-   "operatore": "Isar Aerospace",
-   "paese_op": null,
-   "base": "Andøya Spaceport",
-   "rampa": "Orbital Launch Pad",
-   "missione": "AT-Astra and Others (Spectrum Flight 3)",
-   "tipo": "Technology",
-   "orbita": "SSO",
-   "descrizione": "Third test flight of the Isar Spectrum launch vehicle. This launch will carry various satellites including R-Space’s AT-Astra/IOD-01, which will perform in-orbit demonstrations for ENPULSION, SUNBOOSTER GmbH, and Synopsis Planet."
   },
   {
    "nome": "Electron | Night Owls Never Sleep (StriX Launch 14)",
@@ -527,6 +497,21 @@
    "descrizione": "Payload consists of a single Pelican high-resolution imaging satellite for Planet Labs Germany."
   },
   {
+   "nome": "Spectrum | AT-Astra and Others (Spectrum Flight 3)",
+   "data": "2026-12-31T00:00:00Z",
+   "finestra": "2026-12-31T00:00:00Z",
+   "stato": "TBD",
+   "razzo": "Spectrum",
+   "operatore": "Isar Aerospace",
+   "paese_op": null,
+   "base": "Andøya Spaceport",
+   "rampa": "Orbital Launch Pad",
+   "missione": "AT-Astra and Others (Spectrum Flight 3)",
+   "tipo": "Technology",
+   "orbita": "SSO",
+   "descrizione": "Third test flight of the Isar Spectrum launch vehicle. This launch will carry various satellites including R-Space’s AT-Astra/IOD-01, which will perform in-orbit demonstrations for ENPULSION, SUNBOOSTER GmbH, and Synopsis Planet."
+  },
+  {
    "nome": "Spectrum | ΣYNDEO-3",
    "data": "2026-12-31T00:00:00Z",
    "finestra": "2026-12-31T00:00:00Z",
@@ -597,6 +582,21 @@
    "base": "Vandenberg SFB, CA, USA",
    "rampa": "Space Launch Complex 4E",
    "missione": "Rivada 1",
+   "tipo": "Communications",
+   "orbita": "PO",
+   "descrizione": "24 satellites for Rivada's internet constellation."
+  },
+  {
+   "nome": "Falcon 9 Block 5 | Rivada 10",
+   "data": "2026-12-31T00:00:00Z",
+   "finestra": "2026-12-31T00:00:00Z",
+   "stato": "TBD",
+   "razzo": "Falcon 9 Block 5",
+   "operatore": "SpaceX",
+   "paese_op": null,
+   "base": "Vandenberg SFB, CA, USA",
+   "rampa": "Space Launch Complex 4E",
+   "missione": "Rivada 10",
    "tipo": "Communications",
    "orbita": "PO",
    "descrizione": "24 satellites for Rivada's internet constellation."
