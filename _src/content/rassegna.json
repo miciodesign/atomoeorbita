@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T12:56:33.807896+00:00",
+  "updated": "2026-11-22T12:48:55.629497+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -117,54 +117,18 @@
       "url": "https://www.world-nuclear-news.org/articles/radiant-expands-facilities-to-support-microreactor-deployment",
       "summary": "The multimillion-dollar expansion of Radiant's US manufacturing footprint includes a new headquarters and manufacturing facility in California, where its first commercial reactors will be assembled, as well as continued ",
       "time": "2026-11-20T14:00:28+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Nuclea Energy concludes Moltex acquisition",
-      "url": "https://www.world-nuclear-news.org/articles/nuclea-concludes-moltex-acquisition",
-      "summary": "Nuclea Energy has concluded its acquisition of Moltex Energy Limited's technology and intellectual property portfolio, adding the WATSS used nuclear fuel recycling technology and the SSR-W small modular reactor design to",
-      "time": "2026-11-20T10:18:43+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "NucNet",
-      "lang": "en",
-      "title": "Bechtel Says Poland Agreement ‘Opens New Chapter’ In Nuclear Cooperation",
-      "url": "https://www.nucnet.org/news/bechtel-says-poland-agreement-opens-new-chapter-in-nuclear-cooperation-11-5-2026",
-      "summary": "Bechtel, Gdańsk University of Technology and the University of South Carolina, have signed a memorandum of cooperation that “opens a new chapter” in nuclear energy cooperation between the academic communities of Poland a",
-      "time": "2026-11-20T08:56:12+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "POWER Magazine",
-      "lang": "en",
-      "title": "Blykalla Secures World’s First HALEU Enrichment Contract for a Commercial Lead-Cooled Reactor",
-      "url": "https://www.powermag.com/blykalla-secures-worlds-first-haleu-enrichment-contract-for-a-commercial-lead-cooled-reactor/",
-      "summary": "Swedish advanced nuclear developer Blykalla has signed an agreement with Urenco that the companies describe as the world’s first high-assay low-enriched uranium (HALEU) enrichment contract for a commercial lead-cooled re",
-      "time": "2026-11-19T21:50:24+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Energy crisis reinforces comeback of nuclear power, says IEA",
-      "url": "https://www.world-nuclear-news.org/articles/energy-crisis-reinforces-comeback-of-nuclear-power-says-iea",
-      "summary": "Unprecedented disruption in the energy world - primarily resulting from the war in the Middle East - is set to reinforce the comeback of nuclear power, according to the International Energy Agency's latest World Energy O",
-      "time": "2026-11-19T16:39:51+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Samsung, Tesser to collaborate on nuclear-powered LNG carrier",
-      "url": "https://www.world-nuclear-news.org/articles/samsung-tesser-to-collaborate-on-nuclear-power-lng-carrier",
-      "summary": "South Korean shipbuilder Samsung Heavy Industries and US nuclear technology company Tesser Atomics have entered into an exclusive strategic collaboration on a demonstration project for a transatlantic nuclear-powered liq",
-      "time": "2026-11-19T15:31:29+00:00"
     }
   ],
   "orbita": [
+    {
+      "section": "orbita",
+      "source": "ASI",
+      "lang": "it",
+      "title": "Papa Leone XIV ha ricevuto oggi in udienza privata una delegazione della IAF insieme all’ASI",
+      "url": "https://www.asi.it/2026/11/papa-leone-xiv-ha-ricevuto-oggi-in-udienza-privata-una-delegazione-dellinternational-astronautical-federation-insieme-all-agenzia-spaziale-italiana/",
+      "summary": "L&#8217;incontro è avvenuto in occasione dell’International Space Forum (ISF) – The Roman Chapter [&#8230;]",
+      "time": "2026-11-21T14:42:10+00:00"
+    },
     {
       "section": "orbita",
       "source": "European Spaceflight",
@@ -173,60 +137,6 @@
       "url": "https://europeanspaceflight.com/denmarks-gomspace-secures-e8m-contract-for-blue-origin-moon-mission/",
       "summary": "Danish satellite manufacturer GomSpace has secured an €8 million contract to continue developing two spacecraft for Blue Origin&#8217;s lunar resource prospecting mission. In its 19 November announcement confirming the s",
       "time": "2026-11-21T06:00:35+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ASI",
-      "lang": "it",
-      "title": "A Roma l’ottava edizione dell’International Space Forum",
-      "url": "https://www.asi.it/2026/11/a-roma-lottava-edizione-dellinternational-space-forum/",
-      "summary": "Il 23 novembre presso il Palazzo della Cancelleria [&#8230;]",
-      "time": "2026-11-20T07:56:30+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "European Spaceflight",
-      "lang": "en",
-      "title": "Danish Soldiers Are Sneaking Starlink Terminals into Greenland",
-      "url": "https://europeanspaceflight.com/danish-soldiers-are-sneaking-starlink-terminals-into-greenland/",
-      "summary": "A parliamentary question from Greenlandic politician Pele Broberg has suggested that Danish soldiers are bringing privately owned Starlink terminals into Greenland despite restrictions. Broberg raised the allegations on ",
-      "time": "2026-11-20T07:09:49+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "AstronautiNEWS",
-      "lang": "it",
-      "title": "Realizzato con la stampa 3D il primo oggetto nel vuoto dello spazio",
-      "url": "https://www.astronautinews.it/2026/11/realizzato-con-la-stampa-3d-il-primo-oggetto-nel-vuoto-dello-spazio/",
-      "summary": "Orbital Matter, giovane azienda polacca con sedi a Varsavia e Berlino, e inizialmente supportata dai programmi BIC e PUSH dell'Agenzia spaziale europea (ESA), è riuscita nell'impresa di realizzare un'asta cava lunga 32,5",
-      "time": "2026-11-19T20:00:22+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "The sweet spot for constellation size",
-      "url": "https://spacenews.com/the-sweet-spot-for-constellation-size/",
-      "summary": "In this episode of Space Minds, SpaceNews’ Mike Gruss speaks with Jan Smolders, the chief commercial officer at Space Inventor. During a conversation at Space Tech Expo Europe, they discuss [&#8230;] The post The sweet s",
-      "time": "2026-11-19T17:25:17+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "Making the case for optical",
-      "url": "https://spacenews.com/making-the-case-for-optical/",
-      "summary": "In this episode of Space Minds, SpaceNews’ Mike Gruss speaks with Jean-François Morizur, the co-founder and CEO of Cailabs, at Space Tech Expo Europe. Morizur discusses the misconceptions with laser [&#8230;] The post Ma",
-      "time": "2026-11-19T15:38:18+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ASI",
-      "lang": "it",
-      "title": "Plasma Observatory: a guida italiana la nuova missione ESA con sette satelliti per studiare il plasma intorno alla Terra",
-      "url": "https://www.asi.it/2026/11/plasma-observatory-a-guida-italiana-la-nuova-missione-esa-con-sette-satelliti-per-studiare-il-plasma-intorno-alla-terra/",
-      "summary": "Selezionata dall’ESA la prossima missione scientifica di classe media. Proposta e guidata dall’INAF con il sostegno determinante dell’Agenzia Spaziale Italiana, porterà l’Italia in prima linea nello studio del plasma spa",
-      "time": "2026-11-19T15:33:12+00:00"
     }
   ]
 }
