@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T12:48:55.629497+00:00",
+  "updated": "2026-11-23T15:14:08.084435+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -57,86 +57,68 @@
   "atomo": [
     {
       "section": "atomo",
-      "source": "POWER Magazine",
+      "source": "World Nuclear News",
       "lang": "en",
-      "title": "AMPERA, Berto Will Combine in Multimillion-Dollar Deal",
-      "url": "https://www.powermag.com/ampera-berto-will-combine-in-multimillion-dollar-deal/",
-      "summary": "Nuclear power group AMPERA and Berto Acquisition Corp. jointly announced that the companies have entered into a definitive agreement for a business combination. The transaction implies an equity value for AMPERA of about",
-      "time": "2026-11-20T18:25:00+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "POWER Magazine",
-      "lang": "en",
-      "title": "New Mexico Agency Backs Pacific Fusion Radioactive Materials License",
-      "url": "https://www.powermag.com/new-mexico-agency-backs-pacific-fusion-radioactive-materials-license/",
-      "summary": "Pacific Fusion said the New Mexico Environment Department (NMED) has approved the company&#8217;s radioactive materials license. The move announced November 20 will enable Pacific Fusion to operate a fusion machine and s",
-      "time": "2026-11-20T17:50:16+00:00"
+      "title": "Fuel plates milestone for FRM-II conversion",
+      "url": "https://www.world-nuclear-news.org/articles/fuel-plates-milestone-for-frm-ii-conversion",
+      "summary": "Framatome's fabrication of the first depleted uranium fuel plates is a major technical milestone towards the conversion of the FRM II research reactor at Technical University of Munich from highly enriched uranium to hig",
+      "time": "2026-11-23T15:42:26+00:00"
     },
     {
       "section": "atomo",
       "source": "World Nuclear News",
       "lang": "en",
-      "title": "Lloyd's Register approves new rules for nuclear for maritime",
-      "url": "https://www.world-nuclear-news.org/articles/lloyds-register-approves-new-rules-for-nuclear-for-maritime",
-      "summary": "UK-based classification society and professional advisory service Lloyd's Register has approved Rules for the Classification of Ships and Offshore Units Integrated with Nuclear Power, providing a common classification fr",
-      "time": "2026-11-20T16:45:21+00:00"
+      "title": "Korean, Slovakian partnership for financing nuclear projects",
+      "url": "https://www.world-nuclear-news.org/articles/korean-slovakian-partnership-for-financing-nuclear-projects",
+      "summary": "Korea Trade Insurance Corporation has signed a memorandum of understanding with Export-Import Bank of Slovakia to support power and utility projects - including nuclear power plants - and the strengthening of related sup",
+      "time": "2026-11-23T13:06:59+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "NucNet",
+      "lang": "en",
+      "title": "Pacific Fusion Gets Key Licence For $1 Billion New Mexico Demonstration Facility",
+      "url": "https://www.nucnet.org/news/pacific-fusion-gets-key-licence-for-usd1-billion-new-mexico-demonstration-facility-11-1-2026",
+      "summary": "US-based Pacific Fusion announced that the New Mexico Environment Department (NMED) has approved its radioactive materials licence, enabling the company to operate a fusion machine and accelerate its efforts to bring fus",
+      "time": "2026-11-23T10:30:45+00:00"
     },
     {
       "section": "atomo",
       "source": "World Nuclear News",
       "lang": "en",
-      "title": "Partners prepare to procure next batch of equipment for Polish plant",
-      "url": "https://www.world-nuclear-news.org/articles/partners-prepare-to-procure-next-batch-of-equipment-for-polish-plant",
-      "summary": "Polskie Elektrownie Jądrowe has signed a letter of intent with the Westinghouse-Bechtel consortium concerning the extension of the scope of the Engineering Development Agreement to cover activities related to the procure",
-      "time": "2026-11-20T16:00:58+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Pacific Fusion secures key licence for New Mexico campus",
-      "url": "https://www.world-nuclear-news.org/articles/pacific-fusion-secures-key-licence-for-new-mexico-campus",
-      "summary": "The New Mexico Environment Department has approved the radioactive materials licence for pulsed magnetic fusion system developer Pacific Fusion's Research and Manufacturing Campus in Albuquerque, enabling the company to ",
-      "time": "2026-11-20T15:22:03+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "South Africa moving ahead on new nuclear plans",
-      "url": "https://www.world-nuclear-news.org/articles/south-africa-moving-ahead-on-new-nuclear-plans",
-      "summary": "Energy Minister Kgosientsho Ramokgopa has said his department is preparing to put the case for an additional 5.2 GW of nuclear capacity in South Africa &quot;before the public and will consider submissions on their merit",
-      "time": "2026-11-20T14:11:09+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Radiant expands facilities to support microreactor deployment",
-      "url": "https://www.world-nuclear-news.org/articles/radiant-expands-facilities-to-support-microreactor-deployment",
-      "summary": "The multimillion-dollar expansion of Radiant's US manufacturing footprint includes a new headquarters and manufacturing facility in California, where its first commercial reactors will be assembled, as well as continued ",
-      "time": "2026-11-20T14:00:28+00:00"
+      "title": "Pilot-scale testing of equipment planned at Russia’s new reprocessing centre",
+      "url": "https://www.world-nuclear-news.org/articles/pilot-scale-testing-of-equipment-planned-at-russias-new-reprocessing-centre",
+      "summary": "The nuclear fuel reprocessing centre in Zheleznogorsk in the Krasnoyarsk region in Russia will soon begin pilot-scale trial operation after completion of the equipment debugging process, Rosatom said. &nbsp;",
+      "time": "2026-11-23T08:45:11+00:00"
     }
   ],
   "orbita": [
     {
       "section": "orbita",
-      "source": "ASI",
-      "lang": "it",
-      "title": "Papa Leone XIV ha ricevuto oggi in udienza privata una delegazione della IAF insieme all’ASI",
-      "url": "https://www.asi.it/2026/11/papa-leone-xiv-ha-ricevuto-oggi-in-udienza-privata-una-delegazione-dellinternational-astronautical-federation-insieme-all-agenzia-spaziale-italiana/",
-      "summary": "L&#8217;incontro è avvenuto in occasione dell’International Space Forum (ISF) – The Roman Chapter [&#8230;]",
-      "time": "2026-11-21T14:42:10+00:00"
+      "source": "European Spaceflight",
+      "lang": "en",
+      "title": "Eutelsat Wins $60 Million US Space Force Contract",
+      "url": "https://europeanspaceflight.com/eutelsat-wins-60-million-us-space-force-contract/",
+      "summary": "The US arm of European satellite operator Eutelsat has secured a two-year contract worth more than $60 million to provide satellite communications services to the US armed forces. Announced on 17 November, the contract c",
+      "time": "2026-11-23T15:02:19+00:00"
     },
     {
       "section": "orbita",
-      "source": "European Spaceflight",
-      "lang": "en",
-      "title": "Denmark’s GomSpace Secures €8M Contract for Blue Origin Moon Mission",
-      "url": "https://europeanspaceflight.com/denmarks-gomspace-secures-e8m-contract-for-blue-origin-moon-mission/",
-      "summary": "Danish satellite manufacturer GomSpace has secured an €8 million contract to continue developing two spacecraft for Blue Origin&#8217;s lunar resource prospecting mission. In its 19 November announcement confirming the s",
-      "time": "2026-11-21T06:00:35+00:00"
+      "source": "ASI",
+      "lang": "it",
+      "title": "Exploration Science Workshop 2026",
+      "url": "https://www.asi.it/2026/11/exploration-science-workshop-2026/",
+      "summary": "Dal 24 al 26 novembre preso la sede dell&#8217;ASI [&#8230;]",
+      "time": "2026-11-23T07:00:22+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "AstronautiNEWS",
+      "lang": "it",
+      "title": "Nonostante un problema BepiColombo è arrivata in orbita a Mercurio",
+      "url": "https://www.astronautinews.it/2026/11/nonostante-un-problema-bepicolombo-e-arrivata-in-orbita-a-mercurio/",
+      "summary": "La sonda BepiColombo, nata dalla collaborazione tra l’Agenzia spaziale europea (ESA) e quella giapponese JAXA, si è finalmente inserita in orbita al pianeta più interno del sistema solare. La separazione dal modulo di se",
+      "time": "2026-11-23T06:00:18+00:00"
     }
   ]
 }
