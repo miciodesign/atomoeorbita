@@ -1,25 +1,10 @@
 {
- "aggiornato": "2026-11-22T13:17Z",
+ "aggiornato": "2026-11-23T15:54Z",
  "lanci": [
   {
-   "nome": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
-   "data": "2026-11-23T11:09:00Z",
-   "finestra": "2026-11-23T11:09:00Z",
-   "stato": "Go",
-   "razzo": "Ariane 64 Block 2",
-   "operatore": "Arianespace",
-   "paese_op": null,
-   "base": "Guiana Space Centre, French Guiana",
-   "rampa": "Ariane Launch Area 4",
-   "missione": "Amazon Leo (LE-04)",
-   "tipo": "Communications",
-   "orbita": "LEO",
-   "descrizione": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610 km and 630 km altitude.\r\n\r\n35-40 satellites will be carried on each Ariane 6 launch."
-  },
-  {
    "nome": "Soyuz 2.1b | Progress MS-36 (97P)",
-   "data": "2026-11-24T05:03:00Z",
-   "finestra": "2026-11-24T05:03:00Z",
+   "data": "2026-11-24T10:13:00Z",
+   "finestra": "2026-11-24T10:13:00Z",
    "stato": "TBC",
    "razzo": "Soyuz 2.1b",
    "operatore": "Russian Federal Space Agency (ROSCOSMOS)",
@@ -30,6 +15,21 @@
    "tipo": "Resupply",
    "orbita": "LEO",
    "descrizione": "Progress resupply mission to the International Space Station."
+  },
+  {
+   "nome": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
+   "data": "2026-11-24T10:45:00Z",
+   "finestra": "2026-11-24T10:45:00Z",
+   "stato": "Go",
+   "razzo": "Ariane 64 Block 2",
+   "operatore": "Arianespace",
+   "paese_op": null,
+   "base": "Guiana Space Centre, French Guiana",
+   "rampa": "Ariane Launch Area 4",
+   "missione": "Amazon Leo (LE-04)",
+   "tipo": "Communications",
+   "orbita": "LEO",
+   "descrizione": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610 km and 630 km altitude.\r\n\r\n35-40 satellites will be carried on each Ariane 6 launch."
   },
   {
    "nome": "Falcon 9 Block 5 | USSF-266",
@@ -101,21 +101,6 @@
    "paese_op": null,
    "base": "Taiyuan Satellite Launch Center, People's Republic of China",
    "rampa": "Launch Complex 9A",
-   "missione": "Unknown Payload",
-   "tipo": "Unknown",
-   "orbita": "N/A",
-   "descrizione": "Details TBD."
-  },
-  {
-   "nome": "Kinetica 1 | Unknown Payload",
-   "data": "2026-11-29T01:00:00Z",
-   "finestra": "2026-11-29T01:00:00Z",
-   "stato": "TBC",
-   "razzo": "Kinetica 1",
-   "operatore": "CAS Space",
-   "paese_op": null,
-   "base": "Haiyang Oriental Spaceport",
-   "rampa": "South China Sea (launch location 3)",
    "missione": "Unknown Payload",
    "tipo": "Unknown",
    "orbita": "N/A",
@@ -195,6 +180,21 @@
    "tipo": "Test Flight",
    "orbita": "LEO",
    "descrizione": "Note: Launch vehicle name is provisional.\r\n\r\nFirst orbital full version launch of the South Korean military small satellite launch vehicle, after 2 sub-orbital tests of individual stages on 30 March and 30 December 2022, and 1 orbital test flight without the 2nd stage on 4 December 2023. Details TBD."
+  },
+  {
+   "nome": "Kinetica 1 | Unknown Payload",
+   "data": "2026-12-01T01:45:00Z",
+   "finestra": "2026-12-01T01:38:00Z",
+   "stato": "Go",
+   "razzo": "Kinetica 1",
+   "operatore": "CAS Space",
+   "paese_op": null,
+   "base": "Haiyang Oriental Spaceport",
+   "rampa": "South China Sea (launch location 4)",
+   "missione": "Unknown Payload",
+   "tipo": "Unknown",
+   "orbita": "N/A",
+   "descrizione": "Details TBD."
   },
   {
    "nome": "Long March 12 | SatNet LEO Group TBD?",
