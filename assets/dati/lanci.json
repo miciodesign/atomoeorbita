@@ -1,39 +1,9 @@
 {
- "aggiornato": "2026-11-23T15:54Z",
+ "aggiornato": "2026-11-24T15:47Z",
  "lanci": [
   {
-   "nome": "Soyuz 2.1b | Progress MS-36 (97P)",
-   "data": "2026-11-24T10:13:00Z",
-   "finestra": "2026-11-24T10:13:00Z",
-   "stato": "TBC",
-   "razzo": "Soyuz 2.1b",
-   "operatore": "Russian Federal Space Agency (ROSCOSMOS)",
-   "paese_op": null,
-   "base": "Baikonur Cosmodrome, Republic of Kazakhstan",
-   "rampa": "31/6",
-   "missione": "Progress MS-36 (97P)",
-   "tipo": "Resupply",
-   "orbita": "LEO",
-   "descrizione": "Progress resupply mission to the International Space Station."
-  },
-  {
-   "nome": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
-   "data": "2026-11-24T10:45:00Z",
-   "finestra": "2026-11-24T10:45:00Z",
-   "stato": "Go",
-   "razzo": "Ariane 64 Block 2",
-   "operatore": "Arianespace",
-   "paese_op": null,
-   "base": "Guiana Space Centre, French Guiana",
-   "rampa": "Ariane Launch Area 4",
-   "missione": "Amazon Leo (LE-04)",
-   "tipo": "Communications",
-   "orbita": "LEO",
-   "descrizione": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610 km and 630 km altitude.\r\n\r\n35-40 satellites will be carried on each Ariane 6 launch."
-  },
-  {
    "nome": "Falcon 9 Block 5 | USSF-266",
-   "data": "2026-11-24T15:55:00Z",
+   "data": "2026-11-24T16:08:59Z",
    "finestra": "2026-11-24T15:55:00Z",
    "stato": "Go",
    "razzo": "Falcon 9 Block 5",
@@ -152,21 +122,6 @@
    "descrizione": "This is the 25th flight of the Orbital ATK's uncrewed resupply spacecraft Cygnus and its 24th flight to the International Space Station under the Commercial Resupply Services contract with NASA."
   },
   {
-   "nome": "Kuaizhou 11 | Unknown Payload",
-   "data": "2026-11-30T00:00:00Z",
-   "finestra": "2026-11-30T00:00:00Z",
-   "stato": "TBD",
-   "razzo": "Kuaizhou 11",
-   "operatore": "ExPace",
-   "paese_op": null,
-   "base": "Jiuquan Satellite Launch Center, People's Republic of China",
-   "rampa": "Launch Area 95A",
-   "missione": "Unknown Payload",
-   "tipo": "Unknown",
-   "orbita": "N/A",
-   "descrizione": "Details TBD."
-  },
-  {
    "nome": "Mir | Demo Flight",
    "data": "2026-11-30T00:00:00Z",
    "finestra": "2026-11-30T00:00:00Z",
@@ -195,6 +150,36 @@
    "tipo": "Unknown",
    "orbita": "N/A",
    "descrizione": "Details TBD."
+  },
+  {
+   "nome": "Kuaizhou 11 | Unknown Payload",
+   "data": "2026-12-01T08:00:00Z",
+   "finestra": "2026-12-01T08:00:00Z",
+   "stato": "TBC",
+   "razzo": "Kuaizhou 11",
+   "operatore": "ExPace",
+   "paese_op": null,
+   "base": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "rampa": "Launch Area 95A",
+   "missione": "Unknown Payload",
+   "tipo": "Unknown",
+   "orbita": "N/A",
+   "descrizione": "Details TBD."
+  },
+  {
+   "nome": "Falcon 9 Block 5 | NROL-132",
+   "data": "2026-12-02T20:30:00Z",
+   "finestra": "2026-12-02T20:30:00Z",
+   "stato": "TBC",
+   "razzo": "Falcon 9 Block 5",
+   "operatore": "SpaceX",
+   "paese_op": null,
+   "base": "Vandenberg SFB, CA, USA",
+   "rampa": "Space Launch Complex 4E",
+   "missione": "NROL-132",
+   "tipo": "Government/Top Secret",
+   "orbita": "LEO",
+   "descrizione": "Sixteenth batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities."
   },
   {
    "nome": "Long March 12 | SatNet LEO Group TBD?",
@@ -572,22 +557,37 @@
    "descrizione": "LOXSAT 1 is a demonstration satellite of a complete cryogenic oxygen fluid management system in orbit, developed by Eta Space and sponsored by NASA's Tipping Point program.\r\n\r\nThe system will be integrated on a Rocket Lab Photon-LEO satellite bus and collect critical cryogenic fluid management data in orbit for 9 months, demonstrating capabilities of in-space cryogenic storage and transferal. Eta Space plans to use technology developed for this mission to develop a truly commercial depot intended to serve multiple customers in the future."
   },
   {
-   "nome": "Falcon 9 Block 5 | Rivada 1",
+   "nome": "Falcon 9 Block 5 | SDA Tranche 2 Tracking Layer A",
    "data": "2026-12-31T00:00:00Z",
    "finestra": "2026-12-31T00:00:00Z",
    "stato": "TBD",
    "razzo": "Falcon 9 Block 5",
    "operatore": "SpaceX",
    "paese_op": null,
-   "base": "Vandenberg SFB, CA, USA",
-   "rampa": "Space Launch Complex 4E",
-   "missione": "Rivada 1",
-   "tipo": "Communications",
+   "base": "Cape Canaveral SFS, FL, USA",
+   "rampa": "Unknown Pad",
+   "missione": "SDA Tranche 2 Tracking Layer A",
+   "tipo": "Government/Top Secret",
    "orbita": "PO",
-   "descrizione": "24 satellites for Rivada's internet constellation."
+   "descrizione": "Classified mission launched by the Space Development Agency (SDA) for Tranche 2 Tracking Layer."
   },
   {
-   "nome": "Falcon 9 Block 5 | Rivada 10",
+   "nome": "Falcon 9 Block 5 | SDA Tranche 2 Tracking Layer B",
+   "data": "2026-12-31T00:00:00Z",
+   "finestra": "2026-12-31T00:00:00Z",
+   "stato": "TBD",
+   "razzo": "Falcon 9 Block 5",
+   "operatore": "SpaceX",
+   "paese_op": null,
+   "base": "Cape Canaveral SFS, FL, USA",
+   "rampa": "Unknown Pad",
+   "missione": "SDA Tranche 2 Tracking Layer B",
+   "tipo": "Government/Top Secret",
+   "orbita": "PO",
+   "descrizione": "Classified mission launched by the Space Development Agency (SDA) for Tranche 2 Tracking Layer."
+  },
+  {
+   "nome": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer A",
    "data": "2026-12-31T00:00:00Z",
    "finestra": "2026-12-31T00:00:00Z",
    "stato": "TBD",
@@ -596,10 +596,10 @@
    "paese_op": null,
    "base": "Vandenberg SFB, CA, USA",
    "rampa": "Space Launch Complex 4E",
-   "missione": "Rivada 10",
-   "tipo": "Communications",
+   "missione": "SDA Tranche 2 Transport Layer A",
+   "tipo": "Government/Top Secret",
    "orbita": "PO",
-   "descrizione": "24 satellites for Rivada's internet constellation."
+   "descrizione": "Classified mission launched by the Space Development Agency (SDA) for Tranche 2 Transport Layer."
   }
  ]
 }
