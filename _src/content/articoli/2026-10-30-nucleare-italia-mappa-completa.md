@@ -5,6 +5,7 @@ foto: en:Latina Nuclear Power Plant | en:Trino Nuclear Power Plant | en:Gariglia
 category: atomo
 date: 2026-10-30
 description: "Il primo Dossier di Atomo e Orbita: chi decide, chi controlla, chi costruirebbe, dove sono gli impianti di ieri e i rifiuti di oggi, quanto costa e quando potrebbe arrivare il primo reattore. Con tabelle e fonti, aggiornato a fine ottobre 2026."
+updated: 2026-11-25
 format: dossier
 ---
 Dal 15 ottobre l'Italia ha una legge che permette di tornare al nucleare. Questa settimana il ministro dell'Ambiente ha promesso i decreti attuativi entro inizio dicembre e un sito per il Deposito nazionale dei rifiuti entro un anno. Nel frattempo Enel, Ansaldo e Leonardo stanno scegliendo una tecnologia, Edison ed EDF propongono la loro e una startup italiana si è quotata a New York.
@@ -86,7 +87,7 @@ L'Italia ha avuto quattro centrali nucleari, tutte chiuse dopo il referendum del
 
 **A che punto siamo.** Sogin dichiara un avanzamento complessivo del **47,7%** al 31 dicembre 2025. Ad aprile, citando documenti dell'ARERA, l'autorità per l'energia, [Greenreport](https://www.greenreport.it/news/nuove-energie/61189-nucleare-in-italia-il-ministro-pichetto-esclude-nuove-centrali-in-questa-legislatura) ha riportato una cifra del 32% e un costo complessivo stimato di 11 miliardi di euro. Le due percentuali misurano probabilmente cose diverse, ad esempio l'avanzamento fisico dei lavori e la quota di spesa sostenuta, ma le fonti pubbliche non chiariscono la differenza. Per ora è giusto dire che lo smantellamento è a metà strada, o poco meno.
 
-I tempi sono stati rivisti più volte. L'amministratore delegato di Sogin, Gian Luca Artizzu, ha detto in Parlamento a febbraio che ipotizzare la fine nel 2020, come prevedevano i piani originari, era "quanto meno velleitario" ([AGI](https://www.agi.it/cronaca/news/2026-02-26/sogin-ad-artizzu-35813747/)). Tra le cause ha indicato limiti di rilascio dei materiali molto più severi di quelli europei e l'assenza in Italia di impianti per trattare alcuni rifiuti, che obbliga a gare internazionali. Una cifra dà la misura dell'accelerazione recente: per il 2026 Sogin ha contratti per circa 420 milioni di euro, contro una media di circa 90 milioni l'anno nel periodo precedente.
+I tempi sono stati rivisti più volte. L'allora amministratore delegato di Sogin, Gian Luca Artizzu, ha detto in Parlamento a febbraio che ipotizzare la fine nel 2020, come prevedevano i piani originari, era "quanto meno velleitario" ([AGI](https://www.agi.it/cronaca/news/2026-02-26/sogin-ad-artizzu-35813747/)). Tra le cause ha indicato limiti di rilascio dei materiali molto più severi di quelli europei e l'assenza in Italia di impianti per trattare alcuni rifiuti, che obbliga a gare internazionali. Una cifra dà la misura dell'accelerazione recente: per il 2026 Sogin ha contratti per circa 420 milioni di euro, contro una media di circa 90 milioni l'anno nel periodo precedente.
 
 ## 5. I rifiuti: dove sono e dove andranno
 
