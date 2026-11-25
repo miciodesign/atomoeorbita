@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T15:12:20.744308+00:00",
+  "updated": "2026-11-25T14:51:26.729765+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -59,10 +59,46 @@
       "section": "atomo",
       "source": "World Nuclear News",
       "lang": "en",
+      "title": "Construction of third unit at Taishan begins",
+      "url": "https://www.world-nuclear-news.org/articles/construction-of-third-unit-at-taishan-begins",
+      "summary": "The first concrete has been poured for the nuclear island of unit 3 at the Taishan nuclear power plant in Guangdong province, China General Nuclear has announced. &nbsp;",
+      "time": "2026-11-25T14:50:37+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Westinghouse to qualify BWXT for AP1000 component manufacture",
+      "url": "https://www.world-nuclear-news.org/articles/bwxt-awarded-ap1000-manufacturing-qualification-contracts",
+      "summary": "Westinghouse Electric Company and BWXT Canada have agreed to qualify BWXT Canada to manufacture key components for AP1000 projects, a move the companies say expands opportunities for the Canadian and US nuclear supply ch",
+      "time": "2026-11-25T12:51:31+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "NucNet",
+      "lang": "en",
+      "title": "Framatome Inaugurates Major Components Facility As France Prepares For Reactor Rollout",
+      "url": "https://www.nucnet.org/news/framatome-inaugurates-major-components-facility-as-france-prepares-for-reactor-rollout-11-3-2026",
+      "summary": "Framatome, the nuclear engineering subsidiary of French state-owned utility EDF, has inaugurated a new €100m ($109m) nuclear component manufacturing facility as France prepares to advance its next generation of nuclear p",
+      "time": "2026-11-25T08:53:23+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
       "title": "Start-up milestones for Indian plants",
       "url": "https://www.world-nuclear-news.org/articles/start-up-milestones-for-indian-plants",
       "summary": "As Kaiga unit 1 restarts after a record-breaking refurbishment outage, India's nuclear regulator has given Nuclear Power Corporation of India permission for the First Approach to Criticality for unit 8 at the Rajasthan A",
       "time": "2026-11-24T17:10:59+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "POWER Magazine",
+      "lang": "en",
+      "title": "Landmark NRC Construction Permit Ushers in Next Phase for Dow’s Xe-100 HTGR Nuclear Project",
+      "url": "https://www.powermag.com/landmark-nrc-construction-permit-ushers-in-next-phase-for-dows-xe-100-htgr-nuclear-project/",
+      "summary": "The Nuclear Regulatory Commission (NRC) on Nov. 9 issued its first construction permit for a high-temperature gas-cooled reactor (HTGR) in nearly six decades, authorizing construction of four X-energy Xe-100 reactors tha",
+      "time": "2026-11-24T17:06:43+00:00"
     },
     {
       "section": "atomo",
@@ -124,29 +160,56 @@
       "lang": "en",
       "title": "Fuel plates milestone for FRM-II conversion",
       "url": "https://www.world-nuclear-news.org/articles/fuel-plates-milestone-for-frm-ii-conversion",
-      "summary": "Framatome's fabrication of the first depleted uranium fuel plates is a major technical milestone towards the conversion of the FRM II research reactor at Technical University of Munich from highly enriched uranium to hig",
+      "summary": "Framatome's fabrication of the first depleted uranium fuel plates is a major technical milestone towards the conversion of the FRM-II research reactor at Technical University of Munich from highly enriched uranium to hig",
       "time": "2026-11-23T15:42:26+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "NucNet",
-      "lang": "en",
-      "title": "Pacific Fusion Gets Key Licence For $1 Billion New Mexico Demonstration Facility",
-      "url": "https://www.nucnet.org/news/pacific-fusion-gets-key-licence-for-usd1-billion-new-mexico-demonstration-facility-11-1-2026",
-      "summary": "US-based Pacific Fusion announced that the New Mexico Environment Department (NMED) has approved its radioactive materials licence, enabling the company to operate a fusion machine and accelerate its efforts to bring fus",
-      "time": "2026-11-23T10:30:45+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Pilot-scale testing of equipment planned at Russia’s new reprocessing centre",
-      "url": "https://www.world-nuclear-news.org/articles/pilot-scale-testing-of-equipment-planned-at-russias-new-reprocessing-centre",
-      "summary": "The nuclear fuel reprocessing centre in Zheleznogorsk in the Krasnoyarsk region in Russia will soon begin pilot-scale trial operation after completion of the equipment debugging process, Rosatom said. &nbsp;",
-      "time": "2026-11-23T08:45:11+00:00"
     }
   ],
   "orbita": [
+    {
+      "section": "orbita",
+      "source": "ASI",
+      "lang": "it",
+      "title": "Giornata Nazionale dello Spazio 2026",
+      "url": "https://www.asi.it/2026/11/giornata-nazionale-dello-spazio-2026/",
+      "summary": "Mostra &#8220;Space Habitat&#8221; &#8211; Roma, Palazzo Piacentini [&#8230;]",
+      "time": "2026-11-25T13:32:58+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ASI",
+      "lang": "it",
+      "title": "Italia e America Latina: la cooperazione spaziale passa attraverso la formazione in Osservazione della Terra grazie ad ASI e IILA",
+      "url": "https://www.asi.it/2026/11/italia-e-america-latina-la-cooperazione-spaziale-passa-attraverso-la-formazione-in-osservazione-della-terra-grazie-ad-asi-e-iila/",
+      "summary": "ASI e IILA avviano il primo corso di formazione su applicazioni avanzate di dati satellitari rivolto a funzionari di agenzie governative e agenzie spaziali dei paesi dell’America Latina [&#8230;]",
+      "time": "2026-11-25T13:24:01+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "European Spaceflight",
+      "lang": "en",
+      "title": "Arianespace Completes 10th Ariane 6 Flight With Next Expected on 17 December",
+      "url": "https://europeanspaceflight.com/arianespace-completes-10th-ariane-6-flight-with-next-expected-on-17-december/",
+      "summary": "Arianespace has successfully completed the tenth flight of its Ariane 6 rocket, deploying another 36 Amazon Leo satellites into orbit. The rocket’s sixth and likely final flight of 2026 is currently expected to take plac",
+      "time": "2026-11-24T19:55:08+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ASI",
+      "lang": "it",
+      "title": "Italia e Africa, si rafforza la cooperazione spaziale: nuove prospettive per ricerca, innovazione e sviluppo al centro del IV incontro di ASI con i Paesi",
+      "url": "https://www.asi.it/2026/11/italia-e-africa-si-rafforza-la-cooperazione-spaziale-nuove-prospettive-per-ricerca-innovazione-e-sviluppo-al-centro-del-iv-incontro-di-asi-con-i-paesi/",
+      "summary": "L’incontro ha confermato il valore strategico della cooperazione spaziale a servizio dei rispettivi paesi [&#8230;]",
+      "time": "2026-11-24T18:17:08+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "Simera Sense, Spacemanic, Zaitra and World from Space Join Forces on an End-to-End Dual-Use Mission Solution",
+      "url": "https://spacenews.com/simera-sense-spacemanic-zaitra-and-world-from-space-join-forces-on-an-end-to-end-dual-use-mission-solution/",
+      "summary": "Bremen, 18 November 2026 – Simera Sense, Spacemanic, Zaitra and World from Space have signed a Memorandum of Understanding in Bremen to cooperate on a complete mission solution built around [&#8230;] The post Simera Sens",
+      "time": "2026-11-24T15:17:50+00:00"
+    },
     {
       "section": "orbita",
       "source": "European Spaceflight",
@@ -155,6 +218,24 @@
       "url": "https://europeanspaceflight.com/bepicolombo-enters-orbit-around-mercury-despite-software-glitch/",
       "summary": "The European Space Agency’s BepiColombo mission has successfully entered orbit around Mercury despite a software glitch that resulted in a shorter-than-planned thruster burn. According to the agency’s 23 November update,",
       "time": "2026-11-24T08:50:01+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ESA",
+      "lang": "en",
+      "title": "Euclid breaks own quasar record by 40 million years",
+      "url": "https://www.esa.int/articles/about-us/directorates/science/euclid/euclid-breaks-own-quasar-record-by-40-million-years",
+      "summary": "The European Space Agency’s Euclid space telescope has discovered the most distant quasar to date: a rare 360 million-sun-mass galactic core seen just 630 million years after the Big Bang. The discovery breaks Euclid’s o",
+      "time": "2026-11-24T08:00:00+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ESA",
+      "lang": "en",
+      "title": "BepiColombo safely in Mercury orbit despite unexpected challenge",
+      "url": "https://www.esa.int/articles/about-us/directorates/operations/bepicolombo-safely-in-mercury-orbit-despite-unexpected-challenge",
+      "summary": "On 21 November, starting at 18:24 UTC, BepiColombo achieved Mercury orbit insertion (MOI), the second major milestone of its planetary arrival phase. As soon as the signal from the spacecraft was re-established after a s",
+      "time": "2026-11-23T18:00:00+00:00"
     },
     {
       "section": "orbita",
@@ -173,24 +254,6 @@
       "url": "https://europeanspaceflight.com/eutelsat-wins-60-million-us-space-force-contract/",
       "summary": "The US arm of European satellite operator Eutelsat has secured a two-year contract worth more than $60 million to provide satellite communications services to the US armed forces. Announced on 17 November, the contract c",
       "time": "2026-11-23T15:02:19+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ASI",
-      "lang": "it",
-      "title": "Exploration Science Workshop 2026",
-      "url": "https://www.asi.it/2026/11/exploration-science-workshop-2026/",
-      "summary": "Dal 24 al 26 novembre preso la sede dell&#8217;ASI [&#8230;]",
-      "time": "2026-11-23T07:00:22+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "AstronautiNEWS",
-      "lang": "it",
-      "title": "Nonostante un problema BepiColombo è arrivata in orbita a Mercurio",
-      "url": "https://www.astronautinews.it/2026/11/nonostante-un-problema-bepicolombo-e-arrivata-in-orbita-a-mercurio/",
-      "summary": "La sonda BepiColombo, nata dalla collaborazione tra l’Agenzia spaziale europea (ESA) e quella giapponese JAXA, si è finalmente inserita in orbita al pianeta più interno del sistema solare. La separazione dal modulo di se",
-      "time": "2026-11-23T06:00:18+00:00"
     }
   ]
 }
