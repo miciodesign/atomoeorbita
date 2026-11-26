@@ -1,36 +1,6 @@
 {
- "aggiornato": "2026-11-24T15:47Z",
+ "aggiornato": "2026-11-26T06:20Z",
  "lanci": [
-  {
-   "nome": "Falcon 9 Block 5 | USSF-266",
-   "data": "2026-11-24T16:08:59Z",
-   "finestra": "2026-11-24T15:55:00Z",
-   "stato": "Go",
-   "razzo": "Falcon 9 Block 5",
-   "operatore": "SpaceX",
-   "paese_op": null,
-   "base": "Vandenberg SFB, CA, USA",
-   "rampa": "Space Launch Complex 4E",
-   "missione": "USSF-266",
-   "tipo": "Government/Top Secret",
-   "orbita": "PO",
-   "descrizione": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX’s Starshield satellite bus, based on locations of ascent rocket stage drop zones being fits with previous SDA Transport Layer launches."
-  },
-  {
-   "nome": "Long March 2F/G | Shenzhou 24",
-   "data": "2026-11-25T00:18:00Z",
-   "finestra": "2026-11-25T00:08:00Z",
-   "stato": "Go",
-   "razzo": "Long March 2F/G",
-   "operatore": "China Aerospace Science and Technology Corporation",
-   "paese_op": null,
-   "base": "Jiuquan Satellite Launch Center, People's Republic of China",
-   "rampa": "Launch Area 91 (SLS-1 / 921)",
-   "missione": "Shenzhou 24",
-   "tipo": "Human Exploration",
-   "orbita": "LEO",
-   "descrizione": "Shenzhou 24 will be the 24th flight of the Shenzhou program.\r\n\r\nThe first astronaut from Pakistan is expected to fly on this on a short duration mission, with another Chinese astronaut to undergo a year long expedition."
-  },
   {
    "nome": "Long March 2D | Unknown Payload",
    "data": "2026-11-26T09:35:00Z",
@@ -55,7 +25,7 @@
    "operatore": "Rocket Lab",
    "paese_op": null,
    "base": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-   "rampa": "Unknown Pad",
+   "rampa": "Rocket Lab Launch Complex 1B",
    "missione": "Night Owls Never Sleep (StriX Launch 14)",
    "tipo": "Earth Science",
    "orbita": "LEO",
@@ -108,8 +78,8 @@
   },
   {
    "nome": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
-   "data": "2026-11-29T15:50:00Z",
-   "finestra": "2026-11-29T15:50:00Z",
+   "data": "2026-11-29T15:47:00Z",
+   "finestra": "2026-11-29T15:47:00Z",
    "stato": "Go",
    "razzo": "Falcon 9 Block 5",
    "operatore": "SpaceX",
@@ -182,6 +152,21 @@
    "descrizione": "Sixteenth batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities."
   },
   {
+   "nome": "Falcon 9 Block 5 | CHORUS",
+   "data": "2026-12-04T12:55:00Z",
+   "finestra": "2026-12-04T12:55:00Z",
+   "stato": "Go",
+   "razzo": "Falcon 9 Block 5",
+   "operatore": "SpaceX",
+   "paese_op": null,
+   "base": "Cape Canaveral SFS, FL, USA",
+   "rampa": "Space Launch Complex 40",
+   "missione": "CHORUS",
+   "tipo": "Earth Science",
+   "orbita": "LEO",
+   "descrizione": "CHORUS is MDA's next generation Earth observation constellation, consisting of 2 radar satellites (C-band SAR and X-band SAR), in a 53.5 degree 600 km altitude LEO, with the X-band trailing the C-band by 60 minutes. A collaborative multi-sensor constellation, CHORUS will bring together diverse and unique imagery and data sources and provide a new level of near real-time insight and innovative Earth observation services. Operating in a unique mid-inclination orbit, CHORUS will be able to image day or night, regardless of weather conditions, with daily access of up to 95% of the coverage area. From an industry-leading 700km-wide imaging swath down to sub-metre high resolution, CHORUS will provide the most extensive and unrivalled Earth observation radar imaging capacity available on the market in a single mission.\r\n\r\nAlso on board this mission are 2 satellites from ICEYE and PECCY."
+  },
+  {
    "nome": "Long March 12 | SatNet LEO Group TBD?",
    "data": "2026-12-10T07:00:00Z",
    "finestra": "2026-12-10T07:00:00Z",
@@ -198,9 +183,9 @@
   },
   {
    "nome": "Ariane 62 | Metop-SG B1",
-   "data": "2026-12-17T00:00:00Z",
-   "finestra": "2026-12-17T00:00:00Z",
-   "stato": "TBD",
+   "data": "2026-12-18T00:36:00Z",
+   "finestra": "2026-12-18T00:36:00Z",
+   "stato": "Go",
    "razzo": "Ariane 62",
    "operatore": "Arianespace",
    "paese_op": null,
@@ -212,7 +197,7 @@
    "descrizione": "Second of EUMETSAT's second generation of Metop weather satellites."
   },
   {
-   "nome": "Falcon 9 Block 5 | CHORUS",
+   "nome": "Falcon 9 Block 5 | Amazon Leo (LF-04)",
    "data": "2026-12-31T00:00:00Z",
    "finestra": "2026-12-31T00:00:00Z",
    "stato": "TBD",
@@ -221,10 +206,10 @@
    "paese_op": null,
    "base": "Cape Canaveral SFS, FL, USA",
    "rampa": "Unknown Pad",
-   "missione": "CHORUS",
-   "tipo": "Earth Science",
+   "missione": "Amazon Leo (LF-04)",
+   "tipo": "Communications",
    "orbita": "LEO",
-   "descrizione": "CHORUS is MDA's next generation Earth observation constellation, consisting of 2 radar satellites (C-band SAR and X-band SAR), in a 53.5 degree 600 km altitude LEO, with the X-band trailing the C-band by 60 minutes. A collaborative multi-sensor constellation, CHORUS will bring together diverse and unique imagery and data sources and provide a new level of near real-time insight and innovative Earth observation services. Operating in a unique mid-inclination orbit, CHORUS will be able to image day or night, regardless of weather conditions, with daily access of up to 95% of the coverage area. From an industry-leading 700km-wide imaging swath down to sub-metre high resolution, CHORUS will provide the most extensive and unrivalled Earth observation radar imaging capacity available on the market in a single mission."
+   "descrizione": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit designed to offer broadband internet access managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610 km and 630 km altitude."
   },
   {
    "nome": "Falcon 9 Block 5 | Globalstar 2-R Mission 2 (x 9)",
@@ -315,21 +300,6 @@
    "tipo": "Communications",
    "orbita": "LEO",
    "descrizione": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system."
-  },
-  {
-   "nome": "LVM-3 | Gaganyaan-1",
-   "data": "2026-12-31T00:00:00Z",
-   "finestra": "2026-12-31T00:00:00Z",
-   "stato": "TBD",
-   "razzo": "Launch Vehicle Mark-3 (GSLV Mk III)",
-   "operatore": "Indian Space Research Organization",
-   "paese_op": null,
-   "base": "Satish Dhawan Space Centre, India",
-   "rampa": "Satish Dhawan Space Centre Second Launch Pad",
-   "missione": "Gaganyaan-1",
-   "tipo": "Test Flight",
-   "orbita": "LEO",
-   "descrizione": "First uncrewed orbital test flight of the Gaganyaan capsule."
   },
   {
    "nome": "Vega-C | IRIDE 1",
@@ -600,6 +570,36 @@
    "tipo": "Government/Top Secret",
    "orbita": "PO",
    "descrizione": "Classified mission launched by the Space Development Agency (SDA) for Tranche 2 Transport Layer."
+  },
+  {
+   "nome": "Falcon 9 Block 5 | USSF-31",
+   "data": "2026-12-31T00:00:00Z",
+   "finestra": "2026-12-31T00:00:00Z",
+   "stato": "TBD",
+   "razzo": "Falcon 9 Block 5",
+   "operatore": "SpaceX",
+   "paese_op": null,
+   "base": "Cape Canaveral SFS, FL, USA",
+   "rampa": "Unknown Pad",
+   "missione": "USSF-31",
+   "tipo": "Government/Top Secret",
+   "orbita": "Direct-GEO",
+   "descrizione": "Classified US Space Force carrying two payloads directly to geostationary orbit."
+  },
+  {
+   "nome": "Falcon 9 Block 5 | VICTUS SURGO",
+   "data": "2026-12-31T00:00:00Z",
+   "finestra": "2026-12-31T00:00:00Z",
+   "stato": "TBD",
+   "razzo": "Falcon 9 Block 5",
+   "operatore": "SpaceX",
+   "paese_op": null,
+   "base": "Cape Canaveral SFS, FL, USA",
+   "rampa": "Unknown Pad",
+   "missione": "VICTUS SURGO",
+   "tipo": "Government/Top Secret",
+   "orbita": "LEO",
+   "descrizione": "A new Tactically Responsive Space (TacRS) mission by the United States Space Force Space Systems Command to deliver responsive space delivery. The mission consists of an Impulse Space Mira orbital transfer vehicle that will operate in Geosynchronous Transfer Orbit (GTO), which would be transferred from Low Earth Orbit (LEO) on an Impulse Space Helios kick stage. A Helios rideshare payload will also be delivered to GEO."
   }
  ]
 }
