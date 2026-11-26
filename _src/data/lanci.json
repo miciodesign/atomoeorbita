@@ -1,21 +1,6 @@
 {
- "aggiornato": "2026-11-26T06:20Z",
+ "aggiornato": "2026-11-26T15:04Z",
  "lanci": [
-  {
-   "nome": "Long March 2D | Unknown Payload",
-   "data": "2026-11-26T09:35:00Z",
-   "finestra": "2026-11-26T09:30:00Z",
-   "stato": "Go",
-   "razzo": "Long March 2D",
-   "operatore": "China Aerospace Science and Technology Corporation",
-   "paese_op": null,
-   "base": "Xichang Satellite Launch Center, People's Republic of China",
-   "rampa": "Launch Complex 3 (LC-3/LA-1)",
-   "missione": "Unknown Payload",
-   "tipo": "Unknown",
-   "orbita": "N/A",
-   "descrizione": "Details TBD."
-  },
   {
    "nome": "Electron | Night Owls Never Sleep (StriX Launch 14)",
    "data": "2026-11-27T00:05:00Z",
@@ -600,6 +585,21 @@
    "tipo": "Government/Top Secret",
    "orbita": "LEO",
    "descrizione": "A new Tactically Responsive Space (TacRS) mission by the United States Space Force Space Systems Command to deliver responsive space delivery. The mission consists of an Impulse Space Mira orbital transfer vehicle that will operate in Geosynchronous Transfer Orbit (GTO), which would be transferred from Low Earth Orbit (LEO) on an Impulse Space Helios kick stage. A Helios rideshare payload will also be delivered to GEO."
+  },
+  {
+   "nome": "Falcon Heavy | USSF-75",
+   "data": "2026-12-31T00:00:00Z",
+   "finestra": "2026-12-31T00:00:00Z",
+   "stato": "TBD",
+   "razzo": "Falcon Heavy",
+   "operatore": "SpaceX",
+   "paese_op": null,
+   "base": "Kennedy Space Center, FL, USA",
+   "rampa": "Launch Complex 39A",
+   "missione": "USSF-75",
+   "tipo": "Government/Top Secret",
+   "orbita": "Direct-GEO",
+   "descrizione": "Classified payload for the United States Space Force"
   }
  ]
 }
