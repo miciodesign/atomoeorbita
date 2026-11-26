@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T14:51:26.729765+00:00",
+  "updated": "2026-11-26T14:18:35.387414+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -57,12 +57,30 @@
   "atomo": [
     {
       "section": "atomo",
+      "source": "IAEA",
+      "lang": "en",
+      "title": "IAEA Visitor Centre Launches Pilot Programme for High Schools",
+      "url": "http://www.iaea.org/newscenter/news/iaea-visitor-centre-launches-pilot-programme-for-high-schools",
+      "summary": "",
+      "time": "2026-11-26T00:00:00+00:00"
+    },
+    {
+      "section": "atomo",
       "source": "World Nuclear News",
       "lang": "en",
       "title": "Construction of third unit at Taishan begins",
       "url": "https://www.world-nuclear-news.org/articles/construction-of-third-unit-at-taishan-begins",
       "summary": "The first concrete has been poured for the nuclear island of unit 3 at the Taishan nuclear power plant in Guangdong province, China General Nuclear has announced. &nbsp;",
       "time": "2026-11-25T14:50:37+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Framatome enhances its capacity for reactor internals",
+      "url": "https://www.world-nuclear-news.org/articles/framatome-enhances-its-capacity-for-reactor-internals",
+      "summary": "Framatome has inaugurated within its industrial facility in Le Creusot, France, a new workshop dedicated to the manufacturing and assembly of nuclear reactor pressure vessel internals. &nbsp;",
+      "time": "2026-11-25T13:13:15+00:00"
     },
     {
       "section": "atomo",
@@ -75,12 +93,39 @@
     },
     {
       "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "First radial plate manufactured for Proxima stellarator",
+      "url": "https://www.world-nuclear-news.org/articles/first-radial-plate-manufactured-for-proxima-stellarator",
+      "summary": "Three German industrial companies have completed the first of many radial plates for the Stellarator Model Coil designed and engineered by Munich-based fusion company Proxima Fusion. &nbsp;",
+      "time": "2026-11-25T11:15:29+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Steam generators progress for Leningrad II and MBIR",
+      "url": "https://www.world-nuclear-news.org/articles/steam-generator-progress-for-lenningrad-ii-and-mbir",
+      "summary": "Four steam generators have been delivered for the third unit at the new phase of the Leningrad Nuclear Power Plant. Two specially designed steam generators for the&nbsp;Multipurpose Fast Research Reactor have also been c",
+      "time": "2026-11-25T10:28:15+00:00"
+    },
+    {
+      "section": "atomo",
       "source": "NucNet",
       "lang": "en",
       "title": "Framatome Inaugurates Major Components Facility As France Prepares For Reactor Rollout",
       "url": "https://www.nucnet.org/news/framatome-inaugurates-major-components-facility-as-france-prepares-for-reactor-rollout-11-3-2026",
       "summary": "Framatome, the nuclear engineering subsidiary of French state-owned utility EDF, has inaugurated a new €100m ($109m) nuclear component manufacturing facility as France prepares to advance its next generation of nuclear p",
       "time": "2026-11-25T08:53:23+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "IAEA",
+      "lang": "en",
+      "title": "IAEA Publications: Nuclear Knowledge at Your Fingertips",
+      "url": "http://www.iaea.org/newscenter/news/iaea-publications-nuclear-knowledge-at-your-fingertips",
+      "summary": "",
+      "time": "2026-11-25T00:00:00+00:00"
     },
     {
       "section": "atomo",
@@ -99,72 +144,36 @@
       "url": "https://www.powermag.com/landmark-nrc-construction-permit-ushers-in-next-phase-for-dows-xe-100-htgr-nuclear-project/",
       "summary": "The Nuclear Regulatory Commission (NRC) on Nov. 9 issued its first construction permit for a high-temperature gas-cooled reactor (HTGR) in nearly six decades, authorizing construction of four X-energy Xe-100 reactors tha",
       "time": "2026-11-24T17:06:43+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Key step in licensing of US TRISO fuel facilities",
-      "url": "https://www.world-nuclear-news.org/articles/key-step-in-licensing-of-us-triso-fuel-facilities",
-      "summary": "Nuclear fuel company Standard Nuclear has submitted the Documented Safety Analyses for two new identical TRISO fuel&nbsp;production facilities in Tennessee and Idaho to the US Department of Energy for review. &nbsp;",
-      "time": "2026-11-24T13:40:20+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Posiva completes test transport at encapsulation plant",
-      "url": "https://www.world-nuclear-news.org/articles/posiva-completes-test-transport-at-encapsulation-plant",
-      "summary": "Finnish radioactive waste management company Posiva has successfully completed first test transport of the transfer cask for used nuclear fuel to the encapsulation plant at Olkiluoto. &nbsp;",
-      "time": "2026-11-24T11:11:27+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "White Mesa mill to resume processing as US uranium production falls",
-      "url": "https://www.world-nuclear-news.org/articles/white-mesa-mill-to-resume-processing-as-us-uranium-production-falls",
-      "summary": "The USA's production of uranium for the third quarter of 2026 fell by 78% reflecting the suspension of uranium processing at Energy Fuels' White Mesa mill - but the company is planning a large-scale processing campaign f",
-      "time": "2026-11-24T10:22:49+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Zambia planning for development of nuclear energy",
-      "url": "https://www.world-nuclear-news.org/articles/zambia-plans-for-developing-nuclear-energy-programme-reviewed-by-iaea",
-      "summary": "Zambia is committed to considering building a nuclear power plant, and has made progress in developing a framework to make an informed decision, an International Atomic Energy Agency mission has said. &nbsp;",
-      "time": "2026-11-24T09:33:36+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Korean, Slovakian partnership for financing nuclear projects",
-      "url": "https://www.world-nuclear-news.org/articles/korean-slovakian-partnership-for-financing-nuclear-projects",
-      "summary": "Korea Trade Insurance Corporation has signed a memorandum of understanding with Export-Import Bank of Slovakia to support power and utility projects - including nuclear power plants - and the strengthening of related sup",
-      "time": "2026-11-23T16:30:59+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "New York unveils advanced nuclear master plan",
-      "url": "https://www.world-nuclear-news.org/articles/new-york-unveils-advanced-nuclear-master-plan",
-      "summary": "Governor Kathy Hochul has announced the completion of the Master Plan for Responsible Advanced Nuclear Development in New York, which sets out a roadmap for the state to achieve its target of creating 5 GW of new nuclear",
-      "time": "2026-11-23T15:55:07+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Fuel plates milestone for FRM-II conversion",
-      "url": "https://www.world-nuclear-news.org/articles/fuel-plates-milestone-for-frm-ii-conversion",
-      "summary": "Framatome's fabrication of the first depleted uranium fuel plates is a major technical milestone towards the conversion of the FRM-II research reactor at Technical University of Munich from highly enriched uranium to hig",
-      "time": "2026-11-23T15:42:26+00:00"
     }
   ],
   "orbita": [
+    {
+      "section": "orbita",
+      "source": "European Spaceflight",
+      "lang": "en",
+      "title": "Thales Alenia Space to Establish Dedicated Company for Cargo Return Services",
+      "url": "https://europeanspaceflight.com/thales-alenia-space-to-establish-dedicated-company-for-cargo-return-services/",
+      "summary": "Thales Alenia Space is planning to establish a dedicated company to support the development and commercialisation of its proposed space station cargo transportation service. In a joint statement published on 13 November,",
+      "time": "2026-11-26T13:13:32+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "European Spaceflight",
+      "lang": "en",
+      "title": "MaiaSpace Ships Maia Mechanical Models to Launch Site",
+      "url": "https://europeanspaceflight.com/maiaspace-ships-maia-mechanical-models-to-launch-site/",
+      "summary": "ArianeGroup subsidiary MaiaSpace has shipped full-scale mechanical models of the first and second stages of its Maia rocket to French Guiana. The stages will be used for a series of combined tests at the Guiana Space Cen",
+      "time": "2026-11-25T18:51:13+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ASI",
+      "lang": "it",
+      "title": "Hera, la missione di difesa planetaria rilascia le prime immagini",
+      "url": "https://www.asi.it/2026/11/hera-la-missione-di-difesa-planetaria-rilascia-le-prime-immagini/",
+      "summary": "Il 25 novembre la comunità scientifica ha svolto celebrazioni in Europa e in Italia [&#8230;]",
+      "time": "2026-11-25T18:22:46+00:00"
+    },
     {
       "section": "orbita",
       "source": "ASI",
@@ -182,6 +191,15 @@
       "url": "https://www.asi.it/2026/11/italia-e-america-latina-la-cooperazione-spaziale-passa-attraverso-la-formazione-in-osservazione-della-terra-grazie-ad-asi-e-iila/",
       "summary": "ASI e IILA avviano il primo corso di formazione su applicazioni avanzate di dati satellitari rivolto a funzionari di agenzie governative e agenzie spaziali dei paesi dell’America Latina [&#8230;]",
       "time": "2026-11-25T13:24:01+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ESA",
+      "lang": "en",
+      "title": "Hera reveals stadium-sized asteroid crater from spacecraft impact",
+      "url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/hera-reveals-stadium-sized-asteroid-crater-left-after-spacecraft-impact",
+      "summary": "Arriving at the site of humankind&#039;s first planetary defence experiment, the European Space Agency&#039;s Hera mission has found a miniature world of surprises.",
+      "time": "2026-11-25T11:02:51+00:00"
     },
     {
       "section": "orbita",
@@ -209,51 +227,6 @@
       "url": "https://spacenews.com/simera-sense-spacemanic-zaitra-and-world-from-space-join-forces-on-an-end-to-end-dual-use-mission-solution/",
       "summary": "Bremen, 18 November 2026 – Simera Sense, Spacemanic, Zaitra and World from Space have signed a Memorandum of Understanding in Bremen to cooperate on a complete mission solution built around [&#8230;] The post Simera Sens",
       "time": "2026-11-24T15:17:50+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "European Spaceflight",
-      "lang": "en",
-      "title": "BepiColombo Enters Orbit Around Mercury Despite “Software Glitch”",
-      "url": "https://europeanspaceflight.com/bepicolombo-enters-orbit-around-mercury-despite-software-glitch/",
-      "summary": "The European Space Agency’s BepiColombo mission has successfully entered orbit around Mercury despite a software glitch that resulted in a shorter-than-planned thruster burn. According to the agency’s 23 November update,",
-      "time": "2026-11-24T08:50:01+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ESA",
-      "lang": "en",
-      "title": "Euclid breaks own quasar record by 40 million years",
-      "url": "https://www.esa.int/articles/about-us/directorates/science/euclid/euclid-breaks-own-quasar-record-by-40-million-years",
-      "summary": "The European Space Agency’s Euclid space telescope has discovered the most distant quasar to date: a rare 360 million-sun-mass galactic core seen just 630 million years after the Big Bang. The discovery breaks Euclid’s o",
-      "time": "2026-11-24T08:00:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ESA",
-      "lang": "en",
-      "title": "BepiColombo safely in Mercury orbit despite unexpected challenge",
-      "url": "https://www.esa.int/articles/about-us/directorates/operations/bepicolombo-safely-in-mercury-orbit-despite-unexpected-challenge",
-      "summary": "On 21 November, starting at 18:24 UTC, BepiColombo achieved Mercury orbit insertion (MOI), the second major milestone of its planetary arrival phase. As soon as the signal from the spacecraft was re-established after a s",
-      "time": "2026-11-23T18:00:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ASI",
-      "lang": "it",
-      "title": "Da Trento a Roma: l’International Space Forum torna in Italia",
-      "url": "https://www.asi.it/2026/11/da-trento-a-roma-linternational-space-forum-torna-in-italia/",
-      "summary": "Il forum è promosso dall&#8217;Agenzia Spaziale Italiana e dallo IAF [&#8230;]",
-      "time": "2026-11-23T15:38:52+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "European Spaceflight",
-      "lang": "en",
-      "title": "Eutelsat Wins $60 Million US Space Force Contract",
-      "url": "https://europeanspaceflight.com/eutelsat-wins-60-million-us-space-force-contract/",
-      "summary": "The US arm of European satellite operator Eutelsat has secured a two-year contract worth more than $60 million to provide satellite communications services to the US armed forces. Announced on 17 November, the contract c",
-      "time": "2026-11-23T15:02:19+00:00"
     }
   ]
 }
