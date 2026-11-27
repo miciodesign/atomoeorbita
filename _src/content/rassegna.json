@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T14:18:35.387414+00:00",
+  "updated": "2026-11-27T14:14:05.001734+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -57,6 +57,87 @@
   "atomo": [
     {
       "section": "atomo",
+      "source": "POWER Magazine",
+      "lang": "en",
+      "title": "Italy Taking Steps to Revive Use of Nuclear Power",
+      "url": "https://www.powermag.com/italy-taking-steps-to-revive-use-of-nuclear-power/",
+      "summary": "Lawmakers in Italy are paving the way to again have nuclear power as part of the country's energy mix. The post Italy Taking Steps to Revive Use of Nuclear Power appeared first on POWER Magazine.",
+      "time": "2026-11-27T14:13:31+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "NucNet",
+      "lang": "en",
+      "title": "Nucleoeléctrica Argentina Signs ‘Landmark’ Agreement With Canada’s Candu Energy",
+      "url": "https://www.nucnet.org/news/nucleoelectrica-argentina-signs-landmark-agreement-with-canada-s-candu-energy-11-5-2026",
+      "summary": "Nucleoeléctrica Argentina has signed what it called a landmark agreement with Candu Energy to deliver specialised engineering services and technical assistance to the Canadian company on life-extension projects, schedule",
+      "time": "2026-11-27T13:33:18+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "Qualenergia",
+      "lang": "it",
+      "title": "Riscaldamento a gas: come usare caldaia e termosifoni evitando sprechi",
+      "url": "https://www.qualenergia.it/articoli/riscaldamento-gas-come-usare-caldaia-termosifoni-evidentando-sprechi-podcast/",
+      "summary": "Lasciare acceso il riscaldamento a lungo oppure riscaldare casa solo quando serve? Come regolare la temperatura dell’acqua che circola nei radiatori? E quanto ostacolano la diffusione del calore tende, mobili ed errate a",
+      "time": "2026-11-27T12:30:45+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "New approach to very low radiation doses needed, says nuclear industry",
+      "url": "https://www.world-nuclear-news.org/articles/nuclear-industry-calls-for-new-approach-to-very-low-radiation-doses",
+      "summary": "The current regulation of exposures to very low doses of radiation needs to be modified to end the&nbsp;&quot;double standard&quot; where&nbsp;doses received from things like&nbsp;food, the environment and airline flight",
+      "time": "2026-11-26T17:30:13+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Tianwan moves step closer to becoming world's biggest nuclear power plant",
+      "url": "https://www.world-nuclear-news.org/articles/Tianwan-moving-step-closer-becoming-worlds-biggest-nuclear-power-plant",
+      "summary": "Hot tests have been completed and the initial fuel load delivered for Tianwan unit 8. When all eight units at the site in China are up and running it will become the world's largest nuclear power plant. &nbsp;",
+      "time": "2026-11-26T14:33:38+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Additional partners join nuclear-powered LNG ship project",
+      "url": "https://www.world-nuclear-news.org/articles/additional-partners-join-nuclear-powered-lng-ship-project",
+      "summary": "A day after signing a two-way memorandum of understanding with Samsung Heavy Industries, Tesser Atomics announced it has entered into a four-way MoU with Samsung Heavy Industries, DNV and NTNU for its nuclear-powered liq",
+      "time": "2026-11-26T12:51:40+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Lance operations suspended after cybersecurity incident",
+      "url": "https://www.world-nuclear-news.org/articles/lance-operations-suspended-after-cybersecurity-incident",
+      "summary": "Peninsula Energy said operations at its uranium project in Wyoming will remain suspended until a recovery and verification programme is completed and it is satisfied that operations can safely resume. &nbsp;",
+      "time": "2026-11-26T12:02:25+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Twice-recycled fuel loaded into BN-800 fast neutron reactor",
+      "url": "https://www.world-nuclear-news.org/articles/twice-recycled-fuel-loaded-into-bn-800-fast-neutron-reactor",
+      "summary": "Recycled uranium-plutonium MOX fuel, manufactured using plutonium extracted from a MOX fuel assembly which had already completed a full cycle, has been loaded into the Beloyarsk Nuclear Power Plant's BN-800 fast neutron ",
+      "time": "2026-11-26T11:30:08+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "IAEA",
+      "lang": "en",
+      "title": "Update 377 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-377-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "time": "2026-11-26T00:00:00+00:00"
+    },
+    {
+      "section": "atomo",
       "source": "IAEA",
       "lang": "en",
       "title": "IAEA Visitor Centre Launches Pilot Programme for High Schools",
@@ -72,81 +153,18 @@
       "url": "https://www.world-nuclear-news.org/articles/construction-of-third-unit-at-taishan-begins",
       "summary": "The first concrete has been poured for the nuclear island of unit 3 at the Taishan nuclear power plant in Guangdong province, China General Nuclear has announced. &nbsp;",
       "time": "2026-11-25T14:50:37+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Framatome enhances its capacity for reactor internals",
-      "url": "https://www.world-nuclear-news.org/articles/framatome-enhances-its-capacity-for-reactor-internals",
-      "summary": "Framatome has inaugurated within its industrial facility in Le Creusot, France, a new workshop dedicated to the manufacturing and assembly of nuclear reactor pressure vessel internals. &nbsp;",
-      "time": "2026-11-25T13:13:15+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Westinghouse to qualify BWXT for AP1000 component manufacture",
-      "url": "https://www.world-nuclear-news.org/articles/bwxt-awarded-ap1000-manufacturing-qualification-contracts",
-      "summary": "Westinghouse Electric Company and BWXT Canada have agreed to qualify BWXT Canada to manufacture key components for AP1000 projects, a move the companies say expands opportunities for the Canadian and US nuclear supply ch",
-      "time": "2026-11-25T12:51:31+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "First radial plate manufactured for Proxima stellarator",
-      "url": "https://www.world-nuclear-news.org/articles/first-radial-plate-manufactured-for-proxima-stellarator",
-      "summary": "Three German industrial companies have completed the first of many radial plates for the Stellarator Model Coil designed and engineered by Munich-based fusion company Proxima Fusion. &nbsp;",
-      "time": "2026-11-25T11:15:29+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Steam generators progress for Leningrad II and MBIR",
-      "url": "https://www.world-nuclear-news.org/articles/steam-generator-progress-for-lenningrad-ii-and-mbir",
-      "summary": "Four steam generators have been delivered for the third unit at the new phase of the Leningrad Nuclear Power Plant. Two specially designed steam generators for the&nbsp;Multipurpose Fast Research Reactor have also been c",
-      "time": "2026-11-25T10:28:15+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "NucNet",
-      "lang": "en",
-      "title": "Framatome Inaugurates Major Components Facility As France Prepares For Reactor Rollout",
-      "url": "https://www.nucnet.org/news/framatome-inaugurates-major-components-facility-as-france-prepares-for-reactor-rollout-11-3-2026",
-      "summary": "Framatome, the nuclear engineering subsidiary of French state-owned utility EDF, has inaugurated a new €100m ($109m) nuclear component manufacturing facility as France prepares to advance its next generation of nuclear p",
-      "time": "2026-11-25T08:53:23+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "IAEA",
-      "lang": "en",
-      "title": "IAEA Publications: Nuclear Knowledge at Your Fingertips",
-      "url": "http://www.iaea.org/newscenter/news/iaea-publications-nuclear-knowledge-at-your-fingertips",
-      "summary": "",
-      "time": "2026-11-25T00:00:00+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Start-up milestones for Indian plants",
-      "url": "https://www.world-nuclear-news.org/articles/start-up-milestones-for-indian-plants",
-      "summary": "As Kaiga unit 1 restarts after a record-breaking refurbishment outage, India's nuclear regulator has given Nuclear Power Corporation of India permission for the First Approach to Criticality for unit 8 at the Rajasthan A",
-      "time": "2026-11-24T17:10:59+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "POWER Magazine",
-      "lang": "en",
-      "title": "Landmark NRC Construction Permit Ushers in Next Phase for Dow’s Xe-100 HTGR Nuclear Project",
-      "url": "https://www.powermag.com/landmark-nrc-construction-permit-ushers-in-next-phase-for-dows-xe-100-htgr-nuclear-project/",
-      "summary": "The Nuclear Regulatory Commission (NRC) on Nov. 9 issued its first construction permit for a high-temperature gas-cooled reactor (HTGR) in nearly six decades, authorizing construction of four X-energy Xe-100 reactors tha",
-      "time": "2026-11-24T17:06:43+00:00"
     }
   ],
   "orbita": [
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "The ‘bare-knuckled’ future of life in space with Tim Marshall",
+      "url": "https://spacenews.com/the-bare-knuckled-future-of-life-in-space-with-tim-marshall/",
+      "summary": "In this episode, Mike Gruss speaks with journalist and best-selling author Tim Marshall. They discuss how the war in Ukraine represented a wakeup call for how Europe and the United [&#8230;] The post The ‘bare-knuckled’ ",
+      "time": "2026-11-26T17:53:00+00:00"
+    },
     {
       "section": "orbita",
       "source": "European Spaceflight",
@@ -155,6 +173,24 @@
       "url": "https://europeanspaceflight.com/thales-alenia-space-to-establish-dedicated-company-for-cargo-return-services/",
       "summary": "Thales Alenia Space is planning to establish a dedicated company to support the development and commercialisation of its proposed space station cargo transportation service. In a joint statement published on 13 November,",
       "time": "2026-11-26T13:13:32+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ESA",
+      "lang": "en",
+      "title": "Ozone hole one of the largest in decades",
+      "url": "https://www.esa.int/articles/about-us/directorates/earth-observation-programmes/copernicus/sentinel-5p/ozone-hole-one-of-the-largest-in-decades",
+      "summary": "In contrast to the 2025 seasonal ozone hole above Antarctica, which was the fifth smallest since 1992, this year’s ozone hole ranks as one of the largest in 48 years.",
+      "time": "2026-11-26T13:00:00+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ESA",
+      "lang": "en",
+      "title": "Watch live: Gaia releases its largest-ever goldmine of cosmic data",
+      "url": "https://www.esa.int/articles/about-us/directorates/science/gaia/watch-live-gaia-releases-its-largest-ever-goldmine-of-cosmic-data",
+      "summary": "Join the European Space Agency and Gaia mission representatives on Wednesday 2 December for the unveiling of Gaia Data Release 4, the mission’s first principal data release.",
+      "time": "2026-11-26T12:39:02+00:00"
     },
     {
       "section": "orbita",
@@ -173,60 +209,6 @@
       "url": "https://www.asi.it/2026/11/hera-la-missione-di-difesa-planetaria-rilascia-le-prime-immagini/",
       "summary": "Il 25 novembre la comunità scientifica ha svolto celebrazioni in Europa e in Italia [&#8230;]",
       "time": "2026-11-25T18:22:46+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ASI",
-      "lang": "it",
-      "title": "Giornata Nazionale dello Spazio 2026",
-      "url": "https://www.asi.it/2026/11/giornata-nazionale-dello-spazio-2026/",
-      "summary": "Mostra &#8220;Space Habitat&#8221; &#8211; Roma, Palazzo Piacentini [&#8230;]",
-      "time": "2026-11-25T13:32:58+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ASI",
-      "lang": "it",
-      "title": "Italia e America Latina: la cooperazione spaziale passa attraverso la formazione in Osservazione della Terra grazie ad ASI e IILA",
-      "url": "https://www.asi.it/2026/11/italia-e-america-latina-la-cooperazione-spaziale-passa-attraverso-la-formazione-in-osservazione-della-terra-grazie-ad-asi-e-iila/",
-      "summary": "ASI e IILA avviano il primo corso di formazione su applicazioni avanzate di dati satellitari rivolto a funzionari di agenzie governative e agenzie spaziali dei paesi dell’America Latina [&#8230;]",
-      "time": "2026-11-25T13:24:01+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ESA",
-      "lang": "en",
-      "title": "Hera reveals stadium-sized asteroid crater from spacecraft impact",
-      "url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/hera-reveals-stadium-sized-asteroid-crater-left-after-spacecraft-impact",
-      "summary": "Arriving at the site of humankind&#039;s first planetary defence experiment, the European Space Agency&#039;s Hera mission has found a miniature world of surprises.",
-      "time": "2026-11-25T11:02:51+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "European Spaceflight",
-      "lang": "en",
-      "title": "Arianespace Completes 10th Ariane 6 Flight With Next Expected on 17 December",
-      "url": "https://europeanspaceflight.com/arianespace-completes-10th-ariane-6-flight-with-next-expected-on-17-december/",
-      "summary": "Arianespace has successfully completed the tenth flight of its Ariane 6 rocket, deploying another 36 Amazon Leo satellites into orbit. The rocket’s sixth and likely final flight of 2026 is currently expected to take plac",
-      "time": "2026-11-24T19:55:08+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ASI",
-      "lang": "it",
-      "title": "Italia e Africa, si rafforza la cooperazione spaziale: nuove prospettive per ricerca, innovazione e sviluppo al centro del IV incontro di ASI con i Paesi",
-      "url": "https://www.asi.it/2026/11/italia-e-africa-si-rafforza-la-cooperazione-spaziale-nuove-prospettive-per-ricerca-innovazione-e-sviluppo-al-centro-del-iv-incontro-di-asi-con-i-paesi/",
-      "summary": "L’incontro ha confermato il valore strategico della cooperazione spaziale a servizio dei rispettivi paesi [&#8230;]",
-      "time": "2026-11-24T18:17:08+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "SpaceNews",
-      "lang": "en",
-      "title": "Simera Sense, Spacemanic, Zaitra and World from Space Join Forces on an End-to-End Dual-Use Mission Solution",
-      "url": "https://spacenews.com/simera-sense-spacemanic-zaitra-and-world-from-space-join-forces-on-an-end-to-end-dual-use-mission-solution/",
-      "summary": "Bremen, 18 November 2026 – Simera Sense, Spacemanic, Zaitra and World from Space have signed a Memorandum of Understanding in Bremen to cooperate on a complete mission solution built around [&#8230;] The post Simera Sens",
-      "time": "2026-11-24T15:17:50+00:00"
     }
   ]
 }
