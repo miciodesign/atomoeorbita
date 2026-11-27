@@ -5,7 +5,7 @@ foto: cerca:COSMO-SkyMed satellite | cerca:Sicral satellite
 category: orbita
 date: 2026-10-18
 description: "Quali sono i satelliti militari italiani, cosa fanno e perché l'orbita è diventata un dominio della difesa: da COSMO-SkyMed e SICRAL fino a IRIS² e alla costellazione nazionale."
-updated: 2026-11-28
+updated: 2026-11-27
 format: analisi
 ---
 Per cinquant'anni lo spazio militare è stato una cosa da superpotenze: satelliti spia, allerta missilistica, navigazione per le armi di precisione. Dal 2022 è diventato un tema da tutti i governi europei, Italia compresa. Il motivo ha un nome commerciale, Starlink, e un luogo, l'Ucraina.
