@@ -1,13 +1,14 @@
 ---
-title: "Vega E, il futuro dell'unico lanciatore italiano: cosa cambia, quando arriva, cosa non sappiamo"
+title: "Vega E: il nuovo razzo italiano di Avio, cosa cambia e quando vola"
 slug: vega-e-futuro-lanciatore-italiano
 foto: File:Zone_de_lancement_Vega_3.jpg
 category: orbita
 date: 2026-10-23
-description: Avio sviluppa con 350 milioni dell'ESA la nuova versione di Vega, con uno stadio a metano al posto di due. Cosa migliora, perché toglie una dipendenza dall'Ucraina, perché la data del primo volo è slittata due volte e cosa dice il fatto che i lanci di Vega C siano già venduti fino al 2031.
+description: "Vega E è la nuova versione del razzo italiano di Avio: uno stadio a metano al posto di due e 350 milioni dall'ESA. Cosa cambia, perché il primo volo è slittato e perché conta."
+updated: 2026-11-28
 format: analisi
 ---
-L'Italia è uno dei pochi paesi europei con un lanciatore proprio. Si chiama Vega, lo costruisce Avio a Colleferro e dal 2025 è Avio stessa a venderne i lanci, non più Arianespace. La sua prossima versione, Vega E, è il progetto da cui dipende se questa capacità resterà competitiva nel prossimo decennio. Vale la pena guardarlo da vicino, perché il quadro è meno lineare di quanto dicano i comunicati.
+L'Italia è uno dei pochi paesi europei con un lanciatore proprio. Si chiama Vega, lo costruisce Avio a Colleferro e dal 2025 è Avio stessa a venderne i lanci, non più Arianespace. La sua prossima versione, Vega E, è il progetto da cui dipende se questa capacità resterà competitiva nel prossimo decennio. Vega lancia anche per la Difesa: nel 2017 ha portato in orbita OPTSAT-3000, uno dei [satelliti militari italiani](/orbita/satelliti-difesa-orbita-dominio-militare/). Vale la pena guardarlo da vicino, perché il quadro è meno lineare di quanto dicano i comunicati.
 
 ## Da quattro stadi a tre
 

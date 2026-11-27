@@ -4,7 +4,8 @@ slug: satelliti-difesa-orbita-dominio-militare
 foto: cerca:COSMO-SkyMed satellite | cerca:Sicral satellite
 category: orbita
 date: 2026-10-18
-description: Dall'Ucraina a IRIS², passando per la costellazione nazionale annunciata dall'Italia. Come la guerra ha cambiato il modo in cui l'Europa guarda ai satelliti, cosa sta costruendo e quanto manca.
+description: "Quali sono i satelliti militari italiani, cosa fanno e perché l'orbita è diventata un dominio della difesa: da COSMO-SkyMed e SICRAL fino a IRIS² e alla costellazione nazionale."
+updated: 2026-11-28
 format: analisi
 ---
 Per cinquant'anni lo spazio militare è stato una cosa da superpotenze: satelliti spia, allerta missilistica, navigazione per le armi di precisione. Dal 2022 è diventato un tema da tutti i governi europei, Italia compresa. Il motivo ha un nome commerciale, Starlink, e un luogo, l'Ucraina.
@@ -48,6 +49,22 @@ La spiegazione, almeno in parte, è in un'altra decisione. Nel giugno 2026 il mi
 L'Italia non parte da zero. Ha una tradizione di satelliti militari per telecomunicazioni (la serie **SICRAL**, in orbita geostazionaria dal 2001), un satellite ottico ad altissima risoluzione (**OPTSAT-3000**, dal 2017) e soprattutto **COSMO-SkyMed**, la costellazione radar a uso duale civile e militare che è il principale asset spaziale della Difesa italiana e uno dei più richiesti dagli alleati. Quello che manca è una rete in orbita bassa per comunicazioni resilienti, cioè esattamente il servizio che Starlink fornisce in Ucraina.
 
 Vale la pena ricordare che nel 2025 il governo aveva esplorato un accordo diretto con SpaceX per comunicazioni sicure, poi accantonato tra polemiche politiche e dubbi sulla dipendenza da un fornitore estero. La costellazione nazionale è, di fatto, la risposta a quel dibattito: costruire in casa ciò che non si vuole comprare da Musk e non si vuole aspettare da Bruxelles. Costi, numero di satelliti e tempi non sono ancora stati resi pubblici: è il primo dato da chiedere quando il programma prenderà forma.
+
+## I satelliti militari italiani: quali sono
+
+Ecco i principali satelliti che la Difesa italiana usa oggi, da sola o insieme ad altri.
+
+| Satellite | A cosa serve | Orbita | Lancio |
+| --- | --- | --- | --- |
+| SICRAL 1 | telecomunicazioni militari | geostazionaria | 2001 |
+| SICRAL 1B | telecomunicazioni militari, usato anche dalla NATO | geostazionaria | [2009](https://www.rpsl.org.uk/rpsl/StandingDisplays/SD2016-05_Umberto_Cavalarro_Italian_Space/files/basic-html/page23.html) |
+| Athena-Fidus | telecomunicazioni a banda larga per usi militari e civili, con la Francia | geostazionaria | [2014](https://www.media.inaf.it/2014/02/07/athena-fidus-e-in-orbita/) |
+| SICRAL 2 | telecomunicazioni militari, con la Francia (Italia al 62%) | geostazionaria | [2015](https://www.thalesgroup.com/en/news-centre/press-releases/successfully-launched-sicral-2-satellite) |
+| OPTSAT-3000 | immagini ottiche ad alta risoluzione | bassa, eliosincrona | [2017](https://www.esa.int/Newsroom/Vega_lofts_two_satellites_on_second_launch_this_year), con un razzo Vega |
+| COSMO-SkyMed, prima generazione | immagini radar, uso duale civile e militare | bassa | quattro satelliti tra il 2007 e il 2010 |
+| COSMO-SkyMed, seconda generazione | immagini radar, uso duale | bassa | dal 2019; il terzo satellite è partito il [3 gennaio 2026](https://www.difesa.it/eng/primo-piano/cosmo-skymed-the-third-second-generation-satellite-successfully-launched/86134.html) |
+
+Il punto di forza è **COSMO-SkyMed**, costruito con l'Agenzia Spaziale Italiana: il radar vede di giorno e di notte, anche attraverso le nuvole. A inizio 2026 la costellazione contava [quattro satelliti pienamente operativi](https://www.meteoweb.eu/2026/01/litalia-guarda-il-pianeta-dallalto-lanciato-con-successo-il-nuovo-satellite-cosmo-skymed-di-seconda-generazione/1001877471/), due per generazione, più il nuovo arrivato. Per vedere dove passano adesso i satelliti COSMO-SkyMed, c'è la nostra pagina [Satelliti in diretta](/satelliti/).
 
 ## Cosa significa "dominio militare"
 

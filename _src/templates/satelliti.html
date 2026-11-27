@@ -48,7 +48,7 @@
   <div class="tool-help">
     <h2>Come funziona</h2>
     <p>Ogni mattina scarichiamo da <a href="https://celestrak.org/" rel="noopener" target="_blank">CelesTrak</a> gli elementi orbitali dei satelliti, cioè i numeri che descrivono la loro orbita. Il tuo browser calcola da lì la posizione di ogni secondo, con lo stesso modello (SGP4) usato dalle agenzie. L'errore è di pochi chilometri: per la mappa è invisibile.</p>
-    <p>{% if sat.starlink %}Intorno alla Terra ci sono oggi circa {{ "{:,}".format(sat.starlink).replace(",", ".") }} satelliti della sola costellazione Starlink. {% endif %}Quanto costano queste reti e chi le paga lo spieghiamo in <a href="/orbita/costellazioni-satellitari-quanto-costano/">costellazioni satellitari: quanto costano</a>.</p>
+    <p>{% if sat.starlink %}Intorno alla Terra ci sono oggi circa {{ "{:,}".format(sat.starlink).replace(",", ".") }} satelliti della sola costellazione Starlink. {% endif %}Quanto costano queste reti e chi le paga lo spieghiamo in <a href="/orbita/costellazioni-satellitari-quanto-costano/">costellazioni satellitari: quanto costano</a>. Quali sono i satelliti della Difesa italiana lo raccontiamo in <a href="/orbita/satelliti-difesa-orbita-dominio-militare/">satelliti militari</a>.</p>
     <p class="tool-note">Dati orbitali aggiornati il <span id="agg" data-t="{{ sat.aggiornato }}">{{ sat.aggiornato }}</span>. Calcolo con <a href="https://github.com/shashwatak/satellite-js" rel="noopener" target="_blank">satellite.js</a> (licenza MIT).</p>
   </div>
 </section>
