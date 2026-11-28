@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T14:14:05.001734+00:00",
+  "updated": "2026-11-28T13:30:08.342425+00:00",
   "window_hours": 48,
   "sources": [
     {
@@ -59,10 +59,28 @@
       "section": "atomo",
       "source": "POWER Magazine",
       "lang": "en",
+      "title": "Power Plant Valves and Operators: Critical Components That Have to Work When Needed",
+      "url": "https://www.powermag.com/power-plant-valves-and-operators-critical-components-that-have-to-work-when-needed/",
+      "summary": "Valves and the actuators that move them are routine, well-maintained plant equipment. What is changing is how much they can report about their own condition, and how closely owners weigh their energy use and The post Pow",
+      "time": "2026-11-28T13:29:07+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "POWER Magazine",
+      "lang": "en",
       "title": "Italy Taking Steps to Revive Use of Nuclear Power",
       "url": "https://www.powermag.com/italy-taking-steps-to-revive-use-of-nuclear-power/",
       "summary": "Lawmakers in Italy are paving the way to again have nuclear power as part of the country's energy mix. The post Italy Taking Steps to Revive Use of Nuclear Power appeared first on POWER Magazine.",
       "time": "2026-11-27T14:13:31+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Decommissioning projects in Germany and Switzerland near completion",
+      "url": "https://www.world-nuclear-news.org/articles/decommissioning-projects-in-germany-and-switzerland-near-completion",
+      "summary": "The dismantling of the steel sphere of the containment vessel has begun at the decommissioned Stade nuclear power plant in Germany. Meanwhile, the demolition of the remaining concrete structure of Switzerland's Saphir re",
+      "time": "2026-11-27T14:09:46+00:00"
     },
     {
       "section": "atomo",
@@ -86,6 +104,42 @@
       "section": "atomo",
       "source": "World Nuclear News",
       "lang": "en",
+      "title": "IAEA seeks fresh local ceasefire for Zaporizhzhia power line repairs",
+      "url": "https://www.world-nuclear-news.org/articles/iaea-seeks-fresh-local-ceasefire-for-zaporizhzhia-power-line-repairs",
+      "summary": "The International Atomic Energy Agency is seeking to arrange a ninth localised ceasefire after Zaporizhzhia Nuclear Power Plant lost external power and is having to rely again on its emergency generators. &nbsp;",
+      "time": "2026-11-27T12:24:48+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Construction milestones reached at fourth Zhangzhou unit",
+      "url": "https://www.world-nuclear-news.org/articles/construction-milestones-reached-at-fourth-zhangzhou-unit",
+      "summary": "The inner safety dome has been installed on the containment building of unit 4 at the Zhangzhou nuclear power plant, the fourth of six Hualong One (HPR1000) reactors planned for the site in China's Fujian province. The m",
+      "time": "2026-11-27T12:23:22+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Work begins on Husab heap leach plant",
+      "url": "https://www.world-nuclear-news.org/articles/work-begins-on-husab-heap-leach-plant",
+      "summary": "China General Nuclear has announced the start of construction of an industrial-scale heap-leaching plant for low-grade uranium ore at its Husab project in Namibia. &nbsp;",
+      "time": "2026-11-27T12:14:16+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
+      "title": "Construction of pilot Elena-AM microreactor 'under way'",
+      "url": "https://www.world-nuclear-news.org/articles/construction-of-pilot-elena-am-microreactor-under-way",
+      "summary": "The&nbsp;Strategy for the Development of the Arctic Zone of the Russian Federation and Ensuring National Security in the Arctic says that construction is under way on a pilot Elena-AM microreactor. &nbsp;",
+      "time": "2026-11-27T09:14:56+00:00"
+    },
+    {
+      "section": "atomo",
+      "source": "World Nuclear News",
+      "lang": "en",
       "title": "New approach to very low radiation doses needed, says nuclear industry",
       "url": "https://www.world-nuclear-news.org/articles/nuclear-industry-calls-for-new-approach-to-very-low-radiation-doses",
       "summary": "The current regulation of exposures to very low doses of radiation needs to be modified to end the&nbsp;&quot;double standard&quot; where&nbsp;doses received from things like&nbsp;food, the environment and airline flight",
@@ -99,63 +153,45 @@
       "url": "https://www.world-nuclear-news.org/articles/Tianwan-moving-step-closer-becoming-worlds-biggest-nuclear-power-plant",
       "summary": "Hot tests have been completed and the initial fuel load delivered for Tianwan unit 8. When all eight units at the site in China are up and running it will become the world's largest nuclear power plant. &nbsp;",
       "time": "2026-11-26T14:33:38+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Additional partners join nuclear-powered LNG ship project",
-      "url": "https://www.world-nuclear-news.org/articles/additional-partners-join-nuclear-powered-lng-ship-project",
-      "summary": "A day after signing a two-way memorandum of understanding with Samsung Heavy Industries, Tesser Atomics announced it has entered into a four-way MoU with Samsung Heavy Industries, DNV and NTNU for its nuclear-powered liq",
-      "time": "2026-11-26T12:51:40+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Lance operations suspended after cybersecurity incident",
-      "url": "https://www.world-nuclear-news.org/articles/lance-operations-suspended-after-cybersecurity-incident",
-      "summary": "Peninsula Energy said operations at its uranium project in Wyoming will remain suspended until a recovery and verification programme is completed and it is satisfied that operations can safely resume. &nbsp;",
-      "time": "2026-11-26T12:02:25+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Twice-recycled fuel loaded into BN-800 fast neutron reactor",
-      "url": "https://www.world-nuclear-news.org/articles/twice-recycled-fuel-loaded-into-bn-800-fast-neutron-reactor",
-      "summary": "Recycled uranium-plutonium MOX fuel, manufactured using plutonium extracted from a MOX fuel assembly which had already completed a full cycle, has been loaded into the Beloyarsk Nuclear Power Plant's BN-800 fast neutron ",
-      "time": "2026-11-26T11:30:08+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "IAEA",
-      "lang": "en",
-      "title": "Update 377 – IAEA Director General Statement on Situation in Ukraine",
-      "url": "http://www.iaea.org/newscenter/pressreleases/update-377-iaea-director-general-statement-on-situation-in-ukraine",
-      "summary": "",
-      "time": "2026-11-26T00:00:00+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "IAEA",
-      "lang": "en",
-      "title": "IAEA Visitor Centre Launches Pilot Programme for High Schools",
-      "url": "http://www.iaea.org/newscenter/news/iaea-visitor-centre-launches-pilot-programme-for-high-schools",
-      "summary": "",
-      "time": "2026-11-26T00:00:00+00:00"
-    },
-    {
-      "section": "atomo",
-      "source": "World Nuclear News",
-      "lang": "en",
-      "title": "Construction of third unit at Taishan begins",
-      "url": "https://www.world-nuclear-news.org/articles/construction-of-third-unit-at-taishan-begins",
-      "summary": "The first concrete has been poured for the nuclear island of unit 3 at the Taishan nuclear power plant in Guangdong province, China General Nuclear has announced. &nbsp;",
-      "time": "2026-11-25T14:50:37+00:00"
     }
   ],
   "orbita": [
+    {
+      "section": "orbita",
+      "source": "European Spaceflight",
+      "lang": "en",
+      "title": "HyImpulse Completes First Hot-Fire Test with SL1 Thrust Vector Control System",
+      "url": "https://europeanspaceflight.com/hyimpulse-completes-first-hot-fire-test-with-sl1-thrust-vector-control-system/",
+      "summary": "German rocket builder HyImpulse has completed the first hot-fire test of its HyPLOX-90 hybrid rocket motor equipped with a thrust vector control system, marking a milestone in the development of its SL1 orbital launch ve",
+      "time": "2026-11-28T06:00:22+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "SpaceNews",
+      "lang": "en",
+      "title": "Governments Invest $71.8B in Space Defense as Militarization of Space Accelerates",
+      "url": "https://spacenews.com/governments-invest-71-8b-in-space-defense-as-militarization-of-space-accelerates/",
+      "summary": "Paris, France &#124; November 2026 — Novaspace’s Space Defense &#38; Security, 2nd Edition finds that governments invested approximately $71.8 billion in space defense and security activities globally in 2025, reflecting",
+      "time": "2026-11-27T15:35:22+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "European Spaceflight",
+      "lang": "en",
+      "title": "Hundreds of ArianeGroup Workers Strike in Bremen",
+      "url": "https://europeanspaceflight.com/hundreds-of-arianegroup-workers-strike-in-bremen/",
+      "summary": "Nearly 650 employees at ArianeGroup’s facility in Bremen, Germany, participated in a 24-hour strike on 24 November. The facility is responsible for the production of Ariane 6 upper stages. In a statement published on 24 ",
+      "time": "2026-11-27T14:32:07+00:00"
+    },
+    {
+      "section": "orbita",
+      "source": "ASI",
+      "lang": "it",
+      "title": "Inaugurata all’aeroporto di Fiumicino nuova area interattiva sullo Spazio",
+      "url": "https://www.asi.it/2026/11/inaugurata-allaeroporto-di-fiumicino-nuova-area-interattiva-sullo-spazio/",
+      "summary": "AdR, ESA e ASI offrono le tecnologie aerospaziali ai passeggeri in transito al Leonardo da Vinci. Presente anche l&#8217;astronauta Luca Parmitano. [&#8230;]",
+      "time": "2026-11-27T14:30:12+00:00"
+    },
     {
       "section": "orbita",
       "source": "SpaceNews",
@@ -164,51 +200,6 @@
       "url": "https://spacenews.com/the-bare-knuckled-future-of-life-in-space-with-tim-marshall/",
       "summary": "In this episode, Mike Gruss speaks with journalist and best-selling author Tim Marshall. They discuss how the war in Ukraine represented a wakeup call for how Europe and the United [&#8230;] The post The ‘bare-knuckled’ ",
       "time": "2026-11-26T17:53:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "European Spaceflight",
-      "lang": "en",
-      "title": "Thales Alenia Space to Establish Dedicated Company for Cargo Return Services",
-      "url": "https://europeanspaceflight.com/thales-alenia-space-to-establish-dedicated-company-for-cargo-return-services/",
-      "summary": "Thales Alenia Space is planning to establish a dedicated company to support the development and commercialisation of its proposed space station cargo transportation service. In a joint statement published on 13 November,",
-      "time": "2026-11-26T13:13:32+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ESA",
-      "lang": "en",
-      "title": "Ozone hole one of the largest in decades",
-      "url": "https://www.esa.int/articles/about-us/directorates/earth-observation-programmes/copernicus/sentinel-5p/ozone-hole-one-of-the-largest-in-decades",
-      "summary": "In contrast to the 2025 seasonal ozone hole above Antarctica, which was the fifth smallest since 1992, this year’s ozone hole ranks as one of the largest in 48 years.",
-      "time": "2026-11-26T13:00:00+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ESA",
-      "lang": "en",
-      "title": "Watch live: Gaia releases its largest-ever goldmine of cosmic data",
-      "url": "https://www.esa.int/articles/about-us/directorates/science/gaia/watch-live-gaia-releases-its-largest-ever-goldmine-of-cosmic-data",
-      "summary": "Join the European Space Agency and Gaia mission representatives on Wednesday 2 December for the unveiling of Gaia Data Release 4, the mission’s first principal data release.",
-      "time": "2026-11-26T12:39:02+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "European Spaceflight",
-      "lang": "en",
-      "title": "MaiaSpace Ships Maia Mechanical Models to Launch Site",
-      "url": "https://europeanspaceflight.com/maiaspace-ships-maia-mechanical-models-to-launch-site/",
-      "summary": "ArianeGroup subsidiary MaiaSpace has shipped full-scale mechanical models of the first and second stages of its Maia rocket to French Guiana. The stages will be used for a series of combined tests at the Guiana Space Cen",
-      "time": "2026-11-25T18:51:13+00:00"
-    },
-    {
-      "section": "orbita",
-      "source": "ASI",
-      "lang": "it",
-      "title": "Hera, la missione di difesa planetaria rilascia le prime immagini",
-      "url": "https://www.asi.it/2026/11/hera-la-missione-di-difesa-planetaria-rilascia-le-prime-immagini/",
-      "summary": "Il 25 novembre la comunità scientifica ha svolto celebrazioni in Europa e in Italia [&#8230;]",
-      "time": "2026-11-25T18:22:46+00:00"
     }
   ]
 }
