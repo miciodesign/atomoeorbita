@@ -173,3 +173,8 @@ Seconda analisi SEO (14/11, 1.420 impressioni / 20 clic in 3 mesi): quasi tutto 
 - 7/12 SMR: cambiare SOLO titolo e descrizione, non il testo (citato dall'AI).
 - Orbita rende bene: valutare un articolo spaziale ogni due settimane.
 - LinkedIn: un post per ogni articolo nucleare (link nel primo commento).
+
+## Pagine "Chi è chi" (ok Roberto 28/11)
+- Due pagine fisse in Strumenti: "Chi è chi nel nucleare italiano" e "Chi è chi nello spazio italiano".
+- Divise per ruolo; scheda breve per azienda (città, cosa fa, progetto concreto, fonte). Niente classifiche ("principali attori"), criterio scritto in pagina, nessuno paga, indirizzo per correzioni.
+- Anteprima nucleare entro ven 12/12, spazio entro ven 19/12.
