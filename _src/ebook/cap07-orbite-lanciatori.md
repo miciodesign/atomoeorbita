@@ -60,4 +60,4 @@ Lo spazioporto europeo è a **Kourou**, vicino all'equatore. Non è un caso: all
 - **Storia**: la corsa allo spazio tra Stati Uniti e Unione Sovietica, dallo Sputnik (1957) all'allunaggio (1969).
 - **Economia**: perché il riutilizzo abbassa i costi, economie di scala e concorrenza tra pubblico e privato.
 
-*Approfondisci sul sito: "Lanciatori riutilizzabili: perché l'Europa è in ritardo", "Vega E e il futuro del lanciatore italiano" e il calendario dei prossimi lanci nella sezione Strumenti.*
+*Approfondisci sul sito: "Lanciatori riutilizzabili: perché l'Europa è in ritardo", "Vega E: il nuovo razzo italiano di Avio" e il calendario dei prossimi lanci nella sezione Strumenti.*

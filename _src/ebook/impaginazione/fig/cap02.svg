@@ -1,0 +1,13 @@
+<svg viewBox="0 0 640 250" xmlns="http://www.w3.org/2000/svg" font-family="M" font-size="11" fill="#1C1B18">
+<defs><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#1C1B18"/></marker></defs>
+<rect x="20" y="40" width="120" height="150" rx="60" fill="none" stroke="#1C1B18" stroke-width="2"/>
+<rect x="55" y="95" width="50" height="60" fill="#B4321C"/><text x="40" y="215">1 · REATTORE</text><text x="57" y="88" font-size="9">nocciolo</text>
+<rect x="190" y="70" width="80" height="100" fill="none" stroke="#1C1B18" stroke-width="2"/><text x="175" y="215">2-3 · ACQUA→VAPORE</text>
+<polygon points="330,85 390,65 390,175 330,155" fill="none" stroke="#1C1B18" stroke-width="2"/><text x="330" y="215">4 · TURBINA</text>
+<circle cx="450" cy="120" r="30" fill="none" stroke="#1C1B18" stroke-width="2"/><text x="440" y="124" font-size="13">~</text><text x="420" y="215">ALTERNATORE</text>
+<path d="M545 60 Q560 120 540 190 L610 190 Q590 120 605 60 Z" fill="none" stroke="#1C1B18" stroke-width="2"/><text x="530" y="215">5 · TORRE</text>
+<g stroke="#1C1B18" stroke-width="1.6" fill="none" marker-end="url(#b)"><line x1="140" y1="115" x2="188" y2="115"/><line x1="270" y1="100" x2="328" y2="100"/><line x1="390" y1="120" x2="418" y2="120"/><line x1="480" y1="120" x2="510" y2="120"/></g>
+<text x="515" y="114" font-size="9">rete</text>
+<g fill="#A39A89"><circle cx="565" cy="40" r="10"/><circle cx="585" cy="28" r="12"/><circle cx="600" cy="44" r="8"/></g><text x="530" y="15" font-size="9" fill="#6B655A">solo vapore acqueo</text>
+<text x="20" y="245" font-size="9" fill="#6B655A">Schema semplificato. Nei reattori PWR acqua del reattore e vapore della turbina restano in due circuiti separati.</text>
+</svg>

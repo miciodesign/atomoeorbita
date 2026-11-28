@@ -1,0 +1,11 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="M" font-size="11" fill="#1C1B18">
+<circle cx="150" cy="150" r="40" fill="#B4321C"/><text x="132" y="154" fill="#FBF8F2">TERRA</text>
+<circle cx="150" cy="150" r="52" fill="none" stroke="#1C1B18" stroke-width="2"/>
+<circle cx="150" cy="150" r="95" fill="none" stroke="#1C1B18" stroke-width="1.5" stroke-dasharray="5 4"/>
+<circle cx="150" cy="150" r="140" fill="none" stroke="#1C1B18" stroke-width="2.5"/>
+<circle cx="202" cy="150" r="4"/><circle cx="217" cy="83" r="4"/><circle cx="249" cy="49" r="5"/>
+<g font-size="11"><text x="330" y="70">LEO · orbita bassa</text><text x="330" y="86" fill="#6B655A">fino a ~2.000 km · un giro in ~90 min</text>
+<text x="330" y="130">MEO · orbita media</text><text x="330" y="146" fill="#6B655A">GPS e Galileo · un giro in alcune ore</text>
+<text x="330" y="190">GEO · geostazionaria</text><text x="330" y="206" fill="#6B655A">35.786 km · un giro in 24 ore</text></g>
+<text x="330" y="270" font-size="9" fill="#6B655A">Distanze non in scala: la GEO è circa 90 volte</text><text x="330" y="283" font-size="9" fill="#6B655A">più lontana della Stazione spaziale (400 km).</text>
+</svg>
