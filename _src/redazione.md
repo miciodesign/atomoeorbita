@@ -165,3 +165,11 @@ Seconda analisi SEO (14/11, 1.420 impressioni / 20 clic in 3 mesi): quasi tutto 
 - lun 30/11: lancio guida per studenti con Il Punto dedicato (serve ok di Roberto sui capitoli 7-12).
 - mer 2/12: "Lavorare nella filiera nucleare: certificazioni per imprese e tecnici" (bozza ven 27/11).
 - mer 9/12: "Si può fare il nucleare in un paese sismico?" (bozza ven 4/12).
+
+## Note 27/11 (GSC 3 mesi e AI generativa)
+- 27/11: aggiunta sezione "I satelliti militari italiani: quali sono" (tabella) a satelliti-difesa; Vega: titolo e descrizione accorciati. Verificare clic il 7/12.
+- Query satelliti-difesa: "satellite militare" pos 39 (non inseguire); "satelliti militari italiani" pos 10, "satellite difesa" pos 11; costellazioni osservazione Terra pos 2-3.
+- Report AI generativa (3 mesi): 155 impressioni, 17 pagine. Reattori nel mondo 43, SMR cosa sono 23, Italia nello spazio 13, Satelliti difesa 13, Lanciatori 12, Mappa 11, Vega 11.
+- 7/12 SMR: cambiare SOLO titolo e descrizione, non il testo (citato dall'AI).
+- Orbita rende bene: valutare un articolo spaziale ogni due settimane.
+- LinkedIn: un post per ogni articolo nucleare (link nel primo commento).
