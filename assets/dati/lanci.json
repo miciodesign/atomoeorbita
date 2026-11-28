@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-27T14:58Z",
+ "aggiornato": "2026-11-28T14:07Z",
  "lanci": [
   {
    "nome": "Long March 6C | Unknown Payload",
@@ -18,7 +18,7 @@
   },
   {
    "nome": "Falcon 9 Block 5 | USSF-380",
-   "data": "2026-11-29T04:39:00Z",
+   "data": "2026-11-29T04:39:03Z",
    "finestra": "2026-11-29T04:39:00Z",
    "stato": "Go",
    "razzo": "Falcon 9 Block 5",
